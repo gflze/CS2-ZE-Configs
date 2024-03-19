@@ -1,0 +1,24 @@
+{
+	//remove slur
+	"modify":
+	[
+		{
+			"match":
+			{
+				"io":
+				[
+					{
+						"overrideparam": "say ***TRY TO EXPLOIT? KYS FAGGOT***"
+					}
+				]
+			},
+			"replace":
+			{
+				"io":
+				{
+					"overrideparam": "say ***TRY TO EXPLOIT? KYS***"
+				}
+			}
+		}
+	]
+}
