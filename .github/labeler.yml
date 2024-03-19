@@ -1,5 +1,9 @@
 Stripper:
-- stripper/*
+- any:
+  - changed-files:
+    - any-glob-to-any-file: 'stripper/*'
 
 Map Config:
-- mapcfg/*
+- any:
+  - changed-files:
+    - any-glob-to-any-file: 'mapcfg/*'
