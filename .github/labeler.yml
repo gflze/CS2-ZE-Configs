@@ -1,7 +1,7 @@
 Stripper:
 - any:
   - changed-files:
-    - any-glob-to-any-file: 'stripper/*'
+    - any-glob-to-any-file: 'stripper/**'
 
 Map Config:
 - any:
