@@ -1,10 +1,4 @@
 {
-    // Remove blinding post processing effect
-    "filter": [
-        {
-            "classname": "post_processing_volume"
-        }
-    ],
     // Translate map to English using DeepL + ChatGPT
     "modify": [
         {
