@@ -1,0 +1,34 @@
+{
+	//workaround for missing buyzone
+	"modify":
+	[
+		{
+			"match":
+			{
+				"classname": "logic_auto"
+			},
+			"insert":
+			{
+				"io":
+				[
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "mp_buy_anywhere 1",
+						"delay": 0.0,
+						"targettype": 7
+					},
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]cmd",
+						"inputname": "Command",
+						"overrideparam": "mp_buy_anywhere 0",
+						"delay": 20.0,
+						"targettype": 7
+					}
+				]
+			}
+		}
+	]
+}
