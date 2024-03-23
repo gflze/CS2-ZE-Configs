@@ -1,0 +1,13 @@
+{
+    "add": [
+        {
+            // Block a skip due to CS2's buggy physics
+            "classname": "prop_dynamic",
+	        "model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+            "origin": "-5400 -9766 265",
+            "solid": "6",
+            "scales": "6 6 6",
+            "rendermode": "kRenderNone"
+        }
+    ]
+}
