@@ -1,0 +1,38 @@
+{
+    "add": [
+        // Block a delay spot from jumping on a light
+        {
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "-88 990 8632",
+            "solid": "6",
+            "modelscale": "18",
+            "rendermode": "kRenderNone"
+        },
+        {
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "-88 810 8632",
+            "solid": "6",
+            "modelscale": "18",
+            "rendermode": "kRenderNone"
+        },
+        {
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "-88 692 8632",
+            "solid": "6",
+            "modelscale": "18",
+            "rendermode": "kRenderNone"
+        },
+        // Block a delay spot in corner of map on tank
+        {
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "-525 2100 8297",
+            "solid": "6",
+            "modelscale": "32",
+            "rendermode": "kRenderNone"
+        }
+    ]
+}
