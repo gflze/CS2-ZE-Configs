@@ -1,0 +1,48 @@
+{
+    "filter": [
+        // Remove vending machines in truck. Since truck has no roof entrance, this spot is used exclusively to delay rounds
+        {
+            "classname": "prop_physics_override",
+            "model": "models/props/cs_office/vending_machine.vmdl",
+            "origin": "-612.709595 -32.000000 62.427197"
+        },
+        {
+            "classname": "prop_physics_override",
+            "model": "models/props/cs_office/vending_machine.vmdl",
+            "origin": "-612.709595 -96.000000 62.427197"
+        }
+    ],
+    "modify": [
+        {
+            // Kill off props in the building when the zombie roof entrance opens,
+            // so any CTs that delay in the rooms instead of going to the roof can be killed by zombies.
+            // Also matches timing with chat warning to go to roof
+            "match": {
+                "io": [
+                    {
+                        "delay": 125,
+                        "overrideparam": "say TIP: You should go to the roof in less than 30 seconds."
+                    }
+                ]
+            },
+            "insert": {
+                "io": [
+                    {
+                        "outputname": "OnMapSpawn",
+                        "targetname": "prop",
+                        "targettype": 2, // ENTITY_IO_TARGET_ENTITYNAME
+                        "inputname": "Kill",
+                        "delay": 155
+                    },
+                    {
+                        "outputname": "OnMapSpawn",
+                        "targetname": "barrier",
+                        "targettype": 2, // ENTITY_IO_TARGET_ENTITYNAME
+                        "inputname": "Break",
+                        "delay": 155
+                    }
+                ]
+            }
+        }
+    ]
+}
