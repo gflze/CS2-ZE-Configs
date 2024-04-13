@@ -13,6 +13,7 @@
             "classname": "prop_dynamic",
             "model": "models/fumos/fumo_yuuka.vmdl",
             "origin": "-438 -3987 0",
+			"angles": "0 180 0",
             "solid": "6",
             "scales": "15 15 15"
         }
