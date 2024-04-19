@@ -4,7 +4,7 @@
         {
             "classname": "prop_dynamic",
             "model": "models/fumos/fumo_yuuka.vmdl",
-            "origin": "-1556 -9883 56",
+            "origin": "-1556 9883 56",
             "solid": "6",
             "scales": "3 3 3"
         },
@@ -12,7 +12,7 @@
         {
             "classname": "prop_dynamic",
             "model": "models/fumos/fumo_yuuka.vmdl",
-            "origin": "-438 -3987 0",
+            "origin": "-438 3987 0",
 			"angles": "0 180 0",
             "solid": "6",
             "scales": "15 15 15"
