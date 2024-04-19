@@ -1,0 +1,21 @@
+{
+    "add": [
+// i don't have time to compile right now (and also want to wait until it's properly tested), so add a hotfix to a missing zombie clip at the first boss
+        {
+            "classname": "prop_dynamic",
+            "model": "models/fumos/fumo_yuuka.vmdl",
+            "origin": "-1556 9883 56",
+            "solid": "6",
+            "scales": "3 3 3"
+        },
+// also a skip needs patching at first box hold, hotfix for now
+        {
+            "classname": "prop_dynamic",
+            "model": "models/fumos/fumo_yuuka.vmdl",
+            "origin": "-438 3987 0",
+			"angles": "0 180 0",
+            "solid": "6",
+            "scales": "15 15 15"
+        }
+    ]
+}
