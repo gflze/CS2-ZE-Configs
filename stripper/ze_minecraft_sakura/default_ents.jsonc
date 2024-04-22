@@ -1331,14 +1331,5 @@
                 "message": "Valve's pile of shit"
             }
         }
-    ],
-    "filter": [
-        {
-            "io": [
-                {
-                    "overrideparam": "say 四十秒"
-                }
-            ]
-        }
     ]
 }
