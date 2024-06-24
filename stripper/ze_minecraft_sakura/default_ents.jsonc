@@ -1025,13 +1025,13 @@
             "match": {
                 "io": [
                     {
-                        "overrideparam": "say (僵尸15秒后传送，开润！）"
+                        "overrideparam": "say (僵尸20秒后传送，开润！）"
                     }
                 ]
             },
             "replace": {
                 "io": {
-                    "overrideparam": "say *** Zombies teleport in 15 seconds. Run! ***"
+                    "overrideparam": "say *** Zombies teleport in 20 seconds. Run! ***"
                 }
             }
         },
