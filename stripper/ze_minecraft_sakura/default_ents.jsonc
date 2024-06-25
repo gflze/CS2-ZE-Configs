@@ -1205,6 +1205,48 @@
         },
         {
             "match": {
+                "io": [
+                    {
+                        "overrideparam": "/啊咧 传送门已经关闭了喵/"
+                    }
+                ]
+            },
+            "replace": {
+                "io": {
+                    "overrideparam": "say The portal has been closed, meow! Σ(っ °Д °:)っ"
+                }
+            }
+        },
+        {
+            "match": {
+                "io": [
+                    {
+                        "overrideparam": "say 下次早点来！(o≖◡≖)"
+                    }
+                ]
+            },
+            "replace": {
+                "io": {
+                    "overrideparam": "say Come earlier next time! (o≖◡≖)"
+                }
+            }
+        },
+        {
+            "match": {
+                "io": [
+                    {
+                        "overrideparam": "say 一直呆在这里可是会受到惩罚的呦ο(=•ω＜=)ρ⌒☆"
+                    }
+                ]
+            },
+            "replace": {
+                "io": {
+                    "overrideparam": "say If you stay on the island, you'll be punished! ο(=•ω＜=)ρ⌒☆"
+                }
+            }
+        },
+        {
+            "match": {
                 "message": "敬请期待！！！\nφ(≧ω≦*)♪"
             },
             "replace": {
@@ -1330,6 +1372,81 @@
             "replace": {
                 "message": "Valve's pile of shit"
             }
+        },
+        {
+            // Block delay spot in tree
+            "match": {
+                "classname": "info_teleport_destination",
+                "targetname": "[PR#]tp_portal2"
+            },
+            "replace": {
+                "origin": "1500 3600 1200"
+            }
+        }
+    ],
+    "add": [
+        {
+            // Block delay spots after house defense (top of tree missed by afk tp)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "1610 2980 1068",
+            "solid": "6",
+            "modelscale": "30",
+            "rendermode": "kRenderNone"
+        },
+        {
+            // Block delay spots after house defense (jump to top of anime figure)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "1892 3864 996",
+            "solid": "6",
+            "modelscale": "35",
+            "rendermode": "kRenderNone"
+        },
+        {
+            // Block delay spots after house defense (jump to back of anime figure)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "1958 3911 820",
+            "solid": "6",
+            "modelscale": "8.2",
+            "rendermode": "kRenderNone"
+        },
+        {
+            // Block delay spots after house defense (jump to back of anime figure)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "2158 3911 820",
+            "solid": "6",
+            "modelscale": "8.2",
+            "rendermode": "kRenderNone"
+        },
+        {
+            // Block delay spots after house defense (jump to front of anime figure)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "1957 3790 820",
+            "solid": "6",
+            "modelscale": "8.2",
+            "rendermode": "kRenderNone"
+        },
+        {
+            // Block delay spots after house defense (jump to middle tree)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "2298 3091 868",
+            "solid": "6",
+            "modelscale": "4.1",
+            "rendermode": "kRenderNone"
+        },
+        {
+            // Block delay spots after house defense (jump to middle tree)
+            "classname": "prop_dynamic",
+            "model": "models/editor/placeholder_box.vmdl",
+            "origin": "2298 3091 909",
+            "solid": "6",
+            "modelscale": "4.1",
+            "rendermode": "kRenderNone"
         }
     ]
 }
