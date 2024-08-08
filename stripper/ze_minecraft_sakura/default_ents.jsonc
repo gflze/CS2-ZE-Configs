@@ -507,13 +507,13 @@
             "match": {
                 "io": [
                     {
-                        "overrideparam": "say (大门30秒后打开)"
+                        "overrideparam": "say (大门25秒后打开)"
                     }
                 ]
             },
             "replace": {
                 "io": {
-                    "overrideparam": "say *** The door opens in 30 seconds ***"
+                    "overrideparam": "say *** The door opens in 25 seconds ***"
                 }
             }
         },
@@ -941,13 +941,13 @@
             "match": {
                 "io": [
                     {
-                        "overrideparam": "say (僵尸被阻挡8秒，快跑！！(o゜▽゜)o☆）"
+                        "overrideparam": "say (僵尸被阻挡5秒，快跑！！(o゜▽゜)o☆）"
                     }
                 ]
             },
             "replace": {
                 "io": {
-                    "overrideparam": "say *** Zombies are blocked for 8 seconds, run! (o゜▽゜)o☆ ***"
+                    "overrideparam": "say *** Zombies are blocked for 5 seconds, run! (o゜▽゜)o☆ ***"
                 }
             }
         },
@@ -1205,10 +1205,10 @@
         },
         {
             "match": {
-                "message": "敬请期待！！！\nφ(≧ω≦*)♪"
+                "message": "敬请期待！！！"
             },
             "replace": {
-                "message": "Stay tuned!!!\nφ(≧ω≦*)♪"
+                "message": "Stay tuned!!!"
             }
         },
         {
@@ -1293,7 +1293,7 @@
         },
         {
             "match": {
-                "message": "哇！kurumi好烧\n(＞ ＜)☆"
+                "message": "/哇！kurumi好烧/"
             },
             "replace": {
                 "message": "Wow! Kurumi\nburns bright\n(＞ ＜)☆"
