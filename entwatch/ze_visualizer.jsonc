@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal", 
+        "hammerid": "4896", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "pink"
+    },
+    {
+        "name": "Energy Ball",
+        "shortname": "Energy", 
+        "hammerid": "4785", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Square",
+        "shortname": "Square", 
+        "hammerid": "4768", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Shield",
+        "shortname": "Shield", 
+        "hammerid": "4746", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Freeze Ball",
+        "shortname": "Freeze", 
+        "hammerid": "4881", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Gravity Ball",
+        "shortname": "Gravity", 
+        "hammerid": "4714", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Zombie Energy Ball",
+        "shortname": "ZM Energy", 
+        "hammerid": "4801", 
+        "message": true, 
+        "ui": true, 
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["4803"]
+    },
+    {
+        "name": "Zombie Freeze Ball",
+        "shortname": "ZM Freeze", 
+        "hammerid": "4861", 
+        "message": true, 
+        "ui": true, 
+        "transfer": false,
+        "color": "darkblue",
+        "triggers": ["4863"]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity", 
+        "hammerid": "4836", 
+        "message": true, 
+        "ui": true, 
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["4841"]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal", 
+        "hammerid": "4850", 
+        "message": true, 
+        "ui": true, 
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["4848"]
+    }
+]

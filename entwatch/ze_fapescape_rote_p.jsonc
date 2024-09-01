@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Oreo Heal",
+        "shortname": "Heal", 
+        "hammerid": "3640", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Ammo Box",
+        "shortname": "Ammo", 
+        "hammerid": "3699", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push", 
+        "hammerid": "3664", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flame", 
+        "hammerid": "3686", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Electro Gun",
+        "shortname": "Electro", 
+        "hammerid": "3673", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Pipe Bombs",
+        "shortname": "PipeBomb", 
+        "hammerid": "3717", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Lego Maker",
+        "shortname": "Lego", 
+        "hammerid": "3657", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "EyeTech Launcher", 
+        "shortname": "EyeTech Launcher", 
+        "hammerid": "3710", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkred"
+    },
+    {
+        "name": "EyeTech Cannon", 
+        "shortname": "Cannon", 
+        "hammerid": "3742", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red2"
+    },
+    {
+        "name": "Banana", 
+        "shortname": "Banana", 
+        "hammerid": "4377", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Steam", 
+        "shortname": "Steam", 
+        "hammerid": "4386", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Cyka", 
+        "shortname": "Cyka", 
+        "hammerid": "330", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "white"
+    }
+]

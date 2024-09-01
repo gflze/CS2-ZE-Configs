@@ -1,0 +1,148 @@
+[
+    {
+        "name": "l0v0l",
+        "shortname": "l0v0l", 
+        "hammerid": "795", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal", 
+        "hammerid": "532", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Infinite Ammo",
+        "shortname": "Ammo", 
+        "hammerid": "535", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "gold"
+    },
+    {
+        "name": "Wind",
+        "shortname": "Wind", 
+        "hammerid": "656", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Slow Sphere",
+        "shortname": "Slow", 
+        "hammerid": "853", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Rainbow Beam",
+        "shortname": "Beam", 
+        "hammerid": "652", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Poison Toilet",
+        "shortname": "Posion", 
+        "hammerid": "950", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Wind Toilet",
+        "shortname": "Wind Toilet", 
+        "hammerid": "975", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Fire Toilet",
+        "shortname": "Fire", 
+        "hammerid": "931", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Electric Toilet",
+        "shortname": "Electro", 
+        "hammerid": "941", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Water Toilet",
+        "shortname": "Water", 
+        "hammerid": "966", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Earth Toilet",
+        "shortname": "Earth", 
+        "hammerid": "961", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Gravity Toilet",
+        "shortname": "Gravity", 
+        "hammerid": "955", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Ice Toilet",
+        "shortname": "Ice", 
+        "hammerid": "936", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal", 
+        "hammerid": "569", 
+        "message": true, 
+        "ui": true, 
+        "transfer": false,
+        "color": "red",
+        "triggers": ["570"]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity", 
+        "hammerid": "652", 
+        "message": true, 
+        "ui": true, 
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["546"]
+    }
+]
