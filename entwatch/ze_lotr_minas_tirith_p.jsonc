@@ -70,8 +70,8 @@
         "triggers": ["7789"]
     },
     {
-        "name": "Totem Pole",
-        "shortname": "Totem", 
+        "name": "Zombie Totem Pole",
+        "shortname": "ZM Totem", 
         "hammerid": "900", 
         "message": true, 
         "ui": false, 
@@ -80,8 +80,8 @@
         "triggers": ["7862"]
     },
     {
-        "name": "TNT Barrel",
-        "shortname": "TNT", 
+        "name": "Zombie TNT Barrel",
+        "shortname": "ZM TNT", 
         "hammerid": "1117", 
         "message": true, 
         "ui": false, 
@@ -90,8 +90,8 @@
         "triggers": ["7864"]
     },
     {
-        "name": "Ladder",
-        "shortname": "Ladder", 
+        "name": "Zombie Ladder",
+        "shortname": "ZM Ladder", 
         "hammerid": "157", 
         "message": true, 
         "ui": false, 
@@ -100,8 +100,8 @@
         "triggers": ["7866"]
     },
     {
-        "name": "Ladder",
-        "shortname": "Ladder", 
+        "name": "Zombie Ladder",
+        "shortname": "ZM Ladder", 
         "hammerid": "167", 
         "message": true, 
         "ui": false, 
@@ -109,8 +109,8 @@
         "color": "red2"
     },
     {
-        "name": "Troll",
-        "shortname": "Troll", 
+        "name": "Zombie Troll",
+        "shortname": "ZM Troll", 
         "hammerid": "348", 
         "message": true, 
         "ui": false, 
@@ -120,12 +120,256 @@
     },
     {
         "name": "Balrog",
-        "shortname": "Balrog", 
+        "shortname": "ZM Balrog", 
         "hammerid": "716", 
         "message": true, 
         "ui": false, 
         "transfer": false,
         "color": "darkred",
         "triggers": ["7799"]
+    },
+    {
+        "name": "Zombie Nazgul",
+        "shortname": "ZM Nazgul",
+        "hammerid": "395",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["7755", "7753"]
+    },
+    {
+        "name": "Barricade - Toilet", // lump 772
+        "hammerid": "760",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "237",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Bench", // lump 771
+        "hammerid": "759",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "235",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Shelf", // lump 770
+        "hammerid": "758",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "241",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Fence", // lump 769
+        "hammerid": "757",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "239",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Basket", // lump 768
+        "hammerid": "757",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "225",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Plank", // lump 767
+        "hammerid": "755",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "245",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Haybale", // lump 766
+        "hammerid": "752",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "229",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Big Boulder", // lump 765
+        "hammerid": "754",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "233",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Boulder", // lump 764
+        "hammerid": "751",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "231",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Barrel", // lump 763
+        "hammerid": "750",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "243",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Table", // lump 762
+        "hammerid": "753",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "247",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Crate", // lump 761
+        "hammerid": "749",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "227",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade - Explosive Barrel", // lump 1252
+        "hammerid": "736",
+        "color": "blue",
+        "transfer": true,
+        "message": false,
+        "ui": false,
+        "handlers":[
+            {
+                "type": "button",
+                "hammerid": "249",
+                "event": "OnPressed",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true
+            }
+        ]
     }
 ]
