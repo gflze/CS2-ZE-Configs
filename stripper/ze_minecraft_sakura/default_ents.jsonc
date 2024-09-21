@@ -1,1335 +1,1449 @@
 {
-    "modify": [
-        // workaround for missing buyzone
-        {
-            "match": {
-                "classname": "logic_auto"
-            },
-            "insert": {
-                "io": [
-                    {
-                        "outputname": "OnMapSpawn",
-                        "targetname": "[PR#]cmd",
-                        "inputname": "Command",
-                        "overrideparam": "mp_buy_anywhere 1",
-                        "delay": 0.0,
-                        "targettype": 7
-                    },
-                    {
-                        "outputname": "OnMapSpawn",
-                        "targetname": "[PR#]cmd",
-                        "inputname": "Command",
-                        "overrideparam": "mp_buy_anywhere 0",
-                        "delay": 20.0,
-                        "targettype": 7
-                    }
-                ]
-            }
-        },
-        // Translate map to English using DeepL
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 没想到叭,咱又回来了喵~"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say I didn't expect the horn, we're back meow~"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say _(:з」∠)_不要再打咱了喵"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say _(:з」∠)_ Stop hitting me"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 你这淫虫留命在世上只会把米吃贵！（｀へ´）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say You are a whore that only eats the most expensive rice! （｀へ´）"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 啊咧！这么多张床，难道是要开趴咩(* /ω＼*)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Oh my god! So many beds, is this a party? (* /ω＼*)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 樱"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Sakura"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 大家好我就是梦梦杨桃冰箱❀"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Hello, I'm the Dreamy star fruit refrigerator ❀"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 已解锁 mini的色图小屋o(*≧▽≦)ツ"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Unlocked mini's R18 cabin o(*≧▽≦)ツ"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 你惊扰了 文爱警察"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say You disturbed the Sexting police."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 剧终 感谢游玩！~o( =∩ω∩= )m"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say This is the end, thanks for playing! ~o( =∩ω∩= )m"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 此刻开始我们要征服星辰大海！！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say From here on out, we are going to conquer the world!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 成功辣！！!φ(≧ω≦*)♪"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Sweet victory!!! φ(≧ω≦*)♪"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （最后30秒！！）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Just 30 seconds left! ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 守住这扇铁门咱们就成功辣(/≧▽≦)/"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Just hold this gate, and we can make it (/≧▽≦)/"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 朝着最后一个房间前进吧！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's make our way to the final room!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (10秒后僵尸传送)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies will teleport in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (30秒后门开)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The secret passage opens in 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 咱就说的吧 果然脚下有秘密通道╰(*°▽°*)╯"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say I told you there was a secret passage underneath ╰(*°▽°*)╯"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 会不会有秘密通道捏（´v｀）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Is there a secret passage?"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 康来没办法从正门进入舰长室了！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say There's no way to enter the Captain's quarters through the front door!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 潜入舰长室计划开始ヾ(≧O≦)〃"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Time to infiltrate the captain's quarters ヾ(≧O≦)〃"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 船舱在40秒后打开"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The cabin opens in 40 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 船舱开关一定在船舵旁边！^O^"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The cabin switch must be near the boat's wheel! ^O^"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 根据咱多年坐船全球巡回演唱的经历"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Based on my many years of boating experience..."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 那咱们就趁虚而入 端了他们的老窝♪(´∇`*)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's take advantage of this situation and take them out ♪(´∇`*)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 海盗这会儿都在酒馆"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The pirates are inside of the tavern."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (25秒后玻璃碎掉）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The glass will break in 25 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 看来只能走窗户了喵！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Looks like the only way to go is out the window, meow!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 可是楼下已经被包围了"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The bottom floor is surrounded!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say ⊙▽⊙海盗又鲨回来了 咱们快跑"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say ⊙▽⊙ The pirates are back, run!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （十分钟后）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say 10 minutes later..."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 真是的 这么着急领我进屋吖(*/ω＼*)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say What's the rush to get me into the house~ (*/ω＼*)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 咱们去楼上坐叭！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's head upstairs!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 老板，温两碗酒，来一碟茴香豆。"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Boss, give me two bottles of wine and a plate of fennel beans."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 进酒馆小酌一杯(* /ω＼*)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Head into the tavern and grab a drink (* /ω＼*)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (大门25秒后打开)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The door opens in 25 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （僵尸10秒后传送）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies will teleport in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 拉动门卫室的拉杆就能开门了(/≧▽≦)/"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Pull the lever in the guard's room to open the door (/≧▽≦)/"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 我们就光明正大地从哨站门口走出去吧！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's leave the outpost and get outside!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 海盗们果然都被吸引到岸边了捏！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say All the pirates were drawn to the shore!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 敲响它或许就能扰乱海盗的注意力！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Hitting it might distract the pirates!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 哨站顶部有一个钟"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Ring the bell on top of the outpost"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 我们下去吧！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's head down!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 根本难不倒咱捏！(≧∀≦)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say It's wasn't even difficult! (≧∀≦)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （给米库30秒撬烟囱时间）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Give Miku 30 seconds to pry open the chimney ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 咱精通撬锁17余年，撬个烟囱也不在话下！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say I've been breaking locks for 17 years, so breaking into this chimney is easy!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 呜啊 好烧啊φ(゜▽゜*)♪"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Ooohhhh, it burns so much! φ(゜▽゜*)♪"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 试试走哨站再绕进酒馆！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Try entering the outpost, then circle back through the tavern!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （侧路15秒后开放）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The side road opens in 15 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 二楼门30秒后打开喵！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The 2nd floor door opens in 30 seconds, meow! ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 侧路暂时无法通行哦喵~( ╯▽╰)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The side road is temporarily closed ~( ╯▽╰)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 咱记得二楼小屋开关在秋千旁来着"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The switch for the cabin's 2nd floor is near the swing set."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 右侧二楼小屋有一个通往哨站的梯子捏！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The cabin's 2nd floor has stairs leading to the outpost!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （守住30s）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Hold for 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 让咱想想走哪里好捏！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's figure out where to go!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 这个宫殿看起来很复杂的样子( ╯▽╰)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say This place's layout is very complicated ( ╯▽╰)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 啊咧⊙▾⊙酒馆被海盗霸占了 还是绕个路吧！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Ah! ⊙▾⊙ The tavern is overrun by pirates. We'd better take a detour"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 让我们去酒馆做做吧"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Let's head into the tavern."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （码头30秒后开放！）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The docks open in 30 seconds! ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 漂流瓶里闪闪发光的是钥匙捏ο(=•ω＜=)ρ⌒☆"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The diamond in the bottle is the key ο(=•ω＜=)ρ⌒☆"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 门开辣！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The door is open!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （僵尸10秒后传送）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies teleport in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 三个字，让大家多守40秒(/ω＼*)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Keep defending for an extra 40 seconds (/ω＼*) ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 啊嘞┌|*´∀｀|┘貌似什么东西忘记触发了喵"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Uh oh! ┌|*´∀｀|┘ Looks like someone forgot to trigger, meow"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 嘤嘤嘤有坏比o(≧口≦)o"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say There is a bad ratio o(≧口≦)o"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (10秒后门开）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The door opens in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (僵尸被阻挡5秒，快跑！！(o゜▽゜)o☆）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies are blocked for 5 seconds, run! (o゜▽゜)o☆ ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (30秒后门开）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The door opens in 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 那咱就从这里下去吧！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Head down from here!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say ˃̶͈ ˂̶͈ 康来只能走夜袭（划掉）的秘密通道了"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say ˃̶͈ ˂̶͈  Take the secret passage meant for night raids."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 啊咧 忘记平常这里是死路咧！Σ( °Д °;)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Oh, I forgot this was a dead end! Σ( °Д °,)"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (树屋将在10s后开放)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The treehouse will open in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (僵尸20秒后传送，开润！）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies teleport in 20 seconds. Run! ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say (树屋将在60s后开放)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** The treehouse will open in 60 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 海的对面是敌人啊..."
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say The enemies are across the sea..."
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 咱记得钓鱼台上的钻石块是树屋开关喵Ծ‸Ծ"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Remember that the diamond block on the fishing platform is the treehouse's switch, meow Ծ‸Ծ"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 啊咧！_(:з」∠)_马桶里爬出了怪怪的东西"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Ahhhh! _(:з」∠)_ Something weird crawled out of the toilet!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （僵尸10秒后传送至厕所）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies teleport to the bathroom in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （在屋内存活60秒直至后花园门开）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Survive in the house for 60 seconds until the back garden door opens ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 进屋坐坐叭！咱是miku的妹妹米库喵ฅ"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Come in and have a seat! I'm Miku's sister, Meow ฅ"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 呜啊~(＞ ＜)☆原来是miku的老公来辣！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say Woah~(＞ ＜)☆ It's Miku's hot spouse!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （僵尸10秒后传送 快跑(>▽<)）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Zombies teleport in 10 seconds. Run! (>▽<) ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say （守住码头 是男人就坚持40秒~o( =∩ω∩= )）"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Hold the dock. If you're a man, hold it for 40 seconds. ~o( =∩ω∩= ) ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 要想从此过，留下买fu财！"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say If you want to live, buy some fu!"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say 此路是我开 此树是我栽(‾◡◝)"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say I made this road. I planted this tree (‾◡◝)"
-                }
-            }
-        },
-        {
-            "match": {
-                "message": "敬请期待！！！"
-            },
-            "replace": {
-                "message": "Stay tuned!!!"
-            }
-        },
-        {
-            "match": {
-                "message": "友情出演φ(≧ω≦*)♪"
-            },
-            "replace": {
-                "message": "Special mentions φ(≧ω≦*)♪"
-            }
-        },
-        {
-            "match": {
-                "message": "梦梦杨桃冰箱❀"
-            },
-            "replace": {
-                "message": "Dreamy star fruit refrigerator ❀"
-            }
-        },
-        {
-            "match": {
-                "message": "智者不入爱河 与你难做智者"
-            },
-            "replace": {
-                "message": "Wise people don't fall in\nlove, and it is hard to\nbe wise with you"
-            }
-        },
-        {
-            "match": {
-                "message": "孤独的人总是善于观察.JPG"
-            },
-            "replace": {
-                "message": "lonely_people_are_observant.JPG"
-            }
-        },
-        {
-            "match": {
-                "message": "哨站"
-            },
-            "replace": {
-                "message": "Sentry Post"
-            }
-        },
-        {
-            "match": {
-                "message": "海岸酒馆"
-            },
-            "replace": {
-                "message": "The Coastal\nTavern"
-            }
-        },
-        {
-            "match": {
-                "message": "/MinionsHian♪/"
-            },
-            "replace": {
-                "message": "MinionsHian♪\nNest"
-            }
-        },
-        {
-            "match": {
-                "message": "←地图有问题就私信揍我~o( =∩ω∩= )m"
-            },
-            "replace": {
-                "message": "←If there is a problem with the map,\nprivate message me ~o( =∩ω∩= )m"
-            }
-        },
-        {
-            "match": {
-                "message": "mini老婆的家"
-            },
-            "replace": {
-                "message": "mini wife's home"
-            }
-        },
-        {
-            "match": {
-                "message": "小火龙一口喷死你们！！！"
-            },
-            "replace": {
-                "message": "The little fire dragon will\nkill you all!!!"
-            }
-        },
-        {
-            "match": {
-                "message": "/哇！kurumi好烧/"
-            },
-            "replace": {
-                "message": "Wow! Kurumi\nburns bright\n(＞ ＜)☆"
-            }
-        },
-        {
-            "match": {
-                "message": "Lucky喵！luckydayฅ"
-            },
-            "replace": {
-                "message": "Lucky meow! Lucky day ฅ"
-            }
-        },
-        {
-            "match": {
-                "message": "酱爆的酱香型金库"
-            },
-            "replace": {
-                "message": "Soy Sauce Vault"
-            }
-        },
-        {
-            "match": {
-                "message": "不太迷你的舰长室"
-            },
-            "replace": {
-                "message": "The not-so-miniature\ncaptain's quarters."
-            }
-        },
-        {
-            "match": {
-                "message": "valve的屎山|"
-            },
-            "replace": {
-                "message": "Valve's pile of shit"
-            }
-        }
-    ]
+	// Anti-delay for tree hold
+	// Temporarily disabled until Stripper update
+	/*"add": [
+		{
+			"classname": "trigger_multiple",
+			"targetname": "antidelay_trigger",
+			"model": "maps/ze_minecraft_sakura/entities/push_sakura_42311.vmdl",
+			"origin": "3069.419678 2592.000244 768",
+			"angles": "0 179.999969 0",
+			"scales": "1 1 1",
+			"filtername": "[PR#]zombie",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "[PR#]cmd",
+					"inputname": "Command",
+					"overrideparam": "say Zombies touched the door! Slaying humans ( ͡ ͡° ͜ ʖ ͡°  )",
+					"timestofire": 1
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "nuke_humans",
+					"inputname": "Enable",
+					"delay": 2.0,
+					"timestofire": 1
+				}
+			]
+		},
+		{
+			"classname": "trigger_hurt",
+			"targetname": "nuke_humans",
+			"model": "maps/ze_minecraft_sakura/entities/nuke_hurt_42519.vmdl",
+			"origin": "1095.999878 -436 236",
+			"scales": "1 1 1",
+			"filtername": "[PR#]human",
+			"startdisabled": "1",
+			"uselocaloffset": "0",
+			"thinkalways": "0",
+			"nodmgforce": "0",
+			"forgivedelay": "3",
+			"damagemodel": "0",
+			"damagetype": "1024",
+			"damagecap": "20",
+			"damage": "999999",
+			"spawnflags": "1"
+		}
+	],
+	"modify": [
+		{
+			"match": {
+				"classname": "func_button",
+				"hammeruniqueid": "41983"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnPressed",
+						"targetname": "antidelay_trigger",
+						"inputname": "Disable",
+						"delay": 60.0,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	],*/
+	// Translate map to English using DeepL
+	"modify": [
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 一直呆在这里可是会受到惩罚的呦ο(=•ω＜=)ρ⌒☆"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say If you stay here, you'll be punished! ο(=•ω＜=)ρ⌒☆"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊咧 传送门已经关闭了喵！Σ(っ °Д °;)っ"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The portal has been closed meow! Σ(っ °Д °;)っ"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 下次早点来！(o≖◡≖)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Come early next time! (o≖◡≖)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 四十秒"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say 40 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （僵尸5秒后传送）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say (Zombies teleporting in 5 seconds)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 没想到叭,咱又回来了喵~"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I didn't expect the horn, we're back meow~"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say _(:з」∠)_不要再打咱了喵"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say _(:з」∠)_ Stop hitting me"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 你这淫虫留命在世上只会把米吃贵！（｀へ´）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say You are a whore that only eats the most expensive rice! （｀へ´）"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊咧！这么多张床，难道是要开趴咩(* /ω＼*)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Oh my god! So many beds, is this a party? (* /ω＼*)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 樱"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Sakura"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 大家好我就是梦梦杨桃冰箱❀"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Hello, I'm the Dreamy star fruit refrigerator ❀"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 已解锁 mini的色图小屋o(*≧▽≦)ツ"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Unlocked mini's R18 cabin o(*≧▽≦)ツ"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 你惊扰了 文爱警察"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say You disturbed the Sexting police."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 剧终 感谢游玩！~o( =∩ω∩= )m"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say This is the end, thanks for playing! ~o( =∩ω∩= )m"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 此刻开始我们要征服星辰大海！！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say From here on out, we are going to conquer the world!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 成功辣！！!φ(≧ω≦*)♪"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Sweet victory!!! φ(≧ω≦*)♪"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （最后30秒！！）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Just 30 seconds left! ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 守住这扇铁门咱们就成功辣(/≧▽≦)/"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Just hold this gate, and we can make it (/≧▽≦)/"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 朝着最后一个房间前进吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's make our way to the final room!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (10秒后僵尸传送)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies will teleport in 10 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (30秒后门开)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The secret passage opens in 30 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 咱就说的吧 果然脚下有秘密通道╰(*°▽°*)╯"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I told you there was a secret passage underneath ╰(*°▽°*)╯"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 会不会有秘密通道捏（´v｀）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Is there a secret passage?"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 康来没办法从正门进入舰长室了！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say There's no way to enter the Captain's quarters through the front door!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 潜入舰长室计划开始ヾ(≧O≦)〃"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Time to infiltrate the captain's quarters ヾ(≧O≦)〃"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 船舱在40秒后打开"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The cabin opens in 40 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 船舱开关一定在船舵旁边！^O^"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The cabin switch must be near the boat's wheel! ^O^"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 根据咱多年坐船全球巡回演唱的经历"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Based on my many years of boating experience..."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 那咱们就趁虚而入 端了他们的老窝♪(´∇`*)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's take advantage of this situation and take them out ♪(´∇`*)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 海盗这会儿都在酒馆"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The pirates are inside of the tavern."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (25秒后玻璃碎掉）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The glass will break in 25 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 看来只能走窗户了喵！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Looks like the only way to go is out the window, meow!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 可是楼下已经被包围了"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The bottom floor is surrounded!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say ⊙▽⊙海盗又鲨回来了 咱们快跑"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say ⊙▽⊙ The pirates are back, run!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （十分钟后）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say 10 minutes later..."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 真是的 这么着急领我进屋吖(*/ω＼*)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say What's the rush to get me into the house~ (*/ω＼*)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 咱们去楼上坐叭！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's head upstairs!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 老板，温两碗酒，来一碟茴香豆。"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Boss, give me two bottles of wine and a plate of fennel beans."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 进酒馆小酌一杯(* /ω＼*)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Head into the tavern and grab a drink (* /ω＼*)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (大门25秒后打开)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The door opens in 25 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （僵尸10秒后传送）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies will teleport in 10 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 拉动门卫室的拉杆就能开门了(/≧▽≦)/"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Pull the lever in the guard's room to open the door (/≧▽≦)/"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 我们就光明正大地从哨站门口走出去吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's leave the outpost and get outside!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 海盗们果然都被吸引到岸边了捏！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say All the pirates were drawn to the shore!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 敲响它或许就能扰乱海盗的注意力！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Hitting it might distract the pirates!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 哨站顶部有一个钟"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Ring the bell on top of the outpost"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 我们下去吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's head down!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 根本难不倒咱捏！(≧∀≦)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say It's wasn't even difficult! (≧∀≦)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （给米库30秒撬烟囱时间）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Give Miku 30 seconds to pry open the chimney ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 咱精通撬锁17余年，撬个烟囱也不在话下！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I've been breaking locks for 17 years, so breaking into this chimney is easy!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 呜啊 好烧啊φ(゜▽゜*)♪"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Ooohhhh, it burns so much! φ(゜▽゜*)♪"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 试试走哨站再绕进酒馆！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Try entering the outpost, then circle back through the tavern!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （侧路15秒后开放）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The side road opens in 15 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 二楼门30秒后打开喵！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The 2nd floor door opens in 30 seconds, meow! ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 侧路暂时无法通行哦喵~( ╯▽╰)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The side road is temporarily closed ~( ╯▽╰)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 咱记得二楼小屋开关在秋千旁来着"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The switch for the cabin's 2nd floor is near the swing set."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 右侧二楼小屋有一个通往哨站的梯子捏！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The cabin's 2nd floor has stairs leading to the outpost!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （守住30s）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Hold for 30 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 让咱想想走哪里好捏！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's figure out where to go!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 这个宫殿看起来很复杂的样子( ╯▽╰)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say This place's layout is very complicated ( ╯▽╰)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊咧⊙▾⊙酒馆被海盗霸占了 还是绕个路吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Ah! ⊙▾⊙ The tavern is overrun by pirates. We'd better take a detour"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 让我们去酒馆做做吧"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Let's head into the tavern."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （码头30秒后开放！）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The docks open in 30 seconds! ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 漂流瓶里闪闪发光的是钥匙捏ο(=•ω＜=)ρ⌒☆"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The diamond in the bottle is the key ο(=•ω＜=)ρ⌒☆"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 门开辣！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The door is open!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （僵尸10秒后传送）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies teleport in 10 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 三个字，让大家多守40秒(/ω＼*)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Keep defending for an extra 40 seconds (/ω＼*) ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊嘞┌|*´∀｀|┘貌似什么东西忘记触发了喵"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Uh oh! ┌|*´∀｀|┘ Looks like someone forgot to trigger, meow"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 嘤嘤嘤有坏比o(≧口≦)o"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say There is a bad ratio o(≧口≦)o"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (10秒后门开）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The door opens in 10 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (僵尸被阻挡5秒，快跑！！(o゜▽゜)o☆）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies are blocked for 5 seconds, run! (o゜▽゜)o☆ ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (30秒后门开）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The door opens in 30 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 那咱就从这里下去吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Head down from here!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say ˃̶͈ ˂̶͈ 康来只能走夜袭（划掉）的秘密通道了"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say ˃̶͈ ˂̶͈  Take the secret passage meant for night raids."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊咧 忘记平常这里是死路咧！Σ( °Д °;)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Oh, I forgot this was a dead end! Σ( °Д °,)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (树屋将在10s后开放)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The treehouse will open in 10 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (僵尸20秒后传送，开润！）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies teleport in 20 seconds. Run! ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (树屋将在60s后开放)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** The treehouse will open in 60 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 海的对面是敌人啊..."
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The enemies are across the sea..."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 咱记得钓鱼台上的钻石块是树屋开关喵Ծ‸Ծ"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Remember that the diamond block on the fishing platform is the treehouse's switch, meow Ծ‸Ծ"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊咧！_(:з」∠)_马桶里爬出了怪怪的东西"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Ahhhh! _(:з」∠)_ Something weird crawled out of the toilet!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （僵尸10秒后传送至厕所）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies teleport to the bathroom in 10 seconds ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （在屋内存活60秒直至后花园门开）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Survive in the house for 60 seconds until the back garden door opens ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 进屋坐坐叭！咱是miku的妹妹米库喵ฅ"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Come in and have a seat! I'm Miku's sister, Meow ฅ"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 呜啊~(＞ ＜)☆原来是miku的老公来辣！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Woah~(＞ ＜)☆ It's Miku's hot spouse!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （僵尸10秒后传送 快跑(>▽<)）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Zombies teleport in 10 seconds. Run! (>▽<) ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （守住码头 是男人就坚持40秒~o( =∩ω∩= )）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** Hold the dock. If you're a man, hold it for 40 seconds. ~o( =∩ω∩= ) ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 要想从此过，留下买fu财！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say If you want to live, buy some fu!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 此路是我开 此树是我栽(‾◡◝)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I made this road. I planted this tree (‾◡◝)"
+				}
+			}
+		},
+		{
+			"match": {
+				"message": "敬请期待！！！"
+			},
+			"replace": {
+				"message": "Stay tuned!!!"
+			}
+		},
+		{
+			"match": {
+				"message": "友情出演φ(≧ω≦*)♪"
+			},
+			"replace": {
+				"message": "Special mentions φ(≧ω≦*)♪"
+			}
+		},
+		{
+			"match": {
+				"message": "梦梦杨桃冰箱❀"
+			},
+			"replace": {
+				"message": "Dreamy star fruit refrigerator ❀"
+			}
+		},
+		{
+			"match": {
+				"message": "智者不入爱河 与你难做智者"
+			},
+			"replace": {
+				"message": "Wise people don't fall in\nlove, and it is hard to\nbe wise with you"
+			}
+		},
+		{
+			"match": {
+				"message": "孤独的人总是善于观察.JPG"
+			},
+			"replace": {
+				"message": "lonely_people_are_observant.JPG"
+			}
+		},
+		{
+			"match": {
+				"message": "哨站"
+			},
+			"replace": {
+				"message": "Sentry Post"
+			}
+		},
+		{
+			"match": {
+				"message": "海岸酒馆"
+			},
+			"replace": {
+				"message": "The Coastal\nTavern"
+			}
+		},
+		{
+			"match": {
+				"message": "/MinionsHian♪/"
+			},
+			"replace": {
+				"message": "MinionsHian♪\nNest"
+			}
+		},
+		{
+			"match": {
+				"message": "←地图有问题就私信揍我~o( =∩ω∩= )m"
+			},
+			"replace": {
+				"message": "←If there is a problem with the map,\nprivate message me ~o( =∩ω∩= )m"
+			}
+		},
+		{
+			"match": {
+				"message": "mini老婆的家"
+			},
+			"replace": {
+				"message": "mini wife's home"
+			}
+		},
+		{
+			"match": {
+				"message": "小火龙一口喷死你们！！！"
+			},
+			"replace": {
+				"message": "The little fire dragon will\nkill you all!!!"
+			}
+		},
+		{
+			"match": {
+				"message": "/哇！kurumi好烧/"
+			},
+			"replace": {
+				"message": "Wow! Kurumi\nburns bright\n(＞ ＜)☆"
+			}
+		},
+		{
+			"match": {
+				"message": "Lucky喵！luckydayฅ"
+			},
+			"replace": {
+				"message": "Lucky meow! Lucky day ฅ"
+			}
+		},
+		{
+			"match": {
+				"message": "酱爆的酱香型金库"
+			},
+			"replace": {
+				"message": "Soy Sauce Vault"
+			}
+		},
+		{
+			"match": {
+				"message": "不太迷你的舰长室"
+			},
+			"replace": {
+				"message": "The not-so-miniature\ncaptain's quarters."
+			}
+		},
+		{
+			"match": {
+				"message": "valve的屎山|"
+			},
+			"replace": {
+				"message": "Valve's pile of shit"
+			}
+		}
+	]
 }
