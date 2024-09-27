@@ -103,7 +103,7 @@
             "match": {
                 "io": [
                     {
-                        "overrideparam": "say *** 無意識の境地へ 10 秒 ***"
+                        "overrideparam": "say ***  無意識の境地へ 10 秒 ***"
                     }
                 ]
             },
