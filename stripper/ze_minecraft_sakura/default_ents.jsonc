@@ -1,7 +1,6 @@
 {
 	// Anti-delay for tree hold
-	// Temporarily disabled until Stripper update
-	/*"add": [
+	"add": [
 		{
 			"classname": "trigger_multiple",
 			"targetname": "antidelay_trigger",
@@ -50,25 +49,23 @@
 			"spawnflags": "1"
 		}
 	],
-	"modify": [
-		{
-			"match": {
-				"classname": "func_button",
-				"hammeruniqueid": "41983"
-			},
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnPressed",
-						"targetname": "antidelay_trigger",
-						"inputname": "Disable",
-						"delay": 60.0,
-						"timestofire": 1
-					}
-				]
-			}
+	"modify": {
+		"match": {
+			"classname": "func_button",
+			"hammeruniqueid": "41983"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnPressed",
+					"targetname": "antidelay_trigger",
+					"inputname": "Disable",
+					"delay": 60.0,
+					"timestofire": 1
+				}
+			]
 		}
-	],*/
+	},
 	// Translate map to English using DeepL
 	"modify": [
 		{
