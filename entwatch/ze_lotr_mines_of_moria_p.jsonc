@@ -1,0 +1,29 @@
+[
+    {
+        "name": "The Ring",
+        "shortname": "Ring", 
+        "hammerid": "1878", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Gandalf's Staff",
+        "shortname": "Gandalf", 
+        "hammerid": "1858", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Saruman's Staff",
+        "shortname": "Saruman", 
+        "hammerid": "1852", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "white"
+    }
+]

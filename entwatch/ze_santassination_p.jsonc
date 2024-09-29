@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Healing Shitbox",
+        "shortname": "Heal", 
+        "hammerid": "830", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Mini Cannon",
+        "shortname": "Minigun", 
+        "hammerid": "3589", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Beam Cannon",
+        "shortname": "Beam", 
+        "hammerid": "3518", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Rocket Cannon",
+        "shortname": "Rocket", 
+        "hammerid": "3481", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkred"
+    },
+    {
+        "name": "Herder",
+        "shortname": "Herder", 
+        "hammerid": "3706", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Speeder",
+        "shortname": "Speeder", 
+        "hammerid": "547", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "green"
+    }
+]

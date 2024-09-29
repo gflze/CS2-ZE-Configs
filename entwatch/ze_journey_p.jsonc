@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Abyssal Orb",
+        "shortname": "Abyss",
+        "hammerid": "8205", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Lightning Orb",
+        "shortname": "Lightning",
+        "hammerid": "8197", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Gust Orb",
+        "shortname": "Gust",
+        "hammerid": "8188", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "silver"
+    },
+    {
+        "name": "Glacial Orb",
+        "shortname": "Ice",
+        "hammerid": "8193", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Divine Orb",
+        "shortname": "Divine",
+        "hammerid": "8201", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Burning Orb",
+        "shortname": "Fire",
+        "hammerid": "8189", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Celestial Embrace",
+        "shortname": "Heal",
+        "hammerid": "1030", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "white"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Ultimate Weapon",
+        "shortname": "Ultima", 
+        "hammerid": "108", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Oreo Heal",
+        "shortname": "Heal", 
+        "hammerid": "752", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "darkblue"
+    },
+    {
+        "name": "Ammo Box",
+        "shortname": "Ammo", 
+        "hammerid": "2142", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flame", 
+        "hammerid": "810", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push", 
+        "hammerid": "755", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Explosive Mines",
+        "shortname": "Mines", 
+        "hammerid": "744", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Lego Maker",
+        "shortname": "Lego", 
+        "hammerid": "783", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Hand Cannon",
+        "shortname": "Cannon", 
+        "hammerid": "2186", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "red2"
+    },
+    {
+        "name": "Grenade Maker",
+        "shortname": "Grenades", 
+        "hammerid": "736", 
+        "message": true, 
+        "ui": true, 
+        "transfer": true,
+        "color": "olive"
+    },
+    {
+        "name": "Kim",
+        "shortname": "Kim", 
+        "hammerid": "1256", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Pass",
+        "shortname": "Pass", 
+        "hammerid": "1268", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Banana",
+        "shortname": "Banana", 
+        "hammerid": "2541", 
+        "message": true, 
+        "ui": false, 
+        "transfer": true,
+        "color": "yellow"
+    }
+]
