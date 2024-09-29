@@ -17,7 +17,7 @@ For making any of these configs, you'll need to use [Source 2 Viewer](https://va
 
 ## EntWatch
 
-Find entity classnames that start with "weapon_" as a starting point for creating these. For each item you're going to want a new block in the root array. The format is available below.
+Find entity classnames that start with `weapon_` as a starting point for creating these. For each item you're going to want a new block in the root array. The format is available below.
 
 ```jsonc
 [
