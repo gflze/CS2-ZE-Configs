@@ -26,6 +26,9 @@ jobs:
           git config git-ftp.insecure "1"
           echo "::add-mask::${{ secrets.sftp_main_hostname }}"
       
+      - name: Sync EntWatch Files
+        run: git ftp push --verbose --auto-init --syncroot "entwatch" --remote-root "game/csgo/addons/cs2fixes/configs/entwatch/maps"
+
       - name: Sync Stripper Files
         run: git ftp push --verbose --auto-init --syncroot "stripper" --remote-root "game/csgo/addons/StripperCS2/maps/"
 
