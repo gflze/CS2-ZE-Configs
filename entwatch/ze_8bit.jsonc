@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "5594",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5595",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "5038",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5039",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mines",
+        "shortname": "Mines",
+        "hammerid": "5019",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5020",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 8,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Stopper",
+        "shortname": "Stopper",
+        "hammerid": "4988",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4989",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cannon Ultimate",
+        "shortname": "Ultimate",
+        "hammerid": "4970",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4968",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electro",
+        "shortname": "Electro",
+        "hammerid": "4739",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4740",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "4733",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4734",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
