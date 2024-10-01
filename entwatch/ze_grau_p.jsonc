@@ -16,7 +16,7 @@
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["431", "907", "909", "429"],
+        "triggers": ["431"],
         "handlers": [
             {
                 "type": "game_ui",
@@ -38,7 +38,7 @@
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["431", "907", "909", "429"],
+        "triggers": ["907"],
         "handlers": [
             {
                 "type": "game_ui",
@@ -70,7 +70,7 @@
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["431", "907", "909", "429"],
+        "triggers": ["909", "429"],
         "handlers": [
             {
                 "type": "game_ui",
