@@ -148,8 +148,8 @@
                 "type": "button",
                 "hammerid": "1132",
                 "event": "OnPlayerUse",
-                "mode": 3,
-                "cooldown": 0,
+                "mode": 4,
+                "cooldown": 4,
                 "maxuses": 6,
                 "message": true,
                 "ui": true
