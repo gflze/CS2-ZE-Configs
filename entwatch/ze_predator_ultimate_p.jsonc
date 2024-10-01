@@ -1,0 +1,221 @@
+[
+    {
+        "name": "Gauss Rifle",
+        "shortname": "Gauss",
+        "hammerid": "19515",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19622",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Impulsor",
+        "shortname": "Impulsor",
+        "hammerid": "19605",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push",
+        "hammerid": "19569",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19573",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Alien Device",
+        "shortname": "Device",
+        "hammerid": "19560",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19558",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "19553",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19550",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Alien Sample",
+        "shortname": "Sample",
+        "hammerid": "19535",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19420",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Minigun",
+        "shortname": "Minigun",
+        "hammerid": "19531",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19529",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo Dispenser",
+        "shortname": "Ammo",
+        "hammerid": "19734",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19511",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Claymore Mines",
+        "shortname": "Mines",
+        "hammerid": "19465",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19462",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Grenade Launcher",
+        "shortname": "Launcher",
+        "hammerid": "19443",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19444",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 18,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "First Aid",
+        "shortname": "Heal",
+        "hammerid": "19424",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19410",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
