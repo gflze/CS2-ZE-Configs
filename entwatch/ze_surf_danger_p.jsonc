@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Cyka Blyat 1",
+        "shortname": "Cyka Blyat 1",
+        "hammerid": "2220",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Cyka Blyat 2",
+        "shortname": "Cyka Blyat 2",
+        "hammerid": "2219",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    }
+]
