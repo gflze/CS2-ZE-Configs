@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "93",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "91",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "God Heal",
+        "shortname": "God Heal",
+        "hammerid": "150",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Once Heal",
+        "shortname": "Once Heal",
+        "hammerid": "66",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive"
+    },
+    {
+        "name": "Zombie Crossbow",
+        "shortname": "ZM Crossbow",
+        "hammerid": "102",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["121"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "100",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
