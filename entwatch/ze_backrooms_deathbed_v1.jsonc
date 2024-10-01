@@ -1,3 +1,5 @@
+// Flashlight cooldown/charge is based on a counter
+// Waiting on mode 6/7 implementation before updating cfg
 [
     {
         "name": "Tactical Flashlight 1",
