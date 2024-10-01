@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Jack's Pistol",
+        "shortname": "Pistol",
+        "hammerid": "122",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "661",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
