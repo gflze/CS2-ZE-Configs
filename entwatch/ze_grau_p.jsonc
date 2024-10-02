@@ -64,7 +64,7 @@
     },
     {
         "name": "Zombie Speed",
-        "shortname": "ZM SPeed",
+        "shortname": "ZM Speed",
         "hammerid": "11690",
         "message": true,
         "ui": true,
