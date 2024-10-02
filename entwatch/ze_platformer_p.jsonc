@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "3688",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["3705"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3695",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mines",
+        "shortname": "Mines",
+        "hammerid": "3672",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["3676"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3660",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Earth Builder",
+        "shortname": "ZM Builder",
+        "hammerid": "3637",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "olive",
+        "triggers": ["3652"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3639",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 13,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ladder",
+        "shortname": "Ladder",
+        "hammerid": "3625",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["3629"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3616",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower", // Mode 6 with 3600 math_counter ID
+        "shortname": "Flamethrower",
+        "hammerid": "3601",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3595",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Trampoline",
+        "shortname": "Trampoline",
+        "hammerid": "3578",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3580",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Coin Gun",
+        "shortname": "Coin",
+        "hammerid": "3558",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3549",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Microsoft Firewall",
+        "shortname": "Firewall",
+        "hammerid": "3507",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3509",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth Builder",
+        "shortname": "Builder",
+        "hammerid": "3490",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3504",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 10,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Jetpack",
+        "shortname": "Jetpack",
+        "hammerid": "3453",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3456",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push",
+        "hammerid": "3438",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3436",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    }
+]

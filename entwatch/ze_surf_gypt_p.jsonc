@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Red Trail",
+        "shortname": "Red Trail",
+        "hammerid": "1293",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Green Trail",
+        "shortname": "Green Trail",
+        "hammerid": "1295",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Pompje's Pizza Boye",
+        "shortname": "Pizza",
+        "hammerid": "1289",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Blue Trail",
+        "shortname": "Blue Trail",
+        "hammerid": "1007",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "357",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "110",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 1,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

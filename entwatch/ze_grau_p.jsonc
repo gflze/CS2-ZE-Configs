@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Outline",
+        "shortname": "Outline",
+        "hammerid": "679",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Zombie Slow 1",
+        "shortname": "ZM Slow 1",
+        "hammerid": "11685",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["431"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "11683",
+                "event": "OnCase16",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Slow 2",
+        "shortname": "ZM Slow 2",
+        "hammerid": "11688",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["907"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "11689",
+                "event": "OnCase15",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "11689",
+                "event": "OnCase16",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Speed",
+        "shortname": "ZM Speed",
+        "hammerid": "11690",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["909", "429"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "11691",
+                "event": "OnCase15",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "11691",
+                "event": "OnCase16",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

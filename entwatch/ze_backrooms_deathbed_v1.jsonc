@@ -1,0 +1,46 @@
+// Flashlight cooldown/charge is based on a counter
+// Waiting on mode 6/7 implementation before updating cfg
+[
+    {
+        "name": "Tactical Flashlight 1",
+        "shortname": "Flashlight 1",
+        "hammerid": "5687",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5700",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Tactical Flashlight 2",
+        "shortname": "Flashlight 2",
+        "hammerid": "5709",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5723",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

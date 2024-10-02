@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Unlimited Ammo",
+        "shortname": "Ammo",
+        "hammerid": "2852",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2885",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
