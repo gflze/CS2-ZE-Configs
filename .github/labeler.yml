@@ -7,3 +7,8 @@ Map Config:
 - any:
   - changed-files:
     - any-glob-to-any-file: 'mapcfg/*'
+
+EntWatch:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: 'entwatch/*'
