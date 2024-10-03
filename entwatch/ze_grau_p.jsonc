@@ -16,19 +16,7 @@
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["431"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "11683",
-                "event": "OnCase16",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "triggers": ["431"]
     },
     {
         "name": "Zombie Slow 2",
@@ -38,29 +26,7 @@
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["907"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "11689",
-                "event": "OnCase15",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
-                "hammerid": "11689",
-                "event": "OnCase16",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "triggers": ["907"]
     },
     {
         "name": "Zombie Speed",
@@ -70,28 +36,6 @@
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["909", "429"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "11691",
-                "event": "OnCase15",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
-                "hammerid": "11691",
-                "event": "OnCase16",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "triggers": ["909", "429"]
     }
 ]
