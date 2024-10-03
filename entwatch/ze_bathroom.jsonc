@@ -1,19 +1,19 @@
 [
     {
         "name": "Sponge Builder",
-        "shortname": "Sponge", 
-        "hammerid": "1589", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Sponge",
+        "hammerid": "1589",
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "yellow"
     },
     {
         "name": "Mouse Trap",
-        "shortname": "Trap", 
-        "hammerid": "1793", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Trap",
+        "hammerid": "1793",
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "orange"
     }
