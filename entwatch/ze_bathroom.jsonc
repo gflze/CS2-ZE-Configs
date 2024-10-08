@@ -6,7 +6,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1590",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 52,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Mouse Trap",
@@ -15,6 +27,18 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "orange"
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1794",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 42,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
