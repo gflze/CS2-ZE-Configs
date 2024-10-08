@@ -6,7 +6,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "darkblue"
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "105",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Oreo Heal",
@@ -15,7 +27,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "darkblue"
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "753",
+                "event": "OnPlayerUse",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Ammo Box",
@@ -24,7 +48,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "orange"
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2157",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Flamethrower",
@@ -33,7 +69,25 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "804",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "809",
+                "mode": 6,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Push Gun",
@@ -42,7 +96,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "756",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Explosive Mines",
@@ -51,7 +117,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "742",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 2,
+                "maxuses": 5,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Lego Maker",
@@ -60,7 +138,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "green"
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "781",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 2,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Hand Cannon",
@@ -69,7 +159,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red2"
+        "color": "red2",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2184",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Grenade Maker",
@@ -78,7 +180,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "olive"
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "737",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 5,
+                "maxuses": 8,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Kim",
@@ -105,6 +219,18 @@
         "message": true,
         "ui": false,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2542",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
