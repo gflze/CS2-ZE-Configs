@@ -6,7 +6,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8207",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Lightning Orb",
@@ -15,7 +27,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8198",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Gust Orb",
@@ -24,7 +48,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "silver"
+        "color": "silver",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8186",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Glacial Orb",
@@ -33,7 +69,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8195",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Divine Orb",
@@ -42,7 +90,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8203",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Burning Orb",
@@ -51,7 +111,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8190",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Celestial Embrace",
