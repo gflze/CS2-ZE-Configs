@@ -14,7 +14,7 @@
         "shortname": "Armor",
         "hammerid": "145",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": false,
         "color": "orange",
         "triggers": ["7781"]
@@ -152,7 +152,7 @@
         "shortname": "ZM TNT",
         "hammerid": "1117",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": false,
         "color": "red2",
         "triggers": ["7864"],
@@ -174,7 +174,7 @@
         "shortname": "ZM Ladder",
         "hammerid": "157",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": false,
         "color": "red2",
         "triggers": ["7866"]
@@ -184,7 +184,7 @@
         "shortname": "ZM Ladder",
         "hammerid": "167",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": false,
         "color": "red2"
     },
@@ -193,7 +193,7 @@
         "shortname": "ZM Troll",
         "hammerid": "348",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": false,
         "color": "red2",
         "triggers": ["7797"]
@@ -203,7 +203,7 @@
         "shortname": "ZM Balrog",
         "hammerid": "716",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": false,
         "color": "darkred",
         "triggers": ["7799"],
