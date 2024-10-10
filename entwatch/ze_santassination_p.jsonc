@@ -6,7 +6,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "824",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Mini Cannon",
@@ -15,7 +27,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3587",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Beam Cannon",
@@ -24,7 +48,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3516",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Rocket Cannon",
@@ -33,7 +69,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "darkred"
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3478",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Herder",
@@ -42,7 +90,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3702",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Speeder",
@@ -51,6 +111,18 @@
         "message": true,
         "ui": false,
         "transfer": true,
-        "color": "green"
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "543",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     }
 ]
