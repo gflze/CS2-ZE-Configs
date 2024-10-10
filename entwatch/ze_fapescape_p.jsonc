@@ -199,7 +199,7 @@
         "shortname": "Kim",
         "hammerid": "1256",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "red"
     },
@@ -208,7 +208,7 @@
         "shortname": "Pass",
         "hammerid": "1268",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "red"
     },
