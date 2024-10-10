@@ -23,10 +23,10 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 [
     {
         "name": "Item Name",            // Name of item that appears in chat
-        "shortname": "Short Name",      // Name of item that appears on the HUD
+        "shortname": "Short Name",      // Name of item that appears on the scoreboard
         "hammerid": "",                 // Hammerid of the weapon entity
         "message": true,                // Whether to show pickup/drop messages in chat
-        "ui": true,                     // Whether to show this item on the HUD
+        "ui": true,                     // Whether to show this item on the scoreboard
         "transfer": true,               // Whether to allow this item to be transferred
         "color": "",                    // Color of the item for chat messages (see list of colors)
         "triggers": [""],               // Array of hammerids of any triggers that this item is associated with
@@ -37,13 +37,13 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
                 "event": "OnPressed",       // Name of the output
                 "mode": 2,                  // Mode of the handler
                                             //    0/1 = None
-                                            //    2 = Cooldown,                3 = MaxUses
+                                            //    2 = Cooldown,               3 = MaxUses
                                             //    4 = MaxUsesWithCooldown,    5 = CooldownAfterUses
                                             //    6 = CounterDown,            7 = CounterUp
                 "cooldown": 60,             // Cooldown duration if mode = 2,4,5
                 "maxuses": 0,               // Maxuses if mode = 3,4,5
                 "message": true,            // Whether to show when this is used in chat
-                "ui": true                  // Whether to track this handler on the HUD
+                "ui": true                  // Whether to track this handler on the scoreboard
             }
         ]
     }
