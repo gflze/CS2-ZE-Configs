@@ -7,7 +7,19 @@
         "ui": false,
         "transfer": false,
         "color": "silver",
-        "triggers": ["992"]
+        "triggers": ["992"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "29347",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 4,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Healmage",
@@ -17,7 +29,29 @@
         "ui": true,
         "transfer": false,
         "color": "blue",
-        "triggers": ["984"]
+        "triggers": ["984"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29504",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29506",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Dovahkiin",
@@ -27,7 +61,29 @@
         "ui": true,
         "transfer": false,
         "color": "darkblue",
-        "triggers": ["982"]
+        "triggers": ["982"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29437",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 3,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29451",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Archmage",
@@ -37,7 +93,29 @@
         "ui": true,
         "transfer": false,
         "color": "orange",
-        "triggers": ["1020"]
+        "triggers": ["1020"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29383",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 9,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29378",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Deadric",
@@ -47,7 +125,29 @@
         "ui": true,
         "transfer": false,
         "color": "red",
-        "triggers": ["979"]
+        "triggers": ["979"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29403",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 2,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29412",
+                "event": "OnTrigger",
+                "mode": 4,
+                "cooldown": 60,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Wolf",
@@ -57,7 +157,29 @@
         "ui": false,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["987"]
+        "triggers": ["987"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29229",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 2,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29237",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 0,
+                "maxuses": 25,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Troll",
@@ -67,7 +189,29 @@
         "ui": false,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["990"]
+        "triggers": ["990"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29184",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 2,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29185",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Giant",
@@ -77,7 +221,29 @@
         "ui": false,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["994"]
+        "triggers": ["994"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29270",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29271",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Dragonpriest",
@@ -87,7 +253,19 @@
         "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": ["1088"]
+        "triggers": ["1088"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "29317",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Freeze Staff",
@@ -96,7 +274,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "703",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Heal Staff",
@@ -105,7 +295,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "402",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Lever",
