@@ -1,132 +1,234 @@
 [
     {
         "name": "Flag",
-        "shortname": "Flag", 
-        "hammerid": "901", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "Flag",
+        "hammerid": "901",
+        "message": true,
+        "ui": false,
         "transfer": false,
         "color": "green",
         "triggers": ["7779"]
     },
     {
         "name": "Armor",
-        "shortname": "Armor", 
-        "hammerid": "145", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "Armor",
+        "hammerid": "145",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "orange",
         "triggers": ["7781"]
     },
     {
         "name": "Ammo Barrel",
-        "shortname": "Ammo", 
-        "hammerid": "351", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Ammo",
+        "hammerid": "351",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "green",
-        "triggers": ["7783"]
+        "triggers": ["7783"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "357",
+                "event": "OnFalse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Oil Barrel",
-        "shortname": "Oil", 
-        "hammerid": "865", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Oil",
+        "hammerid": "865",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "yellow",
-        "triggers": ["7870"]
+        "triggers": ["7870"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "866",
+                "event": "OnEqualTo",
+                "mode": 5,
+                "cooldown": 60,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Horse",
-        "shortname": "Horse", 
-        "hammerid": "675", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Horse",
+        "hammerid": "675",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "yellow",
         "triggers": ["7785"]
     },
     {
         "name": "Gandalf",
-        "shortname": "Gandalf", 
-        "hammerid": "683", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Gandalf",
+        "hammerid": "683",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["7787"]
+        "triggers": ["7787"],
+        "handlers": [
+            {
+                "type": "game_ui", // light
+                "hammerid": "686",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // dawds
+                "hammerid": "687",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "White Knight",
-        "shortname": "Knight", 
-        "hammerid": "695", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Knight",
+        "hammerid": "695",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["7789"]
+        "triggers": ["7789"],
+        "handlers": [
+            {
+                "type": "game_ui", // defense
+                "hammerid": "713",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 6,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // nuke
+                "hammerid": "699",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Totem Pole",
-        "shortname": "ZM Totem", 
-        "hammerid": "900", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "ZM Totem",
+        "hammerid": "900",
+        "message": true,
+        "ui": false,
         "transfer": false,
         "color": "red2",
         "triggers": ["7862"]
     },
     {
         "name": "Zombie TNT Barrel",
-        "shortname": "ZM TNT", 
-        "hammerid": "1117", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "ZM TNT",
+        "hammerid": "1117",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "red2",
-        "triggers": ["7864"]
+        "triggers": ["7864"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "1115",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Ladder",
-        "shortname": "ZM Ladder", 
-        "hammerid": "157", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "ZM Ladder",
+        "hammerid": "157",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "red2",
         "triggers": ["7866"]
     },
     {
         "name": "Zombie Ladder",
-        "shortname": "ZM Ladder", 
-        "hammerid": "167", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "ZM Ladder",
+        "hammerid": "167",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "red2"
     },
     {
         "name": "Zombie Troll",
-        "shortname": "ZM Troll", 
-        "hammerid": "348", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "ZM Troll",
+        "hammerid": "348",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "red2",
         "triggers": ["7797"]
     },
     {
         "name": "Balrog",
-        "shortname": "ZM Balrog", 
-        "hammerid": "716", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "ZM Balrog",
+        "hammerid": "716",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["7799"]
+        "triggers": ["7799"],
+        "handlers": [
+            {
+                "type": "game_ui", // slash
+                "hammerid": "720",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 3.5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // roar
+                "hammerid": "718",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Nazgul",

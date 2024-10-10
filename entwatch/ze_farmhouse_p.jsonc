@@ -1,5 +1,3 @@
-// Push gun, Ice gun, and Barricade have dynamic uses based on math_counter
-// Waiting for mode 6/7 implementation before updating cfg
 [
     {
         "name": "Zombie Tank",
@@ -23,8 +21,8 @@
             },
             {
                 "type": "game_ui",
-                "hammerid": "28358",
-                "event": "OnCase16",
+                "hammerid": "28351",
+                "event": "OnTrigger",
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
@@ -33,8 +31,8 @@
             },
             {
                 "type": "game_ui",
-                "hammerid": "28358",
-                "event": "OnCase15",
+                "hammerid": "28334",
+                "event": "OnTrigger",
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
@@ -61,6 +59,12 @@
                 "maxuses": 0,
                 "message": true,
                 "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "967",
+                "mode": 7,
+                "ui": true
             }
         ]
     },
@@ -77,10 +81,16 @@
                 "type": "button",
                 "hammerid": "6039",
                 "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 1,
                 "maxuses": 0,
                 "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "6044",
+                "mode": 7,
                 "ui": true
             }
         ]
@@ -98,10 +108,16 @@
                 "type": "button",
                 "hammerid": "5977",
                 "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2,
                 "maxuses": 0,
                 "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "5988",
+                "mode": 7,
                 "ui": true
             }
         ]

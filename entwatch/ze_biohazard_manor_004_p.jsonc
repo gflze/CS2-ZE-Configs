@@ -17,6 +17,12 @@
                 "maxuses": 0,
                 "message": true,
                 "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "983",
+                "mode": 6,
+                "ui": true
             }
         ]
     }

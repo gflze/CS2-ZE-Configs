@@ -1,29 +1,53 @@
 [
     {
         "name": "The Ring",
-        "shortname": "Ring", 
-        "hammerid": "1878", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Ring",
+        "hammerid": "1878",
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "yellow"
     },
     {
         "name": "Gandalf's Staff",
-        "shortname": "Gandalf", 
-        "hammerid": "1858", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Gandalf",
+        "hammerid": "1858",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "grey"
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1862",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Saruman's Staff",
-        "shortname": "Saruman", 
-        "hammerid": "1852", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Saruman",
+        "hammerid": "1852",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1848",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

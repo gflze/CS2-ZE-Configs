@@ -11,8 +11,8 @@
         "handlers": [
             {
                 "type": "game_ui",
-                "hammerid": "9854",
-                "event": "OnCase16",
+                "hammerid": "1267",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 20,
                 "maxuses": 0,
@@ -54,8 +54,8 @@
         "handlers": [
             {
                 "type": "game_ui",
-                "hammerid": "9851",
-                "event": "OnCase15",
+                "hammerid": "1112",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 10,
                 "maxuses": 0,
@@ -64,8 +64,8 @@
             },
             {
                 "type": "game_ui",
-                "hammerid": "9851",
-                "event": "OnCase16",
+                "hammerid": "1070",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 20,
                 "maxuses": 0,
@@ -86,8 +86,8 @@
         "handlers": [
             {
                 "type": "game_ui",
-                "hammerid": "9855",
-                "event": "OnCase15",
+                "hammerid": "606",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -96,8 +96,8 @@
             },
             {
                 "type": "game_ui",
-                "hammerid": "9855",
-                "event": "OnCase16",
+                "hammerid": "604",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 30,
                 "maxuses": 0,
@@ -196,18 +196,6 @@
         "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["358"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "9853",
-                "event": "OnCase16",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "triggers": ["358"]
     }
 ]

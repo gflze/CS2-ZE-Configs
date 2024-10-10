@@ -89,6 +89,12 @@
                 "maxuses": 0,
                 "message": true,
                 "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "19549",
+                "mode": 6,
+                "ui": true
             }
         ]
     },

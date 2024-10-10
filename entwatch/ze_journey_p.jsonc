@@ -2,63 +2,135 @@
     {
         "name": "Abyssal Orb",
         "shortname": "Abyss",
-        "hammerid": "8205", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "8205",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8207",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Lightning Orb",
         "shortname": "Lightning",
-        "hammerid": "8197", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "8197",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8198",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Gust Orb",
         "shortname": "Gust",
-        "hammerid": "8188", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "8188",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "silver"
+        "color": "silver",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8186",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Glacial Orb",
         "shortname": "Ice",
-        "hammerid": "8193", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "8193",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8195",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Divine Orb",
         "shortname": "Divine",
-        "hammerid": "8201", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "8201",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8203",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Burning Orb",
         "shortname": "Fire",
-        "hammerid": "8189", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "8189",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8190",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Celestial Embrace",
         "shortname": "Heal",
-        "hammerid": "1030", 
-        "message": true, 
-        "ui": true, 
+        "hammerid": "1030",
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "white"
     }
