@@ -15,7 +15,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "995",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Nazgul",
@@ -34,6 +46,18 @@
         "message": true,
         "ui": false,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1011",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
