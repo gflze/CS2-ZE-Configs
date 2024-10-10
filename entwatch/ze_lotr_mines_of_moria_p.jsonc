@@ -15,7 +15,19 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey"
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1862",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Saruman's Staff",
@@ -24,6 +36,18 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1848",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
