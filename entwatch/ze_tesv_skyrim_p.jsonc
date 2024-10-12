@@ -313,8 +313,8 @@
         "name": "Lever",
         "shortname": "Lever",
         "hammerid": "2276",
-        "message": false,
-        "ui": false,
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "white"
     },
@@ -322,8 +322,8 @@
         "name": "Torch",
         "shortname": "Torch",
         "hammerid": "2132",
-        "message": false,
-        "ui": false,
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "white"
     },

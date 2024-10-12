@@ -30,8 +30,8 @@
         ]
     },
     {
-        "name": "Nazgul",
-        "shortname": "Nazgul",
+        "name": "Zombie Nazgul",
+        "shortname": "ZM Nazgul",
         "hammerid": "355",
         "message": true,
         "ui": true,
@@ -44,7 +44,7 @@
         "shortname": "Radio",
         "hammerid": "892",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "purple",
         "handlers": [

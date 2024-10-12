@@ -1,7 +1,7 @@
 [
     {
-        "name": "Rocket Launcher",
-        "shortname": "Rocket",
+        "name": "Zombie Rocket Launcher",
+        "shortname": "ZM Rocket",
         "hammerid": "3688",
         "message": true,
         "ui": true,
@@ -22,8 +22,8 @@
         ]
     },
     {
-        "name": "Mines",
-        "shortname": "Mines",
+        "name": "Zombie Mines",
+        "shortname": "ZM Mines",
         "hammerid": "3672",
         "message": true,
         "ui": true,
@@ -66,8 +66,8 @@
         ]
     },
     {
-        "name": "Ladder",
-        "shortname": "Ladder",
+        "name": "Zombie Ladder",
+        "shortname": "ZM Ladder",
         "hammerid": "3625",
         "message": true,
         "ui": true,
