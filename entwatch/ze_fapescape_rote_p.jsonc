@@ -1,110 +1,266 @@
 [
     {
         "name": "Oreo Heal",
-        "shortname": "Heal", 
-        "hammerid": "3640", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Heal",
+        "hammerid": "3640",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "darkblue"
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3635",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "522",
+                "mode": 7,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Ammo Box",
-        "shortname": "Ammo", 
-        "hammerid": "3699", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Ammo",
+        "hammerid": "3699",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "orange"
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3700",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Push Gun",
-        "shortname": "Push", 
-        "hammerid": "3664", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Push",
+        "hammerid": "3664",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3665",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Flamethrower",
-        "shortname": "Flame", 
-        "hammerid": "3686", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Flame",
+        "hammerid": "3686",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3687",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 8,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Electro Gun",
-        "shortname": "Electro", 
-        "hammerid": "3673", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Electro",
+        "hammerid": "3673",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3679",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "3685",
+                "mode": 6,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Pipe Bombs",
-        "shortname": "PipeBomb", 
-        "hammerid": "3717", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "PipeBomb",
+        "hammerid": "3717",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3718",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 2,
+                "maxuses": 5,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Lego Maker",
-        "shortname": "Lego", 
-        "hammerid": "3657", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Lego",
+        "hammerid": "3657",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "green"
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3652",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 2,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
-        "name": "EyeTech Launcher", 
-        "shortname": "EyeTech Launcher", 
-        "hammerid": "3710", 
-        "message": true, 
-        "ui": true, 
+        "name": "EyeTech Launcher",
+        "shortname": "EyeTech Launcher",
+        "hammerid": "3710",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "darkred"
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3711",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
-        "name": "EyeTech Cannon", 
-        "shortname": "Cannon", 
-        "hammerid": "3742", 
-        "message": true, 
-        "ui": true, 
+        "name": "EyeTech Cannon",
+        "shortname": "Cannon",
+        "hammerid": "3742",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "red2"
+        "color": "red2",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3743",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
-        "name": "Banana", 
-        "shortname": "Banana", 
-        "hammerid": "4377", 
-        "message": true, 
-        "ui": false, 
+        "name": "Banana",
+        "shortname": "Banana",
+        "hammerid": "4377",
+        "message": true,
+        "ui": false,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4378",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 5,
+                "maxuses": 15,
+                "message": false,
+                "ui": false
+            }
+        ]
     },
     {
-        "name": "Steam", 
-        "shortname": "Steam", 
-        "hammerid": "4386", 
-        "message": true, 
-        "ui": false, 
+        "name": "Steam",
+        "shortname": "Steam",
+        "hammerid": "4386",
+        "message": true,
+        "ui": false,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4387",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 8,
+                "message": false,
+                "ui": false
+            }
+        ]
     },
     {
-        "name": "Cyka", 
-        "shortname": "Cyka", 
-        "hammerid": "330", 
-        "message": true, 
-        "ui": false, 
+        "name": "Cyka",
+        "shortname": "Cyka",
+        "hammerid": "330",
+        "message": true,
+        "ui": false,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "332",
+                "event": "OnPlayerUse",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 8,
+                "message": false,
+                "ui": false
+            }
+        ]
     }
 ]

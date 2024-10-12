@@ -1,39 +1,63 @@
 [
     {
         "name": "The Ring",
-        "shortname": "Ring", 
-        "hammerid": "683", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Ring",
+        "hammerid": "683",
+        "message": true,
+        "ui": true,
         "transfer": true,
         "color": "yellow"
     },
     {
         "name": "Light of Eärendil",
-        "shortname": "Light", 
-        "hammerid": "724", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Light",
+        "hammerid": "724",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "995",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Nazgul",
-        "shortname": "Nazgul", 
-        "hammerid": "355", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Nazgul",
+        "hammerid": "355",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "darkred",
         "triggers": ["865"]
     },
     {
         "name": "Radio",
-        "shortname": "Radio", 
-        "hammerid": "892", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "Radio",
+        "hammerid": "892",
+        "message": true,
+        "ui": false,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1011",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

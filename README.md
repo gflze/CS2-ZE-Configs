@@ -32,12 +32,12 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
         "triggers": [""],               // Array of hammerids of any triggers that this item is associated with
         "handlers": [
             {
-                "type": "button",           // "button" or "game_ui"
+                "type": "button",           // "button", "game_ui", or "counter"
                 "hammerid": "",             // hammerid of the entity
                 "event": "OnPressed",       // Name of the output
                 "mode": 2,                  // Mode of the handler
                                             //    0/1 = None
-                                            //    2 = Cooldown,                3 = MaxUses
+                                            //    2 = Cooldown,               3 = MaxUses
                                             //    4 = MaxUsesWithCooldown,    5 = CooldownAfterUses
                                             //    6 = CounterDown,            7 = CounterUp
                 "cooldown": 60,             // Cooldown duration if mode = 2,4,5

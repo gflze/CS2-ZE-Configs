@@ -1,96 +1,216 @@
 [
     {
         "name": "Heal",
-        "shortname": "Heal", 
-        "hammerid": "4896", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Heal",
+        "hammerid": "4896",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "pink"
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4898",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Energy Ball",
-        "shortname": "Energy", 
-        "hammerid": "4785", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Energy",
+        "hammerid": "4785",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "green"
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4781",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 3,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Square",
-        "shortname": "Square", 
-        "hammerid": "4768", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Square",
+        "hammerid": "4768",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4766",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Shield",
-        "shortname": "Shield", 
-        "hammerid": "4746", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Shield",
+        "hammerid": "4746",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "darkblue"
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4740",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Freeze Ball",
-        "shortname": "Freeze", 
-        "hammerid": "4881", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Freeze",
+        "hammerid": "4881",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4877",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Gravity Ball",
-        "shortname": "Gravity", 
-        "hammerid": "4714", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Gravity",
+        "hammerid": "4714",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4710",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Energy Ball",
-        "shortname": "ZM Energy", 
-        "hammerid": "4801", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "ZM Energy",
+        "hammerid": "4801",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["4803"]
+        "triggers": ["4803"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4797",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Freeze Ball",
-        "shortname": "ZM Freeze", 
-        "hammerid": "4861", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "ZM Freeze",
+        "hammerid": "4861",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "darkblue",
-        "triggers": ["4863"]
+        "triggers": ["4863"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4857",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Gravity",
-        "shortname": "ZM Gravity", 
-        "hammerid": "4836", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "ZM Gravity",
+        "hammerid": "4836",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "orange",
-        "triggers": ["4841"]
+        "triggers": ["4841"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4839",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Heal",
-        "shortname": "ZM Heal", 
-        "hammerid": "4850", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "ZM Heal",
+        "hammerid": "4850",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": ["4848"]
+        "triggers": ["4848"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4846",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

@@ -1,46 +1,94 @@
 [
     {
         "name": "Heal 1",
-        "shortname": "Heal 1", 
-        "hammerid": "163", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Heal 1",
+        "hammerid": "163",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "161",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Heal 2",
-        "shortname": "Heal 2", 
-        "hammerid": "380", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Heal 2",
+        "hammerid": "380",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "381",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Heal 3",
-        "shortname": "Heal 3", 
-        "hammerid": "151", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Heal 3",
+        "hammerid": "151",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "white"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "149",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Abyss",
-        "shortname": "Abyss", 
-        "hammerid": "214", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Abyss",
+        "hammerid": "214",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "212",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "DDR",
-        "shortname": "DDR", 
-        "hammerid": "857", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "DDR",
+        "hammerid": "857",
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "purple",
         "triggers": ["858"]

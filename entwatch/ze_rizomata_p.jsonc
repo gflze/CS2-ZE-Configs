@@ -3,110 +3,322 @@
         "name": "Heal 1",
         "shortname": "Heal 1",
         "hammerid": "1801",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["1677"]
+        "triggers": ["1677"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1799",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "1809",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Heal 2",
         "shortname": "Heal 2",
         "hammerid": "1594",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["1577"]
+        "triggers": ["1577"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1590",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "1588",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Earth 1",
         "shortname": "Earth 1",
         "hammerid": "1816",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "orange",
-        "triggers": ["1663"]
+        "triggers": ["1663"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1817",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "1826",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Earth 2",
         "shortname": "Earth 2",
         "hammerid": "1603",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "orange",
-        "triggers": ["1575"]
+        "triggers": ["1575"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1606",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "1605",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Water 1",
         "shortname": "Water 1",
         "hammerid": "1245",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "blue",
-        "triggers": ["1278"]
+        "triggers": ["1278"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1239",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "1246",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Water 2",
         "shortname": "Water 2",
         "hammerid": "1264",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "blue",
-        "triggers": ["1284"]
+        "triggers": ["1284"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1258",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "1265",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Wind 1",
         "shortname": "Wind 1",
         "hammerid": "703",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "green",
-        "triggers": ["784"]
+        "triggers": ["784"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "698",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "701",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Wind 2",
         "shortname": "Wind 2",
         "hammerid": "667",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "green",
-        "triggers": ["746"]
+        "triggers": ["746"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "660",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "669",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Death",
         "shortname": "ZM Death",
         "hammerid": "732",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": ["733"]
+        "triggers": ["733"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "719",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Haste",
         "shortname": "ZM Haste",
         "hammerid": "738",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "green",
-        "triggers": ["739"]
+        "triggers": ["739"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "720",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Curse",
         "shortname": "ZM Curse",
         "hammerid": "735",
-        "message": true, 
-        "ui": true, 
+        "message": true,
+        "ui": true,
         "transfer": false,
         "color": "blue",
-        "triggers": ["736"]
+        "triggers": ["736"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "721",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

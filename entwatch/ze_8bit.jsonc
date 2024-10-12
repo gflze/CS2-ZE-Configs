@@ -33,10 +33,16 @@
                 "type": "button",
                 "hammerid": "5039",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "5037",
+                "mode": 6,
                 "ui": true
             }
         ]

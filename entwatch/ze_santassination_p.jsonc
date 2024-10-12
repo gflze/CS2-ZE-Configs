@@ -1,56 +1,128 @@
 [
     {
         "name": "Healing Shitbox",
-        "shortname": "Heal", 
-        "hammerid": "830", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Heal",
+        "hammerid": "830",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "red"
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "824",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Mini Cannon",
-        "shortname": "Minigun", 
-        "hammerid": "3589", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Minigun",
+        "hammerid": "3589",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3587",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Beam Cannon",
-        "shortname": "Beam", 
-        "hammerid": "3518", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Beam",
+        "hammerid": "3518",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "purple"
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3516",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Rocket Cannon",
-        "shortname": "Rocket", 
-        "hammerid": "3481", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Rocket",
+        "hammerid": "3481",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "darkred"
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3478",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Herder",
-        "shortname": "Herder", 
-        "hammerid": "3706", 
-        "message": true, 
-        "ui": true, 
+        "shortname": "Herder",
+        "hammerid": "3706",
+        "message": true,
+        "ui": true,
         "transfer": true,
-        "color": "blue"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3702",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Speeder",
-        "shortname": "Speeder", 
-        "hammerid": "547", 
-        "message": true, 
-        "ui": false, 
+        "shortname": "Speeder",
+        "hammerid": "547",
+        "message": true,
+        "ui": false,
         "transfer": true,
-        "color": "green"
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "543",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
     }
 ]
