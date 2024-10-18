@@ -1,4 +1,23 @@
 {
+	// Block off spots in the pond where you can fall out of the map
+	"add": [
+		{
+			"classname": "prop_dynamic",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "2151 3075 332",
+			"solid": "6",
+			"scales": "2 2 2",
+			"rendermode": "kRenderNone"
+		},
+		{
+			"classname": "prop_dynamic",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "2356 3556 372",
+			"solid": "6",
+			"scales": "2 2 2",
+			"rendermode": "kRenderNone"
+		}
+	],
 	// Anti-delay for tree hold
 	"add": [
 		{
