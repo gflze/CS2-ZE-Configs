@@ -1,0 +1,25 @@
+{
+	// Remove unnecessary extra mp_freezetime
+	"modify":
+	{
+		"match":
+		{
+			"io":
+			[
+				{
+					"inputname": "Command",
+					"overrideparam": "/mp_freezetime/"
+				}
+			]
+		},
+		"delete":
+		{
+			"io":
+			[
+				{
+					"overrideparam": "/mp_freezetime/"
+				}
+			]
+		}
+	}
+}
