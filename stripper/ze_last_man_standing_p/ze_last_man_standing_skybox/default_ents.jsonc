@@ -1,0 +1,14 @@
+{
+	// Start at extreme by default
+	"modify":
+	{
+		"match":
+		{
+			"targetname": "[PR#]extreme_enable"
+		},
+		"replace":
+		{
+			"initialvalue": "1"
+		}
+	}
+}
