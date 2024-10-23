@@ -1,0 +1,20 @@
+{
+	// Make lasers no longer slow zombies (v1_3 did not have this slow so it didn't make sense having this)
+	// This was already part of porters CS:GO k3 stripper, not sure why this port excluded it
+	"modify":
+	{
+		"match":
+		{
+			"targetname": "/escape_laser_hurt/"
+		},
+		"delete":
+		{
+			"io":
+			[
+				{
+					"inputname": "KeyValue"
+				}
+			]
+		}
+	}
+}

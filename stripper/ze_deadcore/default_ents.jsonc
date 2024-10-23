@@ -1,0 +1,25 @@
+{
+	// Why are these here? Not part of original map, and significantly changes spawn defence difficulty
+	"modify":
+	{
+		"match":
+		{
+			"classname": "logic_auto"
+		},
+		"delete":
+		{
+			"io":
+			[
+				{
+					"overrideparam": "mp_freezetime 0"
+				},
+				{
+					"overrideparam": "zr_infect_spawn_time_min 13"
+				},
+				{
+					"overrideparam": "zr_infect_spawn_time_max 13"
+				}
+			]
+		}
+	}
+}
