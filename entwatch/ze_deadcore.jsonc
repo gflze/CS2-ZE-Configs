@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Cannon 1",
+        "shortname": "Cannon 1",
+        "hammerid": "5082",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5476",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "5075",
+                "mode": 7,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cannon 2",
+        "shortname": "Cannon 2",
+        "hammerid": "4712",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5472",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "4705",
+                "mode": 7,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cannon 3",
+        "shortname": "Cannon 3",
+        "hammerid": "728",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5474",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "4717",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    }
+]

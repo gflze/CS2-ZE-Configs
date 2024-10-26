@@ -1,0 +1,506 @@
+[
+    {
+        "name": "Prototype Flamethrower", // Undecided name, so we'll just call it this (for now)
+        "shortname": "Protoype",
+        "hammerid": "13729",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13730",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "13745",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fuel Can",
+        "shortname": "Fuel",
+        "hammerid": "13078",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Shockwave",
+        "shortname": "ZM Shockwave",
+        "hammerid": "5071",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["5068"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "5065",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Antlion",
+        "shortname": "ZM Antlion",
+        "hammerid": "5050",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["5048"]
+    },
+    {
+        "name": "Immunizer Backpack",
+        "shortname": "Immunizer BP",
+        "hammerid": "4544",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4546",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Unlimited Ammo",
+        "shortname": "Ammo",
+        "hammerid": "4533",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4536",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Hyperboost",
+        "shortname": "Hyperboost",
+        "hammerid": "4520",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4522",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 48,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Immunizer Weapon",
+        "shortname": "Immunizer WPN",
+        "hammerid": "4494",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4498",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "4490",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zero Gravity",
+        "shortname": "Gravity",
+        "hammerid": "4467",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4470",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mutator Backpack",
+        "shortname": "Mutator",
+        "hammerid": "993",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "995",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Portal Gun",
+        "shortname": "Portal",
+        "hammerid": "978",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "979",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder Gun",
+        "shortname": "Thunder",
+        "hammerid": "954",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "957",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 4,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Juggernaut",
+        "shortname": "Juggernaut",
+        "hammerid": "727",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "olive",
+        "triggers": ["728"]
+    },
+    {
+        "name": "Soldier NPC",
+        "shortname": "NPC",
+        "hammerid": "680",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Jumper",
+        "shortname": "ZM Jumper",
+        "hammerid": "630",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["624"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "628",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Vortigaunt",
+        "shortname": "ZM Vortigaunt",
+        "hammerid": "408",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "olive",
+        "triggers": ["405"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "409",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Freezer",
+        "shortname": "ZM Freezer",
+        "hammerid": "388",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "olive",
+        "triggers": ["383"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "385",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mines",
+        "shortname": "Mines",
+        "hammerid": "371",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "376",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 16,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Summoner",
+        "shortname": "ZM Summoner",
+        "hammerid": "353",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["350"]
+    },
+    {
+        "name": "Zombie Predator",
+        "shortname": "ZM Predator",
+        "hammerid": "339",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "triggers": ["337"]
+    },
+    {
+        "name": "M60 Minigun",
+        "shortname": "Minigun",
+        "hammerid": "292",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "297",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gauss Beam Rifle",
+        "shortname": "Beam",
+        "hammerid": "182",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "183",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Tank",
+        "shortname": "ZM Tank",
+        "hammerid": "159",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["167"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "170",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Turret",
+        "shortname": "Turret",
+        "hammerid": "81",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "79",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Alma",
+        "shortname": "ZM Alma",
+        "hammerid": "52",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["48"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "51",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Alex Mercer",
+        "shortname": "Alex",
+        "hammerid": "126",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["13197", "443", "870", "2571"]
+    },
+    {
+        "name": "Mech",
+        "shortname": "Mech",
+        "hammerid": "234",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["230"]
+    },
+    {
+        "name": "Train Driver",
+        "shortname": "Train Driver",
+        "hammerid": "6",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue"
+    }
+]
