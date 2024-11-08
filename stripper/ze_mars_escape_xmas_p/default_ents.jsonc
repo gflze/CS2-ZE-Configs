@@ -1,0 +1,7 @@
+{
+	// Fix FPS lag that might be present
+	"filter":
+	{
+		"classname": "env_soundscape"
+	}
+}
