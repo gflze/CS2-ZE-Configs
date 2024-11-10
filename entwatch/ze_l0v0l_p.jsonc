@@ -115,7 +115,7 @@
     },
     {
         "name": "Poison Toilet",
-        "shortname": "Posion",
+        "shortname": "Poison",
         "hammerid": "950",
         "message": true,
         "ui": true,
