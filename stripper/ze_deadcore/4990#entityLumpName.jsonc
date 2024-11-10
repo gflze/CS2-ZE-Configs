@@ -1,0 +1,38 @@
+{
+	// Fix broken movement prediction on B ending
+	"modify":
+	{
+		"match":
+		{
+			"targetname": "[PR#]b_escape_speedup1"
+		},
+		"delete":
+		{
+			"io":
+			[
+				{
+					"inputname": "KeyValue"
+				}
+			]
+		},
+		"insert":
+		{
+			"io":
+			[
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "KeyValue",
+					"overrideparam": "runspeed 2"
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "KeyValue",
+					"overrideparam": "runspeed 1",
+					"delay": 36.0
+				}
+			]
+		}
+	}
+}
