@@ -1,0 +1,33 @@
+{
+	// Remove random unnecessary cvar spam from CS:S that shouldn't be present, previously blocked by cvar whitelist
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door",
+				"targetname": "[PR#]Door_4"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "Command",
+						"overrideparam": "sv_enablebunnyhopping 1"
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_once",
+				"targetname": "[PR#]Shitter_Trigger"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "Command",
+						"overrideparam": "sv_enablebunnyhopping 0"
+					}
+				]
+			}
+		}
+	]
+}

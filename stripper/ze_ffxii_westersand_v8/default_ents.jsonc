@@ -1,0 +1,92 @@
+{
+	// Remove random unnecessary cvar spam from CS:S that shouldn't be present, previously blocked by cvar whitelist
+	"modify": [
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "Command",
+						"overrideparam": "/zr_/"
+					},
+					{
+						"inputname": "Command",
+						"overrideparam": "/sv_/"
+					},
+					{
+						"inputname": "Command",
+						"overrideparam": "mp_startmoney 16000"
+					},
+					{
+						"inputname": "Command",
+						"overrideparam": "mp_flashlight 1"
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "logic_case",
+				"targetname": "[PR#]Level_Case_Diff"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "Command",
+						"overrideparam": "/zr_/"
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "logic_case",
+				"targetname": "[PR#]Level_Case_Stage"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "Command",
+						"overrideparam": "/zr_/"
+					},
+					{
+						"inputname": "Command",
+						"overrideparam": "/sv_/"
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "logic_relay",
+				"targetname": "[PR#]Warmup_Relay"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "Command",
+						"overrideparam": "/zr_/"
+					},
+					{
+						"inputname": "Command",
+						"overrideparam": "/sv_/"
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "point_servercommand"
+			},
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnUser1"
+					}
+				]
+			}
+		}
+	]
+}
