@@ -1,0 +1,14 @@
+{
+	// Revert env_explosion spawnflag change
+	"modify": [
+		{
+			"match": {
+				"classname": "env_explosion",
+				"targetname": "[PR#]Belias_Exp"
+			},
+			"replace": {
+				"spawnflags": "19"
+			}
+		}
+	]
+}
