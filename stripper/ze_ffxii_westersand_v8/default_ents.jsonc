@@ -30,7 +30,7 @@
 				"io": [
 					{
 						"outputname": "OnMapSpawn",
-						"targetname": "/Staff_*_Epicker/",
+						"targetname": "Staff_*_Epicker",
 						"inputname": "kill",
 						"delay": 10.0,
 						"limit": 1
