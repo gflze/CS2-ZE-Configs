@@ -3,7 +3,6 @@
 	"modify": [
 		{
 			"match": {
-				"classname": "env_explosion",
 				"targetname": "[PR#]Belias_Exp"
 			},
 			"replace": {
