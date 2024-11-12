@@ -103,7 +103,6 @@
 		// Revert env_explosion spawnflag change
 		{
 			"match": {
-				"classname": "env_explosion",
 				"targetname": "[PR#]Desert_Bomb_Explosion"
 			},
 			"replace": {
