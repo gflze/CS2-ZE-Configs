@@ -99,15 +99,6 @@
 					}
 				]
 			}
-		},
-		// Revert env_explosion spawnflag change
-		{
-			"match": {
-				"targetname": "[PR#]Desert_Bomb_Explosion"
-			},
-			"replace": {
-				"spawnflags": "19"
-			}
 		}
 	]
 }
