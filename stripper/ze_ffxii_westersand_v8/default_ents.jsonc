@@ -24,18 +24,6 @@
 						"overrideparam": "mp_flashlight 1"
 					}
 				]
-			},
-			// Kill epick blockers that were added in port
-			"insert": {
-				"io": [
-					{
-						"outputname": "OnMapSpawn",
-						"targetname": "Staff_*_Epicker",
-						"inputname": "Kill",
-						"delay": 10.0,
-						"timestofire": 1
-					}
-				]
 			}
 		},
 		{
@@ -98,6 +86,63 @@
 						"outputname": "OnUser1"
 					}
 				]
+			}
+		}
+	],
+	// Remove all epick blockers from item templates
+	"modify": [
+		{
+			"match": {
+				"targetname": "[PR#]Temp_Water"
+			},
+			"delete": {
+				"Template09": "[PR#]Staff_Water_Epicker_kill",
+				"Template08": "[PR#]Staff_Water_Epicker"
+			}
+		},
+		{
+			"match": {
+				"targetname": "[PR#]Temp_Electro"
+			},
+			"delete": {
+				"Template14": "[PR#]Staff_Electro_Epicker_kill",
+				"Template13": "[PR#]Staff_Electro_Epicker"
+			}
+		},
+		{
+			"match": {
+				"targetname": "[PR#]Temp_Fire"
+			},
+			"delete": {
+				"Template09": "[PR#]Staff_Fire_Epicker_kill",
+				"Template08": "[PR#]Staff_Fire_Epicker"
+			}
+		},
+		{
+			"match": {
+				"targetname": "[PR#]Temp_Earth"
+			},
+			"delete": {
+				"Template12": "[PR#]Staff_Earth_Epicker_kill",
+				"Template11": "[PR#]Staff_Earth_Epicker"
+			}
+		},
+		{
+			"match": {
+				"targetname": "[PR#]Temp_Heal"
+			},
+			"delete": {
+				"Template12": "[PR#]Staff_Heal_Epicker_kill",
+				"Template11": "[PR#]Staff_Heal_Epicker"
+			}
+		},
+		{
+			"match": {
+				"targetname": "[PR#]Temp_Wind"
+			},
+			"delete": {
+				"Template11": "[PR#]Staff_Wind_Epicker_kill",
+				"Template10": "[PR#]Staff_Wind_Epicker"
 			}
 		}
 	]

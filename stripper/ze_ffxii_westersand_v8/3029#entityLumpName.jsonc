@@ -1,0 +1,11 @@
+{
+	// Remove epick blocker
+	"filter": [
+		{
+			"targetname": "[PR#]Staff_Wind_Epicker"
+		},
+		{
+			"targetname": "[PR#]Staff_Wind_Epicker_kill"
+		}
+	]
+}
