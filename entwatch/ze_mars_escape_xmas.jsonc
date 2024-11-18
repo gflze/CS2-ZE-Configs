@@ -7,7 +7,7 @@
 		"message": true,
 		"ui": true,
 		"transfer": true,
-		"color": "Blue",
+		"color": "blue",
 		"triggers": [""],
 		"handlers": [
 			{
@@ -49,7 +49,7 @@
 		"message": true,
 		"ui": true,
 		"transfer": true,
-		"color": "Red",
+		"color": "red",
 		"triggers": [""],
 		"handlers": [
 			{
@@ -91,7 +91,7 @@
 		"message": true,
 		"ui": true,
 		"transfer": true,
-		"color": "Green",
+		"color": "green",
 		"triggers": [""],
 		"handlers": [
 			{
@@ -133,7 +133,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "Purple",
+        "color": "purple",
         "triggers": [""],
         "handlers": [
             {
@@ -175,7 +175,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "Purple",
+        "color": "purple",
         "triggers": [""],
         "handlers": [
             {
@@ -217,7 +217,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "Blue",
+        "color": "blue",
         "triggers": [""],
         "handlers": [
             {
@@ -259,15 +259,15 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "Green",
+        "color": "green",
         "triggers": [""],
         "handlers": [
             {
                 "type": "button",
                 "hammerid": "52916",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 0,
+                "mode": 4,
+                "cooldown": 20,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -276,8 +276,8 @@
                 "type": "button",
                 "hammerid": "58345",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 0,
+                "mode": 4,
+                "cooldown": 20,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -286,8 +286,8 @@
                 "type": "button",
                 "hammerid": "58346",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 0,
+                "mode": 4,
+                "cooldown": 20,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -301,7 +301,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "Green",
+        "color": "green",
         "triggers": [""],
         "handlers": [
             {
