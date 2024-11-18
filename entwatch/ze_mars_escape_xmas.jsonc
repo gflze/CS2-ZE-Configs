@@ -1,0 +1,339 @@
+//penis, cock, balls, etc.
+[
+	{  
+		"name": "Ice",
+		"shortname": "Ice",
+		"hammerid": "52929",
+		"message": true,
+		"ui": true,
+		"transfer": true,
+		"color": "blue",
+		"triggers": [""],
+		"handlers": [
+			{
+				"type": "button",
+				"hammerid": "52937",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			},
+			{
+				"type": "button",
+				"hammerid": "52957",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			},
+			{
+				"type": "button",
+				"hammerid": "52958",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			}
+		]
+	},
+	{
+		"name": "Fire",
+		"shortname": "Fire",
+		"hammerid": "52950",
+		"message": true,
+		"ui": true,
+		"transfer": true,
+		"color": "red",
+		"triggers": [""],
+		"handlers": [
+			{
+				"type": "button",
+				"hammerid": "52954",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			},
+			{
+				"type": "button",
+				"hammerid": "58351",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			},
+			{
+				"type": "button",
+				"hammerid": "58352",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			}
+		]
+	},
+	{
+		"name": "Wind",
+		"shortname": "Wind",
+		"hammerid": "52965",
+		"message": true,
+		"ui": true,
+		"transfer": true,
+		"color": "green",
+		"triggers": [""],
+		"handlers": [
+			{
+				"type": "button",
+				"hammerid": "52969",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			},
+			{
+				"type": "button",
+				"hammerid": "58365",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			},
+			{
+				"type": "button",
+				"hammerid": "58366",
+				"event": "OnPressed",
+				"mode": 2,
+				"cooldown": 55,
+				"maxuses": 0,
+				"message": true,
+				"ui": true
+			}
+        ]
+    },
+    {
+        "name": "Gravity",
+        "shortname": "Gravity",
+        "hammerid": "53036",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "53032",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58355",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58356",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity",
+        "shortname": "Gravity",
+        "hammerid": "53036",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "53032",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58355",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58356",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },       
+    {
+        "name": "Electro",
+        "shortname": "Electro",
+        "hammerid": "53008",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "53004",
+                "event": "OnPressed",
+                "mode": 5,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58347",
+                "event": "OnPressed",
+                "mode": 5,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58348",
+                "event": "OnPressed",
+                "mode": 5,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },       
+    {
+        "name": "Ultima",
+        "shortname": "Ultima",
+        "hammerid": "52915",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "52916",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58345",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58346",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth",
+        "shortname": "Earth",
+        "hammerid": "52978",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "52979",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58353",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58354",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }      
+]
