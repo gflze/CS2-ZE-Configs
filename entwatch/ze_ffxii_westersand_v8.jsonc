@@ -72,7 +72,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "red",
+        "color": "yellow",
         "triggers": ["3082"],
         "handlers": [
             {
@@ -117,7 +117,7 @@
         "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": [""],
+        "triggers": ["3077"],
         "handlers": [
             {
                 "type": "button",
@@ -225,7 +225,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
+        "color": "white",
         "handlers": [
             {
                 "type": "button",

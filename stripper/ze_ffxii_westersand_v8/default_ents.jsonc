@@ -88,5 +88,24 @@
 				]
 			}
 		}
+	],
+	// Kill epick blockers when round starts
+	"modify": [
+		{
+			"match": {
+				"classname": "logic_auto"
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "Staff_*_Epicker",
+						"inputname": "Kill",
+						"delay": 10.0,
+						"timestofire": 1
+					}
+				]
+			}
+		}
 	]
 }
