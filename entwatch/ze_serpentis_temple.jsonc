@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "10857",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Fire Snake",
+        "shortname": "Fire",
+        "hammerid": "10856",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11927",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal/Ammo Snake",
+        "shortname": "Heal",
+        "hammerid": "10855",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11929",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Poison Snake",
+        "shortname": "Poison",
+        "hammerid": "10854",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11931",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Artefact", // Yes, I know wrong spelling, but this is sovl
+        "shortname": "Artefact",
+        "hammerid": "10853",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    }
+]
