@@ -20,7 +20,7 @@
             },
             {
                 "type": "button",
-                "hammerid": "52957",
+                "hammerid": "58357",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 55,
@@ -30,7 +30,7 @@
             },
             {
                 "type": "button",
-                "hammerid": "52958",
+                "hammerid": "58358",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 55,
@@ -217,8 +217,8 @@
                 "type": "button",
                 "hammerid": "53004",
                 "event": "OnPressed",
-                "mode": 5,
-                "cooldown": 55,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -227,8 +227,8 @@
                 "type": "button",
                 "hammerid": "58347",
                 "event": "OnPressed",
-                "mode": 5,
-                "cooldown": 55,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -237,8 +237,8 @@
                 "type": "button",
                 "hammerid": "58348",
                 "event": "OnPressed",
-                "mode": 5,
-                "cooldown": 55,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -321,6 +321,27 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "52987",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "52988",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
