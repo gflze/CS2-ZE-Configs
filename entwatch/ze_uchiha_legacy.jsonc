@@ -1,0 +1,324 @@
+[
+    {
+        "name": "Katon",
+        "shortname": "Katon",
+        "hammerid": "291",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "293",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Raiton",
+        "shortname": "Raiton",
+        "hammerid": "273",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "269",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Futon",
+        "shortname": "Futon",
+        "hammerid": "263",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "261",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Suiton",
+        "shortname": "Suiton",
+        "hammerid": "254",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "258",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Chakra",
+        "shortname": "Chakra",
+        "hammerid": "248",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "250",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Doton",
+        "shortname": "Doton",
+        "hammerid": "240",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "234",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rinnegan",
+        "shortname": "ZM Rinnegan",
+        "hammerid": "227",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "pink",
+        "triggers": ["228"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "230",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Kaleidoscope",
+        "shortname": "ZM Kaleidoscope",
+        "hammerid": "219",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["216"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "221",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Amateratsu",
+        "shortname": "ZM Amateratsu",
+        "hammerid": "200",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["198"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "201",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Sharingan",
+        "shortname": "ZM Sharingan",
+        "hammerid": "193",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "triggers": ["188"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "190",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Genjutsu",
+        "shortname": "ZM Genjutsu",
+        "hammerid": "182",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "triggers": ["183"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "185",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Rashomon",
+        "shortname": "Rashomon",
+        "hammerid": "176",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "172",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mokuton",
+        "shortname": "Mokuton",
+        "hammerid": "169",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "165",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Madara",
+        "shortname": "ZM Madara",
+        "hammerid": "159",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["160"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "162",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Itachi",
+        "shortname": "ZM Itachi",
+        "hammerid": "21",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["19"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "22",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
