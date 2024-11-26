@@ -1,0 +1,195 @@
+[
+    {
+        "name": "Mapper Knife",
+        "shortname": "Mapper",
+        "hammerid": "3304",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["3306"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "3333",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Staff",
+        "shortname": "Heal",
+        "hammerid": "373",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "375",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 140,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Classic Bow",
+        "shortname": "Classic",
+        "hammerid": "346",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "348",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Freezer",
+        "shortname": "ZM Feeze",
+        "hammerid": "363",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["341"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "364",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "383",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["378"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "380",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Dragon",
+        "shortname": "ZM Dragon",
+        "hammerid": "410",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["339"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "401",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 85,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Bow",
+        "shortname": "Ice",
+        "hammerid": "420",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "417",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Explosive Bow",
+        "shortname": "Explosive",
+        "hammerid": "440",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "443",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electric Bow",
+        "shortname": "Electric",
+        "hammerid": "461",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "464",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+]
