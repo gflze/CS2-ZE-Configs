@@ -1,144 +1,18 @@
 //penis, cock, balls, etc.
 [
-	{  
-		"name": "Ice",
-		"shortname": "Ice",
-		"hammerid": "52929",
-		"message": true,
-		"ui": true,
-		"transfer": true,
-		"color": "blue",
-		"triggers": [""],
-		"handlers": [
-			{
-				"type": "button",
-				"hammerid": "52937",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			},
-			{
-				"type": "button",
-				"hammerid": "52957",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			},
-			{
-				"type": "button",
-				"hammerid": "52958",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			}
-		]
-	},
-	{
-		"name": "Fire",
-		"shortname": "Fire",
-		"hammerid": "52950",
-		"message": true,
-		"ui": true,
-		"transfer": true,
-		"color": "red",
-		"triggers": [""],
-		"handlers": [
-			{
-				"type": "button",
-				"hammerid": "52954",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			},
-			{
-				"type": "button",
-				"hammerid": "58351",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			},
-			{
-				"type": "button",
-				"hammerid": "58352",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			}
-		]
-	},
-	{
-		"name": "Wind",
-		"shortname": "Wind",
-		"hammerid": "52965",
-		"message": true,
-		"ui": true,
-		"transfer": true,
-		"color": "green",
-		"triggers": [""],
-		"handlers": [
-			{
-				"type": "button",
-				"hammerid": "52969",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			},
-			{
-				"type": "button",
-				"hammerid": "58365",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			},
-			{
-				"type": "button",
-				"hammerid": "58366",
-				"event": "OnPressed",
-				"mode": 2,
-				"cooldown": 55,
-				"maxuses": 0,
-				"message": true,
-				"ui": true
-			}
-        ]
-    },
     {
-        "name": "Gravity",
-        "shortname": "Gravity",
-        "hammerid": "53036",
+        "name": "Ice",
+        "shortname": "Ice",
+        "hammerid": "52929",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "purple",
+        "color": "blue",
         "triggers": [""],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "53032",
+                "hammerid": "52937",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 55,
@@ -148,7 +22,7 @@
             },
             {
                 "type": "button",
-                "hammerid": "58355",
+                "hammerid": "52957",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 55,
@@ -158,7 +32,91 @@
             },
             {
                 "type": "button",
-                "hammerid": "58356",
+                "hammerid": "52958",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "52950",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "52954",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58351",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58352",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind",
+        "shortname": "Wind",
+        "hammerid": "52965",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "52969",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58365",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58366",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 55,
@@ -209,7 +167,49 @@
                 "ui": true
             }
         ]
-    },       
+    },
+    {
+        "name": "Gravity",
+        "shortname": "Gravity",
+        "hammerid": "53036",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "53032",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58355",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "58356",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
     {
         "name": "Electro",
         "shortname": "Electro",
@@ -251,7 +251,7 @@
                 "ui": true
             }
         ]
-    },       
+    },
     {
         "name": "Ultima",
         "shortname": "Ultima",
@@ -335,5 +335,5 @@
                 "ui": true
             }
         ]
-    }      
+    }
 ]
