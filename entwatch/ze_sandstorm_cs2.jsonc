@@ -1,81 +1,48 @@
 [
     {
-        "name": "Zombie Shroom",
-        "shortname": "ZM Shroom",
-        "hammerid": "6355",
+        "name": "Zombie Antlion",
+        "shortname": "ZM Antlion",
+        "hammerid": "11895",
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "green",
-        "triggers": ["8532"],
+        "color": "red",
+        "triggers": ["11896"],
         "handlers": [
             {
-                "type": "button",
-                "hammerid": "6352",
-                "event": "OnPlayerUse",
+                "type": "game_ui", // Mouse 2
+                "hammerid": "11886",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 75,
+                "cooldown": 40,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // Mouse 1
+                "hammerid": "11888",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Zombie Cloud",
-        "shortname": "ZM Cloud",
-        "hammerid": "6349",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "grey",
-        "triggers": ["8530"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "6345",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ammo",
-        "shortname": "Ammo",
-        "hammerid": "6170",
+        "name": "Earth Staff",
+        "shortname": "Earth",
+        "hammerid": "11116",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "olive",
+        "color": "orange",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "6165",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Water",
-        "shortname": "Water",
-        "hammerid": "5982",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5980",
+                "hammerid": "11119",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
@@ -86,39 +53,39 @@
         ]
     },
     {
-        "name": "Mines",
-        "shortname": "Mines",
-        "hammerid": "5774",
+        "name": "Sandstorm Staff",
+        "shortname": "Sandstorm",
+        "hammerid": "11127",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey",
+        "color": "yellow",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5777",
-                "event": "OnPlayerUse",
+                "hammerid": "11129",
+                "event": "OnPressed",
                 "mode": 4,
-                "cooldown": 4,
-                "maxuses": 6,
+                "cooldown": 15,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Gravity",
-        "shortname": "Gravity",
-        "hammerid": "5468",
+        "name": "Quicksand Staff",
+        "shortname": "Quicksand",
+        "hammerid": "11145",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "purple",
+        "color": "yellow",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5469",
-                "event": "OnPlayerUse",
+                "hammerid": "11146",
+                "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -128,94 +95,9 @@
         ]
     },
     {
-        "name": "Wind",
-        "shortname": "Wind",
-        "hammerid": "5471",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5472",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ice",
-        "shortname": "Ice",
-        "hammerid": "5486",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5488",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Earth",
-        "shortname": "Earth",
-        "hammerid": "5456",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "triggers": [""],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5458",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "5478",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5476",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire",
+        "name": "Fire Staff",
         "shortname": "Fire",
-        "hammerid": "5451",
+        "hammerid": "11184",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -223,8 +105,94 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5452",
-                "event": "OnPlayerUse",
+                "hammerid": "11185",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Tornado Staff",
+        "shortname": "Tornado",
+        "hammerid": "11162",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11172",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Staff",
+        "shortname": "Heal",
+        "hammerid": "11196",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11198",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire",
+        "shortname": "ZM Fire",
+        "hammerid": "11828",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["11833"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11830",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Dark",
+        "shortname": "ZM Dark",
+        "hammerid": "11854",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["11859"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11857",
+                "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Berserker",
+        "shortname": "Berserker",
+        "hammerid": "11479",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11480",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cone",
+        "shortname": "Cone",
+        "hammerid": "6823",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6824",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

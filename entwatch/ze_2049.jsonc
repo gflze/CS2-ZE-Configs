@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Slow Ball",
+        "shortname": "Slow",
+        "hammerid": "4187",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16914",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cone",
+        "shortname": "Cone",
+        "hammerid": "4185",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16906",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "4169",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16910",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Beam",
+        "shortname": "Beam",
+        "hammerid": "4162",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16902",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Tornado",
+        "shortname": "Tornado",
+        "hammerid": "776",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "777",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pyramid",
+        "shortname": "Pyramid",
+        "hammerid": "767",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "769",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "760",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "757",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sand",
+        "shortname": "Sand",
+        "hammerid": "750",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "752",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "739",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "741",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

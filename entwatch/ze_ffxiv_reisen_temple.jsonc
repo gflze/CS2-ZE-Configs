@@ -1,50 +1,8 @@
 [
     {
-        "name": "Unlimited Ammo",
-        "shortname": "Ammo",
-        "hammerid": "1058",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "olive",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1056",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ice",
-        "shortname": "Ice",
-        "hammerid": "1209",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1201",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Wind",
         "shortname": "Wind",
-        "hammerid": "1197",
+        "hammerid": "8760",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -52,10 +10,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1192",
-                "event": "OnPlayerUse",
+                "hammerid": "8762",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -65,18 +23,102 @@
     {
         "name": "Gravity",
         "shortname": "Gravity",
-        "hammerid": "1189",
+        "hammerid": "8739",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "gravity",
+        "color": "purple",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1183",
-                "event": "OnPlayerUse",
+                "hammerid": "8741",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "8746",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8748",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Water",
+        "shortname": "Water",
+        "hammerid": "8753",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8755",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Crystal",
+        "shortname": "Crystal",
+        "hammerid": "8729",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8731",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth",
+        "shortname": "Earth",
+        "hammerid": "8722",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8724",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -86,7 +128,7 @@
     {
         "name": "Fire",
         "shortname": "Fire",
-        "hammerid": "1179",
+        "hammerid": "8715",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -94,10 +136,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1173",
-                "event": "OnPlayerUse",
+                "hammerid": "8717",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -105,30 +147,20 @@
         ]
     },
     {
-        "name": "Key",
-        "shortname": "Key",
-        "hammerid": "1166",
+        "name": "Electro",
+        "shortname": "Electro",
+        "hammerid": "8776",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "olive"
-    },
-    {
-        "name": "Earth",
-        "shortname": "Earth",
-        "hammerid": "1156",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "triggers": [""],
+        "color": "blue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1149",
-                "event": "OnPlayerUse",
+                "hammerid": "8778",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -136,71 +168,20 @@
         ]
     },
     {
-        "name": "Mines",
-        "shortname": "Mines",
-        "hammerid": "1143",
+        "name": "Ice",
+        "shortname": "Ice",
+        "hammerid": "8783",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey",
+        "color": "blue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1132",
-                "event": "OnPlayerUse",
-                "mode": 4,
-                "cooldown": 4,
-                "maxuses": 6,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "1126",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1121",
-                "event": "OnPlayerUse",
+                "hammerid": "8785",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Gear Mechanism",
-        "shortname": "Gear",
-        "hammerid": "8030",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "olive"
-    },
-    {
-        "name": "Ultimate Weapon",
-        "shortname": "Ultima",
-        "hammerid": "914",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "darkred",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "917",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 75,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
