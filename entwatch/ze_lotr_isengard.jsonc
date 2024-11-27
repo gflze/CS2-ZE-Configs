@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "2643",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Zombie Spider",
+        "shortname": "ZM Spider",
+        "hammerid": "20309",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["20295"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "20310",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ent",
+        "shortname": "Ent",
+        "hammerid": "20501",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["3483"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20525",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 4,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "20523",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade",
+        "shortname": "Barricade",
+        "hammerid": "20532",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20529",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gandalf",
+        "shortname": "Gandalf",
+        "hammerid": "20790",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["3600"],
+        "handlers": [
+            {
+                "type": "game_ui", // Gandalf has two pushes of different CD...
+                "hammerid": "20814",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "20813",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Staff",
+        "shortname": "Heal",
+        "hammerid": "20877",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20875",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+]
