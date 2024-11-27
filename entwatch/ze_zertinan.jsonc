@@ -1,7 +1,7 @@
 [
     {
         "name": "Ammo",
-        "shortname": "Ammom",
+        "shortname": "Ammo",
         "hammerid": "2953",
         "message": true,
         "ui": true,
