@@ -101,7 +101,7 @@
 						"outputname": "OnMapSpawn",
 						"targetname": "Staff_*_Epicker",
 						"inputname": "Kill",
-						"delay": 10.0,
+						"delay": 15.0,
 						"timestofire": 1
 					}
 				]
