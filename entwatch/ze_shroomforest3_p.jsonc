@@ -234,7 +234,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "orange",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",

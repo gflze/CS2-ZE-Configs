@@ -50,7 +50,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "orange",
+        "color": "red",
         "triggers": ["3122"],
         "handlers": [
             {
@@ -289,7 +289,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "orange",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",
