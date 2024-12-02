@@ -25,7 +25,7 @@
         "shortname": "Holy",
         "hammerid": "13028",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "white",
         "handlers": [
@@ -46,7 +46,7 @@
         "shortname": "Speed",
         "hammerid": "13027",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "yellow",
         "handlers": [
@@ -67,7 +67,7 @@
         "shortname": "Ammo Potion",
         "hammerid": "13026",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "yellow",
         "handlers": [
@@ -88,7 +88,7 @@
         "shortname": "HI Potion",
         "hammerid": "13025",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "yellow",
         "handlers": [
@@ -109,7 +109,7 @@
         "shortname": "HP Potion",
         "hammerid": "13024",
         "message": true,
-        "ui": false,
+        "ui": true,
         "transfer": true,
         "color": "yellow",
         "handlers": [
