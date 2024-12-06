@@ -206,6 +206,16 @@
                 "maxuses": 0,
                 "message": true,
                 "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "1625",
+                "event": "OnHitMax",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
             }
         ]
     },
