@@ -1,0 +1,161 @@
+[
+    {
+        "name": "Sanatio Staff",
+        "shortname": "Heal",
+        "hammerid": "7400",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7404",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Serverman",
+        "shortname": "Serverman",
+        "hammerid": "2472",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Ventus Staff",
+        "shortname": "Wind",
+        "hammerid": "2492",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7350",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ignis Axe",
+        "shortname": "Fire",
+        "hammerid": "7359",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7363",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Terra Axe",
+        "shortname": "Earth",
+        "hammerid": "7378",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7381",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "7589",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["7612"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7610",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ice",
+        "shortname": "ZM Ice",
+        "hammerid": "7624",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["7629"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7627",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire",
+        "shortname": "ZM Fire",
+        "hammerid": "7636",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["7639"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7637",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
