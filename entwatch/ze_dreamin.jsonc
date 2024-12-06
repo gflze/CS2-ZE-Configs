@@ -155,7 +155,7 @@
         "hammerid": "1317",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "white",
         "triggers": ["1318"],
         "handlers": [
