@@ -107,5 +107,1299 @@
 				]
 			}
 		}
+	],
+	// Block zombies from using items through walls when players go up the stairs at the end on epic and god mode
+	// Carried over from GFL's CSGO stripper: https://github.com/gflze/CSGO-ZE-Configs/blob/4a4a45e21a288bd38726ab1f326976f2f2ded8a6/stripper/ze_ffxii_westersand_v8zeta1k.cfg#L848-L1200
+	// Since scales apparently doesnt work properly on triggers using a model and I can't custom size triggers for a massive one for ladder area,
+	// need to instead make 2 triggers per vent: 1 for entering ladder area (disables item) and 1 for leaving (entering stairs) (enables item)
+	"add": [
+		// Warp
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Warp_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Warp_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoWarp",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoWarp",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoWarp",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Warp_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Warp_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Warp_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoWarp",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoWarp",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoWarp",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Warp_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Warp_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Warp_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoWarp",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoWarp",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoWarp",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Warp_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Warp_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Warp_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoWarp",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoWarp",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoWarp",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Warp_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Lure
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Lure_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Lure_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoLure",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoLure",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoLure",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Lure_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Lure_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Lure_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoLure",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoLure",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoLure",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Lure_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Lure_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Lure_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoLure",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoLure",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoLure",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Lure_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Lure_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Lure_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoLure",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoLure",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoLure",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Lure_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Invis
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Invis_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Invis_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoInvis",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoInvis",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoInvis",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Invis_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Invis_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Invis_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoInvis",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoInvis",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoInvis",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Invis_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Invis_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Invis_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoInvis",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoInvis",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoInvis",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Invis_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Invis_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Invis_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoInvis",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoInvis",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoInvis",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Invis_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Blind
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Blind_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Blind_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoBlind",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoBlind",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoBlind",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Blind_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Blind_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Blind_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoBlind",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoBlind",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoBlind",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Blind_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Blind_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Blind_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoBlind",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoBlind",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoBlind",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Blind_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Blind_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Blind_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoBlind",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoBlind",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoBlind",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Blind_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Heal
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Heal_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Heal_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoHeal",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoHeal",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoHeal",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Heal_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Heal_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Heal_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoHeal",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoHeal",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoHeal",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Heal_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Heal_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Heal_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoHeal",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoHeal",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoHeal",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Heal_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Heal_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Heal_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoHeal",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoHeal",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoHeal",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Heal_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Shield
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Shield_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Shield_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoShield",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoShield",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoShield",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Shield_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Shield_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Shield_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoShield",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoShield",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoShield",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Shield_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Shield_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Shield_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoShield",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoShield",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoShield",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Shield_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Shield_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Shield_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoShield",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoShield",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoShield",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Shield_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Frost
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Frost_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Frost_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFrost",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFrost",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFrost",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Frost_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Frost_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Frost_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFrost",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFrost",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFrost",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Frost_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Frost_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Frost_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFrost",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFrost",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFrost",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Frost_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Frost_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Frost_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFrost",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFrost",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFrost",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Frost_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		// Fire
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8236.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Knife_Fire_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Fire_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFire",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8404.98 -6419.15 6432",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFire",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFire",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Fire_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6512 6864",
+			"angles": "0 0 0",
+			"filtername": "Knife_Fire_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Fire_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFire",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8112 -6672 6864",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFire",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFire",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Fire_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8016 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Knife_Fire_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Fire_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFire",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "7856 -6384 7376",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFire",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFire",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Fire_Filter",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6288 7888",
+			"angles": "0 0 0",
+			"filtername": "Knife_Fire_Filter",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Knife_Fire_Filter",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Player_Knife_NoFire",
+					"timestofire": -1
+				}
+			]
+		},
+		{
+			"classname": "trigger_multiple",
+			"model": "models/de_overpass/overpass_ammo_crate/overpass_ammo_crate_big_full.vmdl",
+			"origin": "8144 -6128 7888",
+			"angles": "0 0 0",
+			"filtername": "Player_Knife_NoFire",
+			"startdisabled": "0",
+			"wait": "1",
+			"uselocaloffset": "0",
+			"spawnflags": "1",
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "Player_Knife_NoFire",
+					"inputname": "KeyValue",
+					"overrideparam": "targetname Knife_Fire_Filter",
+					"timestofire": -1
+				}
+			]
+		}
 	]
 }
