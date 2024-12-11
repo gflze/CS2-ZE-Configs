@@ -303,7 +303,7 @@
         "hammerid": "9023",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "purple",
         "triggers": ["9021"],
         "handlers": [
