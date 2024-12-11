@@ -1,0 +1,300 @@
+[
+    {
+        "name": "Zombie Trampoline",
+        "shortname": "ZM Trampoline",
+        "hammerid": "4695",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["4702"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4697",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 76,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "4670",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["4682"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4672",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 56,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Napalm Candle",
+        "shortname": "Napalm",
+        "hammerid": "4642",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4640",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "4652",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Tree Placer",
+        "shortname": "Tree",
+        "hammerid": "4631",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4629",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 51,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ice Boomerang",
+        "shortname": "ZM Boomerang",
+        "hammerid": "4592",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["4684"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4622",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Icewall Spawner",
+        "shortname": "Icewall",
+        "hammerid": "4587",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4589",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 66,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Present Placer",
+        "shortname": "Present",
+        "hammerid": "4562",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4565",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 6,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Whirlpool SUmmoner",
+        "shortname": "ZM Whirlpool",
+        "hammerid": "4542",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["4547"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4556",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fog",
+        "shortname": "ZM Fog",
+        "hammerid": "4521",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["4524"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4529",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Snowball Launcher",
+        "shortname": "Snowball",
+        "hammerid": "4502",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4513",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Magical Lantern",
+        "shortname": "Lantern",
+        "hammerid": "4480",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4494",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 61,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Christmas Ogre",
+        "shortname": "ZM Ogre",
+        "hammerid": "4460",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["4463"]
+    },
+    {
+        "name": "The Core",
+        "shortname": "Core",
+        "hammerid": "1032",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Hat",
+        "shortname": "Hat",
+        "hammerid": "1179",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Penis",
+        "shortname": "Penis",
+        "hammerid": "1180",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink"
+    },
+    {
+        "name": "Banana",
+        "shortname": "Banana",
+        "hammerid": "1205",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Zombie King",
+        "shortname": "ZM King",
+        "hammerid": "1271",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["1269"]
+    }
+]
