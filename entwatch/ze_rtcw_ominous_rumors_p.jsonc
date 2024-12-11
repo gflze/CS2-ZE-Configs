@@ -1,0 +1,311 @@
+[
+    {
+        "name": "Sandbag Wall",
+        "shortname": "Sandbag",
+        "hammerid": "292",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "290",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bazooka",
+        "shortname": "Bazooka",
+        "hammerid": "371",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "376",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Black Magic",
+        "shortname": "Magic",
+        "hammerid": "415",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "413",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "MG42 Ammo",
+        "shortname": "MG42",
+        "hammerid": "741",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive"
+    },
+    {
+        "name": "Unlimited Ammo",
+        "shortname": "Ammo",
+        "hammerid": "789",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "787",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bazooka",
+        "shortname": "Bazooka",
+        "hammerid": "801",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "798",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sandbag Wall",
+        "shortname": "Sandbag",
+        "hammerid": "805",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "803",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "906",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "903",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Black Magic",
+        "shortname": "Magic",
+        "hammerid": "923",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "924",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bazooka",
+        "shortname": "Bazooka",
+        "hammerid": "1211",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1209",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sandbag Wall",
+        "shortname": "Sandbag",
+        "hammerid": "1221",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1222",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "1229",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1230",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Unlimited Ammo",
+        "shortname": "Ammo",
+        "hammerid": "1237",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1238",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Black Magic",
+        "shortname": "Magic",
+        "hammerid": "1249",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1247",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "1276",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "1282",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "1285",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    }
+]
