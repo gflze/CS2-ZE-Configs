@@ -1,28 +1,19 @@
 [
     {
-        "name": "l0v0l",
-        "shortname": "l0v0l",
-        "hammerid": "795",
+        "name": "Meteor Staff",
+        "shortname": "Meteor",
+        "hammerid": "8734",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
-    },
-    {
-        "name": "Heal",
-        "shortname": "Heal",
-        "hammerid": "532",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "darkblue",
+        "color": "red",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "530",
+                "hammerid": "8731",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 65,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -30,20 +21,20 @@
         ]
     },
     {
-        "name": "Infinite Ammo",
-        "shortname": "Ammo",
-        "hammerid": "535",
+        "name": "Crystal Staff",
+        "shortname": "Crystal",
+        "hammerid": "8729",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "gold",
+        "color": "blue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "536",
+                "hammerid": "8727",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 65,
+                "cooldown": 75,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -51,9 +42,9 @@
         ]
     },
     {
-        "name": "Wind",
-        "shortname": "Wind",
-        "hammerid": "656",
+        "name": "Venom Staff",
+        "shortname": "Venom",
+        "hammerid": "8719",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -61,7 +52,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "657",
+                "hammerid": "8721",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
@@ -72,9 +63,9 @@
         ]
     },
     {
-        "name": "Slower Sphere",
-        "shortname": "Sphere",
-        "hammerid": "853",
+        "name": "Tornado Staff",
+        "shortname": "Tornado",
+        "hammerid": "8725",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -82,7 +73,133 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "851",
+                "hammerid": "8723",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Staff",
+        "shortname": "Heal",
+        "hammerid": "8630",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8682",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sacred Staff",
+        "shortname": "Sacred",
+        "hammerid": "8635",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8632",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 10,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shade Staff",
+        "shortname": "Shade",
+        "hammerid": "8641",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8695",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 60,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "8645",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8717",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ballista",
+        "shortname": "Ballista",
+        "hammerid": "8626",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8623",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bible",
+        "shortname": "Bible",
+        "hammerid": "8589",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8586",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 70,
@@ -93,210 +210,21 @@
         ]
     },
     {
-        "name": "Rainbow Beam",
-        "shortname": "Beam",
-        "hammerid": "652",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "purple",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "648",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Poison Toilet",
-        "shortname": "Poison",
-        "hammerid": "950",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "947",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Wind Toilet",
-        "shortname": "Wind Toilet",
-        "hammerid": "975",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "972",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire Toilet",
-        "shortname": "Fire",
-        "hammerid": "931",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "926",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Electric Toilet",
-        "shortname": "Electro",
-        "hammerid": "941",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "darkblue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "943",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 0,
-                "maxuses": 75,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Water Toilet",
-        "shortname": "Water",
-        "hammerid": "966",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "darkblue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "963",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Earth Toilet",
-        "shortname": "Earth",
-        "hammerid": "961",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "959",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Gravity Toilet",
-        "shortname": "Gravity",
-        "hammerid": "955",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "purple",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "952",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ice Toilet",
-        "shortname": "Ice",
-        "hammerid": "936",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "933",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
+        "name": "Zombie Blood Orb",
         "shortname": "ZM Heal",
-        "hammerid": "569",
+        "hammerid": "9126",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "red",
-        "triggers": ["570"],
+        "triggers": ["9117"],
         "handlers": [
             {
-                "type": "game_ui",
-                "hammerid": "6716",
-                "event": "OnCase16",
+                "type": "button",
+                "hammerid": "9121",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 20,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -304,21 +232,87 @@
         ]
     },
     {
-        "name": "Zombie Gravity",
-        "shortname": "ZM Gravity",
-        "hammerid": "548",
+        "name": "Zombie Explosive Barrel",
+        "shortname": "ZM Barrel",
+        "hammerid": "9111",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["9107"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9114",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Necromancy",
+        "shortname": "ZM Necromancy",
+        "hammerid": "9094",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["9097"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9091",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Guillotine",
+        "shortname": "ZM Guillotine",
+        "hammerid": "9036",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["9038"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9041",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Abyss",
+        "shortname": "ZM Abyss",
+        "hammerid": "9023",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": ["546"],
+        "triggers": ["9021"],
         "handlers": [
             {
-                "type": "game_ui",
-                "hammerid": "873",
-                "event": "OnTrue",
+                "type": "button",
+                "hammerid": "9024",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 90,
+                "cooldown": 75,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

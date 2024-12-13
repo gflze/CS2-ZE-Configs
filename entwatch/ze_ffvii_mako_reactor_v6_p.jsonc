@@ -1,79 +1,16 @@
 [
     {
-        "name": "Heal Magic",
-        "shortname": "Heal",
-        "hammerid": "3329",
+        "name": "Mimic Materia",
+        "shortname": "Mimic",
+        "hammerid": "346",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white",
+        "color": "pink",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3327",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Electro Magic",
-        "shortname": "Electro",
-        "hammerid": "3308",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3306",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Water Magic",
-        "shortname": "Water",
-        "hammerid": "3318",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "darkblue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3316",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire Magic",
-        "shortname": "Fire",
-        "hammerid": "3298",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3296",
+                "hammerid": "343",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 75,
@@ -84,30 +21,9 @@
         ]
     },
     {
-        "name": "Earth Magic",
-        "shortname": "Earth",
-        "hammerid": "3291",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "olive",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3289",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Tornado Magic",
-        "shortname": "Tornado",
-        "hammerid": "3280",
+        "name": "Bio Materia",
+        "shortname": "Bio",
+        "hammerid": "1502",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -115,10 +31,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3278",
+                "hammerid": "1500",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 90,
+                "cooldown": 75,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -126,64 +42,20 @@
         ]
     },
     {
-        "name": "Gravity Magic",
-        "shortname": "Gravity",
-        "hammerid": "3270",
+        "name": "Barrier Materia",
+        "shortname": "Barrier",
+        "hammerid": "1510",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "purple",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3268",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "3232",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["3227"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3230",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 30,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Beam",
-        "shortname": "ZM Beam",
-        "hammerid": "3240",
-        "message": true,
-        "ui": true,
-        "transfer": false,
         "color": "yellow",
-        "triggers": ["3243"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3238",
+                "hammerid": "1508",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 45,
+                "cooldown": 75,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -191,81 +63,41 @@
         ]
     },
     {
-        "name": "Zombie Gravity",
-        "shortname": "ZM Gravity",
-        "hammerid": "3256",
+        "name": "Ultima Materia",
+        "shortname": "Ultima",
+        "hammerid": "1518",
         "message": true,
         "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["3252"],
+        "transfer": true,
+        "color": "green",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3254",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fruit of Knowledge",
-        "shortname": "Fruit",
-        "hammerid": "3035",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "purple"
-    },
-    {
-        "name": "Flame of Magic",
-        "shortname": "Flame",
-        "hammerid": "3029",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red"
-    },
-    {
-        "name": "Holy Magic",
-        "shortname": "Holy",
-        "hammerid": "1669",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "pink",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1665",
+                "hammerid": "1516",
                 "event": "OnPressed",
                 "mode": 4,
-                "cooldown": 1,
-                "maxuses": 15,
+                "cooldown": 20,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Ammo Magic",
-        "shortname": "Ammo",
-        "hammerid": "1627",
+        "name": "Wind Materia",
+        "shortname": "Wind",
+        "hammerid": "1531",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "gold",
+        "color": "green",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1623",
+                "hammerid": "1529",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 90,
+                "cooldown": 75,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -273,21 +105,160 @@
         ]
     },
     {
-        "name": "The Bait",
-        "shortname": "Bait",
-        "hammerid": "1548",
+        "name": "Heal Materia",
+        "shortname": "Heal",
+        "hammerid": "1551",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey"
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1549",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
-        "name": "Temple Key",
-        "shortname": "Key",
-        "hammerid": "2554",
+        "name": "Ice Materia",
+        "shortname": "Ice",
+        "hammerid": "1564",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1562",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Aqua Materia",
+        "shortname": "Aqua",
+        "hammerid": "1598",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1596",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Materia",
+        "shortname": "Fire",
+        "hammerid": "1609",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1607",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electro Materia",
+        "shortname": "Electro",
+        "hammerid": "1619",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1617",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "1625",
+                "event": "OnHitMax",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth Materia",
+        "shortname": "Earth",
+        "hammerid": "1628",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1626",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity Materia",
+        "shortname": "Gravity",
+        "hammerid": "1636",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1634",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

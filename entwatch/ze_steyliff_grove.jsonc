@@ -1,0 +1,644 @@
+[
+    {
+        "name": "Blizzard Magic",
+        "shortname": "Blizzard",
+        "hammerid": "16257",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16254",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16258",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Water Magic",
+        "shortname": "Water",
+        "hammerid": "16326",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16329",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16332",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder Magic",
+        "shortname": "Thunder",
+        "hammerid": "16340",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16338",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16346",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Magic",
+        "shortname": "Fire",
+        "hammerid": "16392",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16390",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16400",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cure Magic",
+        "shortname": "Cure",
+        "hammerid": "16494",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16483",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16481",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ward Magic",
+        "shortname": "ZM Ward",
+        "hammerid": "16604",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16602"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16599",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16605",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Frazzle Magic",
+        "shortname": "ZM Frazzle",
+        "hammerid": "16618",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16616"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16613",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16619",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Despair Magic",
+        "shortname": "ZM Despair",
+        "hammerid": "16640",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16638"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16635",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16641",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Foul Magic",
+        "shortname": "ZM Foul",
+        "hammerid": "16698",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16673"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16670",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16690",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Impact Magic",
+        "shortname": "ZM Impact",
+        "hammerid": "16718",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16716"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16726",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16719",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity Magic",
+        "shortname": "ZM Gravity",
+        "hammerid": "16741",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["16739"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16736",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16742",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Umbral Magic",
+        "shortname": "ZM Umbral",
+        "hammerid": "16809",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16807"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16804",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16810",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Siphon Magic",
+        "shortname": "ZM Siphon",
+        "hammerid": "16839",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["16837"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16834",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16840",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Aero Magic",
+        "shortname": "Wind",
+        "hammerid": "16851",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16854",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "16857",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Elixir Magic 2",
+        "shortname": "Elixir 2",
+        "hammerid": "16902",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16886",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Elixir Magic 1",
+        "shortname": "Elixir 1",
+        "hammerid": "16888",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16904",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dia Magic 1",
+        "shortname": "Dia 1",
+        "hammerid": "16913",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16911",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dia Magic 2",
+        "shortname": "Dia 2",
+        "hammerid": "16921",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16919",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Malefic Magic",
+        "shortname": "ZM Malefic",
+        "hammerid": "17073",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["17071"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17068",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "17067",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Benefic Magic",
+        "shortname": "Benefic",
+        "hammerid": "17116",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17118",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "17120",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Summon Magic",
+        "shortname": "Summon",
+        "hammerid": "17212",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17207",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Elusive Magic",
+        "shortname": "Elusive",
+        "hammerid": "17295",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17299",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Avant Magic",
+        "shortname": "Avant",
+        "hammerid": "17307",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17311",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Holy Sword",
+        "shortname": "Holy Sword",
+        "hammerid": "17322",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17324",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "17326",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dark Sword",
+        "shortname": "Dark Sword",
+        "hammerid": "17337",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "17339",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "17342",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    }
+]

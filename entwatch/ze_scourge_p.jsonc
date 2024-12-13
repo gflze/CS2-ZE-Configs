@@ -1,8 +1,50 @@
 [
     {
-        "name": "Gravity",
-        "shortname": "Gravity",
-        "hammerid": "2845",
+        "name": "Explosive Bow",
+        "shortname": "Explosive Bow",
+        "hammerid": "780",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "345",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 18,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "783",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "774",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Speed Potion",
+        "shortname": "Speed",
+        "hammerid": "743",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -10,32 +52,31 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2848",
+                "hammerid": "741",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Zombie Cube",
-        "shortname": "ZM Cube",
-        "hammerid": "2941",
+        "name": "Bow",
+        "shortname": "Bow",
+        "hammerid": "605",
         "message": true,
         "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["2008"],
+        "transfer": true,
+        "color": "grey",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3697",
+                "hammerid": "647",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -43,61 +84,38 @@
         ]
     },
     {
-        "name": "Heal",
+        "name": "Heal Potion",
         "shortname": "Heal",
-        "hammerid": "3169",
+        "hammerid": "486",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red",
+        "color": "pink",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2857",
+                "hammerid": "454",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Zombie Water",
-        "shortname": "ZM Water",
-        "hammerid": "2958",
+        "name": "Barrel",
+        "shortname": "Barrel",
+        "hammerid": "613",
         "message": true,
         "ui": true,
-        "transfer": false,
-        "color": "darkblue",
-        "triggers": ["2735"],
+        "transfer": true,
+        "color": "orange",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2728",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "4570",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["3268"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4356",
+                "hammerid": "639",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 50,
@@ -108,52 +126,9 @@
         ]
     },
     {
-        "name": "Push",
-        "shortname": "Push",
-        "hammerid": "4310",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2511",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Reverse",
-        "shortname": "ZM Reverse",
-        "hammerid": "2029",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["999"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4353",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Shield",
-        "shortname": "Shield",
-        "hammerid": "3792",
+        "name": "Ammo Potion",
+        "shortname": "Ammo",
+        "hammerid": "752",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -161,10 +136,31 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2690",
+                "hammerid": "763",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "789",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "769",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 80,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

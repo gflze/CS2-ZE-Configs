@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Sword",
+        "shortname": "Sword",
+        "hammerid": "1566",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1567",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Potion",
+        "shortname": "Heal",
+        "hammerid": "1551",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1549",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "YEAH",
+        "shortname": "YEAH",
+        "hammerid": "1373",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "gray",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1371",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "427",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "424",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Car",
+        "shortname": "Car",
+        "hammerid": "159",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "triggers": ["161"]
+    },
+    {
+        "name": "Food 2",
+        "shortname": "Food 2",
+        "hammerid": "1319",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Food 1",
+        "shortname": "Food 1",
+        "hammerid": "1322",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Food 4",
+        "shortname": "Food 4",
+        "hammerid": "1326",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Food 3",
+        "shortname": "Food 3",
+        "hammerid": "1329",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    }
+]

@@ -78,7 +78,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
@@ -276,7 +276,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
@@ -291,7 +291,7 @@
         ]
     },
     {
-        "name": "bulbasaur",
+        "name": "Bulbasaur",
         "shortname": "Bulbasaur",
         "hammerid": "1739",
         "message": true,

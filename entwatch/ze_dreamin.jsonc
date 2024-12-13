@@ -1,38 +1,16 @@
 [
     {
-        "name": "Gravity",
-        "shortname": "Gravity",
-        "hammerid": "2845",
+        "name": "Freezer",
+        "shortname": "Freezer",
+        "hammerid": "1969",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2848",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Cube",
-        "shortname": "ZM Cube",
-        "hammerid": "2941",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["2008"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3697",
+                "hammerid": "1970",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
@@ -45,15 +23,79 @@
     {
         "name": "Heal",
         "shortname": "Heal",
-        "hammerid": "3169",
+        "hammerid": "2048",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red",
+        "color": "white",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2857",
+                "hammerid": "2046",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind",
+        "shortname": "Wind",
+        "hammerid": "2041",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2042",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Snow",
+        "shortname": "Snow",
+        "hammerid": "1775",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1780",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "1801",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["1810"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1799",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 80,
@@ -64,21 +106,43 @@
         ]
     },
     {
-        "name": "Zombie Water",
-        "shortname": "ZM Water",
-        "hammerid": "2958",
+        "name": "Zombie Nuke",
+        "shortname": "ZM Nuke",
+        "hammerid": "1804",
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "darkblue",
-        "triggers": ["2735"],
+        "color": "red",
+        "triggers": ["1808"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2728",
+                "hammerid": "1805",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 70,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ice",
+        "shortname": "ZM Ice",
+        "hammerid": "1325",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["1326"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1331",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -88,84 +152,20 @@
     {
         "name": "Zombie Heal",
         "shortname": "ZM Heal",
-        "hammerid": "4570",
+        "hammerid": "1317",
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "red",
-        "triggers": ["3268"],
+        "color": "white",
+        "triggers": ["1318"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4356",
+                "hammerid": "1323",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Push",
-        "shortname": "Push",
-        "hammerid": "4310",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2511",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Reverse",
-        "shortname": "ZM Reverse",
-        "hammerid": "2029",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["999"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4353",
-                "event": "OnPressed",
-                "mode": 2,
+                "mode": 4,
                 "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Shield",
-        "shortname": "Shield",
-        "hammerid": "3792",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2690",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
+                "maxuses": 2,
                 "message": true,
                 "ui": true
             }

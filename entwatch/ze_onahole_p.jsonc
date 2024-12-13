@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Lampshade Ultima",
+        "shortname": "Ultima",
+        "hammerid": "92",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "94",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

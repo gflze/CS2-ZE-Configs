@@ -134,7 +134,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "blue",
+        "color": "darkblue",
         "triggers": ["1278"],
         "handlers": [
             {
@@ -166,7 +166,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "blue",
+        "color": "darkblue",
         "triggers": ["1284"],
         "handlers": [
             {
@@ -306,7 +306,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "blue",
+        "color": "grey",
         "triggers": ["736"],
         "handlers": [
             {

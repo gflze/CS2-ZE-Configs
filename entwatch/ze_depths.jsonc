@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Trail",
+        "shortname": "Trail",
+        "hammerid": "12016",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "11782",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Fuel Can",
+        "shortname": "Fuel",
+        "hammerid": "5363",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    }
+]
