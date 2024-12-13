@@ -78,7 +78,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
@@ -276,7 +276,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
