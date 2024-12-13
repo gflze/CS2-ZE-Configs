@@ -148,12 +148,12 @@
     },
     {
         "name": "Aqua Materia",
-        "shortname": "Aqja",
+        "shortname": "Aqua",
         "hammerid": "1598",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "blue",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
