@@ -108,7 +108,7 @@
         "name": "Speeder",
         "shortname": "Speeder",
         "hammerid": "547",
-        "message": true,
+        "message": false,
         "ui": false,
         "transfer": true,
         "color": "green",
