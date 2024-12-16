@@ -1,0 +1,110 @@
+[
+    {
+        "name": "SCP-714 - The Jaded Ring",
+        "shortname": "Ammo",
+        "hammerid": "5131",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5136",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "SCP-500 - Panacea",
+        "shortname": "Heal",
+        "hammerid": "5105",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5162",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "SCP-106 - The Old Man",
+        "shortname": "ZM Old Man",
+        "hammerid": "1436",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1434"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5288",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "SCP-049 - The Plague Doctor",
+        "shortname": "ZM Plague Doctor",
+        "hammerid": "1321",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1319"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5164",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "SCP-096 - The Shy Guy",
+        "shortname": "ZM Shy Guy",
+        "hammerid": "1329",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "triggers": ["1327"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5166",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
