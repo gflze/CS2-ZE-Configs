@@ -91,7 +91,7 @@
         "hammerid": "1329",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "grey",
         "triggers": ["1327"],
         "handlers": [
