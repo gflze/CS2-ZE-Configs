@@ -238,7 +238,7 @@
                 "event": "OnPressed",
                 "mode": 5,
                 "cooldown": 60,
-                "maxuses": 3,
+                "maxuses": 2,
                 "message": true,
                 "ui": true
             }
