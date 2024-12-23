@@ -10,18 +10,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "25950",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 4.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "25942",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -33,19 +33,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "",
-                "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "color": "white"
     },
     {
         "name": "Zombie Black Flame",
@@ -55,22 +43,22 @@
         "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": [""],
+        "triggers": ["25971"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "25992",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "25983",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -86,18 +74,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26039",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26031",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -113,18 +101,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26245",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26240",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -137,22 +125,22 @@
         "ui": true,
         "transfer": false,
         "color": "red",
-        "triggers": [""],
+        "triggers": ["25998"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26009",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 20,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26003",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -165,22 +153,22 @@
         "ui": true,
         "transfer": false,
         "color": "red",
-        "triggers": [""],
+        "triggers": ["26269"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26280",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 15,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26275",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -196,18 +184,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26223",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26213",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -223,18 +211,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26128",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26120",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -250,18 +238,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26263",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 7.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26255",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -274,22 +262,22 @@
         "ui": true,
         "transfer": false,
         "color": "blue",
-        "triggers": [""],
+        "triggers": ["26285"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26301",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 8,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26293",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -305,18 +293,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26063",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26055",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -332,18 +320,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26155",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 7,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26143",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -361,16 +349,16 @@
                 "type": "button",
                 "hammerid": "25916",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 7,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "25908",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -386,18 +374,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "25965",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 7,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "25960",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -410,22 +398,22 @@
         "ui": true,
         "transfer": false,
         "color": "yellow",
-        "triggers": [""],
+        "triggers": ["26079"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26103",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26090",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -441,18 +429,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26315",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26308",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -468,18 +456,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26180",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 2.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26172",
+                "mode": 6,
                 "ui": true
             }
         ]
@@ -495,18 +483,18 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "",
+                "hammerid": "26203",
                 "event": "OnPressed",
-                "mode": 0,
-                "cooldown": 0,
+                "mode": 2,
+                "cooldown": 1.5,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
             },
             {
                 "type": "counter",
-                "hammerid": "",
-                "mode": 0,
+                "hammerid": "26196",
+                "mode": 6,
                 "ui": true
             }
         ]
