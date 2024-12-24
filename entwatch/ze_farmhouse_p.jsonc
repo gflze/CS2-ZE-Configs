@@ -2,26 +2,26 @@
     {
         "name": "Zombie Tank",
         "shortname": "ZM Tank",
-        "hammerid": "28353",
+        "hammerid": "28409",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["28356"],
+        "triggers": ["28412"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "28343",
+                "hammerid": "28399",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 7,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             },
             {
                 "type": "game_ui",
-                "hammerid": "28351",
+                "hammerid": "28407",
                 "event": "OnTrigger",
                 "mode": 1,
                 "cooldown": 0,
@@ -31,7 +31,7 @@
             },
             {
                 "type": "game_ui",
-                "hammerid": "28334",
+                "hammerid": "28390",
                 "event": "OnTrigger",
                 "mode": 1,
                 "cooldown": 0,
@@ -81,8 +81,8 @@
                 "type": "button",
                 "hammerid": "6039",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 1,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -108,8 +108,8 @@
                 "type": "button",
                 "hammerid": "5977",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 2,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -125,7 +125,7 @@
     {
         "name": "Plasma Beam Cannon",
         "shortname": "Plasma",
-        "hammerid": "28388",
+        "hammerid": "28444",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -133,7 +133,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "28396",
+                "hammerid": "28452",
                 "event": "OnPressed",
                 "mode": 1,
                 "cooldown": 0,

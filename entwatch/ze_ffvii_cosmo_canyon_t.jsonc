@@ -1,92 +1,8 @@
 [
     {
-        "name": "Esper Mateus",
-        "shortname": "Mateus",
-        "hammerid": "13029",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15517",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 10,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Wind Magick",
-        "shortname": "Wind",
-        "hammerid": "13023",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15499",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Poison Magick",
-        "shortname": "Poison",
-        "hammerid": "13022",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15497",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ice Magick",
-        "shortname": "Ice",
-        "hammerid": "13021",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15495",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Fire Magick",
-        "shortname": "Fire",
-        "hammerid": "13020",
+        "name": "Phoenix Down",
+        "shortname": "Phoenix",
+        "hammerid": "3883",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -94,7 +10,28 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15493",
+                "hammerid": "3776",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sleep Materia",
+        "shortname": "Sleep",
+        "hammerid": "7519",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20823",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
@@ -105,17 +42,17 @@
         ]
     },
     {
-        "name": "Heal Magick",
-        "shortname": "Heal",
-        "hammerid": "13019",
+        "name": "Bio Materia",
+        "shortname": "Bio",
+        "hammerid": "4259",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white",
+        "color": "darkblue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15491",
+                "hammerid": "20819",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
@@ -126,17 +63,17 @@
         ]
     },
     {
-        "name": "Holy Potion",
-        "shortname": "Holy",
-        "hammerid": "13028",
+        "name": "Ultima Materia",
+        "shortname": "Ultima",
+        "hammerid": "3464",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "white",
+        "color": "green",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15513",
+                "hammerid": "20815",
                 "event": "OnPressed",
                 "mode": 4,
                 "cooldown": 15,
@@ -147,127 +84,41 @@
         ]
     },
     {
-        "name": "Speed Potion",
-        "shortname": "Speed",
-        "hammerid": "13027",
+        "name": "Electro Materia",
+        "shortname": "Electro",
+        "hammerid": "2418",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15511",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ammo Potion",
-        "shortname": "Ammo Potion",
-        "hammerid": "13026",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15509",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "HI Potion",
-        "shortname": "HI Potion",
-        "hammerid": "13025",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15507",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 1,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "HP Potion",
-        "shortname": "HP Potion",
-        "hammerid": "13024",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15505",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Fire Magick",
-        "shortname": "ZM Fire",
-        "hammerid": "13034",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["13328"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15503",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Frost Magick",
-        "shortname": "ZM Frost",
-        "hammerid": "13033",
-        "message": true,
-        "ui": true,
-        "transfer": false,
         "color": "blue",
-        "triggers": ["13326"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15501",
+                "hammerid": "20811",
+                "event": "OnPressed",
+                "mode": 5,
+                "cooldown": 60,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth Materia",
+        "shortname": "Earth",
+        "hammerid": "1878",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20809",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 65,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -275,40 +126,103 @@
         ]
     },
     {
-        "name": "Zombie Lure",
-        "shortname": "ZM Lure",
-        "hammerid": "13032",
+        "name": "Wind Materia",
+        "shortname": "Wind",
+        "hammerid": "7475",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20817",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison",
+        "shortname": "ZM Poison",
+        "hammerid": "7616",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["7617"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7719",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Materia",
+        "shortname": "Heal",
+        "hammerid": "1995",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20807",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity Materia",
+        "shortname": "Gravity",
+        "hammerid": "4775",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20821",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Confuse",
+        "shortname": "ZM Confuse",
+        "hammerid": "4394",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "purple",
-        "triggers": ["13324"],
+        "triggers": ["4400"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15489",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 85,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Warp",
-        "shortname": "ZM Warp",
-        "hammerid": "13031",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["13322"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15487",
+                "hammerid": "4229",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 75,
@@ -317,5 +231,80 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Zombie Ice",
+        "shortname": "ZM Ice",
+        "hammerid": "3332",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["3333"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3339",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire",
+        "shortname": "ZM Fire",
+        "hammerid": "7571",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["7466"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3541",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Materia",
+        "shortname": "Fire",
+        "hammerid": "2552",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20813",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Cactus",
+        "shortname": "ZM Cactus",
+        "hammerid": "17789",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["2711"]
     }
 ]

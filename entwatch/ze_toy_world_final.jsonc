@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Mouse Trap",
+        "shortname": "Trap",
+        "hammerid": "684",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1159",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 42,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Water Gun",
+        "shortname": "Water",
+        "hammerid": "1040",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1134",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

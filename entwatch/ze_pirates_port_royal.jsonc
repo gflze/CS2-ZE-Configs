@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "9862",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9864",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 56,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bubbles",
+        "shortname": "Bubbles",
+        "hammerid": "9847",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9849",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 56,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrel",
+        "shortname": "Barrel",
+        "hammerid": "9826",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9828",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 56,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sword",
+        "shortname": "Sword",
+        "hammerid": "9815",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9817",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 56,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "9806",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9808",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 56,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Medallion",
+        "shortname": "Medallion",
+        "hammerid": "9669",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "9666",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Last Medallion",
+        "shortname": "Last Medallion",
+        "hammerid": "10344",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Zombie Barbossa",
+        "shortname": "ZM Barbossa",
+        "hammerid": "10408",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "triggers": ["10412"],
+        "handlers": [
+            {
+                "type": "game_ui", // bomb
+                "hammerid": "10438",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 36,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button", // sword
+                "hammerid": "2904",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 46,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
