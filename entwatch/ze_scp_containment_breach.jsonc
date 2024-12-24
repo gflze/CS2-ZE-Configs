@@ -42,7 +42,7 @@
         ]
     },
     {
-        "name": "SCP-106 - The Old Man",
+        "name": "Zombie SCP-106 - The Old Man",
         "shortname": "ZM Old Man",
         "hammerid": "1436",
         "message": true,
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "name": "SCP-049 - The Plague Doctor",
+        "name": "Zombie SCP-049 - The Plague Doctor",
         "shortname": "ZM Plague Doctor",
         "hammerid": "1321",
         "message": true,
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "name": "SCP-096 - The Shy Guy",
+        "name": "Zombie SCP-096 - The Shy Guy",
         "shortname": "ZM Shy Guy",
         "hammerid": "1329",
         "message": true,
