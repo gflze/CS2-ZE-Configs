@@ -1,0 +1,397 @@
+[
+    {
+        "name": "Location",
+        "shortname": "Location",
+        "hammerid": "699",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2784",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "702",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2786",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice",
+        "shortname": "Ice",
+        "hammerid": "714",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2788",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "727",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2790",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "751",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2792",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind",
+        "shortname": "Wind",
+        "hammerid": "762",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2794",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bazooka",
+        "shortname": "Bazooka",
+        "hammerid": "579",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2772",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Colossal Titan",
+        "shortname": "ZM Colossal",
+        "hammerid": "543",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["541"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2770",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Beat Titan",
+        "shortname": "ZM Beast",
+        "hammerid": "875",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["873"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2806",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Armored Titan",
+        "shortname": "ZM Armor",
+        "hammerid": "892",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["890"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2808",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fat Titan",
+        "shortname": "ZM Fat",
+        "hammerid": "823",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["821"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "2838",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "2796",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fat Titan",
+        "shortname": "ZM Fat",
+        "hammerid": "832",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["830"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "2839",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "2798",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fat Titan",
+        "shortname": "ZM Fat",
+        "hammerid": "904",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["902"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "2837",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "2810",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Titan",
+        "shortname": "ZM Titan",
+        "hammerid": "468",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["466"]
+    },
+    {
+        "name": "Zombie Titan",
+        "shortname": "ZM Titan",
+        "hammerid": "484",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["482"]
+    },
+    {
+        "name": "Zombie Jumper",
+        "shortname": "ZM Jumper",
+        "hammerid": "839",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["836"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2800",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Jumper",
+        "shortname": "ZM Jumper",
+        "hammerid": "847",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["844"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2802",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Jumper",
+        "shortname": "ZM Jumper",
+        "hammerid": "858",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["855"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2804",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    }
+]
