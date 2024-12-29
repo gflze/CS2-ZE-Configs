@@ -1,0 +1,24 @@
+{
+	//remove slur
+	"modify":
+	[
+		{
+			"match":
+			{
+				"io":
+				[
+					{
+						"overrideparam": "say ** not enough haryde(nigger) coins for true ending **"
+					}
+				]
+			},
+			"replace":
+			{
+				"io":
+				{
+					"overrideparam": "say ** Not enough Red Eye Orbs for true ending **"
+				}
+			}
+		}
+	]
+}
