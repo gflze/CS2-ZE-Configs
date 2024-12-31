@@ -1,0 +1,511 @@
+[
+    {
+        "name": "Aqua Magick",
+        "shortname": "Aqua",
+        "hammerid": "4931",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4908",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cure Magick",
+        "shortname": "Cure",
+        "hammerid": "4930",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4927",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dark Magick",
+        "shortname": "Dark",
+        "hammerid": "5390",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5383",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Magick",
+        "shortname": "Fire",
+        "hammerid": "5387",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3470",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Limit Break Magick",
+        "shortname": "Limit Break",
+        "hammerid": "2613",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3065",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Poison Magick",
+        "shortname": "Poison",
+        "hammerid": "5397",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5393",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sand Magick",
+        "shortname": "Sand",
+        "hammerid": "2757",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4952",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder Magick",
+        "shortname": "Thunder",
+        "hammerid": "5055",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4959",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind Magick",
+        "shortname": "Wind",
+        "hammerid": "5648",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5955",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cortahombres",
+        "shortname": "Cortahombres",
+        "hammerid": "6055",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2673",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Crystal Shield",
+        "shortname": "Shield",
+        "hammerid": "5099",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5103",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Devileye Crossbow",
+        "shortname": "Crossbow",
+        "hammerid": "6129",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5742",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 15,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dragon Whisker",
+        "shortname": "Dragong",
+        "hammerid": "5663",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5012",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Empyrean Rod",
+        "shortname": "Rod",
+        "hammerid": "3543",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4848",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ensanguined Shield",
+        "shortname": "Shield",
+        "hammerid": "5620",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3731",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 75,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Loxley Bow",
+        "shortname": "Bow",
+        "hammerid": "5066",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5067",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ultimate Blade",
+        "shortname": "Blade",
+        "hammerid": "6436",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6171",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Judge Drace",
+        "shortname": "ZM Drace",
+        "hammerid": "3275",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["3276"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "3271",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "3270",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Judge Gabranth",
+        "shortname": "ZM Gabranth",
+        "hammerid": "3886",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["3876"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "3882",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "3881",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Damage Magick",
+        "shortname": "ZM Damage",
+        "hammerid": "3102",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "triggers": ["3100"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5179",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fear Magick",
+        "shortname": "ZM Fear",
+        "hammerid": "3293",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "pink",
+        "triggers": ["3295"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3091",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity Magick",
+        "shortname": "ZM Gravity",
+        "hammerid": "3205",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["3203"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3210",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Invisibility Magick",
+        "shortname": "ZM Invis",
+        "hammerid": "4925",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["4917"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4922",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
