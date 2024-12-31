@@ -64,6 +64,69 @@
         ]
     },
     {
+        "name": "Ice Bow",
+        "shortname": "Ice",
+        "hammerid": "420",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "417",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Explosive Bow",
+        "shortname": "Explosive",
+        "hammerid": "440",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "443",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electric Bow",
+        "shortname": "Electric",
+        "hammerid": "461",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "464",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Freezer",
         "shortname": "ZM Feeze",
         "hammerid": "363",
@@ -123,69 +186,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 85,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ice Bow",
-        "shortname": "Ice",
-        "hammerid": "420",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "417",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Explosive Bow",
-        "shortname": "Explosive",
-        "hammerid": "440",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "443",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 25,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Electric Bow",
-        "shortname": "Electric",
-        "hammerid": "461",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "464",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 25,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
