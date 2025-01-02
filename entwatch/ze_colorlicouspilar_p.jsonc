@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Baseball Bat",
+        "shortname": "Bat",
+        "hammerid": "588",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "199",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 11,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

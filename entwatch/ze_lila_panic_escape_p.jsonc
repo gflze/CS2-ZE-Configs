@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "75",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "73",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "822",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "819",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Barrel",
+        "shortname": "Barrel",
+        "hammerid": "51",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "54",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Freeze Bottle",
+        "shortname": "Freeze",
+        "hammerid": "57",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "59",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Laser Door",
+        "shortname": "Laser",
+        "hammerid": "62",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "64",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "DJ",
+        "shortname": "DJ",
+        "hammerid": "438",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Suicidal Zombie",
+        "shortname": "ZM Suicide",
+        "hammerid": "71",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["66"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "72",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
