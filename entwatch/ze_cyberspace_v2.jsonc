@@ -21,6 +21,48 @@
         ]
     },
     {
+        "name": "Subtract",
+        "shortname": "Subtract",
+        "hammerid": "2301",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2421",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Divide",
+        "shortname": "Divide",
+        "hammerid": "2224",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2222",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Multiply",
         "shortname": "ZM Multiply",
         "hammerid": "2274",
@@ -58,48 +100,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Subtract",
-        "shortname": "Subtract",
-        "hammerid": "2301",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2421",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Divide",
-        "shortname": "Divide",
-        "hammerid": "2224",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2222",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 45,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
