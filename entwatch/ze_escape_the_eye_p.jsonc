@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "447",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "433",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "445",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "498",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "496",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 66,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
