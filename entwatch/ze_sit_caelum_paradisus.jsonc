@@ -21,15 +21,6 @@
         ]
     },
     {
-        "name": "Serverman",
-        "shortname": "Serverman",
-        "hammerid": "2472",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey"
-    },
-    {
         "name": "Ventus Staff",
         "shortname": "Wind",
         "hammerid": "2492",
@@ -91,6 +82,15 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Serverman",
+        "shortname": "Serverman",
+        "hammerid": "2472",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
     },
     {
         "name": "Zombie Gravity",
