@@ -1,32 +1,5 @@
 [
     {
-        "name": "Love Machinegun",
-        "shortname": "Penis",
-        "hammerid": "987",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "pink"
-    },
-    {
-        "name": "Hat",
-        "shortname": "Hat",
-        "hammerid": "977",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey"
-    },
-    {
-        "name": "Free Bird",
-        "shortname": "Bird",
-        "hammerid": "976",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "greyu"
-    },
-    {
         "name": "Cooler",
         "shortname": "Cooler",
         "hammerid": "1173",
@@ -62,72 +35,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "162",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "white",
-        "triggers": ["166"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "169",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Rage",
-        "shortname": "ZM Rage",
-        "hammerid": "155",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["153"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "156",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 120,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Vortex",
-        "shortname": "ZM Vortex",
-        "hammerid": "143",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["147"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "144",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 120,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -211,5 +118,98 @@
         "ui": true,
         "transfer": true,
         "color": "yellow"
+    },
+    {
+        "name": "Love Machinegun",
+        "shortname": "Penis",
+        "hammerid": "987",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink"
+    },
+    {
+        "name": "Hat",
+        "shortname": "Hat",
+        "hammerid": "977",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Free Bird",
+        "shortname": "Bird",
+        "hammerid": "976",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "greyu"
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "162",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["166"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "169",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rage",
+        "shortname": "ZM Rage",
+        "hammerid": "155",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["153"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "156",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Vortex",
+        "shortname": "ZM Vortex",
+        "hammerid": "143",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["147"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "144",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
