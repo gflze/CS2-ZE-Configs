@@ -1,37 +1,6 @@
 [
     {
-        "name": "Torch",
-        "shortname": "Torch",
-        "hammerid": "2643",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange"
-    },
-    {
-        "name": "Zombie Spider",
-        "shortname": "ZM Spider",
-        "hammerid": "20309",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "grey",
-        "triggers": ["20295"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "20310",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 20,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ent",
+        "name": "Tree Ent",
         "shortname": "Ent",
         "hammerid": "20501",
         "message": true,
@@ -57,27 +26,6 @@
                 "mode": 2,
                 "cooldown": 30,
                 "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Barricade",
-        "shortname": "Barricade",
-        "hammerid": "20532",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "20529",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
@@ -132,6 +80,58 @@
                 "cooldown": 0,
                 "maxuses": 1,
                 "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade",
+        "shortname": "Barricade",
+        "hammerid": "20532",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "20529",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "2643",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Zombie Spider",
+        "shortname": "ZM Spider",
+        "hammerid": "20309",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["20295"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "20310",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": false,
                 "ui": true
             }
         ]
