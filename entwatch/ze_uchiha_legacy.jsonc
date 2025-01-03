@@ -126,6 +126,48 @@
         ]
     },
     {
+        "name": "Rashomon",
+        "shortname": "Rashomon",
+        "hammerid": "176",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "172",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mokuton",
+        "shortname": "Mokuton",
+        "hammerid": "169",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "165",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Rinnegan",
         "shortname": "ZM Rinnegan",
         "hammerid": "227",
@@ -230,48 +272,6 @@
                 "mode": 2,
                 "cooldown": 40,
                 "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Rashomon",
-        "shortname": "Rashomon",
-        "hammerid": "176",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "172",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Mokuton",
-        "shortname": "Mokuton",
-        "hammerid": "169",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "165",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
