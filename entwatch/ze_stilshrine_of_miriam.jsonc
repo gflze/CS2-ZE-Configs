@@ -1,35 +1,5 @@
 [
     {
-        "name": "Sword of Kings",
-        "shortname": "Sword",
-        "hammerid": "3107",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow"
-    },
-    {
-        "name": "Esper Mateus",
-        "shortname": "Mateus",
-        "hammerid": "2794",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2256",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 15,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Heal Magick",
         "shortname": "Heal",
         "hammerid": "2662",
@@ -196,6 +166,36 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Esper Mateus",
+        "shortname": "Mateus",
+        "hammerid": "2794",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2256",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sword of Kings",
+        "shortname": "Sword",
+        "hammerid": "3107",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
     },
     {
         "name": "Zombie Haste",
