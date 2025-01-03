@@ -1,27 +1,5 @@
 [
     {
-        "name": "Zombie Slow",
-        "shortname": "ZM Slow",
-        "hammerid": "4182",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "blue",
-        "triggers": ["4184"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4179",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 4,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Slow",
         "shortname": "Slow",
         "hammerid": "4167",
@@ -54,6 +32,90 @@
             {
                 "type": "button",
                 "hammerid": "4119",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Freezer",
+        "shortname": "Freezer",
+        "hammerid": "4040",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4035",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Laser Wall",
+        "shortname": "Wall",
+        "hammerid": "4010",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4005",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity",
+        "shortname": "Gravity",
+        "hammerid": "3961",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3958",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "3926",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3921",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 70,
@@ -130,43 +192,23 @@
         ]
     },
     {
-        "name": "Freezer",
-        "shortname": "Freezer",
-        "hammerid": "4040",
+        "name": "Zombie Slow",
+        "shortname": "ZM Slow",
+        "hammerid": "4182",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "blue",
+        "triggers": ["4184"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4035",
+                "hammerid": "4179",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 70,
+                "cooldown": 4,
                 "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Laser Wall",
-        "shortname": "Wall",
-        "hammerid": "4010",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4005",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -209,48 +251,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Gravity",
-        "shortname": "Gravity",
-        "hammerid": "3961",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "purple",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3958",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Push",
-        "shortname": "Push",
-        "hammerid": "3926",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3921",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
