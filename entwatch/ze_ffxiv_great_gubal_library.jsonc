@@ -1,114 +1,5 @@
 [
     {
-        "name": "Zombie Silence",
-        "shortname": "ZM Silence",
-        "hammerid": "24970",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["24968"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24965",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Shield",
-        "shortname": "ZM Shield",
-        "hammerid": "24952",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["24950"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24947",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "24910",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "triggers": ["24908"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24914",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 65,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Gravity",
-        "shortname": "ZM Gravity",
-        "hammerid": "24853",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["24851"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24882",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 70,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Speed",
-        "shortname": "Speed",
-        "hammerid": "24713",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24709",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Bio Element",
         "shortname": "Bio",
         "hammerid": "24683",
@@ -166,27 +57,6 @@
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Sage",
-        "shortname": "Sage",
-        "hammerid": "15874",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15869",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 20,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -288,6 +158,136 @@
                 "type": "counter",
                 "hammerid": "15763",
                 "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sage",
+        "shortname": "Sage",
+        "hammerid": "15874",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "15869",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Speed",
+        "shortname": "Speed",
+        "hammerid": "24713",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24709",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Silence",
+        "shortname": "ZM Silence",
+        "hammerid": "24970",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["24968"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24965",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Shield",
+        "shortname": "ZM Shield",
+        "hammerid": "24952",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["24950"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24947",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "24910",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "triggers": ["24908"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24914",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "24853",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["24851"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24882",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
                 "ui": true
             }
         ]
