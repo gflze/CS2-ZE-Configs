@@ -1,159 +1,5 @@
 [
     {
-        "name": "Zombie Invisibility",
-        "shortname": "ZM Invis",
-        "hammerid": "5298",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["5299"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5302",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Drug",
-        "shortname": "ZM Drug",
-        "hammerid": "5287",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "blue",
-        "triggers": ["5288"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5292",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Gravity",
-        "shortname": "ZM Gravity",
-        "hammerid": "5317",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "pink",
-        "triggers": ["5315"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5282",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Poison",
-        "shortname": "ZM Poison",
-        "hammerid": "5306",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "triggers": ["5307"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5309",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Fire",
-        "shortname": "ZM Fire",
-        "hammerid": "5261",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["5262"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5256",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Heal",
-        "shortname": "ZM Heal",
-        "hammerid": "5242",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["5243"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5247",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 20,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Killer",
-        "shortname": "ZM Killer",
-        "hammerid": "5232",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["5233"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5237",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 120,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Ammo",
         "shortname": "Ammo",
         "hammerid": "5155",
@@ -336,6 +182,160 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Invisibility",
+        "shortname": "ZM Invis",
+        "hammerid": "5298",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["5299"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5302",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Drug",
+        "shortname": "ZM Drug",
+        "hammerid": "5287",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["5288"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5292",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "5317",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "pink",
+        "triggers": ["5315"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5282",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison",
+        "shortname": "ZM Poison",
+        "hammerid": "5306",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "triggers": ["5307"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5309",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire",
+        "shortname": "ZM Fire",
+        "hammerid": "5261",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["5262"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5256",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "5242",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["5243"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5247",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Killer",
+        "shortname": "ZM Killer",
+        "hammerid": "5232",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["5233"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5237",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
