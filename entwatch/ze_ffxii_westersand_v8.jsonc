@@ -63,28 +63,6 @@
         ]
     },
     {
-        "name": "Holy Magick",
-        "shortname": "Holy",
-        "hammerid": "2950",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "white",
-        "triggers": [""],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2943",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 20,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Fire Magick",
         "shortname": "Fire",
         "hammerid": "2936",
@@ -142,6 +120,28 @@
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Holy Magick",
+        "shortname": "Holy",
+        "hammerid": "2950",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "triggers": [""],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2943",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
