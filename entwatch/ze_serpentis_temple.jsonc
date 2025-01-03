@@ -1,14 +1,5 @@
 [
     {
-        "name": "Torch",
-        "shortname": "Torch",
-        "hammerid": "10857",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange"
-    },
-    {
         "name": "Fire Snake",
         "shortname": "Fire",
         "hammerid": "10856",
@@ -70,6 +61,15 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Torch",
+        "shortname": "Torch",
+        "hammerid": "10857",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
     },
     {
         "name": "Artefact", // Yes, I know wrong spelling, but this is sovl
