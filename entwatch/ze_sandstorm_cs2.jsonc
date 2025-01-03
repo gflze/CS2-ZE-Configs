@@ -1,37 +1,5 @@
 [
     {
-        "name": "Zombie Antlion",
-        "shortname": "ZM Antlion",
-        "hammerid": "11895",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["11896"],
-        "handlers": [
-            {
-                "type": "game_ui", // Mouse 2
-                "hammerid": "11886",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 40,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui", // Mouse 1
-                "hammerid": "11888",
-                "event": "OnTrigger",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Earth Staff",
         "shortname": "Earth",
         "hammerid": "11116",
@@ -47,27 +15,6 @@
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Sandstorm Staff",
-        "shortname": "Sandstorm",
-        "hammerid": "11127",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "11129",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 15,
-                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
@@ -158,6 +105,27 @@
         ]
     },
     {
+        "name": "Sandstorm Staff",
+        "shortname": "Sandstorm",
+        "hammerid": "11127",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11129",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Fire",
         "shortname": "ZM Fire",
         "hammerid": "11828",
@@ -197,6 +165,38 @@
                 "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Antlion",
+        "shortname": "ZM Antlion",
+        "hammerid": "11895",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["11896"],
+        "handlers": [
+            {
+                "type": "game_ui", // Mouse 2
+                "hammerid": "11886",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // Mouse 1
+                "hammerid": "11888",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
                 "ui": true
             }
         ]
