@@ -1,5 +1,68 @@
 [
     {
+        "name": "Beam",
+        "shortname": "Beam",
+        "hammerid": "2136",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2134",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cube",
+        "shortname": "Cube",
+        "hammerid": "2104",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2114",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shield",
+        "shortname": "Shield",
+        "hammerid": "2124",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2118",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Stars",
         "shortname": "ZM Stars",
         "hammerid": "1937",
@@ -81,69 +144,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Beam",
-        "shortname": "Beam",
-        "hammerid": "2136",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2134",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Cube",
-        "shortname": "Cube",
-        "hammerid": "2104",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2114",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Shield",
-        "shortname": "Shield",
-        "hammerid": "2124",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2118",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
