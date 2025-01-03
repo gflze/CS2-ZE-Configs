@@ -1,49 +1,5 @@
 [
     {
-        "name": "Zombie Shroom",
-        "shortname": "ZM Shroom",
-        "hammerid": "6355",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "green",
-        "triggers": ["8532"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "6352",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Cloud",
-        "shortname": "ZM Cloud",
-        "hammerid": "6349",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "grey",
-        "triggers": ["8530"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "6345",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Ammo",
         "shortname": "Ammo",
         "hammerid": "6170",
@@ -227,6 +183,50 @@
                 "event": "OnPlayerUse",
                 "mode": 2,
                 "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Shroom",
+        "shortname": "ZM Shroom",
+        "hammerid": "6355",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["8532"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6352",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Cloud",
+        "shortname": "ZM Cloud",
+        "hammerid": "6349",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["8530"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6345",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 75,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
