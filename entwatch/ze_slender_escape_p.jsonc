@@ -1,20 +1,61 @@
 [
     {
-        "name": "Zombie Fire Slender",
-        "shortname": "ZM Slender",
-        "hammerid": "1257",
+        "name": "Lantern",
+        "shortname": "Lantern",
+        "hammerid": "252",
         "message": true,
         "ui": true,
-        "transfer": false,
-        "color": "orange",
-        "triggers": ["1259"],
+        "transfer": true,
+        "color": "yellow",
         "handlers": [
             {
-                "type": "game_ui",
-                "hammerid": "1267",
-                "event": "OnTrigger",
+                "type": "button",
+                "hammerid": "250",
+                "event": "OnPlayerUse",
                 "mode": 2,
-                "cooldown": 20,
+                "cooldown": 41, // Original 41.5 but rounded down
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Glowstick",
+        "shortname": "Glowstick",
+        "hammerid": "257",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "258",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flashlight",
+        "shortname": "Flashlight",
+        "hammerid": "248",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "default",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "246",
+                "event": "OnPlayerUse",
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -41,6 +82,25 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Fuel Can",
+        "shortname": "Fuel",
+        "hammerid": "436",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Barrel",
+        "shortname": "Barrel",
+        "hammerid": "364",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["360"]
     },
     {
         "name": "Zombie Spider",
@@ -107,86 +167,26 @@
         ]
     },
     {
-        "name": "Fuel Can",
-        "shortname": "Fuel",
-        "hammerid": "436",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red"
-    },
-    {
-        "name": "Lantern",
-        "shortname": "Lantern",
-        "hammerid": "252",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "250",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 41, // Original 41.5 but rounded down
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Glowstick",
-        "shortname": "Glowstick",
-        "hammerid": "257",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "258",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 25,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Flashlight",
-        "shortname": "Flashlight",
-        "hammerid": "248",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "default",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "246",
-                "event": "OnPlayerUse",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Barrel",
-        "shortname": "Barrel",
-        "hammerid": "364",
+        "name": "Zombie Fire Slender",
+        "shortname": "ZM Slender",
+        "hammerid": "1257",
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "grey",
-        "triggers": ["360"]
+        "color": "orange",
+        "triggers": ["1259"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "1267",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Slenderman",

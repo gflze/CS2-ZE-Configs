@@ -1,49 +1,5 @@
 [
     {
-        "name": "Zombie Glasgavelen",
-        "shortname": "ZM Glasgavelen",
-        "hammerid": "3693",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["3691"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5396",
-                "event": "OnPlayerUse",
-                "mode": 2,
-                "cooldown": 40,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Cromcruach",
-        "shortname": "ZM Cromcruach",
-        "hammerid": "3723",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["3750"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5412",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Fire Staff",
         "shortname": "Fire",
         "hammerid": "2246",
@@ -149,6 +105,27 @@
         ]
     },
     {
+        "name": "Ultimate Staff",
+        "shortname": "Ultimate",
+        "hammerid": "3984",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3978",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Fire",
         "shortname": "ZM Fire",
         "hammerid": "3641",
@@ -215,21 +192,44 @@
         ]
     },
     {
-        "name": "Ultimate Staff",
-        "shortname": "Ultimate",
-        "hammerid": "3984",
+        "name": "Zombie Glasgavelen",
+        "shortname": "ZM Glasgavelen",
+        "hammerid": "3693",
         "message": true,
         "ui": true,
-        "transfer": true,
-        "color": "green",
+        "transfer": false,
+        "color": "red",
+        "triggers": ["3691"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3978",
+                "hammerid": "5396",
+                "event": "OnPlayerUse",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Cromcruach",
+        "shortname": "ZM Cromcruach",
+        "hammerid": "3723",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["3750"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5412",
                 "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 15,
-                "maxuses": 1,
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }

@@ -219,15 +219,6 @@
         ]
     },
     {
-        "name": "Key",
-        "shortname": "Key",
-        "hammerid": "1447",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow"
-    },
-    {
         "name": "Fire",
         "shortname": "Fire",
         "hammerid": "1646",
@@ -312,6 +303,27 @@
         ]
     },
     {
+        "name": "Charmander",
+        "shortname": "Charmander",
+        "hammerid": "1751",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1752",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Pikachu",
         "shortname": "Pikachu",
         "hammerid": "1762",
@@ -364,6 +376,15 @@
         ]
     },
     {
+        "name": "Key",
+        "shortname": "Key",
+        "hammerid": "1447",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
         "name": "Zombie Ghastly",
         "shortname": "ZM Ghastly",
         "hammerid": "1783",
@@ -379,27 +400,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 75,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Charmander",
-        "shortname": "Charmander",
-        "hammerid": "1751",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1752",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

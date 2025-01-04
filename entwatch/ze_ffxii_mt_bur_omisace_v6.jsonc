@@ -84,27 +84,6 @@
         ]
     },
     {
-        "name": "Limit Break Magick",
-        "shortname": "Limit Break",
-        "hammerid": "2613",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "olive",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3065",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Poison Magick",
         "shortname": "Poison",
         "hammerid": "5397",
@@ -183,6 +162,27 @@
                 "mode": 2,
                 "cooldown": 75,
                 "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Limit Break Magick",
+        "shortname": "Limit Break",
+        "hammerid": "2613",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3065",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
@@ -316,7 +316,7 @@
     },
     {
         "name": "Loxley Bow",
-        "shortname": "Bow",
+        "shortname": "Loxley",
         "hammerid": "5066",
         "message": true,
         "ui": true,

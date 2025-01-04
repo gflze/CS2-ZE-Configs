@@ -27,43 +27,6 @@
         ]
     },
     {
-        "name": "Skull Lantern",
-        "shortname": "Lantern",
-        "hammerid": "33527",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "white"
-    },
-    {
-        "name": "Zombie Black Flame",
-        "shortname": "ZM Flame",
-        "hammerid": "25970",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["25971"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "25992",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 2.5,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "counter",
-                "hammerid": "25983",
-                "mode": 6,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Dark Orb",
         "shortname": "Dark Orb",
         "hammerid": "26020",
@@ -112,62 +75,6 @@
             {
                 "type": "counter",
                 "hammerid": "26240",
-                "mode": 6,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Poison Mist",
-        "shortname": "ZM Poison",
-        "hammerid": "25997",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["25998"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "26009",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 20,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "counter",
-                "hammerid": "26003",
-                "mode": 6,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Toxic Mist",
-        "shortname": "ZM Mist",
-        "hammerid": "26268",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["26269"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "26280",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 15,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "counter",
-                "hammerid": "26275",
                 "mode": 6,
                 "ui": true
             }
@@ -249,34 +156,6 @@
             {
                 "type": "counter",
                 "hammerid": "26255",
-                "mode": 6,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Power Within",
-        "shortname": "ZM Power Within",
-        "hammerid": "26284",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "blue",
-        "triggers": ["26285"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "26301",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 8,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "counter",
-                "hammerid": "26293",
                 "mode": 6,
                 "ui": true
             }
@@ -391,34 +270,6 @@
         ]
     },
     {
-        "name": "Zombie Rapport",
-        "shortname": "ZM Rapport",
-        "hammerid": "26068",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["26079"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "26103",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 2.5,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "counter",
-                "hammerid": "26090",
-                "mode": 6,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Blessed Weapon",
         "shortname": "Blessed Weapon",
         "hammerid": "26306",
@@ -494,6 +345,155 @@
             {
                 "type": "counter",
                 "hammerid": "26196",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Skull Lantern",
+        "shortname": "Lantern",
+        "hammerid": "33527",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Zombie Black Flame",
+        "shortname": "ZM Flame",
+        "hammerid": "25970",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["25971"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "25992",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 2.5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "25983",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rapport",
+        "shortname": "ZM Rapport",
+        "hammerid": "26068",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["26079"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "26103",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 2.5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "26090",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Power Within",
+        "shortname": "ZM Power Within",
+        "hammerid": "26284",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["26285"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "26301",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "26293",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison Mist",
+        "shortname": "ZM Poison",
+        "hammerid": "25997",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["25998"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "26009",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "26003",
+                "mode": 6,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Toxic Mist",
+        "shortname": "ZM Mist",
+        "hammerid": "26268",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["26269"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "26280",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "counter",
+                "hammerid": "26275",
                 "mode": 6,
                 "ui": true
             }

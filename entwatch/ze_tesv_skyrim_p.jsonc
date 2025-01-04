@@ -150,124 +150,6 @@
         ]
     },
     {
-        "name": "Wolf",
-        "shortname": "Wolf",
-        "hammerid": "29224",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "darkred",
-        "triggers": ["987"],
-        "handlers": [
-            {
-                "type": "game_ui", // M1
-                "hammerid": "29229",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 2,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui", // M2
-                "hammerid": "29237",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 0,
-                "maxuses": 25,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Troll",
-        "shortname": "Troll",
-        "hammerid": "29179",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "darkred",
-        "triggers": ["990"],
-        "handlers": [
-            {
-                "type": "game_ui", // M1
-                "hammerid": "29184",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 2,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui", // M2
-                "hammerid": "29185",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 35,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Giant",
-        "shortname": "Giant",
-        "hammerid": "29267",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "darkred",
-        "triggers": ["994"],
-        "handlers": [
-            {
-                "type": "game_ui", // M1
-                "hammerid": "29270",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 5,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui", // M2
-                "hammerid": "29271",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 15,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Dragonpriest",
-        "shortname": "Dragonpriest",
-        "hammerid": "29313",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["1088"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "29317",
-                "event": "OnTrigger",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Freeze Staff",
         "shortname": "Freeze",
         "hammerid": "225",
@@ -327,8 +209,8 @@
         "transfer": true,
         "color": "white"
     },
-    { // level 4
-        "name": "Elder Scroll",
+    {
+        "name": "Elder Scroll", // level 4
         "shortname": "Scroll",
         "hammerid": "406",
         "message": true,
@@ -336,13 +218,131 @@
         "transfer": true,
         "color": "yellow"
     },
-    { // level 5
-        "name": "Elder Scroll",
+    {
+        "name": "Elder Scroll", // level 5
         "shortname": "Scroll",
         "hammerid": "723",
         "message": true,
         "ui": true,
         "transfer": true,
         "color": "yellow"
+    },
+    {
+        "name": "Zombie Wolf",
+        "shortname": "ZM Wolf",
+        "hammerid": "29224",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["987"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29229",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 2,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29237",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 0,
+                "maxuses": 25,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Troll",
+        "shortname": "ZM Troll",
+        "hammerid": "29179",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["990"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29184",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 2,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29185",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Giant",
+        "shortname": "ZM Giant",
+        "hammerid": "29267",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["994"],
+        "handlers": [
+            {
+                "type": "game_ui", // M1
+                "hammerid": "29270",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui", // M2
+                "hammerid": "29271",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Dragonpriest",
+        "shortname": "ZM Dragonpriest",
+        "hammerid": "29313",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["1088"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "29317",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

@@ -32,48 +32,6 @@
         ]
     },
     {
-        "name": "Asuna",
-        "shortname": "Asuna",
-        "hammerid": "11546",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "white",
-        "triggers": ["11111"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "11115",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 60,
-                "maxuses": 3,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
-                "hammerid": "11130",
-                "event": "OnTrigger",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
-                "hammerid": "11131",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 7,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Kirito",
         "shortname": "Kirito",
         "hammerid": "11545",
@@ -116,129 +74,65 @@
         ]
     },
     {
-        "name": "Zombie Shield",
-        "shortname": "ZM Shield",
-        "hammerid": "11544",
+        "name": "Asuna",
+        "shortname": "Asuna",
+        "hammerid": "11546",
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "green",
-        "triggers": ["9027", "7532"],
+        "color": "white",
+        "triggers": ["11111"],
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "7536",
+                "hammerid": "11115",
                 "event": "OnPressed",
-                "mode": 2,
+                "mode": 4,
                 "cooldown": 60,
-                "maxuses": 0,
+                "maxuses": 3,
                 "message": true,
                 "ui": true
             },
             {
-                "type": "button",
-                "hammerid": "7527",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
+                "type": "game_ui",
+                "hammerid": "11130",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "11131",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": false,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Zombie Stealth",
-        "shortname": "ZM Stealth",
-        "hammerid": "11543",
+        "name": "Alice",
+        "shortname": "Alice",
+        "hammerid": "11645",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "yellow",
-        "triggers": ["9023", "7504"],
+        "triggers": ["11643"],
         "handlers": [
             {
-                "type": "button",
-                "hammerid": "7508",
-                "event": "OnPressed",
+                "type": "game_ui",
+                "hammerid": "11712",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "button",
-                "hammerid": "7498",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Gravity",
-        "shortname": "ZM Gravity",
-        "hammerid": "11542",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "purple",
-        "triggers": ["9019", "7465"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "7460",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "button",
-                "hammerid": "7469",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Ice",
-        "shortname": "ZM Ice",
-        "hammerid": "11537",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "blue",
-        "triggers": ["9007", "7434"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "7428",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 80,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "type": "button",
-                "hammerid": "7438",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -430,13 +324,131 @@
         "color": "white"
     },
     {
-        "name": "Alice",
-        "shortname": "Alice",
-        "hammerid": "11645",
+        "name": "Zombie Shield",
+        "shortname": "ZM Shield",
+        "hammerid": "11544",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["9027", "7532"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7536",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "7527",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "11542",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["9019", "7465"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7460",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "7469",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ice",
+        "shortname": "ZM Ice",
+        "hammerid": "11537",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["9007", "7434"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7428",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "7438",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Stealth",
+        "shortname": "ZM Stealth",
+        "hammerid": "11543",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "yellow",
-        "triggers": ["11643"]
+        "triggers": ["9023", "7504"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7508",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "7498",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]

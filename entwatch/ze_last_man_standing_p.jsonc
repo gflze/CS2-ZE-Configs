@@ -27,47 +27,6 @@
         ]
     },
     {
-        "name": "Fuel Can",
-        "shortname": "Fuel",
-        "hammerid": "13078",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey"
-    },
-    {
-        "name": "Zombie Shockwave",
-        "shortname": "ZM Shockwave",
-        "hammerid": "5071",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["5068"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "5065",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 7,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Antlion",
-        "shortname": "ZM Antlion",
-        "hammerid": "5050",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "yellow",
-        "triggers": ["5048"]
-    },
-    {
         "name": "Immunizer Backpack",
         "shortname": "Immunizer BP",
         "hammerid": "4544",
@@ -242,6 +201,100 @@
         ]
     },
     {
+        "name": "M60 Minigun",
+        "shortname": "Minigun",
+        "hammerid": "292",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "297",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gauss Beam Rifle",
+        "shortname": "Beam",
+        "hammerid": "182",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "183",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mines",
+        "shortname": "Mines",
+        "hammerid": "371",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "376",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 16,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Turret",
+        "shortname": "Turret",
+        "hammerid": "81",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "79",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mech",
+        "shortname": "Mech",
+        "hammerid": "234",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["230"]
+    },
+    {
         "name": "Juggernaut",
         "shortname": "Juggernaut",
         "hammerid": "727",
@@ -259,6 +312,56 @@
         "ui": false,
         "transfer": false,
         "color": "grey"
+    },
+    {
+        "name": "Train Driver",
+        "shortname": "Train Driver",
+        "hammerid": "6",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Fuel Can",
+        "shortname": "Fuel",
+        "hammerid": "13078",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Shockwave",
+        "shortname": "ZM Shockwave",
+        "hammerid": "5071",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["5068"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "5065",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Antlion",
+        "shortname": "ZM Antlion",
+        "hammerid": "5050",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["5048"]
     },
     {
         "name": "Zombie Jumper",
@@ -327,27 +430,6 @@
         ]
     },
     {
-        "name": "Mines",
-        "shortname": "Mines",
-        "hammerid": "371",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "376",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 16,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Zombie Summoner",
         "shortname": "ZM Summoner",
         "hammerid": "353",
@@ -368,48 +450,6 @@
         "triggers": ["337"]
     },
     {
-        "name": "M60 Minigun",
-        "shortname": "Minigun",
-        "hammerid": "292",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "297",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Gauss Beam Rifle",
-        "shortname": "Beam",
-        "hammerid": "182",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "darkblue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "183",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 45,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Zombie Tank",
         "shortname": "ZM Tank",
         "hammerid": "159",
@@ -423,27 +463,6 @@
                 "type": "game_ui",
                 "hammerid": "170",
                 "event": "OnTrigger",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Turret",
-        "shortname": "Turret",
-        "hammerid": "81",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "79",
-                "event": "OnPressed",
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
@@ -483,24 +502,5 @@
         "transfer": false,
         "color": "red",
         "triggers": ["13197", "443", "870", "2571"]
-    },
-    {
-        "name": "Mech",
-        "shortname": "Mech",
-        "hammerid": "234",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "blue",
-        "triggers": ["230"]
-    },
-    {
-        "name": "Train Driver",
-        "shortname": "Train Driver",
-        "hammerid": "6",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue"
     }
 ]

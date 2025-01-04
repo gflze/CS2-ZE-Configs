@@ -282,6 +282,38 @@
         ]
     },
     {
+        "name": "Platinum Dragon Lord Armor",
+        "shortname": "Platinum Armor",
+        "hammerid": "7537",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["7535"],
+        "handlers": [
+            {
+                "type": "game_ui",
+                "hammerid": "7530",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 3.5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "game_ui",
+                "hammerid": "7531",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Ice",
         "shortname": "ZM Ice",
         "hammerid": "6506",
@@ -569,38 +601,6 @@
                 "cooldown": 100,
                 "maxuses": 0,
                 "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Platinum Dragon Lord Armor",
-        "shortname": "Platinum Armor",
-        "hammerid": "7537",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["7535"],
-        "handlers": [
-            {
-                "type": "game_ui",
-                "hammerid": "7530",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 3.5,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
-                "hammerid": "7531",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 8,
-                "maxuses": 0,
-                "message": false,
                 "ui": true
             }
         ]

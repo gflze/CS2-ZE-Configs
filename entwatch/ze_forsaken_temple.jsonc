@@ -147,6 +147,84 @@
         ]
     },
     {
+        "name": "Holy Magic",
+        "shortname": "Holy",
+        "hammerid": "1669",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1665",
+                "event": "OnPressed",
+                "mode": 4,
+                "cooldown": 1,
+                "maxuses": 15,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo Magic",
+        "shortname": "Ammo",
+        "hammerid": "1627",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "gold",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1623",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fruit of Knowledge",
+        "shortname": "Fruit",
+        "hammerid": "3035",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple"
+    },
+    {
+        "name": "Flame of Magic",
+        "shortname": "Flame",
+        "hammerid": "3029",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "The Bait",
+        "shortname": "Bait",
+        "hammerid": "1548",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Temple Key",
+        "shortname": "Key",
+        "hammerid": "2554",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
         "name": "Zombie Heal",
         "shortname": "ZM Heal",
         "hammerid": "3232",
@@ -211,83 +289,5 @@
                 "ui": true
             }
         ]
-    },
-    {
-        "name": "Fruit of Knowledge",
-        "shortname": "Fruit",
-        "hammerid": "3035",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "purple"
-    },
-    {
-        "name": "Flame of Magic",
-        "shortname": "Flame",
-        "hammerid": "3029",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red"
-    },
-    {
-        "name": "Holy Magic",
-        "shortname": "Holy",
-        "hammerid": "1669",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "pink",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1665",
-                "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 1,
-                "maxuses": 15,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ammo Magic",
-        "shortname": "Ammo",
-        "hammerid": "1627",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "gold",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1623",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "The Bait",
-        "shortname": "Bait",
-        "hammerid": "1548",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey"
-    },
-    {
-        "name": "Temple Key",
-        "shortname": "Key",
-        "hammerid": "2554",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow"
     }
 ]

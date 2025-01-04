@@ -30,16 +30,6 @@
         ]
     },
     {
-        "name": "Zombie Nazgul",
-        "shortname": "ZM Nazgul",
-        "hammerid": "355",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "darkred",
-        "triggers": ["865"]
-    },
-    {
         "name": "Radio",
         "shortname": "Radio",
         "hammerid": "892",
@@ -59,5 +49,15 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Zombie Nazgul",
+        "shortname": "ZM Nazgul",
+        "hammerid": "355",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["865"]
     }
 ]

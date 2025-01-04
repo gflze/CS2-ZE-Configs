@@ -1,7 +1,7 @@
 [
     {
         "name": "Explosive Bow",
-        "shortname": "Explosive Bow",
+        "shortname": "Explosives",
         "hammerid": "780",
         "message": true,
         "ui": true,
@@ -42,27 +42,6 @@
         ]
     },
     {
-        "name": "Speed Potion",
-        "shortname": "Speed",
-        "hammerid": "743",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "741",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Bow",
         "shortname": "Bow",
         "hammerid": "605",
@@ -84,27 +63,6 @@
         ]
     },
     {
-        "name": "Heal Potion",
-        "shortname": "Heal",
-        "hammerid": "486",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "pink",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "454",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Barrel",
         "shortname": "Barrel",
         "hammerid": "613",
@@ -119,6 +77,27 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "789",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "769",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -147,21 +126,42 @@
         ]
     },
     {
-        "name": "Shotgun",
-        "shortname": "Shotgun",
-        "hammerid": "789",
+        "name": "Heal Potion",
+        "shortname": "Heal",
+        "hammerid": "486",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey",
+        "color": "pink",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "769",
+                "hammerid": "454",
                 "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 10,
-                "maxuses": 0,
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Speed Potion",
+        "shortname": "Speed",
+        "hammerid": "743",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "741",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }

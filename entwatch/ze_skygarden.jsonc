@@ -9,27 +9,6 @@
         "color": "grey"
     },
     {
-        "name": "Earth 2",
-        "shortname": "Earth 2",
-        "hammerid": "261",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "olive",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "262",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 50,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Earth 1",
         "shortname": "Earth 1",
         "hammerid": "706",
@@ -41,6 +20,27 @@
             {
                 "type": "button",
                 "hammerid": "704",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Earth 2",
+        "shortname": "Earth 2",
+        "hammerid": "261",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "262",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 50,
@@ -93,6 +93,27 @@
         ]
     },
     {
+        "name": "Wind 3",
+        "shortname": "Wind 3",
+        "hammerid": "697",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1776",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Fire",
         "shortname": "Fire",
         "hammerid": "1574",
@@ -104,6 +125,27 @@
             {
                 "type": "button",
                 "hammerid": "845",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "2512",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2496",
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 40,
@@ -134,27 +176,6 @@
         "triggers": ["1578"]
     },
     {
-        "name": "Wind 3",
-        "shortname": "Wind 3",
-        "hammerid": "697",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "1776",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 10,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Zombie Wind Shield",
         "shortname": "ZM Shield",
         "hammerid": "1100",
@@ -170,27 +191,6 @@
                 "event": "OnPressed",
                 "mode": 0,
                 "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Ammo",
-        "shortname": "Ammo",
-        "hammerid": "2512",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "olive",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "2496",
-                "event": "OnPressed",
-                "mode": 2,
-                "cooldown": 40,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
