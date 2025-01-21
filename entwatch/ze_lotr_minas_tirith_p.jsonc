@@ -26,6 +26,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
+        "templated": false,
         "color": "green",
         "triggers": ["7783"],
         "handlers": [
@@ -48,16 +49,15 @@
         "message": true,
         "ui": true,
         "transfer": false,
+        "templated": false,
         "color": "yellow",
         "triggers": ["7870"],
         "handlers": [
             {
-                "type": "game_ui",
-                "hammerid": "866",
-                "event": "OnEqualTo",
-                "mode": 5,
+                "type": "counterup",
+                "hammerid": "868",
+                "mode": 4,
                 "cooldown": 60,
-                "maxuses": 2,
                 "message": true,
                 "ui": true
             }
@@ -84,6 +84,7 @@
         "triggers": ["7787"],
         "handlers": [
             {
+                "name": "Light",
                 "type": "game_ui", // light
                 "hammerid": "686",
                 "event": "OnEqualTo",
@@ -94,6 +95,7 @@
                 "ui": true
             },
             {
+                "name": "Push",
                 "type": "game_ui", // dawds
                 "hammerid": "687",
                 "event": "OnEqualTo",
