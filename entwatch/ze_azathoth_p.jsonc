@@ -12,10 +12,9 @@
                 "type": "button",
                 "hammerid": "285",
                 "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
+                "mode": 2,
+                "cooldown": 4,
+                "message": false,
                 "ui": true
             }
         ]

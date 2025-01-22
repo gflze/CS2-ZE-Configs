@@ -1,43 +1,22 @@
 [
     {
-        "name": "Double Jump",
-        "shortname": "Jump",
-        "hammerid": "570",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "triggers": ["254"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "572",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Ice Arrow",
         "shortname": "Ice",
         "hammerid": "202",
         "message": true,
         "ui": true,
-        "transfer": true,
         "color": "blue",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1374",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
+                "hammerid": "1374"
+            },
+            {
+                "hammerid": "210",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 4,
+                "message": false,
                 "ui": true
             }
         ]
@@ -48,17 +27,18 @@
         "hammerid": "187",
         "message": true,
         "ui": true,
-        "transfer": true,
         "color": "yellow",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1376",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
+                "hammerid": "1376"
+            },
+            {
+                "hammerid": "195",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 4,
+                "message": false,
                 "ui": true
             }
         ]
@@ -69,17 +49,38 @@
         "hammerid": "54",
         "message": true,
         "ui": true,
-        "transfer": true,
         "color": "red",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1362",
+                "hammerid": "1362"
+            },
+            {
+                "hammerid": "50",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 4,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Double Jump",
+        "shortname": "Jump",
+        "hammerid": "570",
+        "message": true,
+        "ui": true,
+        "color": "green",
+        "triggers": ["254"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "572",
                 "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
+                "mode": 2,
+                "cooldown": 4,
+                "message": false,
                 "ui": true
             }
         ]
@@ -90,7 +91,6 @@
         "hammerid": "27",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "grey",
         "triggers": ["1457"]
     },
@@ -100,7 +100,6 @@
         "hammerid": "21",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "grey",
         "triggers": ["1459"]
     }

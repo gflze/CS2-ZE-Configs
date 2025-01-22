@@ -14,7 +14,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -31,18 +30,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5039",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "5039"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "5037",
-                "mode": 6,
+                "mode": 5,
+                "offset": [0, -1980],
                 "ui": true
             }
         ]
@@ -60,7 +54,7 @@
                 "type": "button",
                 "hammerid": "5020",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 10,
                 "maxuses": 8,
                 "message": true,
@@ -83,7 +77,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -96,7 +89,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "red",
+        "color": "green",
         "handlers": [
             {
                 "type": "button",
@@ -125,7 +118,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 50,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -146,7 +138,6 @@
                 "event": "OnPressed",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }

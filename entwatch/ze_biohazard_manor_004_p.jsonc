@@ -10,18 +10,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "978",
-                "event": "OnPlayerUse",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "978"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "983",
-                "mode": 6,
+                "mode": 5,
                 "ui": true
             }
         ]
