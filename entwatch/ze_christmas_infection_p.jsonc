@@ -10,18 +10,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4640",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "4640"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "4652",
-                "mode": 6,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -195,7 +189,7 @@
         ]
     },
     {
-        "name": "Zombie Whirlpool SUmmoner",
+        "name": "Zombie Whirlpool Summoner",
         "shortname": "ZM Whirlpool",
         "hammerid": "4542",
         "message": true,
@@ -275,7 +269,7 @@
         "shortname": "Hat",
         "hammerid": "1179",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "grey"
     },
@@ -284,7 +278,7 @@
         "shortname": "Penis",
         "hammerid": "1180",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "pink"
     },
@@ -293,7 +287,7 @@
         "shortname": "Banana",
         "hammerid": "1205",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "yellow"
     }

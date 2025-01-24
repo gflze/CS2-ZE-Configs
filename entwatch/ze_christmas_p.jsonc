@@ -10,11 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "139",
-                "event": "OnPlayerUse",
+                "hammerid": "139"
+            },
+            {
+                "hammerid": "136",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 45,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -31,11 +33,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "153",
-                "event": "OnPlayerUse",
+                "hammerid": "153"
+            },
+            {
+                "hammerid": "148",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 75,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
