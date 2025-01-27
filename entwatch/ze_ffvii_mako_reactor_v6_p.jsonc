@@ -75,7 +75,7 @@
                 "type": "button",
                 "hammerid": "1516",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 20,
                 "maxuses": 1,
                 "message": true,
@@ -199,21 +199,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1617",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "1617"
             },
             {
-                "type": "counter",
+                "type": "counterup",
                 "hammerid": "1625",
-                "event": "OnHitMax",
-                "mode": 2,
+                "mode": 4,
                 "cooldown": 75,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }

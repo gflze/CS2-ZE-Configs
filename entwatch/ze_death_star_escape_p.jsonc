@@ -10,11 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1614",
-                "event": "OnPressed",
+                "hammerid": "1614"
+            },
+            {
+                "hammerid": "1611",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 20,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -31,11 +33,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1810",
-                "event": "OnPressed",
+                "hammerid": "1810"
+            },
+            {
+                "hammerid": "1805",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 20,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
