@@ -45,8 +45,7 @@
                 "name": "Explosion",
                 "hammerid": "7196",
                 "event": "OnTrue",
-                "mode": 2,
-                "cooldown": 1,
+                "mode": 1,
                 "message": true,
                 "ui": false
             }

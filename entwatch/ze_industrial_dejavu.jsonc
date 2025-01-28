@@ -52,18 +52,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "410",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "410"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "89",
-                "mode": 6,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -144,7 +138,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "greyu"
+        "color": "grey"
     },
     {
         "name": "Zombie Heal",

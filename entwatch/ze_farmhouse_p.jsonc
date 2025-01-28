@@ -20,24 +20,22 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
                 "hammerid": "28407",
                 "event": "OnTrigger",
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
-                "ui": true
+                "ui": false
             },
             {
-                "type": "game_ui",
                 "hammerid": "28390",
                 "event": "OnTrigger",
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
-                "ui": true
+                "ui": false
             }
         ]
     },
@@ -52,18 +50,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "6047",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "6047"
             },
             {
-                "type": "counter",
+                "type": "counterup",
                 "hammerid": "967",
-                "mode": 7,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -79,18 +71,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "6039",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "6039"
             },
             {
-                "type": "counter",
+                "type": "counterup",
                 "hammerid": "6044",
-                "mode": 7,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -106,18 +92,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5977",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "5977"
             },
             {
-                "type": "counter",
+                "type": "counterup",
                 "hammerid": "5988",
-                "mode": 7,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -133,13 +113,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "28452",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "28452"
             }
         ]
     }
