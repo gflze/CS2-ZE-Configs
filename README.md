@@ -34,9 +34,10 @@ Find entity classnames that start with `weapon_` as a starting point for creatin
 		"handlers": [
 			{
 				"name": "Handler",     // extra name to show in chat when used e.g. XXX has used Item Name (Handler)
-				"type": "button",      // "button",  (anything else is ignored)
+				"type": "button",      // "button",
 				                       // "counterdown" - counter stops OnHitMin
 				                       // "counterup" - counter stops OnHitMax
+				                       // (anything else is ignored)
 				"hammerid": "",        // hammerid of the entity
 				"event": "OnPressed",  // Name of the output, counterup/down types always force "OutValue"
 				"mode": 2,             // Mode of the handler

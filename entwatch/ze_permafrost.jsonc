@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2002",
-                "event": "OnPlayerUse",
+                "hammerid": "2002"
+            },
+            {
+                "hammerid": "2001",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 110,
                 "maxuses": 0,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1986",
-                "event": "OnPlayerUse",
+                "hammerid": "1986"
+            },
+            {
+                "hammerid": "1985",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 90,
                 "maxuses": 0,
@@ -52,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1975",
-                "event": "OnPlayerUse",
+                "hammerid": "1975"
+            },
+            {
+                "hammerid": "1974",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 90,
                 "maxuses": 0,
@@ -73,8 +82,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1330",
-                "event": "OnPlayerUse",
+                "hammerid": "1330"
+            },
+            {
+                "hammerid": "1329",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 80,
                 "maxuses": 0,
