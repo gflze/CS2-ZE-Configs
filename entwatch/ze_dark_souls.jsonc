@@ -293,7 +293,7 @@
         "shortname": "Blood Shield",
         "hammerid": "144780",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "red2"
     },
@@ -302,7 +302,7 @@
         "shortname": "Grass Shield",
         "hammerid": "144791",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "olive"
     },
