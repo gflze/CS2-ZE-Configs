@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Basketball",
+        "shortname": "Basketball",
+        "hammerid": "259",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Penis",
+        "shortname": "Penis",
+        "hammerid": "13",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink"
+    }
+]
