@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "44496",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44494",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
