@@ -357,6 +357,36 @@
         ]
     },
     {
+        "name": "Zombie Judge Zargabaath",
+        "shortname": "ZM Zargabaath",
+        "hammerid": "25186",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["25187"],
+        "handlers": [
+            {
+                "hammerid": "25193",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "hammerid": "25194",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Zombie Judge Drace",
         "shortname": "ZM Drace",
         "hammerid": "3275",
