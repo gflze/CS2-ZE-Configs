@@ -1,6 +1,6 @@
 [
     {
-        "name": "Flamethrower", // Mode 6 with 3600 math_counter ID
+        "name": "Flamethrower",
         "shortname": "Flamethrower",
         "hammerid": "3601",
         "message": true,
@@ -10,12 +10,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3595",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
+                "hammerid": "3595"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "3600",
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -52,13 +52,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3549",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
+                "hammerid": "3549"
             }
         ]
     },

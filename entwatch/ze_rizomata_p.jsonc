@@ -11,8 +11,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1799",
-                "event": "OnPlayerUse",
+                "hammerid": "1799"
+            },
+            {
+                "hammerid": "30823",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 55,
                 "maxuses": 0,
@@ -20,7 +23,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Area",
                 "hammerid": "1809",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -43,8 +46,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1590",
-                "event": "OnPlayerUse",
+                "hammerid": "1590"
+            },
+            {
+                "hammerid": "30825",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 55,
                 "maxuses": 0,
@@ -52,7 +58,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Area",
                 "hammerid": "1588",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -75,8 +81,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1817",
-                "event": "OnPlayerUse",
+                "hammerid": "1817"
+            },
+            {
+                "hammerid": "30822",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -84,7 +93,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Small",
                 "hammerid": "1826",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -116,7 +125,16 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "hammerid": "30827",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Small",
                 "hammerid": "1605",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -139,8 +157,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1239",
-                "event": "OnPlayerUse",
+                "hammerid": "1239"
+            },
+            {
+                "hammerid": "30820",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -148,7 +169,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Slow",
                 "hammerid": "1246",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -171,8 +192,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1258",
-                "event": "OnPlayerUse",
+                "hammerid": "1258"
+            },
+            {
+                "hammerid": "30829",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -180,7 +204,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Slow",
                 "hammerid": "1265",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -203,8 +227,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "698",
-                "event": "OnPlayerUse",
+                "hammerid": "698"
+            },
+            {
+                "hammerid": "30818",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -212,7 +239,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Laser",
                 "hammerid": "701",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -244,7 +271,16 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "hammerid": "30831",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Laser",
                 "hammerid": "669",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -272,7 +308,7 @@
                 "mode": 2,
                 "cooldown": 10,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
