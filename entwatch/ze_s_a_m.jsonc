@@ -13,7 +13,7 @@
                 "type": "button",
                 "hammerid": "12892",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 60,
                 "maxuses": 2,
                 "message": true,
@@ -45,24 +45,13 @@
                 "type": "button",
                 "hammerid": "7575",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 60,
                 "maxuses": 3,
                 "message": true,
                 "ui": true
             },
             {
-                "type": "game_ui",
-                "hammerid": "7584",
-                "event": "OnTrigger",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
                 "hammerid": "7583",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -84,27 +73,15 @@
         "triggers": ["11111"],
         "handlers": [
             {
-                "type": "button",
                 "hammerid": "11115",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 60,
                 "maxuses": 3,
                 "message": true,
                 "ui": true
             },
             {
-                "type": "game_ui",
-                "hammerid": "11130",
-                "event": "OnTrigger",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            },
-            {
-                "type": "game_ui",
                 "hammerid": "11131",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -126,7 +103,6 @@
         "triggers": ["11643"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "11712",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -171,7 +147,7 @@
                 "type": "button",
                 "hammerid": "7370",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 20,
                 "maxuses": 1,
                 "message": true,

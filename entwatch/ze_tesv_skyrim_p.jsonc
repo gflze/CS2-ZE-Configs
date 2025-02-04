@@ -10,7 +10,6 @@
         "triggers": ["992"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "29347",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -32,7 +31,6 @@
         "triggers": ["984"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29504",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -42,7 +40,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
                 "hammerid": "29506",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -64,7 +61,6 @@
         "triggers": ["982"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29437",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -74,11 +70,31 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
+                "name": "Fire",
                 "hammerid": "29451",
                 "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Freeze",
+                "hammerid": "29450",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Push",
+                "hammerid": "29438",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 80,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -96,7 +112,6 @@
         "triggers": ["1020"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29383",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -106,7 +121,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
                 "hammerid": "29378",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -128,7 +142,6 @@
         "triggers": ["979"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29403",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -138,10 +151,9 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
                 "hammerid": "29412",
                 "event": "OnTrigger",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 60,
                 "maxuses": 2,
                 "message": true,
@@ -162,7 +174,7 @@
                 "type": "button",
                 "hammerid": "703",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 10,
                 "maxuses": 2,
                 "message": true,
@@ -183,7 +195,7 @@
                 "type": "button",
                 "hammerid": "402",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 20,
                 "maxuses": 2,
                 "message": true,
@@ -225,7 +237,17 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow"
+        "color": "yellow",
+        "handlers": [
+            {
+                "hammerid": "1487",
+                "event": "OnTrigger",
+                "mode": 3,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Wolf",
@@ -238,7 +260,6 @@
         "triggers": ["987"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29229",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -248,7 +269,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
                 "hammerid": "29237",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -270,7 +290,6 @@
         "triggers": ["990"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29184",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -280,7 +299,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
                 "hammerid": "29185",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -302,7 +320,6 @@
         "triggers": ["994"],
         "handlers": [
             {
-                "type": "game_ui", // M1
                 "hammerid": "29270",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -312,7 +329,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // M2
                 "hammerid": "29271",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -334,7 +350,6 @@
         "triggers": ["1088"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "29317",
                 "event": "OnTrigger",
                 "mode": 3,
