@@ -145,13 +145,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "903",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "903"
             }
         ]
     },
@@ -229,13 +223,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1230",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "1230"
             }
         ]
     },

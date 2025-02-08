@@ -19,11 +19,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1862",
-                "event": "OnPlayerUse",
+                "hammerid": "1862"
+            },
+            {
+                "hammerid": "3610",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -40,11 +42,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1848",
-                "event": "OnPlayerUse",
+                "hammerid": "1848"
+            },
+            {
+                "hammerid": "3611",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 50,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }

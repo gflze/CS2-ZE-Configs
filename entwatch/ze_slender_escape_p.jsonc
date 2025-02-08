@@ -10,11 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "250",
-                "event": "OnPlayerUse",
+                "hammerid": "250"
+            },
+            {
+                "hammerid": "9134",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 41, // Original 41.5 but rounded down
-                "maxuses": 0,
+                "cooldown": 41.5,
                 "message": true,
                 "ui": true
             }
@@ -31,11 +33,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "258",
-                "event": "OnPlayerUse",
+                "hammerid": "258"
+            },
+            {
+                "hammerid": "9132",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 25,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -52,13 +56,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "246",
-                "event": "OnPlayerUse",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "246"
             }
         ]
     },
@@ -73,9 +71,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1115",
-                "event": "OnPlayerUse",
-                "mode": 4,
+                "hammerid": "1115"
+            },
+            {
+                "hammerid": "9131",
+                "event": "OnTrigger",
+                "mode": 3,
                 "cooldown": 13,
                 "maxuses": 1,
                 "message": true,
@@ -113,7 +114,6 @@
         "triggers": ["1057"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "1112",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -123,7 +123,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
                 "hammerid": "1070",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -145,7 +144,6 @@
         "triggers": ["596"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "606",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -155,7 +153,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
                 "hammerid": "604",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -177,13 +174,12 @@
         "triggers": ["1259"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "1267",
                 "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 20,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]

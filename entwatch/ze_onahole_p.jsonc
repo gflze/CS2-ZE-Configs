@@ -12,7 +12,7 @@
                 "type": "button",
                 "hammerid": "94",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 20,
                 "maxuses": 1,
                 "message": true,

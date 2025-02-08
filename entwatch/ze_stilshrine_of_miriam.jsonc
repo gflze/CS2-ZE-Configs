@@ -180,7 +180,7 @@
                 "type": "button",
                 "hammerid": "2256",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 15,
                 "maxuses": 1,
                 "message": true,

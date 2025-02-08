@@ -30,13 +30,24 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "7192",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
+                "hammerid": "7192"
+            },
+            {
+                "hammerid": "7196",
+                "event": "OnFalse",
+                "mode": 2,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
+            },
+            {
+                "name": "Explosion",
+                "hammerid": "7196",
+                "event": "OnTrue",
+                "mode": 1,
+                "message": true,
+                "ui": false
             }
         ]
     },
@@ -116,7 +127,7 @@
                 "type": "button",
                 "hammerid": "3431",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 60,
                 "maxuses": 2,
                 "message": true,
@@ -219,11 +230,14 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5004",
+                "hammerid": "5004"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "5008",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 5,
-                "maxuses": 10,
                 "message": false,
                 "ui": true
             }

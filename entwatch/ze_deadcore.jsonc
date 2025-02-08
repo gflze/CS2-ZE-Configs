@@ -10,18 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5476",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "4634"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "5075",
-                "mode": 7,
+                "mode": 5,
+                "offset": [1,1],
                 "ui": true
             }
         ]
@@ -37,18 +32,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5472",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "4713"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "4705",
-                "mode": 7,
+                "mode": 5,
+                "offset": [1,1],
                 "ui": true
             }
         ]
@@ -64,18 +54,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5474",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "726"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "4717",
-                "mode": 6,
+                "mode": 5,
+                "offset": [1,1],
                 "ui": true
             }
         ]

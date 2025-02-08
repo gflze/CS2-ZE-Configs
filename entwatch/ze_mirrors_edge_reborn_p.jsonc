@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "2885",
-                "event": "OnPressed",
+                "hammerid": "2885"
+            },
+            {
+                "hammerid": "2168",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,

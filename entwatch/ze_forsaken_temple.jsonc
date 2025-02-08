@@ -159,9 +159,9 @@
                 "type": "button",
                 "hammerid": "1665",
                 "event": "OnPressed",
-                "mode": 4,
-                "cooldown": 1,
-                "maxuses": 15,
+                "mode": 3,
+                "cooldown": 15,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }

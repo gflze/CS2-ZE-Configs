@@ -10,11 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19622",
-                "event": "OnPlayerUse",
+                "hammerid": "19622"
+            },
+            {
+                "hammerid": "19405",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 100,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -40,11 +42,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19573",
-                "event": "OnPlayerUse",
+                "hammerid": "19573"
+            },
+            {
+                "hammerid": "19404",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 15,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -82,18 +86,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19550",
-                "event": "OnPlayerUse",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "19550"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "19549",
-                "mode": 6,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -112,7 +110,7 @@
                 "hammerid": "19420",
                 "event": "OnPlayerUse",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 15,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -130,12 +128,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19529",
-                "event": "OnPlayerUse",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
+                "hammerid": "19529"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "19466",
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -151,8 +149,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19511",
-                "event": "OnPlayerUse",
+                "hammerid": "19511"
+            },
+            {
+                "hammerid": "19407",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -172,12 +173,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19462",
-                "event": "OnPlayerUse",
+                "hammerid": "19462"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "19466",
                 "mode": 3,
-                "cooldown": 0,
-                "maxuses": 10,
-                "message": true,
                 "ui": true
             }
         ]
@@ -193,12 +194,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19444",
-                "event": "OnPlayerUse",
+                "hammerid": "19444"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "19441",
                 "mode": 3,
-                "cooldown": 0,
-                "maxuses": 18,
-                "message": true,
                 "ui": true
             }
         ]
@@ -214,10 +215,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "19410",
-                "event": "OnPlayerUse",
+                "hammerid": "19410"
+            },
+            {
+                "hammerid": "19426",
+                "event": "OnPass",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 5,
                 "maxuses": 1,
                 "message": true,
                 "ui": true

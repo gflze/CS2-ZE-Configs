@@ -52,13 +52,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "647",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "647"
             }
         ]
     },
@@ -99,7 +93,7 @@
                 "mode": 2,
                 "cooldown": 10,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -118,7 +112,7 @@
                 "hammerid": "763",
                 "event": "OnPressed",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 7,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -139,7 +133,7 @@
                 "hammerid": "454",
                 "event": "OnPressed",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 5,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -160,7 +154,7 @@
                 "hammerid": "741",
                 "event": "OnPressed",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 5,
                 "maxuses": 1,
                 "message": true,
                 "ui": true

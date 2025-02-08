@@ -128,7 +128,7 @@
                 "hammerid": "72",
                 "event": "OnTrigger",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 5,
                 "maxuses": 1,
                 "message": true,
                 "ui": true

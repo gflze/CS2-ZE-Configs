@@ -10,11 +10,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1201",
-                "event": "OnPlayerUse",
+                "hammerid": "1201"
+            },
+            {
+                "hammerid": "7730",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -31,11 +33,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1192",
-                "event": "OnPlayerUse",
+                "hammerid": "1192"
+            },
+            {
+                "hammerid": "7729",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -52,11 +56,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1183",
-                "event": "OnPlayerUse",
+                "hammerid": "1183"
+            },
+            {
+                "hammerid": "7728",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -73,11 +79,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1173",
-                "event": "OnPlayerUse",
+                "hammerid": "1173"
+            },
+            {
+                "hammerid": "7727",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -94,11 +102,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1056",
-                "event": "OnPlayerUse",
+                "hammerid": "1056"
+            },
+            {
+                "hammerid": "7723",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -116,11 +126,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1149",
-                "event": "OnPlayerUse",
+                "hammerid": "1149"
+            },
+            {
+                "hammerid": "7726",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -137,11 +149,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1121",
-                "event": "OnPlayerUse",
+                "hammerid": "1121"
+            },
+            {
+                "hammerid": "7724",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -158,11 +172,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1132",
-                "event": "OnPlayerUse",
-                "mode": 4,
-                "cooldown": 4,
-                "maxuses": 6,
+                "hammerid": "1132"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "1135",
+                "mode": 3,
+                "cooldown": 3,
                 "message": true,
                 "ui": true
             }
@@ -179,11 +195,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "917",
-                "event": "OnPlayerUse",
+                "hammerid": "917"
+            },
+            {
+                "hammerid": "7722",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 75,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }

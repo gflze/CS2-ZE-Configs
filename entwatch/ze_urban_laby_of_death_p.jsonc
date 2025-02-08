@@ -49,12 +49,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9069",
-                "event": "OnPressed",
+                "hammerid": "9069"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "9054",
                 "mode": 3,
-                "cooldown": 0,
-                "maxuses": 6,
-                "message": true,
                 "ui": true
             }
         ]
@@ -70,18 +70,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9085",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "9085"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "9083",
-                "mode": 6,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -97,8 +91,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9100",
-                "event": "OnPlayerUse",
+                "hammerid": "9100"
+            },
+            {
+                "hammerid": "9118",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 72,
                 "maxuses": 0,
@@ -182,13 +179,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "9160",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "9160"
             }
         ]
     },
