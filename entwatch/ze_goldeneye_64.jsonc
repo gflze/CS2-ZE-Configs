@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "276",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "templated": true,
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "272",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true,
+                "templated": true
+            }
+        ]
+    },
+    {
+        "name": "Golden Gun",
+        "shortname": "Gun",
+        "hammerid": "1916",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "templated": true,
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1914",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true,
+                "templated": true
+            }
+        ]
+    },
+    {
+        "name": "Throwing Knife",
+        "shortname": "Knife",
+        "hammerid": "2104",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "templated": true,
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2102",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true,
+                "templated": true
+            }
+        ]
+    },
+    {
+        "name": "RPG",
+        "shortname": "RPG",
+        "hammerid": "2180",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "templated": true,
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2162",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 5,
+                "maxuses": 3,
+                "message": true,
+                "ui": true,
+                "templated": true
+            }
+        ]
+    }
+]
