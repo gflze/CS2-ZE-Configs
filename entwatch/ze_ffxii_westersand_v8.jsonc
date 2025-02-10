@@ -133,7 +133,6 @@
         "ui": true,
         "transfer": true,
         "color": "white",
-        "triggers": [""],
         "handlers": [
             {
                 "type": "button",
