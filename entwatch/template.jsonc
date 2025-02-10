@@ -23,7 +23,7 @@
 											//	2 = Cooldown,			3 = MaxUses (cooldown between each)
 											//	4 = CooldownAfterUses,	5 = CounterValue
 				"offset": [5,-9],			// ADDS the specified offset to counter values, 
-				                            // First number is counter value, Second is counter max
+											// First number is counter value, Second is counter max
 				"cooldown": 60,				// Cooldown duration if mode = 2,3,4
 				"maxuses": 0,				// Maxuses if mode = 3,4
 				"message": true,			// Whether to show when this is used in chat

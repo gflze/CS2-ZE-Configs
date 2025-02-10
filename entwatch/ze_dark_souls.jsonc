@@ -40,7 +40,8 @@
                 "hammerid": "142478",
                 "mode": 3,
                 "cooldown": 2.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -62,7 +63,8 @@
                 "hammerid": "142470",
                 "mode": 3,
                 "cooldown": 10,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -84,7 +86,8 @@
                 "hammerid": "142471",
                 "mode": 3,
                 "cooldown": 10,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -106,7 +109,8 @@
                 "hammerid": "142475",
                 "mode": 3,
                 "cooldown": 2.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -128,7 +132,8 @@
                 "hammerid": "142469",
                 "mode": 3,
                 "cooldown": 7.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -150,7 +155,8 @@
                 "hammerid": "142477",
                 "mode": 3,
                 "cooldown": 2.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -172,7 +178,8 @@
                 "hammerid": "142474",
                 "mode": 3,
                 "cooldown": 7,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -240,7 +247,8 @@
                 "hammerid": "142466",
                 "mode": 3,
                 "cooldown": 10,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -262,7 +270,8 @@
                 "hammerid": "142473",
                 "mode": 3,
                 "cooldown": 2.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -284,7 +293,8 @@
                 "hammerid": "142472",
                 "mode": 3,
                 "cooldown": 1.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -343,7 +353,8 @@
                 "hammerid": "142480",
                 "mode": 3,
                 "cooldown": 2.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -366,7 +377,8 @@
                 "hammerid": "142476",
                 "mode": 3,
                 "cooldown": 2.5,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -389,7 +401,8 @@
                 "hammerid": "142467",
                 "mode": 3,
                 "cooldown": 8,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -412,7 +425,8 @@
                 "hammerid": "142479",
                 "mode": 3,
                 "cooldown": 20,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     },
@@ -435,7 +449,8 @@
                 "hammerid": "142468",
                 "mode": 3,
                 "cooldown": 15,
-                "ui": true
+                "ui": true,
+                "message": true
             }
         ]
     }
