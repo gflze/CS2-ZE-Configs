@@ -367,6 +367,7 @@
         "triggers": ["25187"],
         "handlers": [
             {
+                "name": "Main Weapon",
                 "hammerid": "25193",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -376,6 +377,7 @@
                 "ui": true
             },
             {
+                "name": "Ice Summon",
                 "hammerid": "25194",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -397,6 +399,7 @@
         "triggers": ["3276"],
         "handlers": [
             {
+                "name": "Poison Shield",
                 "type": "game_ui",
                 "hammerid": "3271",
                 "event": "OnTrigger",
@@ -407,6 +410,7 @@
                 "ui": true
             },
             {
+                "name": "Plague Summon",
                 "type": "game_ui",
                 "hammerid": "3270",
                 "event": "OnTrigger",
@@ -429,6 +433,7 @@
         "triggers": ["3876"],
         "handlers": [
             {
+                "name": "Speed Up",
                 "type": "game_ui",
                 "hammerid": "3882",
                 "event": "OnTrigger",
@@ -439,6 +444,7 @@
                 "ui": true
             },
             {
+                "name": "Damage",
                 "type": "game_ui",
                 "hammerid": "3881",
                 "event": "OnTrigger",
