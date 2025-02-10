@@ -16,7 +16,7 @@
                 "cooldown": 0,
                 "maxuses": 1,
                 "message": true,
-                "ui": true,
+                "ui": true
             }
         ]
     },
@@ -37,7 +37,7 @@
                 "cooldown": 0,
                 "maxuses": 1,
                 "message": true,
-                "ui": true,
+                "ui": true
             }
         ]
     },
@@ -58,7 +58,7 @@
                 "cooldown": 15,
                 "maxuses": 0,
                 "message": true,
-                "ui": true,
+                "ui": true
             }
         ]
     },
@@ -79,7 +79,7 @@
                 "cooldown": 5,
                 "maxuses": 3,
                 "message": true,
-                "ui": true,
+                "ui": true
             }
         ]
     }
