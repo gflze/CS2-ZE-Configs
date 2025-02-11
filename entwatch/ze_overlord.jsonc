@@ -84,7 +84,7 @@
                 "type": "button",
                 "hammerid": "6595",
                 "event": "OnPressed",
-                "mode": 4,
+                "mode": 3,
                 "cooldown": 10,
                 "maxuses": 1,
                 "message": true,
