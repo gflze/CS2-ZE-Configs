@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Proximity Mines",
+        "shortname": "Mines",
+        "hammerid": "12046",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "12041",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 15,
+                "maxuses": 15,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Grenade Launcher",
+        "shortname": "Launcher",
+        "hammerid": "11992",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11989",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Minigun",
+        "shortname": "Minigun",
+        "hammerid": "12013",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "12011"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "12017",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "11976",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11977",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electro",
+        "shortname": "Electro",
+        "hammerid": "1449",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1450",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "1468",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "lightgreen",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1471",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "UAV Drone",
+        "shortname": "UAV",
+        "hammerid": "1488",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1489",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
