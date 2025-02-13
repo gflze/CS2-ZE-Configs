@@ -9,7 +9,6 @@
         "color": "red",
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "385",
                 "event": "OnTrigger",
                 "mode": 3,

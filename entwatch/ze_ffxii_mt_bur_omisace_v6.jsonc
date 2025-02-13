@@ -400,7 +400,6 @@
         "handlers": [
             {
                 "name": "Poison Shield",
-                "type": "game_ui",
                 "hammerid": "3271",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -411,7 +410,6 @@
             },
             {
                 "name": "Plague Summon",
-                "type": "game_ui",
                 "hammerid": "3270",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -434,7 +432,6 @@
         "handlers": [
             {
                 "name": "Speed Up",
-                "type": "game_ui",
                 "hammerid": "3882",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -445,7 +442,6 @@
             },
             {
                 "name": "Damage",
-                "type": "game_ui",
                 "hammerid": "3881",
                 "event": "OnTrigger",
                 "mode": 2,

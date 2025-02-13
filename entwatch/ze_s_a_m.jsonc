@@ -20,7 +20,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
                 "hammerid": "12853",
                 "event": "OnTrigger",
                 "mode": 2,

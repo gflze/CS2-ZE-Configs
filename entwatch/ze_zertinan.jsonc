@@ -477,7 +477,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
                 "hammerid": "9050",
                 "event": "OnEqualTo",
                 "mode": 2,
@@ -499,7 +498,6 @@
         "triggers": ["2356"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "3619",
                 "event": "OnTrigger",
                 "mode": 1,
@@ -509,7 +507,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
                 "hammerid": "2367",
                 "event": "OnTrigger",
                 "mode": 2,

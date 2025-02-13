@@ -10,7 +10,6 @@
         "triggers": ["3306"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "3333",
                 "event": "OnEqualTo",
                 "mode": 2,

@@ -302,7 +302,6 @@
         "triggers": ["733"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "719",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -324,7 +323,6 @@
         "triggers": ["739"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "720",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -346,7 +344,6 @@
         "triggers": ["736"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "721",
                 "event": "OnTrigger",
                 "mode": 2,

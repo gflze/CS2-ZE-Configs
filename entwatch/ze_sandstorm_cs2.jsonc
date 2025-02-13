@@ -180,7 +180,6 @@
         "triggers": ["11896"],
         "handlers": [
             {
-                "type": "game_ui", // Mouse 2
                 "hammerid": "11886",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -190,7 +189,6 @@
                 "ui": true
             },
             {
-                "type": "game_ui", // Mouse 1
                 "hammerid": "11888",
                 "event": "OnTrigger",
                 "mode": 1,

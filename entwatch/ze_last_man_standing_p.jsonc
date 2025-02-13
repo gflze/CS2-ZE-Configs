@@ -342,7 +342,6 @@
         "triggers": ["5068"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "5065",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -374,7 +373,6 @@
         "triggers": ["624"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "628",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -396,7 +394,6 @@
         "triggers": ["405"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "409",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -418,7 +415,6 @@
         "triggers": ["383"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "385",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -460,7 +456,6 @@
         "triggers": ["167"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "170",
                 "event": "OnTrigger",
                 "mode": 1,
@@ -482,7 +477,6 @@
         "triggers": ["48"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "51",
                 "event": "OnTrigger",
                 "mode": 2,
