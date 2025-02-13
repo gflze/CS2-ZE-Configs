@@ -10,6 +10,7 @@
         "triggers": ["3483"],
         "handlers": [
             {
+                "name": "Rock",
                 "type": "button",
                 "hammerid": "20525",
                 "event": "OnPressed",
@@ -20,7 +21,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Kick",
                 "hammerid": "20523",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -42,7 +43,7 @@
         "triggers": ["3600"],
         "handlers": [
             {
-                "type": "game_ui", // Gandalf has two pushes of different CD...
+                "name": "Light",
                 "hammerid": "20814",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -52,7 +53,7 @@
                 "ui": true
             },
             {
-                "type": "button",
+                "name": "Push",
                 "hammerid": "20813",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -125,7 +126,6 @@
         "triggers": ["20295"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "20310",
                 "event": "OnTrigger",
                 "mode": 2,
