@@ -367,6 +367,7 @@
         "triggers": ["25187"],
         "handlers": [
             {
+                "name": "Main Weapon",
                 "hammerid": "25193",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -376,6 +377,7 @@
                 "ui": true
             },
             {
+                "name": "Ice Summon",
                 "hammerid": "25194",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -397,7 +399,7 @@
         "triggers": ["3276"],
         "handlers": [
             {
-                "type": "game_ui",
+                "name": "Poison Shield",
                 "hammerid": "3271",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -407,7 +409,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Plague Summon",
                 "hammerid": "3270",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -429,7 +431,7 @@
         "triggers": ["3876"],
         "handlers": [
             {
-                "type": "game_ui",
+                "name": "Speed Up",
                 "hammerid": "3882",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -439,7 +441,7 @@
                 "ui": true
             },
             {
-                "type": "game_ui",
+                "name": "Damage",
                 "hammerid": "3881",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -462,8 +464,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5179",
-                "event": "OnPressed",
+                "hammerid": "5179"
+            },
+            {
+                "hammerid": "3099",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -484,8 +489,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3091",
-                "event": "OnPressed",
+                "hammerid": "3091"
+            },
+            {
+                "hammerid": "3294",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -506,8 +514,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3210",
-                "event": "OnPressed",
+                "hammerid": "3210"
+            },
+            {
+                "hammerid": "4883",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -528,8 +539,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4922",
-                "event": "OnPressed",
+                "hammerid": "4922"
+            },
+            {
+                "hammerid": "4926",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,

@@ -1,20 +1,20 @@
 [
     {
-        "name": "Shockwave",
-        "shortname": "Shockwave",
-        "hammerid": "3979",
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "3305",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "green",
+        "color": "pink",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3970",
+                "hammerid": "3290",
                 "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 15,
-                "maxuses": 1,
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }

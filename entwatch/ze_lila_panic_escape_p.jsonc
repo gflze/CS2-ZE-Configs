@@ -124,7 +124,6 @@
         "triggers": ["66"],
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "72",
                 "event": "OnTrigger",
                 "mode": 3,

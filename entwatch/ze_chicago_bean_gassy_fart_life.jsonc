@@ -9,7 +9,6 @@
         "color": "green",
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "1546",
                 "event": "OnPass",
                 "mode": 3,
@@ -30,7 +29,6 @@
         "color": "green",
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "2048",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -51,7 +49,6 @@
         "color": "green",
         "handlers": [
             {
-                "type": "game_ui",
                 "hammerid": "2064",
                 "event": "OnTrigger",
                 "mode": 2,

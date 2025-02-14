@@ -7,7 +7,6 @@
         "ui": true,
         "transfer": true,
         "color": "white",
-        "templated": true,
         "handlers": [
             {
                 "type": "button",
@@ -17,8 +16,7 @@
                 "cooldown": 0,
                 "maxuses": 1,
                 "message": true,
-                "ui": true,
-                "templated": true
+                "ui": true
             }
         ]
     },
@@ -30,7 +28,6 @@
         "ui": true,
         "transfer": true,
         "color": "yellow",
-        "templated": true,
         "handlers": [
             {
                 "type": "button",
@@ -40,8 +37,7 @@
                 "cooldown": 0,
                 "maxuses": 1,
                 "message": true,
-                "ui": true,
-                "templated": true
+                "ui": true
             }
         ]
     },
@@ -53,7 +49,6 @@
         "ui": true,
         "transfer": true,
         "color": "grey",
-        "templated": true,
         "handlers": [
             {
                 "type": "button",
@@ -63,8 +58,7 @@
                 "cooldown": 15,
                 "maxuses": 0,
                 "message": true,
-                "ui": true,
-                "templated": true
+                "ui": true
             }
         ]
     },
@@ -76,7 +70,6 @@
         "ui": true,
         "transfer": true,
         "color": "red",
-        "templated": true,
         "handlers": [
             {
                 "type": "button",
@@ -86,8 +79,7 @@
                 "cooldown": 5,
                 "maxuses": 3,
                 "message": true,
-                "ui": true,
-                "templated": true
+                "ui": true
             }
         ]
     }

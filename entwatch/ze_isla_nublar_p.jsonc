@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "738",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "834",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 2,
+                "maxuses": 8,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "745",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "832",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 2,
+                "maxuses": 7,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Health Kit",
+        "shortname": "Heal",
+        "hammerid": "1273",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "25",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
