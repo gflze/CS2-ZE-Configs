@@ -7,7 +7,7 @@
         "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["12887"],
+        "triggers": ["12833", "12913"],
         "handlers": [
             {
                 "type": "button",
@@ -38,7 +38,7 @@
         "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["7571"],
+        "triggers": ["8571", "10638"],
         "handlers": [
             {
                 "type": "button",
@@ -69,7 +69,7 @@
         "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["11111"],
+        "triggers": ["8573", "10457"],
         "handlers": [
             {
                 "hammerid": "11115",
@@ -99,7 +99,7 @@
         "ui": true,
         "transfer": false,
         "color": "yellow",
-        "triggers": ["11643"],
+        "triggers": ["3244"],
         "handlers": [
             {
                 "hammerid": "11712",
