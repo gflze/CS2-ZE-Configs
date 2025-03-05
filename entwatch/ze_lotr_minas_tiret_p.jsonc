@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Gandalf Staff",
+        "shortname": "Gandalf",
+        "hammerid": "198",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "193"
+            },
+            {
+                "hammerid": "4",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Saruman Staff",
+        "shortname": "Saruman",
+        "hammerid": "186",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "188"
+            },
+            {
+                "hammerid": "5",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "The Ring",
+        "shortname": "Ring",
+        "hammerid": "185",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    }
+]
