@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Toaster",
+        "shortname": "Toaster",
+        "hammerid": "624",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "622",
+                "event": "OnPressed",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Peanut Butter",
+        "shortname": "Peanut Butter",
+        "hammerid": "642",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "640",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sour Milk",
+        "shortname": "Milk",
+        "hammerid": "650",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "648",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 6,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Jalapeno",
+        "shortname": "Jalapeno",
+        "hammerid": "658",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "656",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 11,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Metal Ass",
+        "shortname": "Metal Ass",
+        "hammerid": "671",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "669",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
