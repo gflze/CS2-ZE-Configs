@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "23084",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "23085"
+            },
+            {
+                "hammerid": "23083",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cobweb",
+        "shortname": "Cobweb",
+        "hammerid": "23097",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "23100"
+            },
+            {
+                "hammerid": "23102",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "23106",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "23109"
+            },
+            {
+                "hammerid": "23105",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "23123",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "23125"
+            },
+            {
+                "hammerid": "23122",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bucket 1",
+        "shortname": "Bucket 1",
+        "hammerid": "24501",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Bucket 2",
+        "shortname": "Bucket 2",
+        "hammerid": "24527",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Torch 1",
+        "shortname": "Torch 1",
+        "hammerid": "24627",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Torch 2",
+        "shortname": "Torch 2",
+        "hammerid": "26495",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Pickaxe 1",
+        "shortname": "Pickaxe 1",
+        "hammerid": "26542",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Pickaxe 2",
+        "shortname": "Pickaxe 2",
+        "hammerid": "26574",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    }
+]

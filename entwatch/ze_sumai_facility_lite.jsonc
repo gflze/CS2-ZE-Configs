@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Medic Bag",
+        "shortname": "Heal",
+        "hammerid": "77883",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "77885"
+            },
+            {
+                "hammerid": "77887",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bear Trap",
+        "shortname": "Trap",
+        "hammerid": "68540",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "68542"
+            },
+            {
+                "hammerid": "68580",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Claymore",
+        "shortname": "Claymore",
+        "hammerid": "68625",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "68627"
+            },
+            {
+                "hammerid": "68630",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo Crate",
+        "shortname": "Ammo",
+        "hammerid": "77412",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "77413"
+            },
+            {
+                "hammerid": "77882",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 20,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Breach Charge",
+        "shortname": "ZM Breach",
+        "hammerid": "68590",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["68593"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "68604"
+            },
+            {
+                "hammerid": "68600",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison Grenade",
+        "shortname": "ZM Poison",
+        "hammerid": "77832",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["77830"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "77834"
+            },
+            {
+                "hammerid": "77829",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
