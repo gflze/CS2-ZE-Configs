@@ -1,0 +1,8 @@
+{
+	// Don't force enable bhop, uncapped CSGO/CS2 bhop is not an equivalent to CS:S bhop
+	"filter":
+	{
+		"classname": "logic_relay",
+		"targetname": "[PR#]Bhop_On_Relay"
+	}
+}
