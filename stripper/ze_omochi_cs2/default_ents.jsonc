@@ -1,0 +1,15 @@
+{
+	// Fix blockable elevator
+	"modify":
+	{
+		"match":
+		{
+			"classname": "func_movelinear",
+			"targetname": "[PR#]elevator_1"
+		},
+		"replace":
+		{
+			"blockdamage": "99999"
+		}
+	}
+}
