@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Bow",
+        "shortname": "Bow",
+        "hammerid": "139",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "148"
+            },
+            {
+                "hammerid": "7220",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sword",
+        "shortname": "Sword",
+        "hammerid": "612",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "568"
+            },
+            {
+                "hammerid": "3104",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pumpkin Head",
+        "shortname": "Pumpkin",
+        "hammerid": "316",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Creeper Head",
+        "shortname": "Creeper",
+        "hammerid": "138",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Troll Face",
+        "shortname": "Troll",
+        "hammerid": "382",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    }
+]
