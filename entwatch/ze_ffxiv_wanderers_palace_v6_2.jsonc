@@ -1,0 +1,486 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "1146",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1895"
+            },
+            {
+                "hammerid": "1196",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Blizzard",
+        "shortname": "Blizzard",
+        "hammerid": "1156",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1154"
+            },
+            {
+                "hammerid": "1202",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity",
+        "shortname": "Gravity",
+        "hammerid": "1152",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1881"
+            },
+            {
+                "hammerid": "1205",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder",
+        "shortname": "Thunder",
+        "hammerid": "1216",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1214"
+            },
+            {
+                "hammerid": "1199",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heart of Light",
+        "shortname": "Light",
+        "hammerid": "1150",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1893"
+            },
+            {
+                "hammerid": "1207",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ley Lines",
+        "shortname": "Lines",
+        "hammerid": "1283",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1281"
+            },
+            {
+                "hammerid": "1280",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bahamut Weapon",
+        "shortname": "Bahamut",
+        "hammerid": "1148",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1885"
+            },
+            {
+                "hammerid": "1213",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dream Breaker",
+        "shortname": "Breaker",
+        "hammerid": "1785",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1783"
+            },
+            {
+                "hammerid": "1782",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Apex Arrow",
+        "shortname": "Arrow",
+        "hammerid": "1279",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1275"
+            },
+            {
+                "hammerid": "1278",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ricochet",
+        "shortname": "Ricochet",
+        "hammerid": "1272",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1269"
+            },
+            {
+                "hammerid": "1268",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Dream Weaver",
+        "shortname": "ZM Weaver",
+        "hammerid": "1802",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "pink",
+        "triggers": ["1800"]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "1179",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["1902"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1563"
+            },
+            {
+                "hammerid": "7535",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Malefic",
+        "shortname": "ZM Malefic",
+        "hammerid": "1177",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1546"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1891"
+            },
+            {
+                "hammerid": "7532",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Flare",
+        "shortname": "ZM Flare",
+        "hammerid": "1174",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["1175"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1170"
+            },
+            {
+                "hammerid": "7533",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Flood",
+        "shortname": "ZM Flood",
+        "hammerid": "1165",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["1166"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1163"
+            },
+            {
+                "hammerid": "7534",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 9,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Shield",
+        "shortname": "ZM Shield",
+        "hammerid": "1180",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["1910"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1539"
+            },
+            {
+                "hammerid": "7536",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Goobbue",
+        "shortname": "ZM Goobbue",
+        "hammerid": "1158",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1159"],
+        "handlers": [
+            {
+                "hammerid": "1751",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "hammerid": "1750",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Inner Release",
+        "shortname": "ZM Release",
+        "hammerid": "1178",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["829"]
+    },
+    {
+        "name": "Toy Dakotec",
+        "shortname": "Dakotec",
+        "hammerid": "1355",
+        "message": true,
+        "ui": false,
+        "transfer": false,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1352",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": false,
+                "ui": false
+            }
+        ]
+    },
+    {
+        "name": "Toy Lishang",
+        "shortname": "Lishang",
+        "hammerid": "1358",
+        "message": true,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Toy Tianli",
+        "shortname": "Tianli",
+        "hammerid": "1361",
+        "message": true,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Toy Consolo",
+        "shortname": "Consolo",
+        "hammerid": "1366",
+        "message": true,
+        "ui": false,
+        "transfer": false,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1363",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": false,
+                "ui": false
+            }
+        ]
+    },
+    {
+        "name": "Toy MS",
+        "shortname": "MS",
+        "hammerid": "1369",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    }
+]
