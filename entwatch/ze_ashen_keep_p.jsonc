@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Burning Orb",
+        "shortname": "Burning",
+        "hammerid": "8569",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "334"
+            },
+            {
+                "hammerid": "340",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Glacial Orb",
+        "shortname": "Glacial",
+        "hammerid": "8570",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "349"
+            },
+            {
+                "hammerid": "355",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Lightning Orb",
+        "shortname": "Lightning",
+        "hammerid": "8571",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "364"
+            },
+            {
+                "hammerid": "370",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gust Orb",
+        "shortname": "Gust",
+        "hammerid": "8574",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "533"
+            },
+            {
+                "hammerid": "538",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Divine Orb",
+        "shortname": "Divine",
+        "hammerid": "8572",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "379"
+            },
+            {
+                "hammerid": "504",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Abyssal Orb",
+        "shortname": "Abyssal",
+        "hammerid": "8573",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "518"
+            },
+            {
+                "hammerid": "524",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Celestial Embrace",
+        "shortname": "Celestial",
+        "hammerid": "8580",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    }
+]
