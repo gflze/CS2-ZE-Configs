@@ -161,7 +161,7 @@
                 "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
-                "maxuses": 10,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
