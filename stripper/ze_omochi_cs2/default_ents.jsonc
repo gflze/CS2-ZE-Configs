@@ -25,7 +25,7 @@
 						"outputname": "OnStartTouch",
 						"targetname": "[PR#]LevelCounter",
 						"inputname": "SetValue",
-						"param": "3",
+						"overrideparam": "3",
 						"delay": 0,
 						"timestofire": 1
 					}
@@ -37,7 +37,7 @@
 						"outputname": "OnStartTouch",
 						"targetname": "[PR#]LevelCounter",
 						"inputname": "SetValue",
-						"param": "1",
+						"overrideparam": "1",
 						"delay": 0,
 						"timestofire": 1
 					}
