@@ -479,8 +479,8 @@
         "shortname": "MS",
         "hammerid": "1369",
         "message": true,
-        "ui": true,
-        "transfer": true,
+        "ui": false,
+        "transfer": false,
         "color": "grey"
     }
 ]

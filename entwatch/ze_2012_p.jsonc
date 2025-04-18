@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "650",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "56"
+            },
+            {
+                "hammerid": "3276",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
