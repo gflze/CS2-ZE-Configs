@@ -1,0 +1,18 @@
+{
+	// Translate map to English using DeepL
+	"modify":
+	{
+		"match": {
+			"io": [
+				{
+					"overrideparam": "say 小哥买苹果嘛~"
+				}
+			]
+		},
+		"replace": {
+			"io": {
+				"overrideparam": "say You're buying apples."
+			}
+		}
+	}
+}

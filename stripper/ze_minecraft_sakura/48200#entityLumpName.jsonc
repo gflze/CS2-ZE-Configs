@@ -1,0 +1,18 @@
+{
+	// Translate map to English using DeepL
+	"modify":
+	{
+		"match": {
+			"io": [
+				{
+					"overrideparam": "say 啊嘞，被抛弃了伤心割手手喵QAQ"
+				}
+			]
+		},
+		"replace": {
+			"io": {
+				"overrideparam": "say Ah, I was abandoned. I'm so sad. I cut my hands. QAQ"
+			}
+		}
+	}
+}

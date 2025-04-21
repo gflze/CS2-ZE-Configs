@@ -1,0 +1,33 @@
+{
+	// Translate map to English using DeepL
+	"modify": [
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 就说大叔不会骗你的吧~"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I told you I wouldn't lie to you."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 这里可是我的秘密基地哦 快下来看看吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say This is my secret base. Come on down and check it out!"
+				}
+			}
+		}
+	]
+}
