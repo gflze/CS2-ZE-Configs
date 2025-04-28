@@ -18,7 +18,7 @@
 			"rendermode": "kRenderNone"
 		}
 	],
-	// Translate map to English using DeepL
+	// Translate map to English using DeepL/Google Translate
 	"modify": [
 		{
 			"match": {
@@ -1100,6 +1100,482 @@
 		},
 		{
 			"match": {
+				"io": [
+					{
+						"overrideparam": "say 啊嘞！这么多床，难道是要开银趴吗"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Oh! So many beds, are we going to have a party?"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 你不许参加银趴！！！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say You are not allowed to attend the Silver Party!!!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 你已经被小魅魔榨干惹awa"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say You have been drained by the little succubus awa"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say kz吗？有点意思"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Kz? That's interesting."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 要来一起睡午觉嘛~"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Why don't you join us for a nap?"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 九尾可爱喵~九尾可爱喵~"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Nine-tailed meow! Nine-tailed meow!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (某处的玻璃似乎在轻轻颤动)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say (Somewhere the glass seems to be shaking slightly)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 撒旦:“哼，不知好歹”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Satan: “Hmph, you don't know what's good for you.”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 撒旦:“哼，赏你点力量”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Satan: “Hmph, I'll give you some strength.”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 撒旦:“僵尸吗?有点意思”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Satan: “Zombies? That's interesting.”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 撒旦:“怎么？你也想如他们般癫狂？”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Satan: “What? Do you want to be as crazy as they are?”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 撒旦:“向我祈祷吧，人类！”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Satan: “Pray to me, human!”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 已经燃尽了...传送门进不去力！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say It's burned out...I can't get through the portal!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 获得了移速加成！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Gained a movement speed bonus!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 果然感觉身体被强健了呢！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I really feel like my body has become stronger!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 想必大半夜不睡觉的都在这里展示汗水与努力的吧！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I'm sure the ones who stayed up most of the night are here to show off their sweat and hard work!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 门后居然有个隐藏传送门？！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say There's a hidden portal behind the door?!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 星野酱永远沉睡在不清醒的梦里了喵"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Hoshino-chan is forever sleeping in an unconscious dream meow."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 已经没有人类了喵！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say There are no more humans meow!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 樱花岛似乎出现了时空裂隙..."
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say There seems to be a time-space rift on Sakura Island..."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 服务器人数低于36，已移除僵尸贴门核爆效果！！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say When the player count is below 36, the nuke when zombies touch the door is removed!!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say OMG!!!姜丝把你老婆米库拐跑了！！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say OMG!!! Jiangsi kidnapped your wife Miku!!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say （25s后传送！）"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say (Teleporting in 25s!)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 星野酱居然真的打开了通往梦的隧道Σヽ(ﾟД ﾟ; )ﾉ"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Hoshino-chan actually opened the tunnel to her dream Σヽ(ﾟД ﾟ; )ﾉ"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say ^(*￣(oo)￣)^测试用的按钮忘删了 感谢提醒"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say ^(*￣(oo)￣)^ I forgot to delete the button for testing. Thanks for the reminder!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 有小猪掉入了虚空^(*--(oo)--*)^"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say A little piggy fell into the void ^(*--(oo)--*)^"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 快看，有个noob想吃披萨 ˶ᵒ ֊ ˂˶ "
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Look, there's a noob who wants to eat pizza ˶ᵒ ֊ ˂˶ "
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 才...才不是喜欢你呢⁄(⁄⁄•⁄ω⁄•⁄⁄)⁄礼物放在鱼桶里了喵~"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say No... I don't like you. ⁄(⁄⁄•⁄ω⁄•⁄⁄)⁄ The gift is in the fish bucket, meow~"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 真拿你没办法喵⌯>ᴗ0⌯ "
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say I can't do anything about you meow ⌯>ᴗ0⌯ "
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 不要再摸那里了喵 脸红喵(＊／ω＼＊)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Don't touch there anymore, meow, *blush* meow (＊／ω＼＊)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 船舱在10秒后打开"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The cabin opens in 10 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 5秒后僵尸传送！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Zombies teleport in 5 seconds!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (10秒后门开喵~o( =∩ω∩= )m)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say (The door will open in 10 seconds ~o( =∩ω∩= )m)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 二楼门10秒后打开喵！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say The door to the second floor will open in 10 seconds, meow!"
+				}
+			}
+		},
+		{
+			"match": {
 				"message": "友情出演φ(≧ω≦*)♪"
 			},
 			"replace": {
@@ -1108,10 +1584,10 @@
 		},
 		{
 			"match": {
-				"message": "梦梦杨桃冰箱❀"
+				"message": "/梦梦杨桃冰箱❀/"
 			},
 			"replace": {
-				"message": "Dreamy star fruit refrigerator ❀"
+				"message": "Dreamy star fruit\nrefrigerator ❀"
 			}
 		},
 		{
@@ -1215,7 +1691,7 @@
 				"message": "/力量，/"
 			},
 			"replace": {
-				"message": "Power.\nThe very reason to be king!"
+				"message": "Power.\nThe very reason\nto be king!"
 			}
 		},
 		{
@@ -1244,10 +1720,10 @@
 		},
 		{
 			"match": {
-				"message": "来点涩图屋"
+				"message": "来点猫图屋"
 			},
 			"replace": {
-				"message": "Have some Shibuya."
+				"message": "Have some\ncat pictures."
 			}
 		},
 		{
@@ -1263,7 +1739,7 @@
 				"message": "kasumi后宫应援团"
 			},
 			"replace": {
-				"message": "Kasumi Harem Support Group"
+				"message": "Kasumi Harem\nSupport Group"
 			}
 		},
 		{
@@ -1280,6 +1756,14 @@
 			},
 			"replace": {
 				"message": "Sulking Cat"
+			}
+		},
+		{
+			"match": {
+				"message": "小猫咪偷晴+v"
+			},
+			"replace": {
+				"message": "Kittens Stealing\nSunshine+v"
 			}
 		}
 	]
