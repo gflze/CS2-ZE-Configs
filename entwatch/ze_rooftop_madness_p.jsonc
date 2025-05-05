@@ -1,0 +1,472 @@
+[
+    {
+        "name": "Bouncy Bed",
+        "shortname": "Bed",
+        "hammerid": "1028",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1025"
+            },
+            {
+                "hammerid": "1029",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "C4",
+        "shortname": "C4",
+        "hammerid": "1434",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1435"
+            },
+            {
+                "hammerid": "1432",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "DDR",
+        "shortname": "DDR",
+        "hammerid": "376",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "374"
+            },
+            {
+                "hammerid": "372",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Decoy",
+        "shortname": "Decoy",
+        "hammerid": "612",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "608"
+            },
+            {
+                "hammerid": "610",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dragonslayer",
+        "shortname": "Dragonslayer",
+        "hammerid": "939",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "937"
+            },
+            {
+                "hammerid": "936",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 3,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Force Gun",
+        "shortname": "Force",
+        "hammerid": "1019",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1016"
+            },
+            {
+                "hammerid": "1015",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Forklift",
+        "shortname": "Forklift",
+        "hammerid": "591",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "589"
+            },
+            {
+                "hammerid": "593",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Freeze Mines",
+        "shortname": "Mines",
+        "hammerid": "914",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "911"
+            },
+            {
+                "hammerid": "910",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Grenade Crate",
+        "shortname": "Grenades",
+        "hammerid": "1134",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1132"
+            },
+            {
+                "hammerid": "1130",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Hammer",
+        "shortname": "Hammer",
+        "hammerid": "91",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "76"
+            },
+            {
+                "hammerid": "75",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Molotov",
+        "shortname": "Molotov",
+        "hammerid": "1184",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1180"
+            },
+            {
+                "hammerid": "1183",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pod",
+        "shortname": "Pod",
+        "hammerid": "497",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Screwdriver",
+        "shortname": "Screwdriver",
+        "hammerid": "906",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "904"
+            },
+            {
+                "hammerid": "903",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Tetromino",
+        "shortname": "Tetromino",
+        "hammerid": "434",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "431"
+            },
+            {
+                "hammerid": "436",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Umbrella",
+        "shortname": "Umbrella",
+        "hammerid": "443",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "437"
+            },
+            {
+                "hammerid": "440",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Barrel",
+        "shortname": "ZM Barrel",
+        "hammerid": "1195",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["1188"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1193"
+            },
+            {
+                "hammerid": "4124",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire",
+        "shortname": "ZM FIre",
+        "hammerid": "1156",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["1157"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1154"
+            },
+            {
+                "hammerid": "4126",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "48",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["1159"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1170"
+            },
+            {
+                "hammerid": "4127",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Laser",
+        "shortname": "ZM Laser",
+        "hammerid": "1131",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["1127"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1120"
+            },
+            {
+                "hammerid": "4123",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Wind",
+        "shortname": "ZM Wind",
+        "hammerid": "1143",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["1141"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1139"
+            },
+            {
+                "hammerid": "4125",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
