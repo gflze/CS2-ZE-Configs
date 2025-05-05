@@ -1,0 +1,181 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "560",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "558"
+            },
+            {
+                "hammerid": "563",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 31,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push",
+        "hammerid": "590",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "591"
+            },
+            {
+                "hammerid": "589",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 41,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Grenade Spawner",
+        "shortname": "Grenades",
+        "hammerid": "570",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "573"
+            },
+            {
+                "hammerid": "572",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 8,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Laser Gun",
+        "shortname": "Laser",
+        "hammerid": "857",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "859"
+            },
+            {
+                "hammerid": "858",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Speed",
+        "shortname": "Speed",
+        "hammerid": "459",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "460"
+            },
+            {
+                "hammerid": "462",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Monkey Skin",
+        "shortname": "Monkey",
+        "hammerid": "720",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "595",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["3912"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "596"
+            },
+            {
+                "hammerid": "594",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 41,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Teleporter",
+        "shortname": "ZM Teleport",
+        "hammerid": "467",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["3914"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "468"
+            },
+            {
+                "hammerid": "470",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
