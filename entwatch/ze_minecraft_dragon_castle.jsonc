@@ -96,6 +96,30 @@
         ]
     },
     {
+        "name": "TNT",
+        "shortname": "TNT",
+        "hammerid": "31812",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "31808"
+            },
+            {
+                "hammerid": "31810",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 180,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Bucket 1",
         "shortname": "Bucket 1",
         "hammerid": "24501",
