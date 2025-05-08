@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "53074",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "47898"
+            },
+            {
+                "hammerid": "47010",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Nuke",
+        "shortname": "Nuke",
+        "hammerid": "47895",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["47960"]
+    },
+    {
+        "name": "Zombie Creeper",
+        "shortname": "ZM Creeper",
+        "hammerid": "48021",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["48026"]
+    }
+]
