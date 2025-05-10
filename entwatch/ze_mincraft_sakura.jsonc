@@ -10,7 +10,7 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "47898"
+                "hammerid": "47012"
             },
             {
                 "hammerid": "47010",
@@ -31,7 +31,31 @@
         "ui": true,
         "transfer": false,
         "color": "darkred",
-        "triggers": ["47960"]
+        "triggers": ["47960"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "47898"
+            },
+            {
+                "hammerid": "47896",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 10,
+                "maxuses": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Lucid Dreams",
+        "shortname": "Lucid Dreams",
+        "hammerid": "53075",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
     },
     {
         "name": "Zombie Creeper",
@@ -41,6 +65,21 @@
         "ui": true,
         "transfer": false,
         "color": "green",
-        "triggers": ["48026"]
+        "triggers": ["48026"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "47252"
+            },
+            {
+                "hammerid": "48022",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 30,
+                "maxuses": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
