@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "53074",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "47012"
+            },
+            {
+                "hammerid": "47010",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Nuke",
+        "shortname": "Nuke",
+        "hammerid": "47895",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["47960"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "47898"
+            },
+            {
+                "hammerid": "47896",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 10,
+                "maxuses": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Lucid Dreams",
+        "shortname": "Lucid Dreams",
+        "hammerid": "53075",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Creeper",
+        "shortname": "ZM Creeper",
+        "hammerid": "48021",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["48026"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "47252"
+            },
+            {
+                "hammerid": "48022",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 30,
+                "maxuses": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

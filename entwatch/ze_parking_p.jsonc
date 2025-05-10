@@ -63,11 +63,11 @@
             {
                 "type": "counterup",
                 "hammerid": "12017",
-                "mode": 1,
+                "mode": 5,
                 "cooldown": 0,
                 "maxuses": 0,
                 "ui": true,
-                "message": true
+                "message": false
             }
         ]
     },
