@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Lamp",
+        "shortname": "Lamp",
+        "hammerid": "276",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    }
+]
