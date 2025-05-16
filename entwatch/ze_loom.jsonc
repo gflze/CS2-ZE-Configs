@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Tesla",
+        "shortname": "Tesla",
+        "hammerid": "7939",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8073"
+            },
+            {
+                "type": "button",
+                "hammerid": "8075"
+            },
+            {
+                "type": "button",
+                "hammerid": "8077"
+            },
+            {
+                "type": "button",
+                "hammerid": "8079"
+            },
+            {
+                "type": "button",
+                "hammerid": "8081"
+            },
+            {
+                "type": "button",
+                "hammerid": "8083"
+            },
+            {
+                "hammerid": "8089",
+                "event": "OnPass",
+                "mode": 4,
+                "cooldown": 45,
+                "maxuses": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Firework",
+        "shortname": "Firework",
+        "hammerid": "6969",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8065"
+            },
+            {
+                "type": "button",
+                "hammerid": "8066"
+            },
+            {
+                "type": "button",
+                "hammerid": "8069"
+            },
+            {
+                "type": "button",
+                "hammerid": "8057"
+            },
+            {
+                "type": "button",
+                "hammerid": "8068"
+            },
+            {
+                "type": "button",
+                "hammerid": "8067"
+            },
+            {
+                "hammerid": "8056",
+                "event": "OnPass",
+                "mode": 4,
+                "cooldown": 30,
+                "maxuses": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Smoke",
+        "shortname": "ZM Smoke",
+        "hammerid": "12216",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "12214"
+            },
+            {
+                "hammerid": "12085",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
