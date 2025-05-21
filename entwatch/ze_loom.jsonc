@@ -101,10 +101,25 @@
                 "hammerid": "12214"
             },
             {
+                "type": "button",
+                "hammerid": "12221"
+            },
+            {
+                "name": "Invisibility",
                 "hammerid": "12085",
                 "event": "OnPass",
                 "mode": 2,
                 "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Cloud",
+                "hammerid": "12087",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 45,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
