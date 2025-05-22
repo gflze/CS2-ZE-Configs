@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "28138",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "28135"
+            },
+            {
+                "hammerid": "28134",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Taser",
+        "shortname": "Taser",
+        "hammerid": "28150",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "28152"
+            },
+            {
+                "hammerid": "28149",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

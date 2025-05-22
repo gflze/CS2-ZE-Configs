@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Proximity Mine",
+        "shortname": "Mine",
+        "hammerid": "184",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "185",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 24,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Push Gun",
+        "shortname": "Push",
+        "hammerid": "188",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "default",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "194",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
