@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "403",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "401"
+            },
+            {
+                "hammerid": "2204",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 59,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "380",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "gray",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "391"
+            },
+            {
+                "hammerid": "2202",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 59,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Viola",
+        "shortname": "Viola",
+        "hammerid": "397",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "398"
+            },
+            {
+                "name": "Speed Boost",
+                "hammerid": "2200",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 59,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
