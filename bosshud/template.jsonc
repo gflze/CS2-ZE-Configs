@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Boss Name",        // Name of boss that appears in hud
+        "method": "Method",         // Boss health method
+                                    // "counter" - math_counter based bosses
+                                    // "hpbar" - math_counter bosses with iterator (and backup if present)
+                                    // "breakable" - func_breakable/func_physbox based bosses
+        "trigger":
+        {                           // specifies event that starts bosses
+            "ent": "",              // Targetname/Hammerid of entity
+            "output": "",           // Output of entity
+            "delay": 0.0            // Delay after output that starts boss
+        },
+        "showtrigger":
+        {                           // OPTIONAL - specifies event that displays boss health
+            "ent": "",              // Targetname/Hammerid of entity
+            "output": "",           // Output of entity
+            "delay": 0.0            // OPTIONAL - Delay after event that shows boss health
+        },
+        "killtrigger":
+        {                           // OPTIONAL - specifies event that force kills the boss
+            "ent": "",              // Targetname/Hammerid of entity
+            "output": "",           // Output of entity
+            "delay": 0.0            // OPTIONAL - Delay after event that force kills boss
+        },
+        "reverse": false,           // OPTIONAL - Whether counter has OnHitMax outputs
+        "increase": false,          // OPTIONAL - Whether iterator has OnHitMax outputs
+        "hitmarkeronly": false,     // OPTIONAL - Whether to show health of boss
+        "multitrigger": false,      // OPTIONAL - Whether boss can be triggered multiple times
+        "namefixup": false,         // OPTIONAL - Whether boss is templated and has name fixup
+        "showbeaten": true,         // OPTIONAL - Whether top boss damage should be displayed after boss death
+        "timeout": 0,               // OPTIONAL - Specify time before boss health is hidden after taking no damage
+        "offset": 0,                // OPTIONAL - Specify amount of health to offset displayed health from real health
+
+        "counter": "",              // Targetname/Hammerid of counter
+        "backup": "",               // Targetname/Hammerid of backup counter
+        "iterator": "",             // Targetname/Hammerid of iterator counter
+        "breakable": ""             // Targetname/Hammerid of breakable
+    }
+]
+
+// Notes:
+// When specifying hammerid, you start the string with "#" followed by hammerid (e.g. "#12345")
+// "trigger" is REQUIRED or else boss health will not display
+// "showtrigger" and "killtrigger" should automatically be detected. These just give you more control over when/how boss health is displayed.
+// "counter" based bosses do not need "backup" and "iterator"
