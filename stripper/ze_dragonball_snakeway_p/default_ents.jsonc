@@ -1,0 +1,369 @@
+{
+	// Translate map to English using DeepL/Google Translate
+	"modify": [
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Barco 1 se va en 10 segs"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Boat 1 leaves in 10 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se a abierto corre al siguinte nivel"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door has opened, run to the next floor"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: 5 segundos preparate a correr"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: 5 seconds left, get ready to run"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Quedan 20 segundos aguanta queda poco"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: 20 seconds left, hold on, we're almost there"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se abrira en 45 segundos a cubrir"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door will open in 45 seconds, cover"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Barco 2 se va en 10 segs"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Boat 2 leaves in 10 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Huye de la serpiente"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Flee from the snake"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La serpiente ataca de nuevo !!!!CORRE!!!!"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The snake strikes again !!!!RUN!!!!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se abrira en 30 segs"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door will open in 30 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: El camion sale en 5 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Truck leaves in 5 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: El camion sale en 5 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Truck leaves in 5 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Bomba nuclear en 60 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Nuclear bomb in 60 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Map By Bremm and Hardreton - Gracias por jugar"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Map by Bremm and Hardreton - Thank you for playing"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La verja se rompera en 45 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The gate will break in 45 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: DESPEGUE aprieta la radio para la bomba nuclear"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: TAKEOFF! Use the radio to arm the nuclear bomb"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Despegue en 10 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: Takeoff in 10 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La nave despegara en 30 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The ship will take off in 30 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: la venida del super dragon fue activado!"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The arrival of the Super Dragon has been initiated!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: la venida del super dragon fue activado!"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The arrival of the Super Dragon has been initiated!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se reabrira en 5 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door will reopen in 5 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se cierra y el cristal se roto es hora de escapar"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door is closing and the glass is broken, it's time to escape"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Quedan 5 segundos preparate a escapar"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: 5 seconds left, prepare to escape"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: Quedan 20 segundos ya casi esta"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: 20 seconds left, almost there"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta Final se cierra en 45 segundos"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The final door closes in 45 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se abrira en 45 segs"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door will open in 45 seconds"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say El Son Goku: La puerta se a abierto sal del infierno"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say Son Goku: The door has opened, get out of hell"
+				}
+			}
+		}
+	]
+}
