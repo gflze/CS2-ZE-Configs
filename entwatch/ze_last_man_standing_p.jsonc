@@ -1,6 +1,6 @@
 [
     {
-        "name": "Prototype Flamethrower", // Undecided name, so we'll just call it this (for now)
+        "name": "Prototype Flamethrower",
         "shortname": "Protoype",
         "hammerid": "13729",
         "message": true,
@@ -216,7 +216,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]

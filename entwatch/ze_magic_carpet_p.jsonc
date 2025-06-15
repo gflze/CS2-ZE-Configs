@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Shield",
+        "shortname": "Shield",
+        "hammerid": "111",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "151"
+            },
+            {
+                "hammerid": "153",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

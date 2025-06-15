@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "1562",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1556"
+            },
+            {
+                "hammerid": "1569",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "1581",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1575"
+            },
+            {
+                "hammerid": "1588",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "1600",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1594"
+            },
+            {
+                "hammerid": "1607",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
