@@ -1,0 +1,35 @@
+{
+	//remove slur
+	"modify":
+	{
+		"match":
+		{
+			"classname": "logic_case",
+			"targetname": "[PR#]rocklee_sound_case"
+		},
+		"delete":
+		{
+			"case04": "4",
+			"io": [
+				{
+					"outputname": "OnCase01"
+				},
+				{
+					"outputname": "OnCase04"
+				}
+			]
+		},
+		"insert":
+		{
+			"io": [
+				{
+					"outputname": "OnCase01",
+					"targetname": "[PR#]rocklee_you_think",
+					"inputname": "StartSound",
+					"delay": 0,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}
