@@ -15,9 +15,9 @@
             {
                 "hammerid": "260",
                 "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
+                "mode": 4,
+                "cooldown": 20,
+                "maxuses": 3,
                 "message": true,
                 "ui": true
             }
@@ -37,7 +37,7 @@
                 "hammerid": "909",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 30,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -124,7 +124,7 @@
                 "hammerid": "19455",
                 "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 15,
+                "cooldown": 10,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
