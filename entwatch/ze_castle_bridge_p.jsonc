@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "6358",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6354"
+            },
+            {
+                "hammerid": "3188",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fireball",
+        "shortname": "ZM Fireball",
+        "hammerid": "6300",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["6304"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6302"
+            },
+            {
+                "hammerid": "3198",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "6294",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["6292"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6295"
+            },
+            {
+                "hammerid": "3187",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
