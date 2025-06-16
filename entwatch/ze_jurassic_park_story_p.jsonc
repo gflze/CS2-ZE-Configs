@@ -2,7 +2,7 @@
     {
         "name": "Flamethrower",
         "shortname": "Flamethrower",
-        "hammerid": "28138",
+        "hammerid": "29927",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -10,10 +10,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "28135"
+                "hammerid": "29924"
             },
             {
-                "hammerid": "28134",
+                "hammerid": "29923",
                 "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
@@ -26,7 +26,7 @@
     {
         "name": "Taser",
         "shortname": "Taser",
-        "hammerid": "28150",
+        "hammerid": "29940",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -34,10 +34,10 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "28152"
+                "hammerid": "29942"
             },
             {
-                "hammerid": "28149",
+                "hammerid": "29939",
                 "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
