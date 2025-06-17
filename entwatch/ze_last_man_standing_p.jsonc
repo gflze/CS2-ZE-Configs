@@ -15,7 +15,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             },
             {
@@ -105,7 +105,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             },
             {
@@ -174,7 +174,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -258,7 +258,7 @@
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 16,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -279,7 +279,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -488,8 +488,8 @@
         ]
     },
     {
-        "name": "Alex Mercer",
-        "shortname": "Alex",
+        "name": "Zombie Alex Mercer",
+        "shortname": "ZM Alex",
         "hammerid": "126",
         "message": true,
         "ui": true,
