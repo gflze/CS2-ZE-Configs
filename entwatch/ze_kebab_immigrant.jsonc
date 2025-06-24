@@ -19,7 +19,8 @@
                 "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
-                "ui": true
+                "ui": true,
+                "templated": false
             }
         ]
     },
