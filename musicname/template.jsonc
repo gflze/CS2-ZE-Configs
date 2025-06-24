@@ -1,0 +1,11 @@
+{
+    // The "key" of the config would be the "soundevent" name
+    // Sound events are based off of the "soundevents_addon.vsndevts_c" file
+
+    // While there's no specific config formatting or style expected of these configs
+    // please keep it in "Artist - Song Title" format. Split separate songs with commas
+
+    "SoundEvent1": "Artist - Song Title",
+    "SoundEvent2": "Artist 2 - Song Title 2, Artist 3 - Song Title 3",
+    "SOundEvent3": "Artist 3 - Song Title 4/Song Title 5/Song Title 6"
+}
