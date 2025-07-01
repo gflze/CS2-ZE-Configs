@@ -1,22 +1,22 @@
 [
     {
-        "name": "Sponge Builder",
-        "shortname": "Sponge",
-        "hammerid": "1589",
+        "name": "Bicycle",
+        "shortname": "Bicycle",
+        "hammerid": "126",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
+        "color": "grey",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1590"
+                "hammerid": "124"
             },
             {
-                "hammerid": "1594",
+                "hammerid": "49",
                 "event": "OnPass",
-                "mode": 2,
-                "cooldown": 52,
+                "mode": 1,
+                "cooldown": 0,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -24,23 +24,20 @@
         ]
     },
     {
-        "name": "Mouse Trap",
-        "shortname": "Trap",
-        "hammerid": "1793",
+        "name": "Secret",
+        "shortname": "Secret",
+        "hammerid": "91",
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "orange",
+        "color": "grey",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "1794"
-            },
-            {
-                "hammerid": "1799",
-                "event": "OnPass",
+                "hammerid": "92",
+                "event": "OnPressed",
                 "mode": 2,
-                "cooldown": 42,
+                "cooldown": 120,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
