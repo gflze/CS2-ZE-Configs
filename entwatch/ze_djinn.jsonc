@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "777",
-                "event": "OnPressed",
+                "hammerid": "777"
+            },
+            {
+                "hammerid": "779",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 70,
                 "maxuses": 0,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "769",
-                "event": "OnPressed",
+                "hammerid": "769"
+            },
+            {
+                "hammerid": "771",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 70,
                 "maxuses": 0,
@@ -52,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "757",
-                "event": "OnPressed",
+                "hammerid": "757"
+            },
+            {
+                "hammerid": "759",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -73,8 +82,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "752",
-                "event": "OnPressed",
+                "hammerid": "752"
+            },
+            {
+                "hammerid": "754",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 70,
                 "maxuses": 0,
@@ -90,12 +102,15 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "yellow",
+        "color": "pink",
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "741",
-                "event": "OnPressed",
+                "hammerid": "741"
+            },
+            {
+                "hammerid": "743",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 70,
                 "maxuses": 0,
