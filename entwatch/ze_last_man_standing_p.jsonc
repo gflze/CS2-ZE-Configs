@@ -443,7 +443,15 @@
         "ui": true,
         "transfer": true,
         "color": "red",
-        "triggers": ["337"]
+        "triggers": ["337"],
+        "handlers": [
+            {
+                "type": "counterup",
+                "hammerid": "329",
+                "mode": 5,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Zombie Tank",

@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "31769",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "31778"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "31773",
+                "mode": 3,
+                "cooldown": 3,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Baguette",
+        "shortname": "Baguette",
+        "hammerid": "31727",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive"
+    },
+    {
+        "name": "Zombie Gargantua",
+        "shortname": "ZM Gargantua",
+        "hammerid": "31380",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["31372"],
+        "handlers": [
+            {
+                "name": "Punch",
+                "hammerid": "31344",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 3,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "name": "Charge",
+                "hammerid": "31350",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

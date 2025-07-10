@@ -1,26 +1,5 @@
 [
     {
-        "name": "Esper Mateus",
-        "shortname": "Mateus",
-        "hammerid": "13029",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "15517",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 10,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
         "name": "Wind Magick",
         "shortname": "Wind",
         "hammerid": "13023",
@@ -31,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15499",
-                "event": "OnPressed",
+                "hammerid": "15499"
+            },
+            {
+                "hammerid": "13745",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -52,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15497",
-                "event": "OnPressed",
+                "hammerid": "15497"
+            },
+            {
+                "hammerid": "13744",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -73,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15495",
-                "event": "OnPressed",
+                "hammerid": "15495"
+            },
+            {
+                "hammerid": "13741",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -94,8 +82,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15493",
-                "event": "OnPressed",
+                "hammerid": "15493"
+            },
+            {
+                "hammerid": "13743",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -115,11 +106,38 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15491",
-                "event": "OnPressed",
+                "hammerid": "15491"
+            },
+            {
+                "hammerid": "13742",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Esper Mateus",
+        "shortname": "Mateus",
+        "hammerid": "13029",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "15517"
+            },
+            {
+                "hammerid": "15641",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 10,
+                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
@@ -136,8 +154,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15513",
-                "event": "OnPressed",
+                "hammerid": "15513"
+            },
+            {
+                "hammerid": "15640",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 15,
                 "maxuses": 1,
@@ -157,8 +178,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15511",
-                "event": "OnPressed",
+                "hammerid": "15511"
+            },
+            {
+                "hammerid": "15639",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -169,7 +193,7 @@
     },
     {
         "name": "Ammo Potion",
-        "shortname": "Ammo Potion",
+        "shortname": "Ammo",
         "hammerid": "13026",
         "message": true,
         "ui": true,
@@ -178,8 +202,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15509",
-                "event": "OnPressed",
+                "hammerid": "15509"
+            },
+            {
+                "hammerid": "15638",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -199,8 +226,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15507",
-                "event": "OnPressed",
+                "hammerid": "15507"
+            },
+            {
+                "hammerid": "15637",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -220,8 +250,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15505",
-                "event": "OnPressed",
+                "hammerid": "15505"
+            },
+            {
+                "hammerid": "15636",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -242,8 +275,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15503",
-                "event": "OnPressed",
+                "hammerid": "15503"
+            },
+            {
+                "hammerid": "15635",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -264,8 +300,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15501",
-                "event": "OnPressed",
+                "hammerid": "15501"
+            },
+            {
+                "hammerid": "15634",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -286,8 +325,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15489",
-                "event": "OnPressed",
+                "hammerid": "15489"
+            },
+            {
+                "hammerid": "15628",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 85,
                 "maxuses": 0,
@@ -308,8 +350,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15487",
-                "event": "OnPressed",
+                "hammerid": "15487"
+            },
+            {
+                "hammerid": "15627",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 75,
                 "maxuses": 0,

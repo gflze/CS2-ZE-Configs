@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "308",
-                "event": "OnPressed",
+                "hammerid": "308"
+            },
+            {
+                "hammerid": "310",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 75,
                 "maxuses": 0,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "175",
-                "event": "OnPressed",
+                "hammerid": "175"
+            },
+            {
+                "hammerid": "174",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -73,10 +79,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "80",
-                "event": "OnPressed",
+                "hammerid": "80"
+            },
+            {
+                "hammerid": "78",
+                "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 66,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -94,8 +103,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "71",
-                "event": "OnPressed",
+                "hammerid": "71"
+            },
+            {
+                "hammerid": "124",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 90,
                 "maxuses": 0,
@@ -152,8 +164,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "169",
-                "event": "OnPressed",
+                "hammerid": "169"
+            },
+            {
+                "hammerid": "165",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 90,
                 "maxuses": 0,
@@ -174,8 +189,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "156",
-                "event": "OnPressed",
+                "hammerid": "156"
+            },
+            {
+                "hammerid": "160",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 120,
                 "maxuses": 0,
@@ -196,8 +214,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "144",
-                "event": "OnPressed",
+                "hammerid": "144"
+            },
+            {
+                "hammerid": "146",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 120,
                 "maxuses": 0,

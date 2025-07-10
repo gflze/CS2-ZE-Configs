@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "834",
-                "event": "OnPressed",
+                "hammerid": "834"
+            },
+            {
+                "hammerid": "1270",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 2,
                 "maxuses": 8,
@@ -21,7 +24,7 @@
         ]
     },
     {
-        "name": "Shotgun",
+        "name": "Muldoon's Shotgun",
         "shortname": "Shotgun",
         "hammerid": "745",
         "message": true,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "832",
-                "event": "OnPressed",
+                "hammerid": "832"
+            },
+            {
+                "hammerid": "1268",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 2,
                 "maxuses": 7,
@@ -52,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "25",
-                "event": "OnPressed",
+                "hammerid": "25"
+            },
+            {
+                "hammerid": "1269",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,

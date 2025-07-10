@@ -10,11 +10,14 @@
         "triggers": ["3483"],
         "handlers": [
             {
-                "name": "Rock",
                 "type": "button",
-                "hammerid": "20525",
-                "event": "OnPressed",
-                "mode": 4,
+                "hammerid": "20525"
+            },
+            {
+                "name": "Rock",
+                "hammerid": "20518",
+                "event": "OnTrigger",
+                "mode": 3,
                 "cooldown": 20,
                 "maxuses": 4,
                 "message": true,
@@ -75,8 +78,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "20875",
-                "event": "OnPressed",
+                "hammerid": "20875"
+            },
+            {
+                "hammerid": "20871",
+                "event": "OnPass",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,

@@ -1,28 +1,7 @@
 [
     {
-        "name": "Bio Element",
-        "shortname": "Bio",
-        "hammerid": "24683",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "blue",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24679",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Electricity Element",
-        "shortname": "Electricity",
+        "name": "Electro",
+        "shortname": "Electro",
         "hammerid": "24669",
         "message": true,
         "ui": true,
@@ -31,18 +10,21 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "24670",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
+                "hammerid": "24670"
+            },
+            {
+                "hammerid": "24668",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Fire Element",
+        "name": "Fire",
         "shortname": "Fire",
         "hammerid": "24577",
         "message": true,
@@ -52,19 +34,22 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "24580",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
+                "hammerid": "24580"
+            },
+            {
+                "hammerid": "24579",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
         ]
     },
     {
-        "name": "Blackhole",
-        "shortname": "Blackhole",
+        "name": "Gravity",
+        "shortname": "Gravity",
         "hammerid": "15866",
         "message": true,
         "ui": true,
@@ -73,10 +58,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15863",
-                "event": "OnPressed",
+                "hammerid": "15863"
+            },
+            {
+                "hammerid": "15865",
+                "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 70,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -84,7 +72,31 @@
         ]
     },
     {
-        "name": "Ice Element",
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "24713",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24709"
+            },
+            {
+                "hammerid": "24714",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice",
         "shortname": "Ice",
         "hammerid": "15839",
         "message": true,
@@ -94,10 +106,37 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15840",
-                "event": "OnPressed",
+                "hammerid": "15840"
+            },
+            {
+                "hammerid": "15838",
+                "event": "OnPass",
                 "mode": 2,
-                "cooldown": 65,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind",
+        "shortname": "Wind",
+        "hammerid": "24683",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "24679"
+            },
+            {
+                "hammerid": "24684",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -115,8 +154,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15790",
-                "event": "OnPressed",
+                "hammerid": "15790"
+            },
+            {
+                "hammerid": "24963",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 45,
                 "maxuses": 0,
@@ -136,8 +178,12 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15759",
-                "event": "OnPressed",
+                "hammerid": "15759"
+            },
+            {
+                "name": "Ley Lines",
+                "hammerid": "15761",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 180,
                 "maxuses": 0,
@@ -146,18 +192,12 @@
             },
             {
                 "type": "button",
-                "hammerid": "15755",
-                "event": "OnPressed",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
+                "hammerid": "15755"
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "15763",
-                "mode": 6,
+                "mode": 5,
                 "ui": true
             }
         ]
@@ -173,32 +213,14 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "15869",
-                "event": "OnPressed",
+                "hammerid": "15869"
+            },
+            {
+                "hammerid": "24960",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 20,
                 "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Speed",
-        "shortname": "Speed",
-        "hammerid": "24713",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "24709",
-                "event": "OnPressed",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
                 "message": true,
                 "ui": true
             }
@@ -216,10 +238,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "24965",
-                "event": "OnPressed",
+                "hammerid": "24965"
+            },
+            {
+                "hammerid": "24972",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 70,
+                "cooldown": 65,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -238,10 +263,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "24947",
-                "event": "OnPressed",
+                "hammerid": "24947"
+            },
+            {
+                "hammerid": "24953",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 70,
+                "cooldown": 65,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -260,10 +288,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "24914",
-                "event": "OnPressed",
+                "hammerid": "24914"
+            },
+            {
+                "hammerid": "24918",
+                "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 65,
+                "cooldown": 45,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -282,10 +313,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "24882",
-                "event": "OnPressed",
+                "hammerid": "24882"
+            },
+            {
+                "hammerid": "24894",
+                "event": "OnPass",
                 "mode": 2,
-                "cooldown": 70,
+                "cooldown": 65,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8762",
-                "event": "OnPressed",
+                "hammerid": "8762"
+            },
+            {
+                "hammerid": "8765",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8741",
-                "event": "OnPressed",
+                "hammerid": "8741"
+            },
+            {
+                "hammerid": "8744",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -52,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8748",
-                "event": "OnPressed",
+                "hammerid": "8748"
+            },
+            {
+                "hammerid": "8751",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -73,8 +82,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8755",
-                "event": "OnPressed",
+                "hammerid": "8755"
+            },
+            {
+                "hammerid": "8758",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -94,8 +106,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8731",
-                "event": "OnPressed",
+                "hammerid": "8731"
+            },
+            {
+                "hammerid": "8734",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -115,8 +130,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8724",
-                "event": "OnPressed",
+                "hammerid": "8724"
+            },
+            {
+                "hammerid": "8727",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -136,8 +154,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8717",
-                "event": "OnPressed",
+                "hammerid": "8717"
+            },
+            {
+                "hammerid": "8720",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -157,8 +178,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8778",
-                "event": "OnPressed",
+                "hammerid": "8778"
+            },
+            {
+                "hammerid": "8781",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -178,8 +202,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "8785",
-                "event": "OnPressed",
+                "hammerid": "8785"
+            },
+            {
+                "hammerid": "8788",
+                "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,

@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "73",
-                "event": "OnPressed",
+                "hammerid": "73"
+            },
+            {
+                "hammerid": "2351",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 40,
                 "maxuses": 0,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "819",
-                "event": "OnPressed",
+                "hammerid": "819"
+            },
+            {
+                "hammerid": "2356",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 40,
                 "maxuses": 0,
@@ -52,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "54",
-                "event": "OnPressed",
+                "hammerid": "54"
+            },
+            {
+                "hammerid": "2339",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -73,8 +82,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "59",
-                "event": "OnPressed",
+                "hammerid": "59"
+            },
+            {
+                "hammerid": "2350",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 50,
                 "maxuses": 0,
@@ -94,8 +106,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "64",
-                "event": "OnPressed",
+                "hammerid": "64"
+            },
+            {
+                "hammerid": "2352",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -111,7 +126,18 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "grey"
+        "color": "grey",
+        "handlers": [
+            {
+                "hammerid": "2781",
+                "event": "OnCase16",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     },
     {
         "name": "Suicidal Zombie",
