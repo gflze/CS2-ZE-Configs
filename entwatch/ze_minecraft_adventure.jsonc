@@ -1,0 +1,293 @@
+[
+    {
+        "name": "Sword",
+        "shortname": "Sword",
+        "hammerid": "164",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "348"
+            },
+            {
+                "hammerid": "350",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Torch 1",
+        "shortname": "Torch 1",
+        "hammerid": "1094",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1276"
+            },
+            {
+                "hammerid": "1471",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Torch 2",
+        "shortname": "Torch 2",
+        "hammerid": "1099",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1244"
+            },
+            {
+                "hammerid": "1470",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bow & Arrow",
+        "shortname": "Bow",
+        "hammerid": "1262",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1260"
+            },
+            {
+                "hammerid": "1465",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 9,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "316",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "986"
+            },
+            {
+                "hammerid": "1466",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 5,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Firemines",
+        "shortname": "Firemines",
+        "hammerid": "654",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "659"
+            },
+            {
+                "hammerid": "661",
+                "type": "counterup",
+                "mode": 5,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Block Builder",
+        "shortname": "Block",
+        "hammerid": "666",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "671"
+            },
+            {
+                "hammerid": "1467",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 13,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "River Axe",
+        "shortname": "Axe",
+        "hammerid": "207",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Diamond Pickaxe",
+        "shortname": "Pickaxe",
+        "hammerid": "237",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Flint",
+        "shortname": "Flint",
+        "hammerid": "436",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Steel",
+        "shortname": "Steel",
+        "hammerid": "434",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Diamond",
+        "shortname": "Diamond",
+        "hammerid": "1319",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1355",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1357",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1356",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1345",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1343",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1344",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1373",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1371",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Redstone Torch",
+        "shortname": "R.Torch",
+        "hammerid": "1372",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "red"
+    }
+]
