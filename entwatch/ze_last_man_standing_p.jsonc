@@ -446,9 +446,10 @@
         "triggers": ["337"],
         "handlers": [
             {
-                "type": "counterup",
+                "type": "counterdown",
                 "hammerid": "329",
                 "mode": 5,
+                "message": false,
                 "ui": true
             }
         ]
