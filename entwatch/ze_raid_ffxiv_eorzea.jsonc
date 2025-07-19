@@ -1,0 +1,117 @@
+[
+    {
+        "name": "2B",
+        "shortname": "2B",
+        "hammerid": "2028",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["2029"],
+        "handlers": [
+            {
+                "hammerid": "2039",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Black Mage",
+        "shortname": "Black Mage",
+        "hammerid": "2048",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["2045"],
+        "handlers": [
+            {
+                "hammerid": "2047",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Tank",
+        "shortname": "Tank",
+        "hammerid": "1843",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1844"]
+    },
+    {
+        "name": "Zombie Ifrit Summon",
+        "shortname": "ZM Ifrit",
+        "hammerid": "1199",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["1201"],
+        "handlers": [
+            {
+                "hammerid": "1212",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Leviathan Summon",
+        "shortname": "ZM Leviathan",
+        "hammerid": "1003",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1005"],
+        "handlers": [
+            {
+                "hammerid": "1015",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Shiva Summon",
+        "shortname": "ZM Shiva",
+        "hammerid": "1175",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["1176"],
+        "handlers": [
+            {
+                "hammerid": "1184",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
