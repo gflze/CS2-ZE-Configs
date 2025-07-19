@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "7636",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7633"
+            },
+            {
+                "hammerid": "7637",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Water",
+        "shortname": "Water",
+        "hammerid": "7642",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7644"
+            },
+            {
+                "hammerid": "7646",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
