@@ -1,0 +1,121 @@
+[
+    {
+        "name": "Metal Debris",
+        "shortname": "Debris",
+        "hammerid": "16469",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16472"
+            },
+            {
+                "hammerid": "16471",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Supply Crate",
+        "shortname": "Ammo",
+        "hammerid": "16487",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16488"
+            },
+            {
+                "hammerid": "16482",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Decelerating Star",
+        "shortname": "Rift",
+        "hammerid": "16491",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16503"
+            },
+            {
+                "hammerid": "16496",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Acid Launcher",
+        "shortname": "Flamethrower",
+        "hammerid": "16520",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16533"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "16525",
+                "event": "OnPass",
+                "mode": 5,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Hovertex",
+        "shortname": "Push",
+        "hammerid": "16544",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16551"
+            },
+            {
+                "hammerid": "16541",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
