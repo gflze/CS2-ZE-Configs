@@ -77,15 +77,20 @@ Grouped colors are just different aliases for the same color.
 - `red2`
 - `orange`, `gold`
 
-## Music Name
+## MusicName
 
-Music name configs use sound events defined in the vsndevts_c file to display the names of music.
+Keys are the soundevent names, they're based off of the maps `soundevents_addon.vsndevts_c` file. Values are what gets displayed ingame, please keep them in `Artist - Song Title` format, and split separate songs with commas.
+
+An example config is available below.
 
 ```jsonc
 {
-    "SoundEvent1": "Artist - Song Title",
-    "SoundEvent2": "Artist 2 - Song Title 2, Artist 3 - Song Title 3",
-    "SOundEvent3": "Artist 3 - Song Title 4/Song Title 5/Song Title 6"
+    "soundevent1":                                  "Artist - Song Title",
+    "soundevent2":                                  "Artist 2 - Song Title 2, Artist 3 - Song Title 3",
+    "soundevent3":                                  "Artist 3 - Song Title 4/Song Title 5/Song Title 6",
+
+    "music.rick_astley_never_gonna_give_you_up":    "Rick Astley - Never Gonna Give You Up",
+    "mako.music.Lv4_2_Pendulum_The_Fountain":       "Pendulum - The Fountain"
 }
 ```
 
