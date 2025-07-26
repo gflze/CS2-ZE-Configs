@@ -79,7 +79,9 @@ Grouped colors are just different aliases for the same color.
 
 ## MusicName
 
-Keys are the soundevent names, they're based off of the maps `soundevents_addon.vsndevts_c` file. Values are what gets displayed ingame, please keep them in `Artist - Song Title` format, and split separate songs with commas. An example config is available below.
+Keys are the soundevent names, they're based off of the maps `soundevents_addon.vsndevts_c` file. Values are what gets displayed ingame, please keep them in `Artist - Song Title` format, and split separate songs with commas.
+
+An example config is available below.
 
 ```jsonc
 {
