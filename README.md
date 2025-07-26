@@ -77,6 +77,21 @@ Grouped colors are just different aliases for the same color.
 - `red2`
 - `orange`, `gold`
 
+## MusicName
+
+Keys are the soundevent names, they're based off of the maps `soundevents_addon.vsndevts_c` file. Values are what gets displayed ingame, please keep them in `Artist - Song Title` format, and split separate songs with commas. An example config is available below.
+
+```jsonc
+{
+    "soundevent1":                                  "Artist - Song Title",
+    "soundevent2":                                  "Artist 2 - Song Title 2, Artist 3 - Song Title 3",
+    "soundevent3":                                  "Artist 3 - Song Title 4/Song Title 5/Song Title 6",
+
+    "music.rick_astley_never_gonna_give_you_up":    "Rick Astley - Never Gonna Give You Up",
+    "mako.music.Lv4_2_Pendulum_The_Fountain":       "Pendulum - The Fountain"
+}
+```
+
 ## Stripper
 
 Stripper is quite a complicated beast, and unfortunately a single template is not really going to help you too much. You can find documentation on the config format in the [StripperCS2 Readme](https://github.com/Source2ZE/StripperCS2?tab=readme-ov-file#configuration). If you have any questions regarding stripper creation, you can always join our [#mapping channel](https://discord.gg/zh2CVSM) on Discord for assistance.
