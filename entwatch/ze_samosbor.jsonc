@@ -1,0 +1,141 @@
+[
+    {
+        "name": "Beans",
+        "shortname": "Beans",
+        "hammerid": "5196",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5198"
+            },
+            {
+                "hammerid": "5195",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Beer",
+        "shortname": "Beer",
+        "hammerid": "5187",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5189"
+            },
+            {
+                "hammerid": "5191",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Canister",
+        "shortname": "Canister",
+        "hammerid": "3604",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Spanner",
+        "shortname": "Spanner",
+        "hammerid": "4049",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Flamethrower",
+        "shortname": "ZM Flamethrower",
+        "hammerid": "3931",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["6919"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3934"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "6894",
+                "mode": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Suicide Bomber",
+        "shortname": "ZM Bomb",
+        "hammerid": "3951",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["6920"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3953"
+            },
+            {
+                "hammerid": "3949",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Nail Gun",
+        "shortname": "ZM Nail",
+        "hammerid": "4084",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["6924"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4086"
+            },
+            {
+                "hammerid": "4083",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 20,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
