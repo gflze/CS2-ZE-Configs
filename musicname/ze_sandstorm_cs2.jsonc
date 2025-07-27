@@ -1,11 +1,12 @@
 {
-  //"Music.bossf5":              "sounds/stkboss/boss_fight5.vsnd",
-  //"Music.bossf_03":            "sounds/stkboss/boss_fight3.vsnd",
-  //"Music.bossf_4":             "sounds/stkboss/boss_fight4.vsnd",
+    "Ambient.winzm":             "Immediate Music - Electric Romeo",
+    "Music.bossf5":              "Thomas Bergersen - Road to Revelation",
+    "Music.bossf_03":            "Thomas Bergersen - Sons of War",
+    "Music.bossf_4":             "Thomas Bergersen - Protectors of the Earth",
     "Music.level1":              "John Dreamer - Brotherhood",
-  //"Music.level1_2":            "sounds/stk/level1_2.vsnd",
-    "Music.level2":              "Two Steps From Hell - Invincible",
-  //"Music.level2_2":            "sounds/stk/level2_2.vsnd",
+    "Music.level1_2":            "Petar Milinkovic - Dragonheart",
+    "Music.level2":              "Thomas Bergersen - INVINCIBLE",
+    "Music.level2_2":            "",
     "Music.level3":              "Immediate - Destiny of the Chosen",
     "Music.level3_2":            "Instrumental Core - We Want Glory Freedom",
     "Music.level4":              "Magicka OST - At World's End",
@@ -16,7 +17,7 @@
     "Music.win_level3":          "Two Steps From Hell - Love and Loss",
     "Music.win_level4":          "Two Steps From Hell - For the Win",
     "Music.win_level5":          "Future World Music - A Hero Will Rise",
-    "Music.zmround1":            "Rise Against - Savior",
-    "Music.zmround2":            "Linkin Park - Somewhere I Belong",
+    "Music.zmround1":            "Linkin Park - Somewhere I Belong",
+    "Music.zmround2":            "Rise Against - Savior",
     "Music.zmround3":            "Rise Against - Injection"
 }

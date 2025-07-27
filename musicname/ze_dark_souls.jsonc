@@ -1,12 +1,12 @@
 {
-    //"darksouls.music.Asylum_Song_1":        "sounds/music/Asylum_Song_1.vsnd",
-    //"darksouls.music.Asylum_Song_2":        "sounds/music/Asylum_Song_2.vsnd",
+    "darksouls.music.Asylum_Song_1":        "",
+    "darksouls.music.Asylum_Song_2":        "",
     "darksouls.music.Chaos_witch":          "Dark Souls - Chaos Witch Quelaag",
-    //"darksouls.music.Fire_Ending":          "sounds/music/Fire_Ending.vsnd",
+    "darksouls.music.Fire_Ending":          "",
     "darksouls.music.Gwyn_Theme":           "DARK SOULS - Gwyn, Lord of Cinder",
     "darksouls.music.Nameless_Song":        "DARK SOULS - Nameless Song",
-    //"darksouls.music.PVP_Round_Music":      "sounds/music/PVP_Round_Music.vsnd",
-    //"darksouls.music.RootMusic":            "sounds/music/Great_Hollow_Music.vsnd",
+    "darksouls.music.PVP_Round_Music":      "",
+    "darksouls.music.RootMusic":            "",
     "darksouls.music.dark_ending":          "Demon's Souls - Maiden Astraea",
     "darksouls.music.firekeepers":          "DARK SOULS II - Fire Keepers",
     "darksouls.music.firelink":             "DARK SOULS - Firelink Shrine",
@@ -14,8 +14,8 @@
     "darksouls.music.gamestart_music":      "Dark Souls 3 - Dark Souls 3",
     "darksouls.music.golem_fight":          "Dark Souls - Iron Golem",
     "darksouls.music.old_hero":             "Demon's Souls - Old Hero",
-    //"darksouls.music.prison":               "sounds/music/DS_Archive_Prison.vsnd",
+    "darksouls.music.prison":               "",
     "darksouls.music.taurus_demon":         "Dark Souls - Taurus Demon",
-    //"darksouls.music.wolf_fight1":          "sounds/music/Wolf_Phase1_Music.vsnd",
-    //"darksouls.music.wolf_fight2":          "sounds/music/Wolf_Phase2_Music.vsnd"
+    "darksouls.music.wolf_fight1":          "",
+    "darksouls.music.wolf_fight2":          ""
 }

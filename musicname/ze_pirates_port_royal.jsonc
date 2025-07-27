@@ -14,13 +14,13 @@
     "music.TSFH_Victory":                         "Two Steps From Hell - Victory",
     "music.TSFH_Wrath_of_Sea":                    "Two Steps From Hell - Wrath of Sea",
     "music.Way_Direction":                        "Hans Zimmer - That Way, Direction (Pirates of the Caribbean: Dead Man's Chest OST)",
-  //"music.fort":                                 "sounds/ze_pirates/fort.vsnd",
-  //"music.lvl1_end":                             "sounds/ze_pirates/lvl1_end.vsnd",
+    "music.fort":                                 "",
+    "music.lvl1_end":                             "",
     "music.lvl2_boss_Pirates_Cave!":              "Klaus Badelt - To the Pirates' Cave! (Pirates of the Caribbean: The Curse of the Black Pearl OST)",
     "music.lvl2_end_Moonlight_Serenade":          "Klaus Badelt - Moonlight Serenade (Pirates of the Caribbean: The Curse of the Black Pearl OST)",
     "music.lvl3_end":                             "Hans Zimmer - End titles (Pirates of the Caribbean: Dead Man's Chest OST)",
     "music.lvl3_pirate_fight":                    "Klaus Badelt - Will and Elizabeth (Pirates of the Caribbean: The Curse of the Black Pearl OST)",
     "music.start":                                "Klaus Badelt - The Medallion Calls (Pirates of the Caribbean: The Curse of the Black Pearl OST)",
-  //"music.village":                              "sounds/ze_pirates/village.vsnd",
+    "music.village":                              "",
     "music.win_pirates":                          "Klaus Badelt - He is a pirate (Pirates of the Caribbean: The Curse of the Black Pearl OST)"
 }
