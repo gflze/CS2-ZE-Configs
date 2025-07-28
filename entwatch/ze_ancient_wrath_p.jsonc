@@ -74,19 +74,15 @@
     {
         "name": "Acid Launcher",
         "shortname": "Flamethrower",
-        "hammerid": "16520",
+        "hammerid": "21055",
         "message": true,
         "ui": true,
         "transfer": true,
         "color": "orange",
         "handlers": [
             {
-                "type": "button",
-                "hammerid": "16533"
-            },
-            {
                 "type": "counterdown",
-                "hammerid": "16525",
+                "hammerid": "21058",
                 "event": "OnPass",
                 "mode": 5,
                 "message": true,
