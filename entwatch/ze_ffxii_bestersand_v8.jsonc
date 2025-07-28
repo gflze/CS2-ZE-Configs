@@ -1,0 +1,293 @@
+[
+    {
+        "name": "Heal Materia",
+        "shortname": "Heal",
+        "hammerid": "12818",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "12811"
+            },
+            {
+                "hammerid": "12817",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Diddy Oil Materia",
+        "shortname": "Oil",
+        "hammerid": "11514",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11511"
+            },
+            {
+                "hammerid": "11513",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Speed Materia",
+        "shortname": "Speed",
+        "hammerid": "13864",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13861"
+            },
+            {
+                "hammerid": "13863",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrelman Materia 1",
+        "shortname": "Barrel 1",
+        "hammerid": "13914",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13903"
+            },
+            {
+                "hammerid": "13911",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrelman Materia 2",
+        "shortname": "Barrel 2",
+        "hammerid": "13957",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13946"
+            },
+            {
+                "hammerid": "13954",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrelman Materia 3",
+        "shortname": "Barrel 3",
+        "hammerid": "13899",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13888"
+            },
+            {
+                "hammerid": "13896",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrel Cannon 1",
+        "shortname": "Cannon",
+        "hammerid": "13885",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13874"
+            },
+            {
+                "hammerid": "13878",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrel Cannon 2",
+        "shortname": "Cannon 2",
+        "hammerid": "13972",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13961"
+            },
+            {
+                "hammerid": "13965",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barrel Cannon 3",
+        "shortname": "Cannon 3",
+        "hammerid": "13943",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13932"
+            },
+            {
+                "hammerid": "13936",
+                "event": "OnTrigger",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Laser 1",
+        "shortname": "ZM Laser 1",
+        "hammerid": "8633",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["8634"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8636"
+            },
+            {
+                "hammerid": "8642",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 7.5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Laser 2",
+        "shortname": "ZM Laser 2",
+        "hammerid": "8709",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "triggers": ["8710"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8712"
+            },
+            {
+                "hammerid": "8718",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 7.5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Laser 3",
+        "shortname": "ZM Laser 3",
+        "hammerid": "8899",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "triggers": ["8900"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8902"
+            },
+            {
+                "hammerid": "8907",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 7.5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    }
+]
