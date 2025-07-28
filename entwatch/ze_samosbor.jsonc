@@ -76,10 +76,6 @@
         "triggers": ["6919"],
         "handlers": [
             {
-                "type": "button",
-                "hammerid": "3934"
-            },
-            {
                 "type": "counterdown",
                 "hammerid": "6894",
                 "mode": 5,
@@ -133,7 +129,7 @@
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 20,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
