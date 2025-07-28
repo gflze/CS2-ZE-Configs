@@ -360,10 +360,6 @@
         "triggers": ["1910"],
         "handlers": [
             {
-                "type": "button",
-                "hammerid": "1539"
-            },
-            {
                 "hammerid": "7536",
                 "event": "OnTrigger",
                 "mode": 2,
