@@ -246,7 +246,7 @@
         "hammerid": "8709",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "grey",
         "triggers": ["8710"],
         "handlers": [
@@ -271,7 +271,7 @@
         "hammerid": "8899",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "grey",
         "triggers": ["8900"],
         "handlers": [
