@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Wind",
+        "shortname": "Wind",
+        "hammerid": "52",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "245"
+            },
+            {
+                "hammerid": "28",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Troll Wind",
+        "shortname": "Troll Wind",
+        "hammerid": "62",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    }
+]
