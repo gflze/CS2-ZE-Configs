@@ -19,9 +19,10 @@
                 "ui": true
             },
             {
-                "type": "counter",
+                "type": "counterdown",
                 "hammerid": "13745",
-                "mode": 6,
+                "mode": 5,
+                "message": false,
                 "ui": true
             }
         ]
