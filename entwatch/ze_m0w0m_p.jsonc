@@ -1,0 +1,537 @@
+[
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "82707",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "82708"
+            },
+            {
+                "hammerid": "82715",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Staff",
+        "shortname": "Fire",
+        "hammerid": "75777",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75773"
+            },
+            {
+                "hammerid": "75776",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity Stuff",
+        "shortname": "Gravity",
+        "hammerid": "75804",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75805"
+            },
+            {
+                "hammerid": "75808",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Staff",
+        "shortname": "Ice",
+        "hammerid": "75784",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75780"
+            },
+            {
+                "hammerid": "75782",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Lightning Staff",
+        "shortname": "Lightning",
+        "hammerid": "75793",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75790"
+            },
+            {
+                "hammerid": "75795",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Poison Staff",
+        "shortname": "Poison",
+        "hammerid": "75800",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75797"
+            },
+            {
+                "hammerid": "75802",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pulse Field",
+        "shortname": "Pulse",
+        "hammerid": "75621",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75622"
+            },
+            {
+                "hammerid": "75626",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Rainbow Beam",
+        "shortname": "Beam",
+        "hammerid": "75619",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75613"
+            },
+            {
+                "hammerid": "75609",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Water Staff",
+        "shortname": "Water",
+        "hammerid": "75827",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75821"
+            },
+            {
+                "hammerid": "75824",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind Staff",
+        "shortname": "Wind",
+        "hammerid": "75819",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75813"
+            },
+            {
+                "hammerid": "75816",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Antidoter",
+        "shortname": "Antidoter",
+        "hammerid": "75645",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75643"
+            },
+            {
+                "hammerid": "75646",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Beam Rifle",
+        "shortname": "Rifle",
+        "hammerid": "83054",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75889"
+            },
+            {
+                "hammerid": "75891",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 2,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "C4",
+        "shortname": "C4",
+        "hammerid": "75910",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75913"
+            },
+            {
+                "hammerid": "75911",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamthrower",
+        "shortname": "Flamethrower",
+        "hammerid": "75838",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75836"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "75841",
+                "mode": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Freeze Grenade Launcher",
+        "shortname": "Launcher",
+        "hammerid": "75905",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75903"
+            },
+            {
+                "hammerid": "75907",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gatling Gun",
+        "shortname": "Gatling",
+        "hammerid": "75876",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75877"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "75883",
+                "mode": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "m0w0m",
+        "shortname": "m0w0m",
+        "hammerid": "73412",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Maxwell",
+        "shortname": "Maxwell",
+        "hammerid": "76021",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "76024"
+            },
+            {
+                "hammerid": "76023",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mega Blast",
+        "shortname": "Blast",
+        "hammerid": "76013",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "76017"
+            },
+            {
+                "hammerid": "76019",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "75833",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75828"
+            },
+            {
+                "hammerid": "75831",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Slugger",
+        "shortname": "Slugger",
+        "hammerid": "83061",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "83059"
+            },
+            {
+                "hammerid": "83057",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Gravity",
+        "shortname": "ZM Gravity",
+        "hammerid": "75925",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["75923"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75926"
+            },
+            {
+                "hammerid": "75959",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "75936",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["75937"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75931"
+            },
+            {
+                "hammerid": "75934",
+                "event": "OnPass",
+                "mode": 1, // Mode 1 because cd changes based on stage
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
