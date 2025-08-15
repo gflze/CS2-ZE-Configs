@@ -1242,13 +1242,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say 撒旦:“怎么？你也想如他们般癫狂？”"
+						"overrideparam": "say 小魅魔:“怎么？你也想如他们般癫狂？”"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say Satan: “What? Do you want to be as crazy as they are?”"
+					"overrideparam": "say Little Demon: “What? Do you want to be as crazy as they are?”"
 				}
 			}
 		},
@@ -1256,13 +1256,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say 撒旦:“向我祈祷吧，人类！”"
+						"overrideparam": "say 小魅魔:“向我祈祷吧，人类！”"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say Satan: “Pray to me, human!”"
+					"overrideparam": "say Little Demon: “Pray to me, human!”"
 				}
 			}
 		},
@@ -1382,13 +1382,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say 服务器人数低于36，已移除僵尸贴门核爆效果！！"
+						"overrideparam": "say 服务器人数低于45，已移除僵尸贴门核爆效果！！"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say When the player count is below 36, the nuke when zombies touch the door is removed!!"
+					"overrideparam": "say When the player count is below 45, the nuke when zombies touch the door is removed!!"
 				}
 			}
 		},
