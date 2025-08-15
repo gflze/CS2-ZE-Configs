@@ -524,10 +524,19 @@
                 "hammerid": "75931"
             },
             {
-                "hammerid": "75934",
-                "event": "OnPass",
-                "mode": 1, // Mode 1 because cd changes based on stage
-                "cooldown": 0,
+                "hammerid": "84276",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "hammerid": "84277",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 30,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
