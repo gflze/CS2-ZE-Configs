@@ -12,3 +12,8 @@ EntWatch:
 - any:
   - changed-files:
     - any-glob-to-any-file: 'entwatch/*'
+
+MusicName:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: 'musicname/*'
