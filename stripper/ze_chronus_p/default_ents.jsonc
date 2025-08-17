@@ -1,0 +1,7 @@
+{
+	// (Hopefully) Temporary crash fix, map doesn't need the env_wind entity anyways
+	"filter":
+	{
+		"classname": "env_wind"
+	}
+}
