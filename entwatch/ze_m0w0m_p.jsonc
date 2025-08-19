@@ -72,6 +72,30 @@
         ]
     },
     {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "75594",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "75592"
+            },
+            {
+                "hammerid": "75595",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Ice Staff",
         "shortname": "Ice",
         "hammerid": "75784",
@@ -383,8 +407,8 @@
         "name": "m0w0m",
         "shortname": "m0w0m",
         "hammerid": "73412",
-        "message": true,
-        "ui": true,
+        "message": false,
+        "ui": false,
         "transfer": true,
         "color": "yellow"
     },
