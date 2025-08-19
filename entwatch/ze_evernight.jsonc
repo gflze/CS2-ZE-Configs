@@ -1,0 +1,285 @@
+[
+    {
+        "name": "Fire Magick",
+        "shortname": "Fire",
+        "hammerid": "6424",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6422"
+            },
+            {
+                "hammerid": "8173",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Magick",
+        "shortname": "Ice",
+        "hammerid": "6406",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6407"
+            },
+            {
+                "hammerid": "8171",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind Magick",
+        "shortname": "Wind",
+        "hammerid": "6398",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6401"
+            },
+            {
+                "hammerid": "8174",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder Magick",
+        "shortname": "Thunder",
+        "hammerid": "6414",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6415"
+            },
+            {
+                "hammerid": "8176",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Light Magick",
+        "shortname": "Light",
+        "hammerid": "6386",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6387"
+            },
+            {
+                "hammerid": "8172",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shadow Magick",
+        "shortname": "Shadow",
+        "hammerid": "6376",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6377"
+            },
+            {
+                "hammerid": "8175",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ice Magick",
+        "shortname": "ZM Ice",
+        "hammerid": "6359",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["6363"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6360"
+            },
+            {
+                "hammerid": "5756",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Self-Heal",
+                "hammerid": "6300",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire Magick",
+        "shortname": "ZM Fire",
+        "hammerid": "6342",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "6342",
+        "triggers": ["6353"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6344"
+            },
+            {
+                "hammerid": "5755",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Fire Ball",
+                "hammerid": "6316",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Wind Magick",
+        "shortname": "ZM Wind",
+        "hammerid": "6302",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["6307"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6304"
+            },
+            {
+                "hammerid": "5736",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Wind Wall",
+                "hammerid": "6313",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Thunder Magick",
+        "shortname": "ZM Thunder",
+        "hammerid": "5709",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["5712"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5710"
+            },
+            {
+                "hammerid": "5704",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "hammerid": "5708",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

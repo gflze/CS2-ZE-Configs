@@ -75,18 +75,6 @@
 					}
 				]
 			}
-		},
-		{
-			"match": {
-				"classname": "point_servercommand"
-			},
-			"delete": {
-				"io": [
-					{
-						"outputname": "OnUser1"
-					}
-				]
-			}
 		}
 	],
 	// Kill epick blockers when round starts
