@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Surfboard 1",
+        "shortname": "Surfboard 1",
+        "hammerid": "825",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Surfboard 2",
+        "shortname": "Surfboard 2",
+        "hammerid": "794",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Surfboard 3",
+        "shortname": "Surfboard 3",
+        "hammerid": "795",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Surfboard 4",
+        "shortname": "Surfboard 4",
+        "hammerid": "836",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink"
+    },
+    {
+        "name": "Surfboard 5",
+        "shortname": "Surfboard 5",
+        "hammerid": "847",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Surfboard 6",
+        "shortname": "Surfboard 6",
+        "hammerid": "867",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue"
+    },
+    {
+        "name": "Surfboard 7",
+        "shortname": "Surfboard 7",
+        "hammerid": "887",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    }
+]
