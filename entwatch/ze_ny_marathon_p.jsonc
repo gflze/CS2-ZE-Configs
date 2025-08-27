@@ -4,7 +4,7 @@
         "shortname": "Heal",
         "hammerid": "560",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "white",
         "handlers": [
@@ -28,7 +28,7 @@
         "shortname": "Push",
         "hammerid": "590",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "green",
         "handlers": [
@@ -52,7 +52,7 @@
         "shortname": "Grenades",
         "hammerid": "570",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "red",
         "handlers": [
@@ -76,7 +76,7 @@
         "shortname": "Laser",
         "hammerid": "857",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "blue",
         "handlers": [
@@ -100,7 +100,7 @@
         "shortname": "Speed",
         "hammerid": "459",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "green",
         "handlers": [
@@ -124,7 +124,7 @@
         "shortname": "Monkey",
         "hammerid": "720",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": true,
         "color": "orange"
     },
@@ -133,7 +133,7 @@
         "shortname": "ZM Gravity",
         "hammerid": "595",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": false,
         "color": "purple",
         "triggers": ["3912"],
@@ -158,7 +158,7 @@
         "shortname": "ZM Teleport",
         "hammerid": "467",
         "message": true,
-        "ui": true,
+        "ui": false,
         "transfer": false,
         "color": "red",
         "triggers": ["3914"],
