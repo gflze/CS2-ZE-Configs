@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Zombie Rage",
+        "shortname": "ZM Rage",
+        "hammerid": "38625",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["38627"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44953"
+            },
+            {
+                "hammerid": "38633",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ice",
+        "shortname": "ZM Ice",
+        "hammerid": "38666",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["38667"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44945"
+            },
+            {
+                "hammerid": "38658",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Invisible",
+        "shortname": "ZM Invis",
+        "hammerid": "38673",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["38674"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44949"
+            },
+            {
+                "hammerid": "38672",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Curse",
+        "shortname": "ZM Curse",
+        "hammerid": "38678",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "triggers": ["38690"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44943"
+            },
+            {
+                "hammerid": "38689",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rejection",
+        "shortname": "ZM Rejection",
+        "hammerid": "44783",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["44785"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44941"
+            },
+            {
+                "hammerid": "44787",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Shield",
+        "shortname": "ZM Shield",
+        "hammerid": "46067",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["38640"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44951"
+            },
+            {
+                "hammerid": "38638",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fireball",
+        "shortname": "ZM Fireball",
+        "hammerid": "46077",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "triggers": ["38645"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "44947"
+            },
+            {
+                "hammerid": "38644",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
