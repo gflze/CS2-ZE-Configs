@@ -279,7 +279,7 @@
         "hammerid": "15095",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "red",
         "triggers": ["15098"],
         "handlers": [

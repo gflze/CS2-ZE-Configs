@@ -395,7 +395,7 @@
         "hammerid": "38678",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "darkred",
         "triggers": ["38690"],
         "handlers": [
@@ -470,7 +470,7 @@
         "hammerid": "46077",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "darkred",
         "triggers": ["38645"],
         "handlers": [
