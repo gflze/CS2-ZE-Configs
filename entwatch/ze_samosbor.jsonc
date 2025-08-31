@@ -48,6 +48,30 @@
         ]
     },
     {
+        "name": "Whip",
+        "shortname": "Whip",
+        "hammerid": "7988",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7991"
+            },
+            {
+                "hammerid": "7989",
+                "event": "OnPass",
+                "mode": 1,
+                "cooldown": 0,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Canister",
         "shortname": "Canister",
         "hammerid": "3604",
@@ -57,6 +81,15 @@
         "color": "grey"
     },
     {
+        "name": "Meat",
+        "shortname": "Meat",
+        "hammerid": "9511",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
         "name": "Spanner",
         "shortname": "Spanner",
         "hammerid": "4049",
@@ -64,6 +97,24 @@
         "ui": true,
         "transfer": true,
         "color": "grey"
+    },
+    {
+        "name": "Green Trail",
+        "shortname": "Trail",
+        "hammerid": "9602",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Orange Trail",
+        "shortname": "Trail",
+        "hammerid": "8065",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
     },
     {
         "name": "Zombie Flamethrower",
