@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "51696",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "61391"
+            },
+            {
+                "hammerid": "51705",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Barrel",
+        "shortname": "Fire",
+        "hammerid": "51720",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "61395"
+            },
+            {
+                "hammerid": "51722",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Protection Circle",
+        "shortname": "Push",
+        "hammerid": "51744",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "61399"
+            },
+            {
+                "hammerid": "51749",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Airstrike",
+        "shortname": "Airstrike",
+        "hammerid": "72013",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "72017"
+            },
+            {
+                "hammerid": "72025",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
