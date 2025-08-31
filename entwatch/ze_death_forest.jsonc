@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Zombie Tou", // idfk what the this is
+        "shortname": "ZM Tou",
+        "hammerid": "36071",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["37578"]
+    },
+    {
+        "name": "Zombie Mud Monster",
+        "shortname": "ZM Mud",
+        "hammerid": "36037",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["36035"]
+    },
+    {
+        "name": "Zombie Speed",
+        "shortname": "ZM Speed",
+        "hammerid": "36032",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "dakred",
+        "triggers": ["36030"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "36039"
+            },
+            {
+                "hammerid": "36033",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Creeper",
+        "shortname": "ZM Creeper",
+        "hammerid": "36025",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["36027"]
+    },
+    {
+        "name": "Zombie YZ", // idfk what this is also
+        "shortname": "ZM YZ",
+        "hammerid": "36011",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["37582"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "36014"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "36023",
+                "mode": 4,
+                "cooldown": 60,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Chainsaw",
+        "shortname": "ZM Chainsaw",
+        "hammerid": "35990",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["35988"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "35992"
+            },
+            {
+                "hammerid": "35991",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fear",
+        "shortname": "ZM Fear",
+        "hammerid": "35999",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["37572"]
+    },
+    {
+        "name": "Zombie Invisible",
+        "shortname": "ZM Invis",
+        "hammerid": "35983",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["35981"]
+    },
+    {
+        "name": "Zombie Hunter",
+        "shortname": "ZM Hunter",
+        "hammerid": "35979",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["35970"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "35974"
+            },
+            {
+                "hammerid": "35976",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

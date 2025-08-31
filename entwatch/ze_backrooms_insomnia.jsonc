@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Broken Flashlight",
+        "shortname": "Broken Flashlight",
+        "hammerid": "18528",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18524"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "18520",
+                "mode": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Tactical Flashlight",
+        "shortname": "Tactical Flashlight",
+        "hammerid": "18506",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18502"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "18497",
+                "mode": 5,
+                "message": false,
+                "ui": true
+            }
+        ]
+    }
+]

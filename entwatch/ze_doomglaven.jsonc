@@ -1,0 +1,129 @@
+[
+    {
+        "name": "Heal Spell",
+        "shortname": "Heal",
+        "hammerid": "22821",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "22822"
+            },
+            {
+                "hammerid": "22825",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder Spell",
+        "shortname": "Thunder",
+        "hammerid": "3351",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3348"
+            },
+            {
+                "hammerid": "3350",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Quake Spell",
+        "shortname": "Quake",
+        "hammerid": "29565",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "29566"
+            },
+            {
+                "hammerid": "29569",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gluttony Grimoire",
+        "shortname": "Gluttony",
+        "hammerid": "31464",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Gyration Grimoire",
+        "shortname": "Gyration",
+        "hammerid": "31452",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Gasping Grimoire",
+        "shortname": "Gasping",
+        "hammerid": "31441",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Gnashing Grimoire",
+        "shortname": "Gnashing",
+        "hammerid": "31432",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Torch Spell",
+        "shortname": "Torch",
+        "hammerid": "29624",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Zombie Mimic Spell",
+        "shortname": "ZM Mimic",
+        "hammerid": "21124",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["21122"]
+    }
+]

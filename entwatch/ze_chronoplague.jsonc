@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Firewall 1",
+        "shortname": "Firewall 1",
+        "hammerid": "10988",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "10989"
+            },
+            {
+                "hammerid": "10991",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Firewall 2",
+        "shortname": "Firewall 2",
+        "hammerid": "10967",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "10968"
+            },
+            {
+                "hammerid": "10970",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Teleport",
+        "shortname": "ZM Teleport",
+        "hammerid": "11008",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["11006"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11010"
+            },
+            {
+                "hammerid": "11009",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

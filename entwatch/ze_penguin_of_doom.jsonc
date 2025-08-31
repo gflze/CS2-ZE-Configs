@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Cabbage of Regeneration",
+        "shortname": "Cabbage",
+        "hammerid": "1717",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Green Paint",
+        "shortname": "Green Paint",
+        "hammerid": "516",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Red Paint",
+        "shortname": "Red Paint",
+        "hammerid": "513",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    }
+]
