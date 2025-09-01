@@ -184,7 +184,7 @@
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 20,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
