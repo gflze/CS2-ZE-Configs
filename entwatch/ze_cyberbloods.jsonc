@@ -127,15 +127,15 @@
         "ui": true,
         "transfer": true,
         "color": "red"
-    },
-    {
-        "name": "Dash",
-        "shortname": "Dash",
-        "hammerid": "57567",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "triggers": ["60363"]
     }
+    //{
+        //"name": "Dash",
+        //"shortname": "Dash",
+        //"hammerid": "57567",
+        //"message": true,
+        //"ui": true,
+        //"transfer": true,
+        //"color": "grey",
+        //"triggers": ["60363"]
+    //}
 ]
