@@ -1,0 +1,160 @@
+[
+    {
+        "name": "Halberd",
+        "shortname": "Halberd",
+        "hammerid": "244",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button", // Switch button
+                "hammerid": "7181"
+            },
+            {
+                "type": "button", // Use button
+                "hammerid": "7175"
+            },
+            {
+                "name": "Heal",
+                "hammerid": "6467",
+                "event": "OnCase01",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Sword",
+                "hammerid": "6467",
+                "event": "OnCase02",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Shadow Spikes",
+        "shortname": "Spikes",
+        "hammerid": "243",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7173"
+            },
+            {
+                "hammerid": "7527",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Spider Fang",
+        "shortname": "Poison",
+        "hammerid": "242",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7169"
+            },
+            {
+                "hammerid": "7526",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Book",
+        "shortname": "Book",
+        "hammerid": "241",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "triggers": ["357"]
+    },
+    {
+        "name": "Key",
+        "shortname": "Key",
+        "hammerid": "240",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "triggers": ["355"]
+    },
+    {
+        "name": "Element",
+        "shortname": "Element",
+        "hammerid": "248",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Green Stick",
+        "shortname": "Green Stick",
+        "hammerid": "246",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Red Stick",
+        "shortname": "Red Stick",
+        "hammerid": "247",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Chicken Jockey",
+        "shortname": "Chicken",
+        "hammerid": "245",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7183"
+            },
+            {
+                "hammerid": "7528",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

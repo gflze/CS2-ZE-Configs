@@ -1,0 +1,326 @@
+[
+    // human items use a weird cooldown system
+    // No clue how to track so i'll just include buttons...
+    {
+        "name": "Health",
+        "shortname": "Health",
+        "hammerid": "8755",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8752"
+            }
+        ]
+    },
+    {
+        "name": "Shockwave",
+        "shortname": "Shockwave",
+        "hammerid": "8781",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8778"
+            }
+        ]
+    },
+    {
+        "name": "Spray",
+        "shortname": "Spray",
+        "hammerid": "8801",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8811"
+            }
+        ]
+    },
+    {
+        "name": "Water",
+        "shortname": "Water",
+        "hammerid": "8827",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8838"
+            }
+        ]
+    },
+    {
+        "name": "Grenade Weapon",
+        "shortname": "Grenade",
+        "hammerid": "14470",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "14472"
+            },
+            {
+                "hammerid": "14474",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Healthshot",
+        "shortname": "Healthshot",
+        "hammerid": "14520",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "14515"
+            },
+            {
+                "hammerid": "14517",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 0,
+                "maxuses": 90,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Container",
+        "shortname": "Container",
+        "hammerid": "14735",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "14738"
+            },
+            {
+                "hammerid": "14741",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sucker",
+        "shortname": "Sucker",
+        "hammerid": "15067",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "15060"
+            },
+            {
+                "hammerid": "15063",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Skywrath",
+        "shortname": "Skywrath",
+        "hammerid": "15293",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "15286"
+            },
+            {
+                "hammerid": "15291",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mysterious Power",
+        "shortname": "Mystery",
+        "hammerid": "15417",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "triggers": ["15422"],
+        "handlers": [
+            {
+                "hammerid": "15412",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Blackhole",
+        "shortname": "ZM Blackhole",
+        "hammerid": "15050",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["15047"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "15044"
+            },
+            {
+                "hammerid": "15043",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Cure",
+        "shortname": "ZM Cure",
+        "hammerid": "8966",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["8971"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8963"
+            },
+            {
+                "hammerid": "8967",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Hound",
+        "shortname": "ZM Hound",
+        "hammerid": "15311",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["15303"],
+        "handlers": [
+            {
+                "hammerid": "15308",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Speed",
+        "shortname": "ZM Speed",
+        "hammerid": "15095",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["15098"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "15102"
+            },
+            {
+                "hammerid": "15096",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Wind",
+        "shortname": "ZM Wind",
+        "hammerid": "8977",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["8993"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8989"
+            },
+            {
+                "hammerid": "8991",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

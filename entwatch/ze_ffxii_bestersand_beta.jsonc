@@ -90,7 +90,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -114,7 +114,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -138,7 +138,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -162,7 +162,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -186,7 +186,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]
@@ -210,7 +210,7 @@
                 "mode": 1,
                 "cooldown": 0,
                 "maxuses": 0,
-                "message": true,
+                "message": false,
                 "ui": true
             }
         ]

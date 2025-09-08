@@ -143,10 +143,10 @@
         },
         {
             "match": {
-                "message": "Maybe Last Message Nov. 6th, 1958 :\nこれは私という「アルビオン」の存在を意識的に記憶させるための処置である。\n実験が不結果に陥った場合、空容体の迅速抹消及び\n本部による重要インシデント処理「フラグメント・オプス」の強制実行。"
+                "message": "Maybe Last Message Nov. 6th, 1958 :\nこれは私という「アルビオン」の存在を意識的に記憶させるための処置である。\n実験が不結果に陥った場合、空容体の迅速抹消及び\n本部による重要インシデント処理「オペレーション・フラグメント」の強制実行。"
             },
             "replace": {
-                "message": "Maybe Last Message Nov. 6th, 1958 :\nThis is a procedure to consciously remember the existence\nof my \"Albion\". In the event of an unsuccessful experiment,\nrapid deletion of the vacuole and the enforced execution of the\ncritical incident processing \"Fragment Ops\" by Headquarters."
+                "message": "Maybe Last Message Nov. 6th, 1958 :\nThis is a procedure to consciously remember the existence\nof my \"Albion\". In the event of an unsuccessful experiment,\nrapid deletion of the vacuole and the forced execution of the\n\"Operation Fragment\" critical incident response protocol by headquarters."
             }
         },
         {
@@ -170,7 +170,7 @@
                 "message": "/12頁/"
             },
             "replace": {
-                "message": "Page 12\nMy consciousness is fading.\nMaybe my memory is also becoming faintly fragmented.\nEither way, the Fragment Ops will be executed."
+                "message": "Page 12\nMy consciousness is fading.\nMaybe my memory is also becoming faintly fragmented.\nEither way, Operation Fragment will be executed."
             }
         },
         {

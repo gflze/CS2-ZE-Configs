@@ -1,0 +1,22 @@
+{
+	//fix broken respawn toggle that could toggle multiple times
+	"modify":
+	{
+		"match":
+		{
+			"targetname": "[PR#]once_end_win",
+			"io": [
+				{
+					"targetname": "[PR#]zr_toggle_respawn",
+					"inputname": "trigger"
+				}
+			]
+		},
+		"replace":
+		{
+			"io": {
+				"inputname": "Disable"
+			}
+		}
+	}
+}

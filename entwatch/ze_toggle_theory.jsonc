@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Ciallo",
+        "shortname": "Ciallo",
+        "hammerid": "19996",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19997"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "19993",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Drone",
+        "shortname": "Drone",
+        "hammerid": "2518",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2522"
+            }
+        ]
+    },
+    {
+        "name": "Hoverbomb",
+        "shortname": "Hoverbomb",
+        "hammerid": "2517",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2514"
+            }
+        ]
+    },
+    {
+        "name": "Zombie Flipswitch",
+        "shortname": "ZM Flipswitch",
+        "hammerid": "13510",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["13511"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13517"
+            },
+            {
+                "hammerid": "13514",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

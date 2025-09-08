@@ -1214,34 +1214,6 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say 撒旦:“哼，赏你点力量”"
-					}
-				]
-			},
-			"replace": {
-				"io": {
-					"overrideparam": "say Satan: “Hmph, I'll give you some strength.”"
-				}
-			}
-		},
-		{
-			"match": {
-				"io": [
-					{
-						"overrideparam": "say 撒旦:“僵尸吗?有点意思”"
-					}
-				]
-			},
-			"replace": {
-				"io": {
-					"overrideparam": "say Satan: “Zombies? That's interesting.”"
-				}
-			}
-		},
-		{
-			"match": {
-				"io": [
-					{
 						"overrideparam": "say 小魅魔:“怎么？你也想如他们般癫狂？”"
 					}
 				]
@@ -1263,6 +1235,34 @@
 			"replace": {
 				"io": {
 					"overrideparam": "say Little Demon: “Pray to me, human!”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 小魅魔:“僵尸吗?有点意思”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "Little Demon: “A zombie? That's kinda interesting.”"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say 小魅魔:“哼，赏你点力量”"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "Little Demon: “Hmph, I'll grant you a bit of power.”"
 				}
 			}
 		},

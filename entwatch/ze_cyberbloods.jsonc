@@ -1,0 +1,141 @@
+[
+    {
+        "name": "Backpack",
+        "shortname": "Backpack",
+        "hammerid": "54916",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Drone Reaper",
+        "shortname": "Drone",
+        "hammerid": "55088",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "57570"
+            }
+        ]
+    },
+    {
+        "name": "Lily",
+        "shortname": "Lily",
+        "hammerid": "54845",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "54827"
+            }
+        ]
+    },
+    {
+        "name": "Medkit",
+        "shortname": "Medkit",
+        "hammerid": "54898",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "54902"
+            },
+            {
+                "hammerid": "54899",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Railgun",
+        "shortname": "Railgun",
+        "hammerid": "55008",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "54905",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Shotgun Devastator",
+        "shortname": "Shotgun",
+        "hammerid": "55024",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    },
+    {
+        "name": "Sniper Rifle",
+        "shortname": "Rifle",
+        "hammerid": "54988",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "55057"
+            }
+        ]
+    },
+    {
+        "name": "Sword of Scorn",
+        "shortname": "Sword",
+        "hammerid": "55102",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "55103"
+            }
+        ]
+    },
+    {
+        "name": "Valve",
+        "shortname": "Valve",
+        "hammerid": "43613",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red"
+    }
+    //{
+        //"name": "Dash",
+        //"shortname": "Dash",
+        //"hammerid": "57567",
+        //"message": true,
+        //"ui": true,
+        //"transfer": true,
+        //"color": "grey",
+        //"triggers": ["60363"]
+    //}
+]
