@@ -17,3 +17,8 @@ MusicName:
 - any:
   - changed-files:
     - any-glob-to-any-file: 'musicname/*'
+
+AdminRoom:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: 'adminroom/*'
