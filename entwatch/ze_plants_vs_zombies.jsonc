@@ -1,0 +1,551 @@
+[
+    {
+        "name": "Cactus",
+        "shortname": "Cactus",
+        "hammerid": "1386",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    },
+    {
+        "name": "Peashooter",
+        "shortname": "Peashooter",
+        "hammerid": "1048",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1049"
+            },
+            {
+                "hammerid": "1054",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Double Peashooter",
+        "shortname": "Double",
+        "hammerid": "1637",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1626"
+            },
+            {
+                "hammerid": "1630",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gatling Peashooter",
+        "shortname": "Gatling",
+        "hammerid": "1652",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1650"
+            },
+            {
+                "hammerid": "1654",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Peashooter",
+        "shortname": "Ice",
+        "hammerid": "1134",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1136"
+            },
+            {
+                "hammerid": "1142",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cob Cannon",
+        "shortname": "Cob",
+        "hammerid": "1564",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1560"
+            },
+            {
+                "hammerid": "1558",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Cherry-Bomb",
+        "shortname": "Cherry",
+        "hammerid": "1399",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1392"
+            },
+            {
+                "hammerid": "1405",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Walnut",
+        "shortname": "Walnut",
+        "hammerid": "1180",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1178"
+            },
+            {
+                "hammerid": "1183",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sunflower",
+        "shortname": "Sunflower",
+        "hammerid": "1073",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1074"
+            },
+            {
+                "hammerid": "1082",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fume-Shroom",
+        "shortname": "Fume",
+        "hammerid": "1595",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1596"
+            },
+            {
+                "hammerid": "1600",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sun-Shroom",
+        "shortname": "Sun",
+        "hammerid": "1495",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1503"
+            },
+            {
+                "hammerid": "1497",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 8,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Hypno-Shroom",
+        "shortname": "Hypno",
+        "hammerid": "1461",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1458"
+            },
+            {
+                "hammerid": "1467",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Doom-Shroom",
+        "shortname": "Doom",
+        "hammerid": "1447",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1445"
+            },
+            {
+                "hammerid": "1442",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice-Shroom",
+        "shortname": "Ice",
+        "hammerid": "1409",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1417"
+            },
+            {
+                "hammerid": "1416",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Puff-Shroom",
+        "shortname": "Puff",
+        "hammerid": "1304",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1307"
+            },
+            {
+                "hammerid": "1306",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fan",
+        "shortname": "Fan",
+        "hammerid": "1283",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1289"
+            },
+            {
+                "hammerid": "1288",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Potato",
+        "shortname": "Potato",
+        "hammerid": "1106",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1107"
+            },
+            {
+                "hammerid": "1113",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Football Zombie",
+        "shortname": "ZM Football",
+        "hammerid": "7758",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["6487"],
+        "handlers": [
+            {
+                "hammerid": "7755",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dancing Zombie",
+        "shortname": "ZM Dance",
+        "hammerid": "7752",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["6481"],
+        "handlers": [
+            {
+                "name": "Summon",
+                "hammerid": "7747",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Dance",
+                "hammerid": "7741",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Newspaper Zombie",
+        "shortname": "ZM News",
+        "hammerid": "7737",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["6475"]
+    },
+    {
+        "name": "Pole Vaulting Zombie",
+        "shortname": "ZM Polevaut",
+        "hammerid": "7730",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["6477"],
+        "handlers": [
+            {
+                "hammerid": "7724",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pogo Zombie",
+        "shortname": "ZM Pogo",
+        "hammerid": "7717",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["6485"],
+        "handlers": [
+            {
+                "hammerid": "7713",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Screen Door Zombie",
+        "shortname": "ZM Door",
+        "hammerid": "7710",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["6479"]
+    },
+    {
+        "name": "Zombie Yeti",
+        "shortname": "ZM Yeti",
+        "hammerid": "7700",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["6483"],
+        "handlers": [
+            {
+                "hammerid": "7696",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Balloon Zombie",
+        "shortname": "ZM Balloon",
+        "hammerid": "7682",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["6489"]
+    },
+    {
+        "name": "Zombie Bubble",
+        "shortname": "ZM Bubble",
+        "hammerid": "7658",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "triggers": ["6500"]
+    }
+]
