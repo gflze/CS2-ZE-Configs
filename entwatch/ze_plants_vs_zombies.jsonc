@@ -457,7 +457,7 @@
     },
     {
         "name": "Pole Vaulting Zombie",
-        "shortname": "ZM Polevaut",
+        "shortname": "ZM Pole Vault",
         "hammerid": "7730",
         "message": true,
         "ui": true,
