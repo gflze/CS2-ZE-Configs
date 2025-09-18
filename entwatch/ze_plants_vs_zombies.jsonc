@@ -544,7 +544,7 @@
         "hammerid": "7658",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "grey",
         "triggers": ["6500"]
     }
