@@ -109,3 +109,7 @@ zr_infect_spawn_type 0		// Enables classic spawn for the map
 zr_infect_spawn_time_max	// Maximum time in which Mother Zombies should be picked, after round start
 zr_infect_spawn_time_min	// Minimum time in which Mother Zombies should be picked, after round start
 ```
+
+## AdminRoom
+
+Very basic, there is a single `adminroom.jsonc` file with map name keys & coordinate values for admin rooms that !adminroom can teleport to, an example entry is `"ExampleMap1": [123, 456, 789]`.

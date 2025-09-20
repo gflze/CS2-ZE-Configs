@@ -37,3 +37,6 @@ jobs:
 
       - name: Sync MusicName Files
         run: git ftp push --verbose --auto-init --syncroot "musicname" --remote-root "game/csgo/addons/cs2fixes/configs/musicname/"
+
+      - name: Sync AdminRoom File
+        run: git ftp push --verbose --auto-init --syncroot "adminroom" --remote-root "game/csgo/addons/cs2fixes/configs/"
