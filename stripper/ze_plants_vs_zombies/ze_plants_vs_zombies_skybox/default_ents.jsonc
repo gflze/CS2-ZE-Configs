@@ -1,0 +1,14 @@
+{
+	//force english only
+	"modify":
+	{
+		"match":
+		{
+			"targetname": "[PR#]trans_branch"
+		},
+		"replace":
+		{
+			"initialvalue": "1"
+		}
+	}
+}
