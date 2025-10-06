@@ -49,7 +49,7 @@
     },
     {
         "name": "Handful of Fire Salt",
-        "shortname": "Fire (S)",
+        "shortname": "H.Fire",
         "hammerid": "18764",
         "message": true,
         "ui": true,
@@ -73,7 +73,7 @@
     },
     {
         "name": "Bag of Fire Salt",
-        "shortname": "Fire (L)",
+        "shortname": "B.Fire",
         "hammerid": "18751",
         "message": true,
         "ui": true,
