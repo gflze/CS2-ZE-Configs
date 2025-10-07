@@ -25,7 +25,7 @@
     },
     {
         "name": "Bucket of Almond Water",
-        "shortname": "B.Almond",
+        "shortname": "Almond Bucket",
         "hammerid": "18885",
         "message": true,
         "ui": true,
@@ -49,7 +49,7 @@
     },
     {
         "name": "Handful of Fire Salt",
-        "shortname": "H.Fire",
+        "shortname": "Fire Handful",
         "hammerid": "18764",
         "message": true,
         "ui": true,
@@ -73,7 +73,7 @@
     },
     {
         "name": "Bag of Fire Salt",
-        "shortname": "B.Fire",
+        "shortname": "Fire Bag",
         "hammerid": "18751",
         "message": true,
         "ui": true,
@@ -97,7 +97,7 @@
     },
     {
         "name": "Broken Flashlight",
-        "shortname": "B.Flashlight",
+        "shortname": "Broken Flashlight",
         "hammerid": "18528",
         "message": true,
         "ui": true,
@@ -119,7 +119,7 @@
     },
     {
         "name": "Tactical Flashlight",
-        "shortname": "T.Flashlight",
+        "shortname": "Tactical Flashlight",
         "hammerid": "18506",
         "message": true,
         "ui": true,
@@ -165,7 +165,7 @@
     },
     {
         "name": "Bundle of Glow Sticks",
-        "shortname": "B.Glow",
+        "shortname": "Glow Bundle",
         "hammerid": "18791",
         "message": true,
         "ui": true,
@@ -188,7 +188,7 @@
     },
     {
         "name": "Black Lightning in a Bottle",
-        "shortname": "B.Lightning",
+        "shortname": "Black Lightning",
         "hammerid": "19007",
         "message": true,
         "ui": true,
@@ -236,7 +236,7 @@
     },
     {
         "name": "Man-Made Lightning",
-        "shortname": "M.Lightning",
+        "shortname": "Man Lightning",
         "hammerid": "18962",
         "message": true,
         "ui": true,
