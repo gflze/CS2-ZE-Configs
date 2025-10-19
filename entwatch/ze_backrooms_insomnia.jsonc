@@ -1,5 +1,10 @@
 [
     {
+        "name": "Shop Entry Eban",
+        "hammerid": "-1",
+        "triggers": ["20425"]
+    },
+    {
         "name": "Almond Water",
         "shortname": "Almond",
         "hammerid": "18901",
