@@ -178,13 +178,27 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say (10秒后僵尸传送)"
+						"overrideparam": "say (5秒后僵尸传送)"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say *** Zombies will teleport in 10 seconds ***"
+					"overrideparam": "say (Zombies teleport in 5 seconds)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say (10秒后门开)"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say (Door opens in 10 seconds)"
 				}
 			}
 		},
@@ -262,13 +276,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say 船舱在40秒后打开"
+						"overrideparam": "say 船舱在30秒后打开"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say *** The cabin opens in 40 seconds ***"
+					"overrideparam": "say The cabin will open in 30 seconds"
 				}
 			}
 		},
@@ -962,13 +976,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say 咱记得钓鱼台上的钻石块是树屋开关喵Ծ‸Ծ"
+						"overrideparam": "say 姜丝传送了喵Ծ‸Ծ"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say Remember that the diamond block on the fishing platform is the treehouse's switch, meow Ծ‸Ծ"
+					"overrideparam": "say Jiangsi sent a meow Ծ‸Ծ"
 				}
 			}
 		},
@@ -990,13 +1004,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say （僵尸10秒后传送至厕所）"
+						"overrideparam": "say （僵尸12秒后传送至厕所）"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say *** Zombies teleport to the bathroom in 10 seconds ***"
+					"overrideparam": "say (Zombies teleport to the bathroom in 12 seconds)"
 				}
 			}
 		},
@@ -1060,13 +1074,13 @@
 			"match": {
 				"io": [
 					{
-						"overrideparam": "say （守住码头 是男人就坚持40秒~o( =∩ω∩= )）"
+						"overrideparam": "say （守住码头 是男人就坚持35秒~o( =∩ω∩= )）"
 					}
 				]
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "say *** Hold the dock. If you're a man, hold it for 40 seconds. ~o( =∩ω∩= ) ***"
+					"overrideparam": "say (Hold the dock! If you're a man, hold it for 35 seconds. ~o( =∩ω∩= ))"
 				}
 			}
 		},
