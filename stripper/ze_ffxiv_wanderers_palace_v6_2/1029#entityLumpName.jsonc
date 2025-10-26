@@ -1,0 +1,143 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "func_physbox",
+				"targetname": "[PR#]Ultima_Weapon_Hitbox"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]uw_bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnBreak",
+						"targetname": "Boss_Health*",
+						"inputname": "FireUser3",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Ultima_Weapon_*",
+						"inputname": "FireUser4",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Music_Refrain_3",
+						"inputname": "FireUser1",
+						"delay": 10,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "lr_bahamut",
+						"inputname": "Kill"
+					},
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "Boss_Health*",
+						"inputname": "Subtract",
+						"overrideparam": "1",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "filter_activator_context",
+				"targetname": "[PR#]Ultima_Weapon_Attack_Bonus_Context_3"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]uw_bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnPass",
+						"targetname": "Boss_Health*",
+						"inputname": "Subtract",
+						"overrideparam": "1",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "math_counter",
+				"targetname": "[PR#]Ultima_Weapon_Attack_Counter_Ultima"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]Boss_Detect_Filter"
+					},
+					{
+						"targetname": "[PR#]Ultima_Weapon_GetDamage"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "Boss_Detect_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Boss_Health*>Add>550>0>-1",
+						"delay": 0.03,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnUser1",
+						"targetname": "Boss_Health",
+						"inputname": "AddOutput",
+						"overrideparam": "OnHitMin>Ultima_Weapon_Hitbox>Break>>0>1",
+						"delay": 0.1,
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "point_soundevent",
+				"targetname": "[PR#]Ultima_Weapon_Sound_Appear"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]uw_bosshp_script"
+					},
+					{
+						"targetname": "[PR#]showhud_timer"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "lr_bahamut",
+						"inputname": "Enable"
+					}
+				]
+			}
+		}
+	]
+}

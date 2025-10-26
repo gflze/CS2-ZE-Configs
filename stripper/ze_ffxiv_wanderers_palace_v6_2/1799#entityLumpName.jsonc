@@ -1,0 +1,39 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "logic_case",
+				"targetname": "[PR#]Dream_Weaver_Cast_Effect"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]uw_bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnCase11",
+						"targetname": "Boss_Health*",
+						"inputname": "Add",
+						"overrideparam": "100",
+						"delay": 0.1,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnCase12",
+						"targetname": "Boss_Health*",
+						"inputname": "Subtract",
+						"overrideparam": "10000",
+						"delay": 0.1,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}

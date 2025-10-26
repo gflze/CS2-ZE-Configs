@@ -1,0 +1,108 @@
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "func_physbox",
+				"targetname": "[PR#]Adrammelech_boss_physbox"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnHealthChanged"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "[PR#]Adrammelech_boss_counter",
+						"inputname": "Subtract",
+						"overrideparam": "1"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Adrammelech_Boss_Nade"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_Adrammelech"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Adrammelech_boss_counter",
+						"inputname": "Subtract",
+						"overrideparam": "39"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Adrammelech_boss_in_multi"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_Adrammelech"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Adrammelech_boss_counter",
+						"inputname": "Add",
+						"overrideparam": "60"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "math_counter",
+				"targetname": "[PR#]Adrammelech_boss_counter"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnHitMin"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHitMin",
+						"targetname": "[PR#]Adrammelech_boss_physbox",
+						"inputname": "FireUser3"
+					}
+				]
+			}
+		}
+	]
+}

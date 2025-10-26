@@ -1,0 +1,86 @@
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]Ending_boss1_laser_add"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_zar"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Ending_boss1_laser_counter",
+						"inputname": "Add",
+						"overrideparam": "56"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Ending_boss1_laser_Nade"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_zar"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Ending_boss1_laser_counter",
+						"inputname": "Subtract",
+						"overrideparam": "22"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "func_physbox",
+				"targetname": "[PR#]Ending_boss1_laser_Physbox"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_zar"
+					},
+					{
+						"outputname": "OnUser3"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "[PR#]Ending_boss1_laser_counter",
+						"inputname": "Subtract",
+						"overrideparam": "1"
+					}
+				]
+			}
+		}
+	]
+}

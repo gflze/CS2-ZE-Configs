@@ -1,0 +1,116 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "trigger_once",
+				"hammerunqiueid": "989"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]zChaos_StartBoss"
+					},
+					{
+						"targetname": "[PR#]showhud_timer"
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_push",
+				"hammeruniqueid": "995"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]Boss_Detect_Filter"
+					},
+					{
+						"targetname": "[PR#]Filter_Team_Human",
+						"overrideparam": "OnPass>bosshp_script>AddHealth>1,50>0>-1"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "Boss_Health",
+						"inputname": "SetValueNoFire",
+						"overrideparam": "120",
+						"delay": 4,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnUser1",
+						"targetname": "Boss_Detect_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Boss_Health>Add>70>0>-1",
+						"delay": 4.03,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnUser1",
+						"targetname": "Filter_Team_Human",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Boss_Health>Add>50>0>-1",
+						"delay": 5,
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "logic_case",
+				"targetname": "[PR#]Refrain_Ending"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]Chaos_GetDamage"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnCase01",
+						"targetname": "Chaos_Hitbox",
+						"inputname": "AddOutput",
+						"overrideparam": "OnBreak>Final_Ultima_Weapon_Dynamic>FireUser1>>10>1",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnCase02",
+						"targetname": "Chaos_Hitbox",
+						"inputname": "AddOutput",
+						"overrideparam": "OnBreak>Final_Ultima_Weapon_Dynamic>FireUser2>>10>1",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnCase03",
+						"targetname": "Chaos_Hitbox",
+						"inputname": "AddOutput",
+						"overrideparam": "OnBreak>Final_Ultima_Weapon_Dynamic>FireUser3>>10>1",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnUser2",
+						"targetname": "Chaos_Hitbox",
+						"inputname": "AddOutput",
+						"overrideparam": "OnBreak>Stage_Detect_Refrain>FireUser1>>23>1",
+						"delay": 0,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	]
+}

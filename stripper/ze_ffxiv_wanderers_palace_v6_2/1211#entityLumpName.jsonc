@@ -1,0 +1,30 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "prop_dynamic",
+				"targetname": "[PR#]Item_Bahamut_Dynamic"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]uw_bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnUser1",
+						"targetname": "lr_bahamut",
+						"inputname": "Trigger",
+						"delay": 12.0,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	]
+}

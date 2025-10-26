@@ -1,0 +1,81 @@
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "func_breakable",
+				"targetname": "[PR#]Mojie_miniboss_break"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_mojie"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "[PR#]boss_HP_Branch",
+						"inputname": "Test"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Mojie_miniboss_multi"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script_mojie"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Mojie_miniboss_counter",
+						"inputname": "Add",
+						"overrideparam": "45"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "math_counter",
+				"targetname": "[PR#]Mojie_miniboss_counter"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnHitMin"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHitMin",
+						"targetname": "[PR#]Mojie_miniboss_break",
+						"inputname": "FireUser3"
+					}
+				]
+			}
+		}
+	]
+}

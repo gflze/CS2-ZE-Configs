@@ -1,0 +1,58 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "trigger_once",
+				"hammeruniqueid": "1236"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]Boss_Detect_Filter"
+					},
+					{
+						"targetname": "[PR#]Boss_Health_Suzaku"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "Boss_Health",
+						"inputname": "SetValueNoFire",
+						"overrideparam": "300",
+						"delay": 40,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "Boss_Detect_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Boss_Health>Add>65>0>-1",
+						"delay": 40.03,
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_once",
+				"hammeruniqueid": "1234"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]zFinal_Suzaku_StartBoss"
+					},
+					{
+						"targetname": "[PR#]showhud_timer"
+					}
+				]
+			}
+		}
+	]
+}

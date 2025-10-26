@@ -1,0 +1,67 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "func_breakable",
+				"targetname": "[PR#]Final_Suzaku_Hitbox"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnBreak",
+						"targetname": "Boss_Health*",
+						"inputname": "Kill",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Final_Suzaku*",
+						"inputname": "FireUser4",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Suzaku_Dialog_Case",
+						"inputname": "FireUser2",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Temp_Maker",
+						"inputname": "KeyValue",
+						"overrideparam": "origin 8096 4672 2112",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Temp_Maker",
+						"inputname": "ForceSpawn",
+						"delay": 0.03,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "Boss_Health*",
+						"inputname": "Subtract",
+						"overrideparam": "1",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}
