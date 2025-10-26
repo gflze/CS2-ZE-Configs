@@ -1,6 +1,6 @@
 // stripper made by Beppu (STEAM_1:1:454921932)
-// replace boss hp script with entities
 {
+	// replace boss hp script with entities
 	"modify": [
 		{
 			"match": {
@@ -110,6 +110,39 @@
 						"timestofire": 1
 					}
 				]
+			}
+		}
+	],
+	// refrain: fix occasionally breaking trigger
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "func_button",
+				"targetname": "[PR#]SlimeRoom_Valve_Button"
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnPressed",
+						"targetname": "[PR#]SlimeRoom_Button",
+						"inputname": "KeyValue",
+						"overrideparam": "origin 6700 1808 1248",
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "func_button",
+				"targetname": "[PR#]SlimeRoom_Button"
+			},
+			"replace":
+			{
+				"model": "maps/ze_ffxiv_wanderers_palace_v6_2/entities/button4_1717.vmdl"
 			}
 		}
 	]
