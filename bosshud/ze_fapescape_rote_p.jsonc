@@ -1,99 +1,59 @@
 [
     {
         "name": "Pencil",
-        "method": "hpbar",
-        "trigger":
-        {
-            "ent": "#3954",
-            "output": "OnStartTouch"
-        },
+        "type": "hpbar",
 
-        "counter": "boss_hp",
-        "backup": "boss_hp_backup",
+        "counter":  "boss_hp",
+        "backup":   "boss_hp_backup",
         "iterator": "boss_hp_iterations"
     },
     {
         "name": "Kappa",
-        "method": "hpbar",
-        "trigger":
-        {
-            "ent": "#3963",
-            "output": "OnStartTouch"
-        },
+        "type": "hpbar",
 
-        "counter": "boss_hp2",
-        "backup": "boss_hp2_backup",
+        "counter":  "boss_hp2",
+        "backup":   "boss_hp2_backup",
         "iterator": "boss_hp2_iterations"
     },
     {
         "name": "Kappa",
-        "method": "hpbar",
-        "trigger":
-        {
-            "ent": "#4426",
-            "output": "OnStartTouch"
-        },
+        "type": "hpbar",
 
-        "counter": "boss_hp3",
-        "backup": "boss_hp3_backup",
+        "counter":  "boss_hp3",
+        "backup":   "boss_hp3_backup",
         "iterator": "boss_hp3_iterations"
     },
     {
         "name": "Robot",
-        "method": "hpbar",
-        "trigger":
-        {
-            "ent": "#1831",
-            "output": "OnStartTouch"
-        },
+        "type": "hpbar",
 
-        "counter": "boss_hp_ex1",
-        "backup": "boss_hp_ex1_backup",
+        "counter":  "boss_hp_ex1",
+        "backup":   "boss_hp_ex1_backup",
         "iterator": "boss_hp_ex1_iterations"
     },
     {
         "name": "Robot",
-        "method": "hpbar",
-        "trigger":
-        {
-            "ent": "#2100",
-            "output": "OnStartTouch"
-        },
+        "type": "hpbar",
 
-        "counter": "boss_hp_ex2",
-        "backup": "boss_hp_ex2_backup",
+        "counter":  "boss_hp_ex2",
+        "backup":   "boss_hp_ex2_backup",
         "iterator": "boss_hp_ex2_iterations"
     },
     {
         "name": "Evil Eye -- Phase 1",
-        "method": "counter",
-        "trigger":
-        {
-            "ent": "#220",
-            "output": "OnStartTouch"
-        },
+        "type": "counter",
 
         "counter": "boss_hp4_phase1"
     },
     {
         "name": "Evil Eye -- Phase 2",
-        "method": "counter",
-        "trigger":
-        {
-            "ent": "boss_hp4_phase1",
-            "output": "OnHitMin"
-        },
+        "type": "counter",
 
         "counter": "boss_hp4_phase2"
     },
     {
         "name": "Evil Eye -- Phase 3",
-        "method": "counter",
-        "trigger":
-        {
-            "ent": "boss_hp4_phase2",
-            "output": "OnHitMin"
-        },
+        "type": "counter",
 
         "counter": "boss_hp4_phase3"
     }
