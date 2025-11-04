@@ -1,0 +1,225 @@
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Gabranth_boss2_Nade"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Gabranth_boss2_attack_HP1",
+						"inputname": "Subtract",
+						"overrideparam": "62"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]gabranth_boss2_attack_heal_hurt"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Gabranth_boss2_attack_HP1",
+						"inputname": "Add",
+						"overrideparam": "30"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Gabranth_boss2_attack_multi"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "[PR#]Gabranth_boss2_attack_HP1",
+						"inputname": "Add",
+						"overrideparam": "95"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "math_counter",
+				"targetname": "[PR#]Gabranth_boss2_attack_HP2"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnHitMin"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHitMin",
+						"targetname": "[PR#]Gabranth_boss2_Hitbox",
+						"inputname": "FireUser3"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "logic_relay",
+				"targetname": "[PR#]Gabranth_boss2_Start_Relay"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"inputname": "AddOutput"
+					},
+					{
+						"targetname": "[PR#]bosshp_script"
+					},
+					{
+						"targetname": "[PR#]showhud_timer"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_aqua_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_dark_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_Fire_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_Thunder_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_Sand_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_limit_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>5000>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_poison_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>750>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_crossbow_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>75>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_shield_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_Cortahombres_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_Dragon_Whisker_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_shield2_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+						"delay": 0.01
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "[PR#]Item_loxley_bow_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Gabranth_boss2_attack_HP1>Subtract>500>0>-1",
+						"delay": 0.01
+					}
+				]
+			}
+		}
+	]
+}

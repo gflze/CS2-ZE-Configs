@@ -1,0 +1,31 @@
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]laser_hurt&0000"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnHurtPlayer"
+					}
+				]
+			},
+			"insert":
+			{
+				"io": [
+					{
+						"outputname": "OnHurtPlayer",
+						"targetname": "[PR#]Adrammelech_boss_counter",
+						"inputname": "Subtract",
+						"overrideparam": "51"
+					}
+				]
+			}
+		}
+	]
+}

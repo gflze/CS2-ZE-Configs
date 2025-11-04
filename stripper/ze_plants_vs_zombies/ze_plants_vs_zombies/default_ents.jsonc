@@ -1,0 +1,12 @@
+{
+	//force english only
+	"filter":
+	[
+		{
+			"hammeruniqueid": "12569"
+		},
+		{
+			"targetname": "[PR#]hub_trans_button"
+		}
+	]
+}

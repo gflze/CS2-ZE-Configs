@@ -1,5 +1,106 @@
 [
     {
+        "name": "Shop Entry Eban",
+        "hammerid": "-1",
+        "triggers": ["20425"]
+    },
+    {
+        "name": "Almond Water",
+        "shortname": "Almond",
+        "hammerid": "18901",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18903"
+            },
+            {
+                "hammerid": "18909",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bucket of Almond Water",
+        "shortname": "Almond Bucket",
+        "hammerid": "18885",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18887"
+            },
+            {
+                "hammerid": "18893",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Handful of Fire Salt",
+        "shortname": "Fire Handful",
+        "hammerid": "18764",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18767"
+            },
+            {
+                "hammerid": "18773",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bag of Fire Salt",
+        "shortname": "Fire Bag",
+        "hammerid": "18751",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18754"
+            },
+            {
+                "hammerid": "18759",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Broken Flashlight",
         "shortname": "Broken Flashlight",
         "hammerid": "18528",
@@ -16,7 +117,7 @@
                 "type": "counterdown",
                 "hammerid": "18520",
                 "mode": 5,
-                "message": false,
+                "message": true,
                 "ui": true
             }
         ]
@@ -38,7 +139,374 @@
                 "type": "counterdown",
                 "hammerid": "18497",
                 "mode": 5,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Glow Stick",
+        "shortname": "Glow",
+        "hammerid": "18826",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "agreen",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18828"
+            },
+            {
+                "hammerid": "18825",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bundle of Glow Sticks",
+        "shortname": "Glow Bundle",
+        "hammerid": "18791",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18793"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "18822",
+                "mode": 3,
+                "cooldown": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Black Lightning in a Bottle",
+        "shortname": "Black Lightning",
+        "hammerid": "19007",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19005"
+            },
+            {
+                "hammerid": "19010",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Lightning in a Bottle",
+        "shortname": "Lightning",
+        "hammerid": "18991",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18992"
+            },
+            {
+                "hammerid": "18988",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Man-Made Lightning",
+        "shortname": "Man Lightning",
+        "hammerid": "18962",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18963"
+            },
+            {
+                "hammerid": "18959",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Light Burster",
+        "shortname": "Light",
+        "hammerid": "18871",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "18874"
+            },
+            {
+                "hammerid": "18869",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Moth Jelly",
+        "shortname": "Jelly",
+        "hammerid": "19259",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19256"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "19273",
+                "mode": 3,
+                "cooldown": 5,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Royal Rations",
+        "shortname": "Rations",
+        "hammerid": "19278",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19281"
+            },
+            {
+                "hammerid": "19284",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Spirit Detector",
+        "shortname": "Detector",
+        "hammerid": "19299",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "19296"
+            },
+            {
+                "hammerid": "19301",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "RAID",
+        "shortname": "RAID",
+        "hammerid": "19419",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Blade Server",
+        "shortname": "Server",
+        "hammerid": "19404",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Power Battery Pack",
+        "shortname": "Battery",
+        "hammerid": "19395",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Bacteria",
+        "shortname": "ZM Bacteria",
+        "hammerid": "19045",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["19047"],
+        "handlers": [
+            {
+                "hammerid": "19056",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Clump",
+        "shortname": "ZM Clump",
+        "hammerid": "19165",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["19166"],
+        "handlers": [
+            {
+                "hammerid": "19172",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Moth",
+        "shortname": "ZM Moth",
+        "hammerid": "19219",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["19232"],
+        "handlers": [
+            {
+                "hammerid": "19225",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 6,
+                "maxuses": 0,
                 "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Partygoers",
+        "shortname": "ZM Partygoers",
+        "hammerid": "19127",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["19128"],
+        "handlers": [
+            {
+                "hammerid": "19136",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Skin-Stealer",
+        "shortname": "ZM Skin-Stealer",
+        "hammerid": "19068",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["19070"],
+        "handlers": [
+            {
+                "hammerid": "19077",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Smiler",
+        "shortname": "ZM Smiler",
+        "hammerid": "19105",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["19107"],
+        "handlers": [
+            {
+                "hammerid": "19110",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
                 "ui": true
             }
         ]

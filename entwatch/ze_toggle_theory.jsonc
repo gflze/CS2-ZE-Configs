@@ -60,7 +60,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "grey",
+        "color": "darkred",
         "triggers": ["13511"],
         "handlers": [
             {
@@ -73,6 +73,30 @@
                 "mode": 2,
                 "cooldown": 10,
                 "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Colorswitch",
+        "shortname": "ZM Colorswitch",
+        "hammerid": "25656",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["25654"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "25659"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "25672",
+                "mode": 3,
+                "cooldown": 10,
                 "message": true,
                 "ui": true
             }

@@ -1,0 +1,61 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "trigger_once",
+				"targetname": "[PR#]Trigger_Hard"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]Boss_Detect_Filter"
+					},
+					{
+						"targetname": "[PR#]bosshp_script"
+					},
+					{
+						"targetname": "[PR#]showhud_timer"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "Boss_Health",
+						"inputname": "SetValueNoFire",
+						"overrideparam": "200",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "Boss_Detect_Filter",
+						"inputname": "AddOutput",
+						"overrideparam": "OnPass>Boss_Health>Add>45>0>-1",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnUser1",
+						"targetname": "Boss_Health",
+						"inputname": "AddOutput",
+						"overrideparam": "OnHitMin>Garuda_Temp_MiniBoss_Plume>FireUser4>>0>1",
+						"delay": 0.06,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnUser2",
+						"targetname": "Boss_Health",
+						"inputname": "AddOutput",
+						"overrideparam": "OnHitMin>Ifrit_Temp_MiniBoss_Fireball>FireUser4>>0>1",
+						"delay": 0.06,
+						"timestofire": 1
+					}
+				]
+			}
+		}
+	]
+}

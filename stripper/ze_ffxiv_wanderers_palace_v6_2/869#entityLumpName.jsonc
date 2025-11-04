@@ -1,0 +1,52 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "func_physbox",
+				"targetname": "[PR#]Ifrit_Hitbox"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnBreak",
+						"targetname": "Boss_Health*",
+						"inputname": "FireUser3",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Ifrit_Dynamic_Hard",
+						"inputname": "FireUser4",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnBreak",
+						"targetname": "Wall_Hard_Boss",
+						"inputname": "FireUser2",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnHealthChanged",
+						"targetname": "Boss_Health*",
+						"inputname": "Subtract",
+						"overrideparam": "1",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}

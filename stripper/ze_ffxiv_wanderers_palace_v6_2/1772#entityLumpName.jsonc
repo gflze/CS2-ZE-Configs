@@ -1,0 +1,31 @@
+// stripper made by Beppu (STEAM_1:1:454921932)
+// replace boss hp script with entities
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "logic_case",
+				"targetname": "[PR#]Admin"
+			},
+			"delete": {
+				"io": [
+					{
+						"targetname": "[PR#]bosshp_script"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnCase09",
+						"targetname": "Boss_Health*",
+						"inputname": "Subtract",
+						"overrideparam": "1000000",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}
