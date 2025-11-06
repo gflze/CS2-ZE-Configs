@@ -1,0 +1,105 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "16729",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16733"
+            },
+            {
+                "hammerid": "16732",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "16790",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16787"
+            },
+            {
+                "hammerid": "16789",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mines",
+        "shortname": "Mines",
+        "hammerid": "16716",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16714"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "16725",
+                "mode": 3,
+                "cooldown": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Slow",
+        "shortname": "Slow",
+        "hammerid": "16743",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "16744"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "16751",
+                "mode": 3,
+                "cooldown": 15,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "T-Virus",
+        "shortname": "T-Virus",
+        "hammerid": "16154",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green"
+    }
+]
