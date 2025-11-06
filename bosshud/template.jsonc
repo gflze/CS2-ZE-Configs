@@ -1,10 +1,10 @@
 [
+    // Breakable boss example
     {
         "name": "",                 // Name of boss that appears in hud
-        "type": "",                 // Boss health type
-                                    //      "counter"   - math_counter based bosses
-                                    //      "hpbar"     - math_counter bosses with iterator (and backup if present)
-                                    //      "breakable" - func_breakable/func_physbox based bosses
+
+        "breakable": "",            // Targetname/Hammerid of breakable
+
         "trigger":
         {                           // OPTIONAL - specifies event that starts bosses
             "ent": "",              // Targetname/Hammerid of entity
@@ -24,23 +24,39 @@
             "delay": 0.0            // OPTIONAL - Delay after event that force kills boss
         },
         "hurttrigger":
-        {
-            "ent": "",
-            "output": ""
+        {                           // OPTIONAL - specifies event that hurts the boss
+            "ent": "",              // Targetname/Hammerid of entity
+            "output": ""            // Output of entity
         },
-        "reverse": false,           // OPTIONAL - Whether counter has OnHitMax outputs
-        "increase": false,          // OPTIONAL - Whether iterator has OnHitMax outputs
         "hitmarkeronly": false,     // OPTIONAL - Whether to show health of boss
-        "multitrigger": false,      // OPTIONAL - Whether boss can be triggered multiple times
+        "minorhud": false,          // OPTIONAL - Whether boss should always use the no-bar hud variant
+        "multitrigger": false,      // OPTIONAL - Whether boss can be triggered multiple times (multiple instances)
         "namefixup": false,         // OPTIONAL - Whether boss is templated and has name fixup
         "showbeaten": true,         // OPTIONAL - Whether top boss damage should be displayed after boss death
         "timeout": 0,               // OPTIONAL - Specify time before boss health is hidden after taking no damage
-        "offset": 0,                // OPTIONAL - Specify amount of health to offset displayed health from real health
+        "offset": 0                 // OPTIONAL - Specify amount of health to ADD to displayed health (negative to subtract)
+    },
+
+    // math_counter example
+    {
+        "name": "",                 // Name of boss that appears in hud
 
         "counter": "",              // Targetname/Hammerid of counter
-        "backup": "",               // Targetname/Hammerid of backup counter
-        "iterator": "",             // Targetname/Hammerid of iterator counter
-        "breakable": ""             // Targetname/Hammerid of breakable
+        "iterator": "",             // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
+        "backup": "",               // OPTIONAL - Targetname/Hammerid of hp backup
+
+        "reversecounter": false,    // OPTIONAL - Whether counter should be reversed
+        "reverseiterator": false,   // OPTIONAL - Whether iterator should be reversed
+
+        // SAME OPTIONS AS BREAKABLE
+        // trigger, showtrigger, hurttrigger, killtrigger
+        "hitmarkeronly": false,
+        "minorhud": false,
+        "multitrigger": false,
+        "namefixup": false,
+        "showbeaten": true,
+        "timeout": 0,
+        "offset": 0
     }
 ]
 
