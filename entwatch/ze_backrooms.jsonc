@@ -16,7 +16,7 @@
                 "hammerid": "3590",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 40,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -40,7 +40,7 @@
                 "hammerid": "3588",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 40,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -64,7 +64,7 @@
                 "hammerid": "3592",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 20,
+                "cooldown": 30,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -88,7 +88,7 @@
                 "hammerid": "3587",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 40,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -112,7 +112,7 @@
                 "hammerid": "3591",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 40,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -136,7 +136,7 @@
                 "hammerid": "3589",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 20,
+                "cooldown": 30,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
