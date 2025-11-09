@@ -1,7 +1,6 @@
 [
     {
         "name": "Pencil",
-        "type": "hpbar",
 
         "counter":  "boss_hp",
         "backup":   "boss_hp_backup",
@@ -9,7 +8,6 @@
     },
     {
         "name": "Kappa",
-        "type": "hpbar",
 
         "counter":  "boss_hp2",
         "backup":   "boss_hp2_backup",
@@ -17,7 +15,6 @@
     },
     {
         "name": "Kappa",
-        "type": "hpbar",
 
         "counter":  "boss_hp3",
         "backup":   "boss_hp3_backup",
@@ -25,7 +22,6 @@
     },
     {
         "name": "Robot",
-        "type": "hpbar",
 
         "counter":  "boss_hp_ex1",
         "backup":   "boss_hp_ex1_backup",
@@ -33,7 +29,6 @@
     },
     {
         "name": "Robot",
-        "type": "hpbar",
 
         "counter":  "boss_hp_ex2",
         "backup":   "boss_hp_ex2_backup",
@@ -41,19 +36,16 @@
     },
     {
         "name": "Evil Eye -- Phase 1",
-        "type": "counter",
 
         "counter": "boss_hp4_phase1"
     },
     {
         "name": "Evil Eye -- Phase 2",
-        "type": "counter",
 
         "counter": "boss_hp4_phase2"
     },
     {
         "name": "Evil Eye -- Phase 3",
-        "type": "counter",
 
         "counter": "boss_hp4_phase3"
     }
