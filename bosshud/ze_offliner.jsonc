@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Purple Sphere",
+        "counter": "boss_hp_counter",
+        "iterator": "boss_segment"
+    },
+    {
+        "name": "Green Sphere",
+        "counter": "end_laser_counter"
+    }
+]

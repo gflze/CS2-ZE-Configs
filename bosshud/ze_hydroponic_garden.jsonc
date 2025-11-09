@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Pink Ball",
+        "counter": "stx3_health",
+        "iterator": "stx3_segment"
+    },
+    {
+        "name": "Light Pillar",
+        "counter": "ee_counter"
+    }
+]

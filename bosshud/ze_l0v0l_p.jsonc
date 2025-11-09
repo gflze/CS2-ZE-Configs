@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Priest",
+        "counter": "bosslvl1_counter1",
+        "backup": "bosslvl1_counter2",
+        "iterator": "bosslvl1_counter3"
+    },
+    {
+        "name": "Gargantua",
+        "counter": "bosslvl2_counter1",
+        "backup": "bosslvl2_counter2",
+        "iterator": "bosslvl2_counter3"
+    },
+    {
+        "name": "Gunship",
+        "counter": "bosslvl3_counter1",
+        "backup": "bosslvl3_counter2",
+        "iterator": "bosslvl3_counter3"
+    },
+    {
+        "name": "Gargantua",
+        "counter": "bosslvl3_end_counter1",
+        "backup": "bosslvl3_end_counter2",
+        "iterator": "bosslvl3_end_counter3"
+    },
+    {
+        "name": "Launcher",
+        "counter": "bosslvl4_launcher_counter1",
+        "backup": "bosslvl4_launcher_counter2",
+        "iterator": "bosslvl4_launcher_counter3"
+    },
+    {
+        "name": "Tank",
+        "counter": "bosslvl4_tank_counter1",
+        "backup": "bosslvl4_tank_counter2",
+        "iterator": "bosslvl4_tank_counter3"
+    },
+    {
+        "name": "Minigun",
+        "counter": "bosslvl4_minigun_counter1",
+        "backup": "bosslvl4_minigun_counter2",
+        "iterator": "bosslvl4_minigun_counter3"
+    },
+    {
+        "name": "Beam",
+        "counter": "bosslvl4_beam_counter1",
+        "backup": "bosslvl4_beam_counter2",
+        "iterator": "bosslvl4_beam_counter3"
+    },
+    {
+        "name": "Harpy",
+        "counter": "bosslvl3_harpy_counter1",
+        "backup": "bosslvl3_harpy_counter2",
+        "iterator": "bosslvl3_harpy_counter3"
+    },
+    {
+        "name": "Gunship",
+        "counter": "bosslvl4_gunship_counter1",
+        "backup": "bosslvl4_gunship_counter2",
+        "iterator": "bosslvl4_gunship_counter3"
+    },
+    {
+        "name": "Gargantua",
+        "counter": "bosslvl4_garg_counter1",
+        "backup": "bosslvl4_garg_counter2",
+        "iterator": "bosslvl4_garg_counter3"
+    },
+    {
+        "name": "Meme",
+        "counter": "bosslvl4end_counter1",
+        "backup": "bosslvl4end_counter2",
+        "iterator": "bosslvl4end_counter3"
+    },
+    {
+        "name": "Queen",
+        "counter": "bosslvl4_counter1",
+        "backup": "bosslvl4_counter2",
+        "iterator": "bosslvl4_counter3"
+    },
+    {
+        "name": "Green Pillar",
+        "showbeaten": false,
+        "counter": "lvl4_pillar_g_counter"
+    },
+    {
+        "name": "Blue Pillar",
+        "showbeaten": false,
+        "counter": "lvl4_pillar_b_counter"
+    },
+    {
+        "name": "Red Pillar",
+        "showbeaten": false,
+        "counter": "lvl4_pillar_r_counter"
+    },
+    {
+        "name": "Yellow Pillar",
+        "showbeaten": false,
+        "counter": "lvl4_pillar_y_counter"
+    }
+]

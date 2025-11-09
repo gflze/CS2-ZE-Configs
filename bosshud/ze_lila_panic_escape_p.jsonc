@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Helicopter",
+        "counter": "Heli_HP"
+    },
+    {
+        "name": "Pedobear",
+        "counter": "boss_hp"
+    }
+]

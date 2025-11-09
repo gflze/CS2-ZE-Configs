@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Smoke Ball",
+        "counter": "counter_st3_boss_vida",
+        "backup": "counter_st3_boss_oko",
+        "iterator": "counter_st3_boss_vida_bar"
+    }
+]

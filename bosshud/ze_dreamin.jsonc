@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Final Crystal",
+        "counter": "blade_hp"
+    },
+    {
+        "name": "Crystal",
+        "counter": "HPCounter2",
+        "iterator": "HPCounterIterator2"
+    },
+    {
+        "name": "Puny Light",
+        "breakable": "st2_hitbox"
+    },
+    {
+        "name": "Giant Light",
+        "counter": "st3_hp"
+    },
+    {
+        "name": "Final Light",
+        "counter": "final_hp"
+    },
+    {
+        "name": "Light",
+        "counter": "rtv_linelaser_count"
+    }
+]

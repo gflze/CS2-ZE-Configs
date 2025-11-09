@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Mateus",
+        "counter": "Boss_Health",
+        "backup": "Boss_Health_Init",
+        "iterator": "Boss_Overlay_Counter"
+    },
+    {
+        "name": "Chaos",
+        "counter": "Chaos_Health",
+        "backup": "Chaos_Health_Init",
+        "iterator": "Chaos_Overlay_Counter"
+    },
+    {
+        "name": "Mateus",
+        "counter": "Fin_Boss_Counter"
+    },
+    {
+        "name": "Gabranth",
+        "counter": "Guardian_Counter"
+    }
+]

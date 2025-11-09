@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ghast",
+        "counter": "boss_hp",
+        "backup": "boss_hp_backup",
+        "iterator": "boss_hp_iterations"
+    },
+    {
+        "name": "Ender Dragon",
+        "counter": "boss2_hp",
+        "backup": "boss2_hp_backup",
+        "iterator": "boss2_hp_iterations"
+    },
+    {
+        "name": "Herobrine",
+        "counter": "stronghold_final_boss_hp"
+    }
+]

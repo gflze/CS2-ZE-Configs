@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Chet",
+        "counter": "boss_chet_Hp",
+        "backup": "boss_chet_HpBackup",
+        "iterator": "boss_chet_HpCounter"
+    },
+    {
+        "name": "RockLee",
+        "counter": "rocklee_Hp",
+        "backup": "rocklee_HpBackup",
+        "iterator": "rocklee_HpCounter"
+    }
+]

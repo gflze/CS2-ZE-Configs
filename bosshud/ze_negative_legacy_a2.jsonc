@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Boss A (5/5)",
+        "counter": "heavy_a_100"
+    },
+    {
+        "name": "Boss A (4/5)",
+        "counter": "heavy_a_80"
+    },
+    {
+        "name": "Boss A (3/5)",
+        "counter": "heavy_a_60"
+    },
+    {
+        "name": "Boss A (2/5)",
+        "counter": "heavy_a_40"
+    },
+    {
+        "name": "Boss A (1/5)",
+        "counter": "heavy_a_20"
+    },
+    {
+        "name": "Boss B (5/5)",
+        "counter": "heavy_b_100"
+    },
+    {
+        "name": "Boss B (4/5)",
+        "counter": "heavy_b_80"
+    },
+    {
+        "name": "Boss B (3/5)",
+        "counter": "heavy_b_60"
+    },
+    {
+        "name": "Boss B (2/5)",
+        "counter": "heavy_b_40"
+    },
+    {
+        "name": "Boss B (1/5)",
+        "counter": "heavy_b_20"
+    },
+    {
+        "name": "Agony",
+        "namefixup": true,
+        "showbeaten": false,
+        "counter": "agony_counter_a"
+    },
+    {
+        "name": "Secret",
+        "counter": "secret_HP"
+    }
+]
