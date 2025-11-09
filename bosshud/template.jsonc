@@ -40,6 +40,8 @@
             "output": ""            // (string) Output of entity
         },
 
+        "reversecounter": false,    // OPTIONAL - (bool) Whether counter should be reversed
+        "reverseiterator": false,   // OPTIONAL - (bool) Whether iterator should be reversed
         "hitmarkeronly": false,     // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
         "minorhud": false,          // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
         "multitrigger": false,      // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
@@ -66,6 +68,13 @@
         "name": "",
         "counter": "",
         "backup": "",
+        "iterator": ""
+    },
+
+    // Counter and iterator example
+    {
+        "name": "",
+        "counter": "",
         "iterator": ""
     },
 
