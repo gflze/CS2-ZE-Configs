@@ -1,64 +1,78 @@
+//====================================================================================================
+// Notes:
+// - The type of boss is determined based on if "breakable" or "counter" is used
+// - You can specify entities using hammerid by starting with "#" followed by hammerid (ex. "#123456")
+// - Each separate boss needs a separate entry
+//====================================================================================================
+
 [
-    // Breakable boss example
     {
         "name": "",                 // Name of boss that appears in hud
-
         "breakable": "",            // Targetname/Hammerid of breakable
-
-        "trigger":
-        {                           // OPTIONAL - specifies event that starts bosses
-            "ent": "",              // Targetname/Hammerid of entity
-            "output": "",           // Output of entity
-            "delay": 0.0            // Delay after output that starts boss
-        },
-        "showtrigger":
-        {                           // OPTIONAL - specifies event that displays boss health
-            "ent": "",              // Targetname/Hammerid of entity
-            "output": "",           // Output of entity
-            "delay": 0.0            // OPTIONAL - Delay after event that shows boss health
-        },
-        "killtrigger":
-        {                           // OPTIONAL - specifies event that force kills the boss
-            "ent": "",              // Targetname/Hammerid of entity
-            "output": "",           // Output of entity
-            "delay": 0.0            // OPTIONAL - Delay after event that force kills boss
-        },
-        "hurttrigger":
-        {                           // OPTIONAL - specifies event that hurts the boss
-            "ent": "",              // Targetname/Hammerid of entity
-            "output": ""            // Output of entity
-        },
-        "hitmarkeronly": false,     // OPTIONAL - Whether to show health of boss
-        "minorhud": false,          // OPTIONAL - Whether boss should always use the no-bar hud variant
-        "multitrigger": false,      // OPTIONAL - Whether boss can be triggered multiple times (multiple instances)
-        "namefixup": false,         // OPTIONAL - Whether boss is templated and has name fixup
-        "showbeaten": true,         // OPTIONAL - Whether top boss damage should be displayed after boss death
-        "timeout": 0,               // OPTIONAL - Specify time before boss health is hidden after taking no damage
-        "offset": 0                 // OPTIONAL - Specify amount of health to ADD to displayed health (negative to subtract)
-    },
-
-    // math_counter example
-    {
-        "name": "",                 // Name of boss that appears in hud
-
         "counter": "",              // Targetname/Hammerid of counter
         "iterator": "",             // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
         "backup": "",               // OPTIONAL - Targetname/Hammerid of hp backup
 
-        "reversecounter": false,    // OPTIONAL - Whether counter should be reversed
-        "reverseiterator": false,   // OPTIONAL - Whether iterator should be reversed
+        "trigger":                  // OPTIONAL - Specifies the event that triggers the boss
+        {
+            "ent": "",              // (string) Targetname/Hammerid of entity
+            "output": "",           // (string) Output of entity
+            "delay": 0.0            // OPTIONAL - (float) Delay after output that starts boss
+        },
 
-        // SAME OPTIONS AS BREAKABLE
-        // trigger, showtrigger, hurttrigger, killtrigger
-        "hitmarkeronly": false,
-        "minorhud": false,
-        "multitrigger": false,
-        "namefixup": false,
-        "showbeaten": true,
-        "timeout": 0,
-        "offset": 0
+        "showtrigger":              // OPTIONAL - Specifies event that starts displaying boss health
+        {
+            "ent": "",              // (string) Targetname/Hammerid of entity
+            "output": "",           // (string) Output of entity
+            "delay": 0.0            // OPTIONAL - (float) Delay after event that shows boss health
+        },
+
+        "killtrigger":              // OPTIONAL - Specifies event that force kills the boss
+        {
+            "ent": "",              // (string) Targetname/Hammerid of entity
+            "output": "",           // (string) Output of entity
+            "delay": 0.0            // OPTIONAL - (float) Delay after event that force kills boss
+        },
+
+        "hurttrigger":              // OPTIONAL - Specifies event that is considered as damaging the boss
+        {
+            "ent": "",              // (string) Targetname/hammerid of entity
+            "output": ""            // (string) Output of entity
+        },
+
+        "hitmarkeronly": false,     // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
+        "minorhud": false,          // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
+        "multitrigger": false,      // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
+        "namefixup": false,         // OPTIONAL - (bool) Whether boss is templated and has name fixup
+        "showbeaten": true,         // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
+        "timeout": 0,               // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
+        "offset": 0                 // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
+    },
+
+    // Breakable boss example
+    {
+        "name": "",
+        "breakable": ""
+    },
+
+    // Counter example
+    {
+        "name": "", 
+        "counter": ""
+    },
+
+    // Counter, backup, and iterator example
+    {
+        "name": "",
+        "counter": "",
+        "backup": "",
+        "iterator": ""
+    },
+
+    // Breakable and iterator example
+    {
+        "name": "",
+        "breakable": "",
+        "iterator": ""
     }
 ]
-
-// Notes:
-// When specifying hammerid, you start the string with "#" followed by hammerid (e.g. "#12345")
