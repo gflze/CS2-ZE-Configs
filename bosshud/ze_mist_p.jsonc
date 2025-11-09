@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Dragon",
+        "breakable": "pbox_dragon",
+        "iterator": "counter_dragon",
+        "offset": -10000.0
+    },
+    {
+        "name": "Revived Dragon",
+        "counter": "counter_eschp"
+    }
+]
