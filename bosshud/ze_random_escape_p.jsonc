@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Droneship",
+        "breakable": "ZombieMurder_Boss_Break"
+    },
+    {
+        "name": "Droneship",
+        "breakable": "Zeal_Boss_Break"
+    }
+]

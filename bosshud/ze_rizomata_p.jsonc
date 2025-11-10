@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Gnome",
+        "reverseiterator": true,
+        "counter": "2_boss_hpcounter",
+        "iterator": "2_boss_hpmasscounter"
+    },
+    {
+        "name": "Undine",
+        "reverseiterator": true,
+        "counter": "3_boss_hpcounter",
+        "iterator": "3_boss_hpmasscounter"
+    },
+    {
+        "name": "Slyph",
+        "reverseiterator": true,
+        "counter": "4_boss_hpcounter",
+        "iterator": "4_boss_hpmasscounter"
+    },
+    {
+        "name": "Salamander",
+        "reverseiterator": true,
+        "counter": "5_boss_hpcounter",
+        "iterator": "5_boss_hpmasscounter"
+    },
+    {
+        "name": "Salamander (Enraged)",
+        "counter": "5_boss_enragehpcounter"
+    }
+]

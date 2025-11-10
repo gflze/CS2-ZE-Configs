@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Troll",
+        "reverseiterator": true,
+        "counter": "Troll_Hp",
+        "backup": "Troll_Hp_Get",
+        "iterator": "Troll_Hp_Counter"
+    },
+    {
+        "name": "Crystal",
+        "reverseiterator": true,
+        "counter": "S2_Boss_Hp",
+        "backup": "S2_Boss_Hp_Get",
+        "iterator": "S2_Boss_Hp_Counter"
+    },
+    {
+        "name": "Boss",
+        "reverseiterator": true,
+        "counter": "Castle_Hp",
+        "backup": "Castle_Hp_Get",
+        "iterator": "Castle_Hp_Counter"
+    },
+    {
+        "name": "Ice Dragon",
+        "reverseiterator": true,
+        "counter": "Dr_Hp",
+        "backup": "Dr_Hp_Get",
+        "iterator": "Dr_Hp_Counter"
+    },
+    {
+        "name": "Balrog",
+        "reverseiterator": true,
+        "counter": "Bal_Hp",
+        "backup": "Bal_Hp_Get",
+        "iterator": "Bal_Hp_Counter"
+    },
+    {
+        "name": "Guard",
+        "counter": "Castle_Guard_Hp_Counter_1"
+    },
+    {
+        "name": "Guard",
+        "counter": "Castle_Guard_Hp_Counter_2"
+    },
+    {
+        "name": "Guard",
+        "counter": "Guard_1_Hp_Counter"
+    },
+    {
+        "name": "Guard",
+        "counter": "Guard_2_Hp_Counter"
+    }
+]

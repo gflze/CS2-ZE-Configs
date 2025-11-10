@@ -1,0 +1,28 @@
+[
+    {
+        "name": "White Dragon",
+        "counter": "yzx_health",
+        "iterator": "yzx_segment"
+    },
+    {
+        "name": "Ice Guardian",
+        "counter": "creta_Health",
+        "backup": "creta_HealthBackup",
+        "iterator": "creta_HealthCount"
+    },
+    {
+        "name": "Blue Chimera",
+        "counter": "xwz_health",
+        "iterator": "xwz_phase_counter"
+    },
+    {
+        "name": "Blue Dragon",
+        "counter": "jzx_health",
+        "iterator": "jzx_segment"
+    },
+    {
+        "name": "Blue Dragon",
+        "counter": "wwx_health",
+        "iterator": "wwx_segment"
+    }
+]
