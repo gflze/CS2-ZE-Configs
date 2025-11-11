@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Doll",
+        "counter": "big_doll_counter",
+        "backup": "big_doll_hp_backup",
+        "iterator": "big_doll_hp_iterations"
+    },
+    {
+        "name": "Mask",
+        "counter": "mask_counter",
+        "backup": "mask_hp_backup",
+        "iterator": "mask_hp_iterations"
+    }
+]

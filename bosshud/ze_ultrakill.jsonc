@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Minos Hand",
+        "counter": "minos_hand_hp_counter",
+        "backup": "minos_hand_hp_backup",
+        "iterator": "minos_hand_counter_end"
+    },
+    {
+        "name": "Flesh Prison",
+        "counter": "flesh_prison_hp_counter",
+        "backup": "flesh_prison_hp_backup",
+        "iterator": "flesh_prison_counter_end"
+    },
+    {
+        "name": "V2",
+        "counter": "v2_hp_counter",
+        "backup": "v2_hp_counter_backup",
+        "iterator": "v2_hp_counter_end"
+    },
+    {
+        "name": "Sword Machine",
+        "namefixup": true,
+        "showbeaten": false,
+        "multitrigger": true,
+        "counter": "s_machine_hp_counter",
+        "backup": "s_machine_hp_backup",
+        "iterator": "s_machine_counter_end"
+    },
+    {
+        "name": "Gabriel",
+        "counter": "gabriel_hp_counter",
+        "backup": "gabriel_hp_backup",
+        "iterator": "gabriel_counter_end"
+    },
+    {
+        "name": "Hideous Mass",
+        "counter": "h_mass_hp_counter",
+        "backup": "h_mass_hp_backup",
+        "iterator": "h_mass_counter_end"
+    },
+    {
+        "name": "Minos Prime",
+        "counter": "mp_hp_counter",
+        "backup": "mp_hp_backup",
+        "iterator": "mp_counter_end"
+    },
+    {
+        "name": "Sisyphus Prime",
+        "counter": "sp_hp_counter",
+        "backup": "sp_hp_backup",
+        "iterator": "sp_counter_end"
+    },
+    {
+        "name": "Minos",
+        "counter": "minos_boss_hp_counter",
+        "backup": "minos_boss_hp_backup",
+        "iterator": "minos_boss_counter_end"
+    },
+    {
+        "name": "Greyhusk",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "greyhusk_hitbox"
+    },
+    {
+        "name": "Cerberus",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "cerberus_hitbox"
+    },
+    {
+        "name": "Cleaner",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "s_cleaner_hitbox"
+    },
+    {
+        "name": "Idol",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "showbeaten": false,
+        "breakable": "p-2_idol_mf_hitbox1"
+    },
+    {
+        "name": "Stray",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "stray_hitbox"
+    },
+    {
+        "name": "Virtue",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "virtue_hitbox"
+    },
+    {
+        "name": "Shotgun Husk",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "shotgun_husk_hitbox"
+    },
+    {
+        "name": "Mindflayer",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "mindflayer_hitbox"
+    },
+    {
+        "name": "Malicious Face",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "mface_break"
+    },
+    {
+        "name": "Turret",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "turretbot_hitbox"
+    },
+    {
+        "name": "Drone",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "drone_hitbox"
+    },
+    {
+        "name": "Filth",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "filth_hitbox"
+    }
+]

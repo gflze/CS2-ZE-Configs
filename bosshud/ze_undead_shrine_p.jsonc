@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Dragon",
+        "counter": "dragon_hp"
+    },
+    {
+        "name": "Boss",
+        "counter": "boss_hp"
+    }
+]

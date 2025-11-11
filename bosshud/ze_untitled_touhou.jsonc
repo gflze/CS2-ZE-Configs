@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Youmu Konpaku",
+        "counter": "Staircase_Youmu_Health",
+        "backup": "Staircase_Youmu_HealthInit",
+        "iterator": "Staircase_Youmu_HealthCount"
+    },
+    {
+        "name": "Yuyuko Saigyouji",
+        "counter": "Boss_Yuyuko_Health",
+        "backup": "Boss_Yuyuko_HealthInit",
+        "iterator": "Boss_Yuyuko_HealthCount"
+    },
+    {
+        "name": "Fairy",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "NPC_FairyB_L_Phys"
+    },
+    {
+        "name": "Fairy",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "NPC_FairyR_R_Phys"
+    },
+    {
+        "name": "Fairy",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "NPC_FairyB_R_Phys"
+    },
+    {
+        "name": "Fairy",
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "namefixup": true,
+        "showbeaten": false,
+        "breakable": "NPC_FairyB_R_Phys"
+    }
+]

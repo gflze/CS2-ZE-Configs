@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Pain Light",
+        "counter": "lastboss_hpcounter"
+    },
+    {
+        "name": "Pain Light (Rezurrected)",
+        "counter": "exdark_hpcounter"
+    },
+    {
+        "name": "Holy Light",
+        "counter": "exholy_hpcounter"
+    }
+]
