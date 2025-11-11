@@ -22,3 +22,8 @@ AdminRoom:
 - any:
   - changed-files:
     - any-glob-to-any-file: 'adminroom/*'
+
+BossHUD:
+- any:
+  - changed-files:
+    - any-glob-to-any-file: 'bosshud/*'
