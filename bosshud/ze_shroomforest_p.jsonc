@@ -1,6 +1,57 @@
 [
     {
-        "name":             "Boss",
+        "name":             "Butterfly",
+        "trigger":          { "ent": "Lvl1_EvilButt_P2", "output": "OnPass" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Pikachu",
+        "trigger":          { "ent": "Lvl2_Boss_Tr", "output": "OnStartTouch" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Satan",
+        "trigger":          { "ent": "Lvl3_Boss_Tr", "output": "OnStartTouch" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Dragon",
+        "trigger":          { "ent": "Ext3_Boss_Tr", "output": "OnStartTouch" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Ditto",
+        "trigger":          { "ent": "Ext2_Boss_Tr", "output": "OnStartTouch" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Bulbasaur",
+        "trigger":          { "ent": "Ditto_Case", "output": "OnCase01" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Charmander",
+        "trigger":          { "ent": "Ditto_Case", "output": "OnCase02" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Squirtle",
+        "trigger":          { "ent": "Ditto_Case", "output": "OnCase03" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Pikachu",
+        "trigger":          { "ent": "Ditto_Case", "output": "OnCase04" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Ghastly",
+        "trigger":          { "ent": "Ditto_Case", "output": "OnCase04" },
+        "counter":          "dynamichp"
+    },
+    {
+        "name":             "Pikachu",
+        "trigger":          { "ent": "Lvl7_Boss_Phys", "output": "OnHealthChanged" },
         "counter":          "dynamichp"
     }
 ]
