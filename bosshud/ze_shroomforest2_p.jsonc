@@ -1,37 +1,37 @@
 [
     {
-        "name": "Boss",
-        "reverseiterator": true,
-        "counter": "BossHealth",
-        "backup": "BossHealthInit",
-        "iterator": "BossHealthCount"
+        "name":             "Boss",
+        "reverseiterator":  true,
+        "counter":          "BossHealth",
+        "backup":           "BossHealthInit",
+        "iterator":         "BossHealthCount"
     },
     {
-        "name": "Satan",
-        "reverseiterator": true,
-        "counter": "SatanHealth",
-        "backup": "SatanHealthInit",
-        "iterator": "SatanHealthCount"
+        "name":             "Satan",
+        "reverseiterator":  true,
+        "counter":          "SatanHealth",
+        "backup":           "SatanHealthInit",
+        "iterator":         "SatanHealthCount"
     },
     {
-        "name": "Boss",
-        "reverseiterator": true,
-        "counter": "boss_health",
-        "backup": "boss_health_backup",
-        "iterator": "Boss_HealthBarCounter"
+        "name":             "Boss",
+        "reverseiterator":  true,
+        "counter":          "boss_health",
+        "backup":           "boss_health_backup",
+        "iterator":         "Boss_HealthBarCounter"
     },
     {
-        "name": "TV",
-        "reverseiterator": true,
-        "counter": "tv_boss_health",
-        "backup": "tv_boss_health_backup",
-        "iterator": "tv_boss_health_bar"
+        "name":             "TV",
+        "reverseiterator":  true,
+        "counter":          "tv_boss_health",
+        "backup":           "tv_boss_health_backup",
+        "iterator":         "tv_boss_health_bar"
     },
     {
-        "name": "Dragonfly",
-        "reverseiterator": true,
-        "counter": "dragon_health",
-        "backup": "dragon_health_backup",
-        "iterator": "dragon_health_bar"
+        "name":             "Dragonfly",
+        "reverseiterator":  true,
+        "counter":          "dragon_health",
+        "backup":           "dragon_health_backup",
+        "iterator":         "dragon_health_bar"
     }
 ]

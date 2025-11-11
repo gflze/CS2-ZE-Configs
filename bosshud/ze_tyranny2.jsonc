@@ -1,61 +1,61 @@
 [
     {
-        "name": "Snake",
-        "trigger": { "ent": "s1boss_trigger", "output": "OnStartTouch" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Snake",
+        "trigger":          { "ent": "s1boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     },
     {
-        "name": "Troll",
-        "trigger": { "ent": "s2boss_trigger", "output": "OnStartTouch" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Troll",
+        "trigger":          { "ent": "s2boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     },
     {
-        "name": "Rakiora",
-        "counter": "s2_snake_counter"
+        "name":             "Rakiora",
+        "counter":          "s2_snake_counter"
     },
     {
-        "name": "Dragon",
-        "trigger": { "ent": "s3boss_trigger", "output": "OnStartTouch" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Dragon",
+        "trigger":          { "ent": "s3boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     },
     {
-        "name": "Rakiora",
-        "counter": "snake_math",
-        "backup": "Boss_HealthBackup_snake",
-        "iterator": "Boss_HealthCount_snake"
+        "name":             "Rakiora",
+        "counter":          "snake_math",
+        "backup":           "Boss_HealthBackup_snake",
+        "iterator":         "Boss_HealthCount_snake"
     },
     {
-        "name": "Gargantua",
-        "trigger": { "ent": "s4boss_trigger", "output": "OnStartTouch" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Gargantua",
+        "trigger":          { "ent": "s4boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     },
     {
-        "name": "Diablo",
-        "trigger": { "ent": "s5boss_trigger", "output": "OnStartTouch" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Diablo",
+        "trigger":          { "ent": "s5boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     },
     {
-        "name": "Angra",
-        "trigger": { "ent": "s5boss_angra_move1", "output": "OnFullyOpen" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Angra",
+        "trigger":          { "ent": "s5boss_angra_move1", "output": "OnFullyOpen" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     },
     {
-        "name": "Diablo",
-        "trigger": { "ent": "s5door_14_3", "output": "OnStartTouch" },
-        "counter": "bosshp1",
-        "backup": "bosshp2",
-        "iterator": "bosshp3"
+        "name":             "Diablo",
+        "trigger":          { "ent": "s5door_14_3", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
     }
 ]

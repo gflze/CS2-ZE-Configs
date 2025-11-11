@@ -1,6 +1,6 @@
 [
     {
-        "name": "Command Cube",
-        "counter": "stage2_boss_HP_counter"
+        "name":             "Command Cube",
+        "counter":          "stage2_boss_HP_counter"
     }
 ]

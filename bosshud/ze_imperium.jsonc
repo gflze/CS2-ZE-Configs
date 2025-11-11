@@ -1,6 +1,6 @@
 [
     {
-        "name": "Sorcerer",
-        "breakable": "boss_hitbox"
+        "name":             "Sorcerer",
+        "breakable":        "boss_hitbox"
     }
 ]

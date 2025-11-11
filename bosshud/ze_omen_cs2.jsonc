@@ -1,22 +1,22 @@
 [
     {
-        "name": "Crazy Plant",
-        "breakable": "l1_plant_hitbox"
+        "name":             "Crazy Plant",
+        "breakable":        "l1_plant_hitbox"
     },
     {
-        "name": "Crystal",
-        "breakable": "l2_boss_hitbox"
+        "name":             "Crystal",
+        "breakable":        "l2_boss_hitbox"
     },
     {
-        "name": "Light",
-        "breakable": "l2_end_hitbox"
+        "name":             "Light",
+        "breakable":        "l2_end_hitbox"
     },
     {
-        "name": "Eternal Crystal",
-        "breakable": "l3_boss_hitbox"
+        "name":             "Eternal Crystal",
+        "breakable":        "l3_boss_hitbox"
     },
     {
-        "name": "Eternal Light",
-        "breakable": "l3_boss_end_hitbox"
+        "name":             "Eternal Light",
+        "breakable":        "l3_boss_end_hitbox"
     }
 ]

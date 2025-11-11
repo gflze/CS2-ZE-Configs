@@ -1,11 +1,11 @@
 [
     {
-        "name": "Cube",
-        "counter": "bs2_counter"
+        "name":             "Cube",
+        "counter":          "bs2_counter"
     },
     {
-        "name": "Cube",
-        "counter": "bx_health",
-        "iterator": "bx_segment"
+        "name":             "Cube",
+        "counter":          "bx_health",
+        "iterator":         "bx_segment"
     }
 ]

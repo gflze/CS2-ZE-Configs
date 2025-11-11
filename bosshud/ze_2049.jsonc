@@ -1,7 +1,7 @@
 [
     {
-        "name": "Pink Ball",
-        "counter": "boss_health_main",
-        "iterator": "boss_healthcount"
+        "name":             "Pink Ball",
+        "counter":          "boss_health_main",
+        "iterator":         "boss_healthcount"
     }
 ]

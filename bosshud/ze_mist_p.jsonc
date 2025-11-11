@@ -1,13 +1,13 @@
 [
     {
-        "name": "Dragon",
-        "trigger": { "ent": "tr_dragonaddhp", "output": "OnStartTouch", "delay": 1.0 },
+        "name":             "Dragon",
+        "trigger":          { "ent": "tr_dragonaddhp", "output": "OnStartTouch", "delay": 1.0 },
         "offset": -10000.0,
-        "breakable": "pbox_dragon",
-        "iterator": "counter_dragon"
+        "breakable":        "pbox_dragon",
+        "iterator":         "counter_dragon"
     },
     {
-        "name": "Revived Dragon",
-        "counter": "counter_eschp"
+        "name":             "Revived Dragon",
+        "counter":          "counter_eschp"
     }
 ]

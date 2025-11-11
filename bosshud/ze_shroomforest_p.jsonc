@@ -1,6 +1,6 @@
 [
     {
-        "name": "Boss",
-        "counter": "dynamichp"
+        "name":             "Boss",
+        "counter":          "dynamichp"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Spider",
-        "breakable": "FinalBoss_hitbox"
+        "name":             "Spider",
+        "breakable":        "FinalBoss_hitbox"
     }
 ]

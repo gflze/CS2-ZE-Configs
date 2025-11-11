@@ -1,11 +1,11 @@
 [
     {
-        "name": "Blue Sphere",
-        "counter": "nut_boss_hp",
-        "iterator": "nut_boss_segment"
+        "name":             "Blue Sphere",
+        "counter":          "nut_boss_hp",
+        "iterator":         "nut_boss_segment"
     },
     {
-        "name": "Purple Sphere",
-        "counter": "nut_final_sphere_counter"
+        "name":             "Purple Sphere",
+        "counter":          "nut_final_sphere_counter"
     }
 ]

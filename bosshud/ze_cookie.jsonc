@@ -1,6 +1,6 @@
 [
     {
-        "name": "Cookie",
-        "counter": "cookie_hp"
+        "name":             "Cookie",
+        "counter":          "cookie_hp"
     }
 ]

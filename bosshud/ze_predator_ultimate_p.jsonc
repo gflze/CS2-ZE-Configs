@@ -1,34 +1,34 @@
 [
     {
-        "name": "Predator",
-        "counter": "cboss_predatorhealth_counter"
+        "name":             "Predator",
+        "counter":          "cboss_predatorhealth_counter"
     },
     {
-        "name": "Predator",
-        "counter": "bosshealth_endboss"
+        "name":             "Predator",
+        "counter":          "bosshealth_endboss"
     },
     {
-        "name": "Predator",
-        "counter": "mob_grudge_math"
+        "name":             "Predator",
+        "counter":          "mob_grudge_math"
     },
     {
-        "name": "Predator",
-        "counter": "aztecboss_math_health"
+        "name":             "Predator",
+        "counter":          "aztecboss_math_health"
     },
     {
-        "name": "Predator",
-        "counter": "aztecboss_math_health_2"
+        "name":             "Predator",
+        "counter":          "aztecboss_math_health_2"
     },
     {
-        "name": "Predator (Enraged)",
-        "counter": "fboss_math_1"
+        "name":             "Predator (Enraged)",
+        "counter":          "fboss_math_1"
     },
     {
-        "name": "Predator",
-        "counter": "fboss_math_2"
+        "name":             "Predator",
+        "counter":          "fboss_math_2"
     },
     {
-        "name": "Alien",
-        "counter": "fboss_ee_math"
+        "name":             "Alien",
+        "counter":          "fboss_ee_math"
     }
 ]

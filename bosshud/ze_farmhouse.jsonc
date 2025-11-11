@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tank",
-        "counter": "TankCounter"
+        "name":             "Tank",
+        "counter":          "TankCounter"
     }
 ]

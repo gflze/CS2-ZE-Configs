@@ -1,15 +1,15 @@
 [
     {
-        "name": "Cube",
-        "counter": "st1_boss_health",
-        "iterator": "st1_boss_lives"
+        "name":             "Cube",
+        "counter":          "st1_boss_health",
+        "iterator":         "st1_boss_lives"
     },
     {
-        "name": "Cube",
-        "counter": "st2_boss_counter"
+        "name":             "Cube",
+        "counter":          "st2_boss_counter"
     },
     {
-        "name": "Cube",
-        "counter": "st2_boss2_health"
+        "name":             "Cube",
+        "counter":          "st2_boss2_health"
     }
 ]

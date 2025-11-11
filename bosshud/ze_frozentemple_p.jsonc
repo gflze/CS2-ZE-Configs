@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ice Crystal",
-        "breakable": "bt_hitbox"
+        "name":             "Ice Crystal",
+        "breakable":        "bt_hitbox"
     }
 ]

@@ -1,27 +1,27 @@
 [
     {
-        "name": "Nihilanth",
-        "hitmarkeronly": true,
-        "breakable": "sss5_l_laser_hitbox"
+        "name":             "Nihilanth",
+        "hitmarkeronly":    true,
+        "breakable":        "sss5_l_laser_hitbox"
     },
     {
-        "name": "Gargantua",
-        "hitmarkeronly": true,
-        "breakable": "garg_hitbox"
+        "name":             "Gargantua",
+        "hitmarkeronly":    true,
+        "breakable":        "garg_hitbox"
     },
     {
-        "name": "UFO",
-        "hitmarkeronly": true,
-        "breakable": "mutant_hitbox1"
+        "name":             "UFO",
+        "hitmarkeronly":    true,
+        "breakable":        "mutant_hitbox1"
     },
     {
-        "name": "Gargantua",
-        "hitmarkeronly": true,
-        "breakable": "grg_hitbox"
+        "name":             "Gargantua",
+        "hitmarkeronly":    true,
+        "breakable":        "grg_hitbox"
     },
     {
-        "name": "Antlion",
-        "hitmarkeronly": true,
-        "breakable": "mutant_hitbox"
+        "name":             "Antlion",
+        "hitmarkeronly":    true,
+        "breakable":        "mutant_hitbox"
     }
 ]

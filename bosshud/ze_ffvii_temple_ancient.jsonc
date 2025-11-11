@@ -1,44 +1,44 @@
 [
     {
-        "name": "Sephiroth",
-        "counter": "counter_edge_2",
-        "backup": "counter_edge_1",
-        "iterator": "Edge_Health"
+        "name":             "Sephiroth",
+        "counter":          "counter_edge_2",
+        "backup":           "counter_edge_1",
+        "iterator":         "Edge_Health"
     },
     {
-        "name": "Bomb",
-        "counter": "bomb_1_counter"
+        "name":             "Bomb",
+        "counter":          "bomb_1_counter"
     },
     {
-        "name": "Bomb",
-        "counter": "bomb_3_counter"
+        "name":             "Bomb",
+        "counter":          "bomb_3_counter"
     },
     {
-        "name": "TriFace",
-        "counter": "counter_triface_1",
-        "backup": "counter_triface_2",
-        "iterator": "counter_triface_3"
+        "name":             "TriFace",
+        "counter":          "counter_triface_1",
+        "backup":           "counter_triface_2",
+        "iterator":         "counter_triface_3"
     },
     {
-        "name": "Meteor",
-        "counter": "meteor_counter"
+        "name":             "Meteor",
+        "counter":          "meteor_counter"
     },
     {
-        "name": "Dragon",
-        "counter": "counter_dragon_1",
-        "backup": "counter_dragon_2",
-        "iterator": "counter_dragon_3"
+        "name":             "Dragon",
+        "counter":          "counter_dragon_1",
+        "backup":           "counter_dragon_2",
+        "iterator":         "counter_dragon_3"
     },
     {
-        "name": "Golem",
-        "counter": "counter_golem_3"
+        "name":             "Golem",
+        "counter":          "counter_golem_3"
     },
     {
-        "name": "Golem",
-        "counter": "counter_golem_3"
+        "name":             "Golem",
+        "counter":          "counter_golem_3"
     },
     {
-        "name": "Sephiroth",
-        "counter": "counter_seph"
+        "name":             "Sephiroth",
+        "counter":          "counter_seph"
     }
 ]

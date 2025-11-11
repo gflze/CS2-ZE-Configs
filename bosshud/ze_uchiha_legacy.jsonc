@@ -1,59 +1,59 @@
 [
     {
-        "name": "Susano",
-        "reverseiterator": true,
-        "counter": "654321234_susano_Health",
-        "backup": "654321234_susano_HealthBackup",
-        "iterator": "654321234_susano_HealthCount"
+        "name":             "Susano",
+        "reverseiterator":  true,
+        "counter":          "654321234_susano_Health",
+        "backup":           "654321234_susano_HealthBackup",
+        "iterator":         "654321234_susano_HealthCount"
     },
     {
-        "name": "Sasuke",
-        "reverseiterator": true,
-        "counter": "s2_sasuke_final_health",
-        "backup": "s2_sasuke_final_health_backup",
-        "iterator": "s2_sasuke_final_HealthCount"
+        "name":             "Sasuke",
+        "reverseiterator":  true,
+        "counter":          "s2_sasuke_final_health",
+        "backup":           "s2_sasuke_final_health_backup",
+        "iterator":         "s2_sasuke_final_HealthCount"
     },
     {
-        "name": "6543_madara_appear_counter",
-        "counter": "Madara"
+        "name":             "6543_madara_appear_counter",
+        "counter":          "Madara"
     },
     {
-        "name": "Obito",
-        "reverseiterator": true,
-        "counter": "obito_Boss_Health",
-        "backup": "obito_Boss_HealthBackup",
-        "iterator": "obito_Boss_HealthCount"
+        "name":             "Obito",
+        "reverseiterator":  true,
+        "counter":          "obito_Boss_Health",
+        "backup":           "obito_Boss_HealthBackup",
+        "iterator":         "obito_Boss_HealthCount"
     },
     {
-        "name": "Madara",
-        "counter": "345876_madara_paradise_counter"
+        "name":             "Madara",
+        "counter":          "345876_madara_paradise_counter"
     },
     {
-        "name": "Madara",
-        "reverseiterator": true,
-        "counter": "madara_Boss_Health",
-        "backup": "madara_Boss_HealthBackup",
-        "iterator": "madara_Boss_HealthCount"
+        "name":             "Madara",
+        "reverseiterator":  true,
+        "counter":          "madara_Boss_Health",
+        "backup":           "madara_Boss_HealthBackup",
+        "iterator":         "madara_Boss_HealthCount"
     },
     {
-        "name": "Sasuke",
-        "reverseiterator": true,
-        "counter": "qsdfg_sasuke_Boss_Health",
-        "backup": "qsdfg_sasuke_Boss_HealthBackup",
-        "iterator": "qsdfg_sasuke_Boss_HealthCount"
+        "name":             "Sasuke",
+        "reverseiterator":  true,
+        "counter":          "qsdfg_sasuke_Boss_Health",
+        "backup":           "qsdfg_sasuke_Boss_HealthBackup",
+        "iterator":         "qsdfg_sasuke_Boss_HealthCount"
     },
     {
-        "name": "Madara",
-        "reverseiterator": true,
-        "counter": "exsdfgh_madara_Health",
-        "backup": "exsdfgh_madara_HealthBackup",
-        "iterator": "exsdfgh_madara_HealthCount"
+        "name":             "Madara",
+        "reverseiterator":  true,
+        "counter":          "exsdfgh_madara_Health",
+        "backup":           "exsdfgh_madara_HealthBackup",
+        "iterator":         "exsdfgh_madara_HealthCount"
     },
     {
-        "name": "Itachi",
-        "reverseiterator": true,
-        "counter": "s1_itachi_Boss_Health",
-        "backup": "s1_itachi_Boss_HealthBackup",
-        "iterator": "s1_itachi_Boss_HealthCount"
+        "name":             "Itachi",
+        "reverseiterator":  true,
+        "counter":          "s1_itachi_Boss_Health",
+        "backup":           "s1_itachi_Boss_HealthBackup",
+        "iterator":         "s1_itachi_Boss_HealthCount"
     }
 ]

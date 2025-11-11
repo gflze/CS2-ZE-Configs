@@ -1,13 +1,13 @@
 [
     {
-        "name": "Boss",
-        "breakable": "Frenchy_hbox"
+        "name":             "Boss",
+        "breakable":        "Frenchy_hbox"
     },
     {
-        "name": "Gravity Ball",
-        "minorhud": true,
-        "multitrigger": true,
-        "showbeaten": false,
-        "breakable": "Gravity_Break"
+        "name":             "Gravity Ball",
+        "minorhud":         true,
+        "multitrigger":     true,
+        "showbeaten":       false,
+        "breakable":        "Gravity_Break"
     }
 ]

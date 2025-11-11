@@ -1,10 +1,10 @@
 [
     {
-        "name": "Helicopter",
-        "counter": "Heli_HP"
+        "name":             "Helicopter",
+        "counter":          "Heli_HP"
     },
     {
-        "name": "Pedobear",
-        "counter": "boss_hp"
+        "name":             "Pedobear",
+        "counter":          "boss_hp"
     }
 ]

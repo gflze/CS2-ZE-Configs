@@ -1,32 +1,32 @@
 [
     {
-        "name": "Heart Crystal",
-        "reverseiterator": true,
-        "counter": "Boss_S2_Hp_Main",
-        "iterator": "Boss_S2_Hp_Counter"
+        "name":             "Heart Crystal",
+        "reverseiterator":  true,
+        "counter":          "Boss_S2_Hp_Main",
+        "iterator":         "Boss_S2_Hp_Counter"
     },
     {
-        "name": "Pure Heart",
-        "breakable": "S2_Trigger_End_Box"
+        "name":             "Pure Heart",
+        "breakable":        "S2_Trigger_End_Box"
     },
     {
-        "name": "False Crystal",
-        "reverseiterator": true,
-        "counter": "Boss_S3_Hp_Main",
-        "iterator": "Boss_S3_Hp_Counter"
+        "name":             "False Crystal",
+        "reverseiterator":  true,
+        "counter":          "Boss_S3_Hp_Main",
+        "iterator":         "Boss_S3_Hp_Counter"
     },
     {
-        "name": "True Crystal",
-        "reverseiterator": true,
-        "counter": "Boss_S4_Hp_Main",
-        "iterator": "Boss_S4_Hp_Counter"
+        "name":             "True Crystal",
+        "reverseiterator":  true,
+        "counter":          "Boss_S4_Hp_Main",
+        "iterator":         "Boss_S4_Hp_Counter"
     },
     {
-        "name": "Impure Crystal",
-        "trigger": { "ent": "Skill_Snake_HitBox", "output": "OnUser1" },
-        "multitrigger": true,
-        "namefixup": true,
-        "showbeaten": false,
-        "breakable": "Skill_Snake_HitBox"
+        "name":             "Impure Crystal",
+        "trigger":          { "ent": "Skill_Snake_HitBox", "output": "OnUser1" },
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "Skill_Snake_HitBox"
     }
 ]

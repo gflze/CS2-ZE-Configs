@@ -1,6 +1,6 @@
 [
     {
-        "name": "GFL Admin",
-        "counter": "hp_counter"
+        "name":             "GFL Admin",
+        "counter":          "hp_counter"
     }
 ]

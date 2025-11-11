@@ -1,56 +1,56 @@
 [
     {
-        "name": "Boss",
-        "counter": "BossEnds",
-        "backup": "Boss_HealthInit",
-        "iterator": "Boss_HealthCount"
+        "name":             "Boss",
+        "counter":          "BossEnds",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
     },
     {
-        "name": "Skeleton 1",
-        "counter": "Skeleton_Boss_Health1",
-        "backup": "Skeleton_Boss_HealthInit1",
-        "iterator": "Skeleton_Boss_HealthCount1"
+        "name":             "Skeleton 1",
+        "counter":          "Skeleton_Boss_Health1",
+        "backup":           "Skeleton_Boss_HealthInit1",
+        "iterator":         "Skeleton_Boss_HealthCount1"
     },
     {
-        "name": "Skeleton 2",
-        "counter": "Skeleton_Boss_Health2",
-        "backup": "Skeleton_Boss_HealthInit2",
-        "iterator": "Skeleton_Boss_HealthCount2"
+        "name":             "Skeleton 2",
+        "counter":          "Skeleton_Boss_Health2",
+        "backup":           "Skeleton_Boss_HealthInit2",
+        "iterator":         "Skeleton_Boss_HealthCount2"
     },
     {
-        "name": "Skeleton 3",
-        "counter": "Skeleton_Boss_Health3",
-        "backup": "Skeleton_Boss_HealthInit3",
-        "iterator": "Skeleton_Boss_HealthCount3"
+        "name":             "Skeleton 3",
+        "counter":          "Skeleton_Boss_Health3",
+        "backup":           "Skeleton_Boss_HealthInit3",
+        "iterator":         "Skeleton_Boss_HealthCount3"
     },
     {
-        "name": "Spider",
-        "showbeaten": false,
-        "breakable": "Spider_Break1"
+        "name":             "Spider",
+        "showbeaten":       false,
+        "breakable":        "Spider_Break1"
     },
     {
-        "name": "Spider",
-        "showbeaten": false,
-        "breakable": "Spider_Break2"
+        "name":             "Spider",
+        "showbeaten":       false,
+        "breakable":        "Spider_Break2"
     },
     {
-        "name": "Spider",
-        "showbeaten": false,
-        "breakable": "Spider_Break3"
+        "name":             "Spider",
+        "showbeaten":       false,
+        "breakable":        "Spider_Break3"
     },
     {
-        "name": "Spider",
-        "showbeaten": false,
-        "breakable": "Spider_Break4"
+        "name":             "Spider",
+        "showbeaten":       false,
+        "breakable":        "Spider_Break4"
     },
     {
-        "name": "Spider",
-        "showbeaten": false,
-        "breakable": "Spider_Break5"
+        "name":             "Spider",
+        "showbeaten":       false,
+        "breakable":        "Spider_Break5"
     },
     {
-        "name": "Spider",
-        "showbeaten": false,
-        "breakable": "Spider_Break6"
+        "name":             "Spider",
+        "showbeaten":       false,
+        "breakable":        "Spider_Break6"
     }
 ]

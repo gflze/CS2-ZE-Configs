@@ -1,14 +1,14 @@
 [
     {
-        "name": "Creta",
-        "counter": "creta_Health",
-        "backup": "creta_HealthBackup",
-        "iterator": "creta_HealthCount"
+        "name":             "Creta",
+        "counter":          "creta_Health",
+        "backup":           "creta_HealthBackup",
+        "iterator":         "creta_HealthCount"
     },
     {
-        "name": "Braha",
-        "counter": "yzx_braha_Health",
-        "backup": "yzx_braha_HealthBackup",
-        "iterator": "yzx_braha_HealthCount"
+        "name":             "Braha",
+        "counter":          "yzx_braha_Health",
+        "backup":           "yzx_braha_HealthBackup",
+        "iterator":         "yzx_braha_HealthCount"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Anchelion",
-        "breakable": "drake_hp"
+        "name":             "Anchelion",
+        "breakable":        "drake_hp"
     }
 ]

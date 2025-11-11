@@ -1,13 +1,13 @@
 [
     {
-        "name": "Ermahgerd Terst",
-        "counter": "boss_math",
-        "backup": "boss_hpbar_counter_2",
-        "iterator": "boss_hpbar_overlaycounter"
+        "name":             "Ermahgerd Terst",
+        "counter":          "boss_math",
+        "backup":           "boss_hpbar_counter_2",
+        "iterator":         "boss_hpbar_overlaycounter"
     },
     {
-        "name": "Metal Piece",
-        "showbeaten": false,
-        "breakable": "core_break_blocker"
+        "name":             "Metal Piece",
+        "showbeaten":       false,
+        "breakable":        "core_break_blocker"
     }
 ]

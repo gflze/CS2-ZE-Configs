@@ -1,14 +1,14 @@
 [
     {
-        "name": "Rubber Duck",
-        "counter": "krokodyl_counter",
-        "backup": "krokodyl_hp_backup",
-        "iterator": "krokodyl_hp_iterations"
+        "name":             "Rubber Duck",
+        "counter":          "krokodyl_counter",
+        "backup":           "krokodyl_hp_backup",
+        "iterator":         "krokodyl_hp_iterations"
     },
     {
-        "name": "Sponge",
-        "counter": "kostka_hp",
-        "backup": "kostka_hp_backup",
-        "iterator": "kostka_hp_iterations"
+        "name":             "Sponge",
+        "counter":          "kostka_hp",
+        "backup":           "kostka_hp_backup",
+        "iterator":         "kostka_hp_iterations"
     }
 ]

@@ -1,27 +1,27 @@
 [
     {
-        "name": "Chain",
-        "showbeaten": false,
-        "breakable": "Map_Boss_TheHeart_Chain_1"
+        "name":             "Chain",
+        "showbeaten":       false,
+        "breakable":        "Map_Boss_TheHeart_Chain_1"
     },
     {
-        "name": "Chain",
-        "showbeaten": false,
-        "breakable": "Map_Boss_TheHeart_Chain_2"
+        "name":             "Chain",
+        "showbeaten":       false,
+        "breakable":        "Map_Boss_TheHeart_Chain_2"
     },
     {
-        "name": "Chain",
-        "showbeaten": false,
-        "breakable": "Map_Boss_TheHeart_Chain_3"
+        "name":             "Chain",
+        "showbeaten":       false,
+        "breakable":        "Map_Boss_TheHeart_Chain_3"
     },
     {
-        "name": "Chain",
-        "showbeaten": false,
-        "breakable": "Map_Boss_TheHeart_Chain_4"
+        "name":             "Chain",
+        "showbeaten":       false,
+        "breakable":        "Map_Boss_TheHeart_Chain_4"
     },
     {
-        "name": "The Heart",
-        "hitmarkeronly": true,
-        "breakable": "Map_Boss_TheHeart_Physbox"
+        "name":             "The Heart",
+        "hitmarkeronly":    true,
+        "breakable":        "Map_Boss_TheHeart_Physbox"
     }
 ]

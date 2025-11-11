@@ -1,11 +1,11 @@
 [
     {
-        "name": "Gas Counter",
-        "breakable": "CounterBreakable"
+        "name":             "Gas Counter",
+        "breakable":        "CounterBreakable"
     },
     {
-        "name": "Ms. Whiskas",
-        "multitrigger": true,
-        "breakable": "Rat_Breakable"
+        "name":             "Ms. Whiskas",
+        "multitrigger":     true,
+        "breakable":        "Rat_Breakable"
     }
 ]

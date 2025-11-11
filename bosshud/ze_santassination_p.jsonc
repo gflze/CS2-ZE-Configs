@@ -1,46 +1,46 @@
 [
     {
-        "name": "Santa",
-        "breakable": "bosss_hp"
+        "name":             "Santa",
+        "breakable":        "bosss_hp"
     },
     {
-        "name": "Fat Santa",
-        "breakable": "bosss_hp1"
+        "name":             "Fat Santa",
+        "breakable":        "bosss_hp1"
     },
     {
-        "name": "Socrates",
-        "breakable": "bosss_hp2"
+        "name":             "Socrates",
+        "breakable":        "bosss_hp2"
     },
     {
-        "name": "Beaver",
-        "multitrigger": true,
+        "name":             "Beaver",
+        "multitrigger":     true,
         "namefixup": true,
-        "hitmarkeronly": true,
-        "showbeaten": false,
-        "breakable": "npc_phys2gg"
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg"
     },
     {
-        "name": "Elf",
-        "multitrigger": true,
+        "name":             "Elf",
+        "multitrigger":     true,
         "namefixup": true,
-        "hitmarkeronly": true,
-        "showbeaten": false,
-        "breakable": "npc_phys2gg1"
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg1"
     },
     {
-        "name": "Present",
-        "multitrigger": true,
+        "name":             "Present",
+        "multitrigger":     true,
         "namefixup": true,
-        "hitmarkeronly": true,
-        "showbeaten": false,
-        "breakable": "npc_phys2gg2"
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg2"
     },
     {
-        "name": "Bender",
-        "multitrigger": true,
+        "name":             "Bender",
+        "multitrigger":     true,
         "namefixup": true,
-        "hitmarkeronly": true,
-        "showbeaten": false,
-        "breakable": "npc_phys2gg3"
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg3"
     }
 ]

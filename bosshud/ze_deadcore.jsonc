@@ -1,40 +1,40 @@
 [
     {
-        "name": "Deadcore",
-        "reverseiterator": true,
-        "counter": "radiation_hpcounter",
-        "iterator": "radiation_hpmasscounter"
+        "name":             "Deadcore",
+        "reverseiterator":  true,
+        "counter":          "radiation_hpcounter",
+        "iterator":         "radiation_hpmasscounter"
     },
     {
-        "name": "Red Cube",
-        "minorhud": true,
-        "multitrigger": true,
-        "namefixup": true,
-        "showbeaten": false,
-        "breakable": "enemy1_core1"
+        "name":             "Red Cube",
+        "minorhud":         true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy1_core1"
     },
     {
-        "name": "Green Cube",
-        "minorhud": true,
-        "multitrigger": true,
-        "namefixup": true,
-        "showbeaten": false,
-        "breakable": "enemy2_core1"
+        "name":             "Green Cube",
+        "minorhud":         true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy2_core1"
     },
     {
-        "name": "Blue Cube",
-        "minorhud": true,
-        "multitrigger": true,
-        "namefixup": true,
-        "showbeaten": false,
-        "breakable": "enemy3_core1"
+        "name":             "Blue Cube",
+        "minorhud":         true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy3_core1"
     },
     {
-        "name": "Crystal",
-        "minorhud": true,
-        "multitrigger": true,
-        "namefixup": true,
-        "showbeaten": false,
-        "breakable": "enemy4_core1"
+        "name":             "Crystal",
+        "minorhud":         true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy4_core1"
     }
 ]

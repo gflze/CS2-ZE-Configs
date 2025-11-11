@@ -1,14 +1,14 @@
 [
     {
-        "name": "Madara",
-        "counter": "madara_HP_Counter"
+        "name":             "Madara",
+        "counter":          "madara_HP_Counter"
     },
     {
-        "name": "Madara",
-        "counter": "Madara_boss_health"
+        "name":             "Madara",
+        "counter":          "Madara_boss_health"
     },
     {
-        "name": "Gedo Mazo Statue",
-        "breakable": "gedomazo_break"
+        "name":             "Gedo Mazo Statue",
+        "breakable":        "gedomazo_break"
     }
 ]

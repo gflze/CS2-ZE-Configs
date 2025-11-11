@@ -1,36 +1,36 @@
 [
     {
-        "name": "Alduin",
-        "counter": "counter_1",
-        "backup": "counter_1_backup",
-        "iterator": "BossHpIterations4"
+        "name":             "Alduin",
+        "counter":          "counter_1",
+        "backup":           "counter_1_backup",
+        "iterator":         "BossHpIterations4"
     },
     {
-        "name": "Alduin",
-        "counter": "counter_2",
-        "backup": "counter_2_backup",
-        "iterator": "BossHpIterations3"
+        "name":             "Alduin",
+        "counter":          "counter_2",
+        "backup":           "counter_2_backup",
+        "iterator":         "BossHpIterations3"
     },
     {
-        "name": "Dwarven Centurion",
-        "counter": "dw_hp",
-        "backup": "dw_hp_backup",
-        "iterator": "BossHpIterations2"
+        "name":             "Dwarven Centurion",
+        "counter":          "dw_hp",
+        "backup":           "dw_hp_backup",
+        "iterator":         "BossHpIterations2"
     },
     {
-        "name": "Alduin",
-        "counter": "counter_3",
-        "backup": "bosshpbackup",
-        "iterator": "BossHpIterations"
+        "name":             "Alduin",
+        "counter":          "counter_3",
+        "backup":           "bosshpbackup",
+        "iterator":         "BossHpIterations"
     },
     {
-        "name": "Dwarven Sphere",
-        "multitrigger": true,
-        "showbeaten": false,
-        "breakable": "smalldwboss_physbox2"
+        "name":             "Dwarven Sphere",
+        "multitrigger":     true,
+        "showbeaten":       false,
+        "breakable":        "smalldwboss_physbox2"
     },
     {
-        "name": "Dragonpriest",
-        "breakable": "phbox"
+        "name":             "Dragonpriest",
+        "breakable":        "phbox"
     }
 ]
