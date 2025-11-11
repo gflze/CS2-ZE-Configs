@@ -40,3 +40,6 @@ jobs:
 
       - name: Sync AdminRoom File
         run: git ftp push --verbose --auto-init --syncroot "adminroom" --remote-root "game/csgo/addons/cs2fixes/configs/"
+
+      - name: Sync BossHUD Files
+        run: git ftp push --verbose --auto-init --syncroot "bosshud" --remote-root "game/csgo/addons/cs2fixes/configs/bosshud/"
