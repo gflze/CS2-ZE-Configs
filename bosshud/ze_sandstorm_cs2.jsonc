@@ -1,27 +1,28 @@
 [
+    // Boss health is handled by map scripts, so this config is for hitmarkers
     {
-        "name":             "Nihilanth",
         "hitmarkeronly":    true,
+        "showbeaten":       false,
         "breakable":        "sss5_l_laser_hitbox"
     },
     {
-        "name":             "Gargantua",
         "hitmarkeronly":    true,
+        "showbeaten":       false,
         "breakable":        "garg_hitbox"
     },
     {
-        "name":             "UFO",
         "hitmarkeronly":    true,
+        "showbeaten":       false,
         "breakable":        "mutant_hitbox1"
     },
     {
-        "name":             "Gargantua",
         "hitmarkeronly":    true,
+        "showbeaten":       false,
         "breakable":        "grg_hitbox"
     },
     {
-        "name":             "Antlion",
         "hitmarkeronly":    true,
+        "showbeaten":       false,
         "breakable":        "mutant_hitbox"
     }
 ]

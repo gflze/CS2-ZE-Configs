@@ -7,7 +7,7 @@
     },
     {
         "name":             "Red Cube",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
         "showbeaten":       false,
@@ -15,7 +15,7 @@
     },
     {
         "name":             "Green Cube",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
         "showbeaten":       false,
@@ -23,7 +23,7 @@
     },
     {
         "name":             "Blue Cube",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
         "showbeaten":       false,
@@ -31,7 +31,7 @@
     },
     {
         "name":             "Crystal",
-        "minorhud":         true,
+        "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
         "showbeaten":       false,

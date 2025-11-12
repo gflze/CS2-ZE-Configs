@@ -1,0 +1,59 @@
+[
+    {
+        "name":             "Iron Golem",
+        "counter":          "IronGolemHp"
+    },
+    {
+        "name":             "Asylum Demon",
+        "counter":          "Asylum_Demon_Health_Counter"
+    },
+    {
+        "name":             "Brood Mother",
+        "counter":          "Broodmother_Health_Counter"
+    },
+    {
+        "name":             "Gwyndolin",
+        "counter":          "Gwyn_Health_Counter"
+    },
+    {
+        "name":             "Sif",
+        "counter":          "Sirwolf_Health_Counter"
+    },
+    {
+        "name":             "Golem",
+        "counter":          "KnightCaller_Health"
+    },
+    {
+        "name":             "Archer",
+        "counter":          "Clown_Champion_Health"
+    },
+    {
+        "name":             "Thrower",
+        "counter":          "Thrower_Health"
+    },
+    // GFL does not display NPC health
+    {
+        "name":             "Slime",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "slime_hitbox"
+    },
+    {
+        "name":             "Knight",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "npc_hitbox"
+    },
+    {
+        "name":             "Knight",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "Borov_01_hitbox"
+    }
+]

@@ -15,7 +15,7 @@
         "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "NPC_FairyB_L_Phys"
     },
@@ -23,7 +23,7 @@
         "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "NPC_FairyR_R_Phys"
     },
@@ -31,7 +31,7 @@
         "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "NPC_FairyB_R_Phys"
     },
@@ -39,7 +39,7 @@
         "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "NPC_FairyB_R_Phys"
     }

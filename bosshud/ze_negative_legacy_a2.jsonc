@@ -41,7 +41,7 @@
     },
     {
         "name":             "Agony",
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "counter":          "agony_counter_a"
     },

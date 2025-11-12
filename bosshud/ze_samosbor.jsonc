@@ -1,27 +1,32 @@
 [
     {
         "name":             "Chain",
+        "minorhud":         true,
         "showbeaten":       false,
         "breakable":        "Map_Boss_TheHeart_Chain_1"
     },
     {
         "name":             "Chain",
+        "minorhud":         true,
         "showbeaten":       false,
         "breakable":        "Map_Boss_TheHeart_Chain_2"
     },
     {
         "name":             "Chain",
+        "minorhud":         true,
         "showbeaten":       false,
         "breakable":        "Map_Boss_TheHeart_Chain_3"
     },
     {
         "name":             "Chain",
+        "minorhud":         true,
         "showbeaten":       false,
         "breakable":        "Map_Boss_TheHeart_Chain_4"
     },
+    // Boss health is handled by map scripts, so this entry is for hitmarkers
     {
-        "name":             "The Heart",
         "hitmarkeronly":    true,
+        "showbeaten":       false,
         "breakable":        "Map_Boss_TheHeart_Physbox"
     }
 ]

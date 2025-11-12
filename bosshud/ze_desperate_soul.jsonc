@@ -1,0 +1,33 @@
+[
+    {
+        "name":             "Diablo",
+        "breakable":        "S1_Diablo_Box"
+    },
+    {
+        "name":             "Nidhogg",
+        "counter":          "S0_Hogg_Hp_Counter"
+    },
+    {
+        "name":             "Kaleda",
+        "counter":          "Kaleda_HP_Counter_2",
+        "backup":           "Kaleda_HP_Counter_1",
+        "iterator":         "Counter_Boss_HP_1"
+    },
+    {
+        "name":             "Diablo",
+        "counter":          "Diablo_HP_Counter_2",
+        "backup":           "Diablo_HP_Counter_1",
+        "iterator":         "Counter_Boss_HP_1"
+    },
+    {
+        "name":             "Nidhogg",
+        "counter":          "Hogg_Hp_Counter_2",
+        "backup":           "Hogg_Hp_Counter_3",
+        "iterator":         "Counter_Boss_HP_1"
+    },
+    {
+        "name":             "Spider Wall",
+        "showbeaten":       false,
+        "breakable":        "S4_G_Spider_Wall"
+    }
+]

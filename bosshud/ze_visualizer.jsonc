@@ -10,20 +10,20 @@
     },
     {
         "name":             "Pink Particle",
-        "namefixup": true,
+        "namefixup":        true,
         "multitrigger":     true,
         "counter":          "niveau5_track_counter"
     },
     {
         "name":             "Orange Particle",
-        "namefixup": true,
+        "namefixup":        true,
         "counter":          "stage2_track_counter"
     },
     {
         "name":             "NPC",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "rotating_npc_main_breakable"
     },
@@ -31,7 +31,7 @@
         "name":             "NPC",
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npc_track_breakable"
     }

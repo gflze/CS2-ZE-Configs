@@ -71,85 +71,95 @@
     },
     {
         "name":             "Crystal",
-        "namefixup": true,
+        "namefixup":        true,
         "counter":          "s36miniboss_crystal_counter1",
         "backup":           "s36miniboss_crystal_counter2",
         "iterator":         "s36miniboss_crystal_counter3"
     },
     {
         "name":             "Hattousin Bike",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc1_hit"
     },
     {
         "name":             "Juusimatu",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc2_hit"
     },
     {
         "name":             "Yaruo",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc3_hit"
     },
     {
         "name":             "Supu",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc4_hit"
     },
     {
         "name":             "Azarasi",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc5_hit"
     },
     {
         "name":             "Penisman",
         "minorhud": true,
-        "namefixup": true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc6_hit"
     },
     {
         "name":             "Fat Goonie",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc7_hit"
     },
     {
         "name":             "Chain Chomp",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc8_hit"
     },
     {
         "name":             "Penguin",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc9_hit"
     },
     {
         "name":             "Guardian",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc10_hit"
     },
     {
         "name":             "Robert",
-        "minorhud": true,
-        "namefixup": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "s36boss_robert_phy"
     }

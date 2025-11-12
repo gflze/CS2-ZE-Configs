@@ -1,0 +1,60 @@
+[
+    // Config used in conjunction with stripper that replaces map scripts
+    {
+        "name":             "Bergan (Phase 1)",
+        "counter":          "Bergan_boss1_attack_HP1",
+        "iterator":         "Bergan_boss1_attack_HP2"
+    },
+    {
+        "name":             "Bergan (Phase 2)",
+        "counter":          "Bergan_boss2_attack_HP1",
+        "iterator":         "Bergan_boss2_attack_HP2"
+    },
+    {
+        "name":             "Behemoth",
+        "counter":          "BehemothRed_Boss_Attack_HP1",
+        "iterator":         "BehemothRed_Boss_Attack_HP2"
+    },
+    {
+        "name":             "Gabranth",
+        "counter":          "Gabranth_boss2_attack_HP1",
+        "iterator":         "Gabranth_boss2_attack_HP2"
+    },
+    {
+        "name":             "Sanctuary Keeper",
+        "counter":          "sanctuary_keeper_boss_HP1",
+        "iterator":         "sanctuary_keeper_boss_HP2"
+    },
+    {
+        "name":             "Adrammelech",
+        "counter":          "Adrammelech_boss_counter"
+    },
+    {
+        "name":             "Zargabaath",
+        "counter":          "Ending_boss1_laser_counter"
+    },
+    {
+        "name":             "Gabranth",
+        "counter":          "ending_boss2_laser_HP"
+    },
+    {
+        "name":             "Adrammelech",
+        "counter":          "Mojie_miniboss_counter"
+    },
+    {
+        "name":             "Venat",
+        "counter":          "Venat_mini_boss_HP"
+    },
+    {
+        "name":             "Shield",
+        "breakable":        "lvl1_crystal_ending_model"
+    },
+    {
+        "name":             "Cactus",
+        "breakable":        "Random_event_Cactus_physbox"
+    },
+    {
+        "name":             "Drace",
+        "breakable":        "Random_event_imperial_army_physbox"
+    }
+]
