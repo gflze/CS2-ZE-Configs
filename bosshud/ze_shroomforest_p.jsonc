@@ -1,56 +1,67 @@
 [
     {
         "name":             "Butterfly",
+        "reversecounter":   true,
         "trigger":          { "ent": "Lvl1_EvilButt_P2", "output": "OnPass" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Pikachu",
+        "reversecounter":   true,
         "trigger":          { "ent": "Lvl2_Boss_Tr", "output": "OnStartTouch" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Satan",
+        "reversecounter":   true,
         "trigger":          { "ent": "Lvl3_Boss_Tr", "output": "OnStartTouch" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Dragon",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ext3_Boss_Tr", "output": "OnStartTouch" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Ditto",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ext2_Boss_Tr", "output": "OnStartTouch" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Bulbasaur",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ditto_Case", "output": "OnCase01" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Charmander",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ditto_Case", "output": "OnCase02" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Squirtle",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ditto_Case", "output": "OnCase03" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Pikachu",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ditto_Case", "output": "OnCase04" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Ghastly",
+        "reversecounter":   true,
         "trigger":          { "ent": "Ditto_Case", "output": "OnCase04" },
         "counter":          "dynamichp"
     },
     {
         "name":             "Pikachu",
+        "reversecounter":   true,
         "trigger":          { "ent": "Lvl7_Boss_Phys", "output": "OnHealthChanged" },
         "counter":          "dynamichp"
     }
