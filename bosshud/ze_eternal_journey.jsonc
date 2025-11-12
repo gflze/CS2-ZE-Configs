@@ -1,20 +1,4 @@
 [
-    // Boss health is handled by map scripts, so this config is for hitmarkers
-    {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "breakable":        "stg2_mutant_hitbox"
-    },
-    {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "breakable":        "stg3_mutant2_hitbox"
-    },
-    {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "breakable":        "stg5_mutant_hitbox"
-    },
     {
         "name":             "Crystal 1",
         "showbeaten":       false,
@@ -34,5 +18,21 @@
         "name":             "Crystal 4",
         "showbeaten":       false,
         "counter":          "counter_crys4"
+    },
+    // Boss health is handled by map scripts, so this config is for hitmarkers
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "stg2_mutant_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "stg3_mutant2_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "stg5_mutant_hitbox"
     }
 ]
