@@ -79,7 +79,7 @@ Grouped colors are just different aliases for the same color.
 
 ## BossHUD
 
-Find entity classnames that are either `math_counter`, `func_breakable`, or `func_physbox` as a starting point for creating these. For each boss and NPC, you're going to want a new block in the root array. The format is available below.
+Find entity classnames that are either `math_counter`, `func_breakable`, or `func_physbox` as a starting point for creating these. For each boss and NPC, you're going to want a new block in the root array. The format is available below. You can specify entities with either its targetname of its hammerid by starting the string with `#` (e.g. "#123456").
 
 ```jsonc
 [
