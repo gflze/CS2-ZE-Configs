@@ -24,7 +24,7 @@
         "counter":          "KnightCaller_Health"
     },
     {
-        "name":             "Archer",
+        "name":             "Marvelous Chester",
         "counter":          "Clown_Champion_Health"
     },
     {
@@ -33,7 +33,6 @@
     },
     // GFL does not display NPC health
     {
-        "name":             "Slime",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -41,7 +40,6 @@
         "breakable":        "slime_hitbox"
     },
     {
-        "name":             "Knight",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -49,7 +47,6 @@
         "breakable":        "npc_hitbox"
     },
     {
-        "name":             "Knight",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,

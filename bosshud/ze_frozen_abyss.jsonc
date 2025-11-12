@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Spider",
+        "breakable":        "spider_boss_phys_break"
+    },
+    {
+        "name":             "Dragon",
+        "breakable":        "dragon_phys"
+    },
+    {
+        "name":             "Abyss Guardian",
+        "breakable":        "abyss_guardian_phys_break"
+    },
+    {
+        "name":             "Dragon",
+        "breakable":        "dragon_ending_physbreak"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "npc_spider_small_phys_break"
+    }
+]

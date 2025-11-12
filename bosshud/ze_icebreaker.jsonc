@@ -1,0 +1,17 @@
+[
+    {
+        "name":             "Turret",
+        "counter":          "1_turret_hp"
+    },
+    {
+        "name":             "Turret",
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "counter":          "math_hp_capsule"
+    },
+    {
+        "name":             "Helicopter",
+        "counter":          "boss_heli_hp"
+    }
+]

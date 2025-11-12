@@ -1,0 +1,23 @@
+[
+    {
+        "name":             "Santa",
+        "trigger":          { "ent": "Lvl1_Boss_HealthTr", "output": "OnStartTouch" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    },
+    {
+        "name":             "Santa",
+        "trigger":          { "ent": "Lvl2_Boss_HealthTr", "output": "OnStartTouch" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    },
+    {
+        "name":             "Subzero",
+        "trigger":          { "ent": "Lvl3_Boss_HealthTr", "output": "OnStartTouch" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    }
+]

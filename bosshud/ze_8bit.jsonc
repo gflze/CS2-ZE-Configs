@@ -1,0 +1,34 @@
+[
+    {
+        "name":             "Smiley Face",
+        "counter":          "Counter_boss1"
+    },
+    {
+        "name":             "Asian Meshlem",
+        "counter":          "Counter_boss2"
+    },
+    {
+        "name":             "Some Weird Boss",
+        "counter":          "Counter_boss4"
+    },
+    {
+        "name":             "Sans",
+        "counter":          "Counter_boss3"
+    },
+    {
+        "name":             "Grumpy Shitter",
+        "counter":          "Counter_boss5_1"
+    },
+    {
+        "name":             "Grumpy Shitter (Shield)",
+        "counter":          "Counter_boss5"
+    },
+    {
+        "name":             "Poncher Monkey",
+        "counter":          "Counter_boss6_1"
+    },
+    {
+        "name":             "Poncher Monkey Trap",
+        "counter":          "Counter_boss6"
+    }
+]

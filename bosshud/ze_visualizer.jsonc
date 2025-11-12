@@ -19,8 +19,8 @@
         "namefixup":        true,
         "counter":          "stage2_track_counter"
     },
+    // GFL does not display NPC health
     {
-        "name":             "NPC",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -28,7 +28,6 @@
         "breakable":        "rotating_npc_main_breakable"
     },
     {
-        "name":             "NPC",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,

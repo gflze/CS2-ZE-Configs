@@ -1,6 +1,6 @@
 [
+    // GFL does not display NPC health
     {
-        "name":             "Crag",
         "multitrigger":     true,
         "namefixup":        true,
         "hitmarkeronly":    true,
@@ -8,7 +8,6 @@
         "breakable":        "crag_physbox"
     },
     {
-        "name":             "Monster",
         "multitrigger":     true,
         "namefixup":        true,
         "hitmarkeronly":    true,

@@ -1,0 +1,17 @@
+[
+    {
+        "name":             "Genbu",
+        "counter":          "St1_Boss_Counter",
+        "iterator":         "St1_Boss_Counter_Main"
+    },
+    {
+        "name":             "Byakko",
+        "counter":          "St2_Boss_Counter",
+        "iterator":         "St2_Boss_Counter_Main"
+    },
+    {
+        "name":             "Byakko",
+        "counter":          "St2_Boss_Final_Counter",
+        "iterator":         "St2_Boss_Final_Counter_Main"
+    }
+]

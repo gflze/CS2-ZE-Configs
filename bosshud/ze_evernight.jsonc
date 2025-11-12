@@ -1,0 +1,39 @@
+[
+    {
+        "name":             "Basil",
+        "reverseiterator":  true,
+        "counter":          "Boss_1_Hp",
+        "backup":           "Boss_1_Hp_Init",
+        "iterator":         "Boss_1_Hp_Overlay"
+    },
+    {
+        "name":             "The Watcher",
+        "reverseiterator":  true,
+        "counter":          "Boss_2_Hp",
+        "backup":           "Boss_2_Hp_Init",
+        "iterator":         "Boss_2_Hp_Overlay"
+    },
+    {
+        "name":             "Gradyrat",
+        "reverseiterator":  true,
+        "counter":          "Boss_3_Hp",
+        "backup":           "Boss_3_Hp_Init",
+        "iterator":         "Boss_3_Hp_Overlay"
+    },
+    {
+        "name":             "Fire Orb",
+        "counter":          "Boss_2_Hp_Lava"
+    },
+    {
+        "name":             "Ice Orb",
+        "counter":          "Boss_2_Hp_Blizzard"
+    },
+    {
+        "name":             "Thunder Orb",
+        "counter":          "Boss_2_Hp_Arc"
+    },
+    {
+        "name":             "Wind Orb",
+        "counter":          "Boss_2_Hp_Hurricane"
+    }
+]

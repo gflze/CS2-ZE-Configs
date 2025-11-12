@@ -11,8 +11,8 @@
         "backup":           "Boss_Yuyuko_HealthInit",
         "iterator":         "Boss_Yuyuko_HealthCount"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -20,7 +20,6 @@
         "breakable":        "NPC_FairyB_L_Phys"
     },
     {
-        "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -28,7 +27,6 @@
         "breakable":        "NPC_FairyR_R_Phys"
     },
     {
-        "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -36,7 +34,6 @@
         "breakable":        "NPC_FairyB_R_Phys"
     },
     {
-        "name":             "Fairy",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,

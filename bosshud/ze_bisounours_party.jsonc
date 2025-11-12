@@ -1,0 +1,10 @@
+[
+    {
+        "name":             "Pedobear",
+        "breakable":        "Pedobear_lvl1"
+    },
+    {
+        "name":             "Pedobear",
+        "breakable":        "Pedobear_lvl2"
+    }
+]

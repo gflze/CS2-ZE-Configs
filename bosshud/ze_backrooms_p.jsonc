@@ -1,6 +1,6 @@
 [
+    // GFL does not display NPC health
     {
-        "name":             "Uboa",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -8,7 +8,6 @@
         "breakable":        "stalker_awake_box"
     },
     {
-        "name":             "Uboa",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
