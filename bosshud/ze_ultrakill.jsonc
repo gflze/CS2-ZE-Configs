@@ -55,8 +55,8 @@
         "backup":           "minos_boss_hp_backup",
         "iterator":         "minos_boss_counter_end"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Greyhusk",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -64,7 +64,6 @@
         "breakable":        "greyhusk_hitbox"
     },
     {
-        "name":             "Cerberus",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -72,7 +71,6 @@
         "breakable":        "cerberus_hitbox"
     },
     {
-        "name":             "Cleaner",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -80,14 +78,12 @@
         "breakable":        "s_cleaner_hitbox"
     },
     {
-        "name":             "Idol",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "showbeaten":       false,
         "breakable":        "p-2_idol_mf_hitbox1"
     },
     {
-        "name":             "Stray",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -95,7 +91,6 @@
         "breakable":        "stray_hitbox"
     },
     {
-        "name":             "Virtue",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -103,7 +98,6 @@
         "breakable":        "virtue_hitbox"
     },
     {
-        "name":             "Shotgun Husk",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -111,7 +105,6 @@
         "breakable":        "shotgun_husk_hitbox"
     },
     {
-        "name":             "Mindflayer",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -119,7 +112,6 @@
         "breakable":        "mindflayer_hitbox"
     },
     {
-        "name":             "Malicious Face",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -127,7 +119,6 @@
         "breakable":        "mface_break"
     },
     {
-        "name":             "Turret",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -135,7 +126,6 @@
         "breakable":        "turretbot_hitbox"
     },
     {
-        "name":             "Drone",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -143,7 +133,6 @@
         "breakable":        "drone_hitbox"
     },
     {
-        "name":             "Filth",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
