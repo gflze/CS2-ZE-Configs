@@ -76,8 +76,8 @@
         "backup":           "s36miniboss_crystal_counter2",
         "iterator":         "s36miniboss_crystal_counter3"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Hattousin Bike",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -85,7 +85,6 @@
         "breakable":        "npctemp_npc1_hit"
     },
     {
-        "name":             "Juusimatu",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -93,7 +92,6 @@
         "breakable":        "npctemp_npc2_hit"
     },
     {
-        "name":             "Yaruo",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -101,7 +99,6 @@
         "breakable":        "npctemp_npc3_hit"
     },
     {
-        "name":             "Supu",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -109,7 +106,6 @@
         "breakable":        "npctemp_npc4_hit"
     },
     {
-        "name":             "Azarasi",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -117,14 +113,13 @@
         "breakable":        "npctemp_npc5_hit"
     },
     {
-        "name":             "Penisman",
-        "minorhud": true,
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
         "namefixup":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc6_hit"
     },
     {
-        "name":             "Fat Goonie",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -132,7 +127,6 @@
         "breakable":        "npctemp_npc7_hit"
     },
     {
-        "name":             "Chain Chomp",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -140,7 +134,6 @@
         "breakable":        "npctemp_npc8_hit"
     },
     {
-        "name":             "Penguin",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -148,7 +141,6 @@
         "breakable":        "npctemp_npc9_hit"
     },
     {
-        "name":             "Guardian",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -156,7 +148,6 @@
         "breakable":        "npctemp_npc10_hit"
     },
     {
-        "name":             "Robert",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
