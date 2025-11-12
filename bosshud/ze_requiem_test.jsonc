@@ -1,0 +1,10 @@
+[
+    {
+        "name":             "Hideous",
+        "counter":          "St1_Boss_Hideous_Counter"
+    },
+    {
+        "name":             "Mindflayer",
+        "counter":          "St2_Boss_Mindflayer_Counter"
+    }
+]
