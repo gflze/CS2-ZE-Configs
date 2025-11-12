@@ -5,8 +5,8 @@
         "counter":          "radiation_hpcounter",
         "iterator":         "radiation_hpmasscounter"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Red Cube",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -14,7 +14,6 @@
         "breakable":        "enemy1_core1"
     },
     {
-        "name":             "Green Cube",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -22,7 +21,6 @@
         "breakable":        "enemy2_core1"
     },
     {
-        "name":             "Blue Cube",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -30,7 +28,6 @@
         "breakable":        "enemy3_core1"
     },
     {
-        "name":             "Crystal",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,

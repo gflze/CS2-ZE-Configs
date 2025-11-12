@@ -7,5 +7,27 @@
     {
         "name":             "Light Pillar",
         "counter":          "ee_counter"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "xml_breakable"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "xzz_breakable"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "namefixup":        true,
+        "showbeaten":       false,
+        "breakable":        "xcv_npc_breakable"
     }
 ]

@@ -41,7 +41,6 @@
     },
     // GFL does not display NPC health
     {
-        "name":             "Urkul",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
@@ -49,7 +48,6 @@
         "breakable":        "urkul_physbox_break"
     },
     {
-        "name":             "Golem",
         "hitmarkeronly":    true,
         "multitrigger":     true,
         "namefixup":        true,
