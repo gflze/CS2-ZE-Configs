@@ -359,6 +359,30 @@
         ]
     },
     {
+        "name": "Water Gun",
+        "shortname": "Water Gun",
+        "hammerid": "25532",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "25537"
+            },
+            {
+                "hammerid": "25536",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "RAID",
         "shortname": "RAID",
         "hammerid": "19419",
