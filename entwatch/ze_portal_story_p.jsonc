@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Propulsion Gel",
+        "shortname": "Propulsion",
+        "hammerid": "554",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "552"
+            },
+            {
+                "hammerid": "563",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Repulsion Gel",
+        "shortname": "Repulsion",
+        "hammerid": "551",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "lightblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "549"
+            },
+            {
+                "hammerid": "564",
+                "event": "OnTrue",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Portal Gun",
+        "shortname": "Portal",
+        "hammerid": "452",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    }
+]
