@@ -1,0 +1,23 @@
+{
+	// Since block dmg doesn't work on prop_door_rotating, kill this blockable door at the timing it should be open as a workaround
+	"modify":
+	{
+		"match":
+		{
+			"classname": "trigger_once",
+			"targetname": "[PR#]Stage2_Trigger_5"
+		},
+		"insert":
+		{
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "[PR#]Door_Bathroom",
+					"inputname": "Kill",
+					"delay": 3,
+					"timestofire": 1
+				}
+			]
+		}
+	}
+}
