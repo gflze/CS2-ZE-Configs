@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Ammo Box",
+        "shortname": "Ammo",
+        "hammerid": "478",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "472"
+            },
+            {
+                "hammerid": "9171",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Bio Bomb",
+        "shortname": "Bio",
+        "hammerid": "407",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "415"
+            },
+            {
+                "hammerid": "418",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "490",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "486"
+            },
+            {
+                "hammerid": "483",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Medic Kit",
+        "shortname": "Heal",
+        "hammerid": "425",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "422"
+            },
+            {
+                "hammerid": "427",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Death Coffin",
+        "shortname": "Coffin",
+        "hammerid": "10340",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "10336"
+            },
+            {
+                "hammerid": "10335",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Bazooka",
+        "shortname": "ZM Bazooka",
+        "hammerid": "46",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["9174"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "42"
+            },
+            {
+                "hammerid": "50",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Sarin Gas",
+        "shortname": "ZM Gas",
+        "hammerid": "592",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["567"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "589"
+            },
+            {
+                "hammerid": "591",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Mini Nuke",
+        "shortname": "ZM Nuke",
+        "hammerid": "657",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["565"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "660"
+            },
+            {
+                "hammerid": "656",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 5,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
