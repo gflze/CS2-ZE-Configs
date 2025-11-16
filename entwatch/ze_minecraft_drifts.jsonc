@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "1401",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1402",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 12,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Book",
+        "shortname": "Book",
+        "hammerid": "1406",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1407",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 15,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
