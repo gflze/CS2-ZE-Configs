@@ -375,7 +375,7 @@
                 "hammerid": "25536",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 80,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
