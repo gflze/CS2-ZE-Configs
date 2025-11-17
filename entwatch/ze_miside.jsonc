@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Beam Pistol",
+        "shortname": "Beam",
+        "hammerid": "3497",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3500"
+            },
+            {
+                "hammerid": "3535",
+                "event": "OnFalse",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heart Charm",
+        "shortname": "Heal",
+        "hammerid": "3465",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3468"
+            },
+            {
+                "hammerid": "3466",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Massager",
+        "shortname": "Massager",
+        "hammerid": "3204",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3206"
+            },
+            {
+                "hammerid": "3211",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Toy Duck",
+        "shortname": "Duck",
+        "hammerid": "3434",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3437"
+            },
+            {
+                "hammerid": "3435",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Toy Hammer",
+        "shortname": "Hammer",
+        "hammerid": "3176",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3194"
+            },
+            {
+                "hammerid": "3195",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Chainsaw",
+        "shortname": "ZM Chainsaw",
+        "hammerid": "3220",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["3235"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3221"
+            },
+            {
+                "hammerid": "3227",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Piece of Clothing",
+        "shortname": "Clothing",
+        "hammerid": "2321",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey"
+    }
+]

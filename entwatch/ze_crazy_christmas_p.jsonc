@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "761",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "763"
+            },
+            {
+                "hammerid": "760",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Wall",
+        "shortname": "Wall",
+        "hammerid": "55",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "53"
+            },
+            {
+                "hammerid": "50",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind",
+        "shortname": "Wind",
+        "hammerid": "540",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "537"
+            },
+            {
+                "hammerid": "541",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Christmas Tree",
+        "shortname": "Gravity",
+        "hammerid": "45",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "41"
+            },
+            {
+                "hammerid": "47",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice",
+        "shortname": "Ice",
+        "hammerid": "27",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "23"
+            },
+            {
+                "hammerid": "29",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison Box",
+        "shortname": "ZM Poison",
+        "hammerid": "186",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["205"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "208"
+            },
+            {
+                "hammerid": "184",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Disarm",
+        "shortname": "ZM Disarm",
+        "hammerid": "741",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["731"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "729"
+            },
+            {
+                "hammerid": "734",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Freeze Box",
+        "shortname": "ZM Freeze",
+        "hammerid": "636",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["630"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "634"
+            },
+            {
+                "hammerid": "644",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire Box",
+        "shortname": "ZM Fire",
+        "hammerid": "67",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["61"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "65"
+            },
+            {
+                "hammerid": "75",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "65",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "67"
+            },
+            {
+                "hammerid": "48",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "528",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "529"
+            },
+            {
+                "hammerid": "526",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "511",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "514"
+            },
+            {
+                "hammerid": "517",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity",
+        "shortname": "Gravity",
+        "hammerid": "127",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "125"
+            },
+            {
+                "hammerid": "129",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mines",
+        "shortname": "Mines",
+        "hammerid": "1742",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["1751"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1740"
+            },
+            {
+                "hammerid": "1744",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Runner",
+        "shortname": "Runner",
+        "hammerid": "419",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["417"],
+        "handlers": [
+            {
+                "hammerid": "424",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Spider",
+        "shortname": "ZM Spider",
+        "hammerid": "286",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["283"],
+        "handlers": [
+            {
+                "hammerid": "289",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 32,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Dragon",
+        "shortname": "ZM Dragon",
+        "hammerid": "402",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkblue",
+        "triggers": ["400"],
+        "handlers": [
+            {
+                "hammerid": "399",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 33,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
