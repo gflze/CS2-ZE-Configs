@@ -1,0 +1,28 @@
+[
+    {
+        "name":             "Bowser",
+        "counter":          "bowser_health_base",
+        "backup":           "bowser_health_backup",
+        "iterator":         "bowser_hp_iterations"
+    },
+    {
+        "name":             "Left Cannon",
+        "breakable":        "hazy_left_boss_hp"
+    },
+    {
+        "name":             "Middle Cannon",
+        "breakable":        "hazy_middle_boss_hp"
+    },
+    {
+        "name":             "Right Cannon",
+        "breakable":        "hazy_right_boss_hp"
+    },
+    {
+        "name":             "Right Eyerok",
+        "breakable":        "right_eyerok_break"
+    },
+    {
+        "name":             "Left Eyerok",
+        "breakable":        "left_eyerok_break"
+    }
+]

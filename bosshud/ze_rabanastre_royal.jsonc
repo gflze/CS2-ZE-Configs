@@ -1,0 +1,24 @@
+[
+    {
+        "name":             "Gabranth",
+        "counter":          "Boss_HP",
+        "backup":           "Boss_HP_Init",
+        "iterator":         "Boss_HP_Counter"
+    },
+    {
+        "name":             "Guardian",
+        "counter":          "Guardian_HP_Counter"
+    },
+    {
+        "name":             "Sand Monster",
+        "counter":          "SandMonster_HP_Counter"
+    },
+    {
+        "name":             "Bergan",
+        "counter":          "Judgebergan_HP_Counter"
+    },
+    {
+        "name":             "Zeromus",
+        "counter":          "Zeromus_HP_Counter"
+    }
+]

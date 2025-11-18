@@ -1,0 +1,24 @@
+[
+    {
+        "name":             "Bowser",
+        "counter":          "boss_health_base",
+        "backup":           "boss_health_backup",
+        "iterator":         "boss1_hp_iterations"
+    },
+    {
+        "name":             "Moray",
+        "breakable":        "moray_breakable"
+    },
+    {
+        "name":             "Kamek",
+        "breakable":        "kamek_health"
+    },
+    {
+        "name":             "Whomp King",
+        "breakable":        "whomp_king_breakable"
+    },
+    {
+        "name":             "Bomb",
+        "breakable":        "bomp_breakable"
+    }
+]

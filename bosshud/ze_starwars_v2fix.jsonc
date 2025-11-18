@@ -1,0 +1,50 @@
+[
+    {
+        "name":             "Boss",
+        "counter":          "stage1_boss_counter",
+        "backup":           "stage1_boss_hp_backup",
+        "iterator":         "stage1_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage2_boss_counter",
+        "backup":           "stage2_boss_hp_backup",
+        "iterator":         "stage2_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage3_1_boss_counter",
+        "backup":           "stage3_1_boss_hp_backup",
+        "iterator":         "stage3_1_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage3_2_boss_counter",
+        "backup":           "stage3_2_boss_hp_backup",
+        "iterator":         "stage3_2_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage4_boss_counter",
+        "backup":           "stage4_boss_hp_backup",
+        "iterator":         "stage4_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage5_boss_counter",
+        "backup":           "stage5_boss_hp_backup",
+        "iterator":         "stage5_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage5_1_boss_counter",
+        "backup":           "stage5_1_boss_hp_backup",
+        "iterator":         "stage5_1_boss_hp_iterations"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "stage6_boss_counter",
+        "backup":           "stage6_boss_hp_backup",
+        "iterator":         "stage6_boss_hp_iterations"
+    }
+]
