@@ -13,13 +13,13 @@
     },
     {
         "name":             "Sephiroth",
-        "namefixup":        true,
+        "templated":        true,
         "multitrigger":     true,
         "breakable":        "seph_break"
     },
     {
         "name":             "Sephiroth",
-        "namefixup":        true,
+        "templated":        true,
         "multitrigger":     true,
         "breakable":        "seph_break1"
     }

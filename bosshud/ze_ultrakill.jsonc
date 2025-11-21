@@ -19,7 +19,7 @@
     },
     {
         "name":             "Sword Machine",
-        "namefixup":        true,
+        "templated":        true,
         "multitrigger":     true,
         "counter":          "s_machine_hp_counter",
         "backup":           "s_machine_hp_backup",
@@ -59,21 +59,21 @@
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "greyhusk_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "cerberus_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "s_cleaner_hitbox"
     },
@@ -86,56 +86,56 @@
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "stray_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "virtue_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "shotgun_husk_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "mindflayer_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "mface_break"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "turretbot_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "drone_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "filth_hitbox"
     }

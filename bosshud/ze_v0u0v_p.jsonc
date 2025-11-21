@@ -38,49 +38,49 @@
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc1_body"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc2_body"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc3_body"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc4_body"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc5_body"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc6_body"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc7_body"
     }

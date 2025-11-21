@@ -71,7 +71,7 @@
     },
     {
         "name":             "Crystal",
-        "namefixup":        true,
+        "templated":        true,
         "counter":          "s36miniboss_crystal_counter1",
         "backup":           "s36miniboss_crystal_counter2",
         "iterator":         "s36miniboss_crystal_counter3"
@@ -80,77 +80,77 @@
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc1_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc2_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc3_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc4_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc5_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc6_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc7_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc8_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc9_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npctemp_npc10_hit"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "s36boss_robert_phy"
     }

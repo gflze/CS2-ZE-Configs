@@ -12,21 +12,21 @@
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "xml_breakable"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "xzz_breakable"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "xcv_npc_breakable"
     }

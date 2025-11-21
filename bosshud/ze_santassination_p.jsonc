@@ -14,7 +14,7 @@
     {
         "name":             "Beaver",
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "hitmarkeronly":    true,
         "showbeaten":       false,
         "breakable":        "npc_phys2gg"
@@ -22,7 +22,7 @@
     {
         "name":             "Elf",
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "hitmarkeronly":    true,
         "showbeaten":       false,
         "breakable":        "npc_phys2gg1"
@@ -30,7 +30,7 @@
     {
         "name":             "Present",
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "hitmarkeronly":    true,
         "showbeaten":       false,
         "breakable":        "npc_phys2gg2"
@@ -38,7 +38,7 @@
     {
         "name":             "Bender",
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "hitmarkeronly":    true,
         "showbeaten":       false,
         "breakable":        "npc_phys2gg3"

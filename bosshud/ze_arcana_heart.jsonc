@@ -25,7 +25,7 @@
         "name":             "Impure Crystal",
         "trigger":          { "ent": "Skill_Snake_HitBox", "output": "OnUser1" },
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "Skill_Snake_HitBox"
     }

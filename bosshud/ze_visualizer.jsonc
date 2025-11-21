@@ -10,27 +10,27 @@
     },
     {
         "name":             "Pink Particle",
-        "namefixup":        true,
+        "templated":        true,
         "multitrigger":     true,
         "counter":          "niveau5_track_counter"
     },
     {
         "name":             "Orange Particle",
-        "namefixup":        true,
+        "templated":        true,
         "counter":          "stage2_track_counter"
     },
     // GFL does not display NPC health
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "rotating_npc_main_breakable"
     },
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "breakable":        "npc_track_breakable"
     }

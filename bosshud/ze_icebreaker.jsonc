@@ -6,7 +6,7 @@
     {
         "name":             "Turret",
         "multitrigger":     true,
-        "namefixup":        true,
+        "templated":        true,
         "showbeaten":       false,
         "counter":          "math_hp_capsule"
     },
