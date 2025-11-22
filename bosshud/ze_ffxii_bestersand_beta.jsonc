@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Bahamut",
+        "breakable":        "baha_dps_break"
+    },
+    {
+        "name":             "Bahamut",
+        "breakable":        "bosshamut_break_2"
+    },
+    {
+        "name":             "Bahamut",
+        "breakable":        "bosshamut_break"
+    },
+    {
+        "name":             "Sephiroth",
+        "templated":        true,
+        "multitrigger":     true,
+        "breakable":        "seph_break"
+    },
+    {
+        "name":             "Sephiroth",
+        "templated":        true,
+        "multitrigger":     true,
+        "breakable":        "seph_break1"
+    }
+]

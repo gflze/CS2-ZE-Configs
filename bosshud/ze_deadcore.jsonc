@@ -1,0 +1,37 @@
+[
+    {
+        "name":             "Deadcore",
+        "reverseiterator":  true,
+        "counter":          "radiation_hpcounter",
+        "iterator":         "radiation_hpmasscounter"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy1_core1"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy2_core1"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy3_core1"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "enemy4_core1"
+    }
+]

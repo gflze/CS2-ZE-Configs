@@ -1,0 +1,64 @@
+[
+    {
+        "name":             "Spider",
+        "counter":          "bosslvl1_counter1",
+        "backup":           "bosslvl1_counter2",
+        "iterator":         "bosslvl1_counter3"
+    },
+    {
+        "name":             "Troll",
+        "counter":          "bosslvl2_counter1",
+        "backup":           "bosslvl2_counter2",
+        "iterator":         "bosslvl2_counter3"
+    },
+    {
+        "name":             "Dragon",
+        "counter":          "bosslvl2_end_counter1",
+        "backup":           "bosslvl2_end_counter2",
+        "iterator":         "bosslvl2_end_counter3"
+    },
+    {
+        "name":             "Dragon",
+        "counter":          "bosslvl3_end_counter1",
+        "backup":           "bosslvl3_end_counter2",
+        "iterator":         "bosslvl3_end_counter3"
+    },
+    {
+        "name":             "Dragon",
+        "counter":          "bosslvl3_counter1",
+        "backup":           "bosslvl3_counter2",
+        "iterator":         "bosslvl3_counter3"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "bosslvl4_counter1",
+        "backup":           "bosslvl4_counter2",
+        "iterator":         "bosslvl4_counter3"
+    },
+    {
+        "name":             "Balrog",
+        "counter":          "bosslvl5_counter1",
+        "backup":           "bosslvl5_counter2",
+        "iterator":         "bosslvl5_counter3"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "bosslvl5_garg_counter1",
+        "backup":           "bosslvl5_garg_counter2",
+        "iterator":         "bosslvl5_garg_counter3"
+    },
+    {
+        "name":             "Dragon",
+        "counter":          "bosslvl5_end_counter1",
+        "backup":           "bosslvl5_end_counter2",
+        "iterator":         "bosslvl5_end_counter3"
+    },
+    {
+        "name":             "Balrog",
+        "counter":          "bosslvl5_laser_counter"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "bosslvl6_counter"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "name":             "Boss",
+        "counter":          "s1_boss_health_counter"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "s2_boss_health_counter"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "s3_boss_health_counter"
+    }
+]

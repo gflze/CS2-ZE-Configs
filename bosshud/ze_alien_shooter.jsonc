@@ -1,0 +1,13 @@
+[
+    // Boss health is handled by map scripts, so this config is for hitmarkers
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "physbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "Noctali_Boss_Break"
+    }
+]

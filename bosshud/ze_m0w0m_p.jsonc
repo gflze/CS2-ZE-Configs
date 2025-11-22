@@ -1,0 +1,157 @@
+[
+    {
+        "name":             "Porygon",
+        "trigger":          { "ent": "s1_boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Aircraft",
+        "trigger":          { "ent": "s2_boss_trigger1", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "UFO",
+        "trigger":          { "ent": "bossdeath2", "output": "OnCase02", "delay": 5.0 },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Golem",
+        "trigger":          { "ent": "s36miniboss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Golem",
+        "trigger":          { "ent": "s36miniboss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Ifrit",
+        "trigger":          { "ent": "s3boss_trigger1", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Porygon",
+        "trigger":          { "ent": "s4_boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Aircraft",
+        "trigger":          { "ent": "s5_boss_trigger1", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Aircraft",
+        "trigger":          { "ent": "s5_endboss_hptrigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Ifrit",
+        "trigger":          { "ent": "s6boss_trigger1", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Crystal",
+        "templated":        true,
+        "counter":          "s36miniboss_crystal_counter1",
+        "backup":           "s36miniboss_crystal_counter2",
+        "iterator":         "s36miniboss_crystal_counter3"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc1_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc2_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc3_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc4_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc5_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc6_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc7_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc8_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc9_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc10_hit"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "s36boss_robert_phy"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "name":             "Green Ball",
+        "reversecounter":   true,
+        "counter":          "dynamic_HP"
+    },
+    {
+        "name":             "Uka Uka",
+        "reversecounter":   true,
+        "reverseiterator":  true,
+        "counter":          "dynamic_HP1",
+        "iterator":         "dynamic_HP_output1"
+    }
+]

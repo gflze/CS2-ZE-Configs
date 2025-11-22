@@ -1,0 +1,28 @@
+[
+    // Boss health is handled by map scripts, so this config is for hitmarkers
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "sss5_l_laser_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "garg_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "mutant_hitbox1"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "grg_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "mutant_hitbox"
+    }
+]

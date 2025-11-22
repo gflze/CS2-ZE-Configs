@@ -1,0 +1,10 @@
+[
+    {
+        "name":             "Guardian",
+        "counter":          "Boss_Health"
+    },
+    {
+        "name":             "Red Guardian",
+        "breakable":        "physbox"
+    }
+]

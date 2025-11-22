@@ -1,0 +1,14 @@
+[
+    {
+        "name":             "Golem",
+        "counter":          "xmas_golem_counter",
+        "backup":           "xmas_golem_backup",
+        "iterator":         "xmas_golem_iterations"
+    },
+    {
+        "name":             "Santa",
+        "counter":          "santa_hp",
+        "backup":           "santa_hp_backup",
+        "iterator":         "santa_hp_iterations"
+    }
+]

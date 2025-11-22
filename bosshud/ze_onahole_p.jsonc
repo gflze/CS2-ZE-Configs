@@ -1,0 +1,34 @@
+[
+    {
+        "name":             "Onahole Box",
+        "breakable":        "Onabox"
+    },
+    {
+        "name":             "Pingas",
+        "breakable":        "boss_health2"
+    },
+    {
+        "name":             "Cosmo Hank Hill",
+        "breakable":        "Hank_hitbox"
+    },
+    {
+        "name":             "Gris Kazoo",
+        "breakable":        "ex2_boss2_health"
+    },
+    {
+        "name":             "Kazoo Pingas",
+        "breakable":        "boss_health2_ex"
+    },
+    {
+        "name":             "Vagene",
+        "breakable":        "boss3_hitbox_health"
+    },
+    {
+        "name":             "Bahamut Hank",
+        "breakable":        "hank_bahamut_hp"
+    },
+    {
+        "name":             "Sephiroth Berry",
+        "counter":          "barry_final_health"
+    }
+]

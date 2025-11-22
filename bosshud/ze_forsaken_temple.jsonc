@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Fallen Titan",
+        "counter":          "boss1_hp"
+    },
+    {
+        "name":             "Fallen Titan",
+        "counter":          "boss2_hp"
+    },
+    {
+        "name":             "Rex",
+        "counter":          "boss3_hp"
+    },
+    {
+        "name":             "Rex",
+        "counter":          "boss4_hp"
+    },
+    {
+        "name":             "Fallen Titan (Enraged)",
+        "counter":          "boss5_hp"
+    },
+    {
+        "name":             "Temple Guardian",
+        "counter":          "boss6_hp"
+    }
+]

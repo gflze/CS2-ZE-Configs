@@ -1,0 +1,17 @@
+[
+    // GFL does not display NPC health
+    {
+        "multitrigger":     true,
+        "templated":        true,
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "crag_physbox"
+    },
+    {
+        "multitrigger":     true,
+        "templated":        true,
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "monster_physbox"
+    }
+]

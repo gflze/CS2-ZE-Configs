@@ -1,0 +1,46 @@
+[
+    {
+        "name":             "Santa",
+        "breakable":        "bosss_hp"
+    },
+    {
+        "name":             "Fat Santa",
+        "breakable":        "bosss_hp1"
+    },
+    {
+        "name":             "Socrates",
+        "breakable":        "bosss_hp2"
+    },
+    {
+        "name":             "Beaver",
+        "multitrigger":     true,
+        "templated":        true,
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg"
+    },
+    {
+        "name":             "Elf",
+        "multitrigger":     true,
+        "templated":        true,
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg1"
+    },
+    {
+        "name":             "Present",
+        "multitrigger":     true,
+        "templated":        true,
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg2"
+    },
+    {
+        "name":             "Bender",
+        "multitrigger":     true,
+        "templated":        true,
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "npc_phys2gg3"
+    }
+]

@@ -5,7 +5,7 @@
 | [![Sync Files To Main Server](https://github.com/gflze/CS2-ZE-Configs/actions/workflows/ci-master-main.yml/badge.svg)](https://github.com/gflze/CS2-ZE-Configs/actions) [![Sync Files To Test Server](https://github.com/gflze/CS2-ZE-Configs/actions/workflows/ci-master-test.yml/badge.svg)](https://github.com/gflze/CS2-ZE-Configs/actions) |
 
 
-A collection of the EntWatch, Stripper and map configs used on GFL Zombie Escape.
+A collection of the EntWatch, BossHUD, Stripper and map configs used on GFL Zombie Escape.
 
 Everything in this repository is auto-synced to our main/test servers on a new commit/push.
 
@@ -76,6 +76,59 @@ Grouped colors are just different aliases for the same color.
 - `purple`, `pink`
 - `red2`
 - `orange`, `gold`
+
+## BossHUD
+
+Find entity classnames that are either `math_counter`, `func_breakable`, or `func_physbox` as a starting point for creating these. For each boss and NPC, you're going to want a new block in the root array. The format is available below. You can specify entities with either its targetname of its hammerid by starting the string with `#` (e.g. "#123456").
+
+```jsonc
+[
+    {
+        "name":             "",     // Name of boss that appears in hud
+        "breakable":        "",     // Targetname/Hammerid of breakable
+        "counter":          "",     // Targetname/Hammerid of counter
+        "iterator":         "",     // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
+        "backup":           "",     // OPTIONAL - Targetname/Hammerid of hp backup
+
+        "trigger":                  // OPTIONAL - Specifies the event that triggers the boss
+        {
+            "ent":          "",     // (string) Targetname/Hammerid of entity
+            "output":       "",     // (string) Output of entity
+            "delay":        0.0     // OPTIONAL - (float) Delay after output that starts boss
+        },
+
+        "showtrigger":              // OPTIONAL - Specifies event that starts displaying boss health
+        {
+            "ent":          "",     // (string) Targetname/Hammerid of entity
+            "output":       "",     // (string) Output of entity
+            "delay":        0.0     // OPTIONAL - (float) Delay after event that shows boss health
+        },
+
+        "killtrigger":              // OPTIONAL - Specifies event that force kills the boss
+        {
+            "ent":          "",     // (string) Targetname/Hammerid of entity
+            "output":       "",     // (string) Output of entity
+            "delay":        0.0     // OPTIONAL - (float) Delay after event that force kills boss
+        },
+
+        "hurttrigger":              // OPTIONAL - Specifies event that is considered as damaging the boss
+        {
+            "ent":          "",     // (string) Targetname/hammerid of entity
+            "output":       ""      // (string) Output of entity
+        },
+
+        "reversecounter":   false,  // OPTIONAL - (bool) Whether counter should be reversed
+        "reverseiterator":  false,  // OPTIONAL - (bool) Whether iterator should be reversed
+        "hitmarkeronly":    false,  // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
+        "minorhud":         false,  // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
+        "multitrigger":     false,  // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
+        "templated":        false,  // OPTIONAL - (bool) Whether boss is templated and has name fixup
+        "showbeaten":       true,   // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
+        "timeout":          0.0,    // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
+        "offset":           0.0     // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
+    }
+]
+```
 
 ## MusicName
 

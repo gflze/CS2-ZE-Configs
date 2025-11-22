@@ -1,0 +1,30 @@
+[
+    {
+        "name":             "Core",
+        "counter":          "c3_boss_counter"
+    },
+    {
+        "name":             "Protect System",
+        "counter":          "c3_end_boss_counter"
+    },
+    {
+        "name":             "Sphere 1",
+        "breakable":        "c1_boss_1_hitbox"
+    },
+    {
+        "name":             "Sphere 2",
+        "breakable":        "c1_boss_2_hitbox"
+    },
+    {
+        "name":             "Sphere 3",
+        "breakable":        "c1_boss_3_hitbox"
+    },
+    {
+        "name":             "Sphere 4",
+        "breakable":        "c1_boss_4_hitbox"
+    },
+    {
+        "name":             "Sphere",
+        "breakable":        "c3_trigger_03"
+    }
+]

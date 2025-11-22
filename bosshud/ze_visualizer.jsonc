@@ -1,0 +1,37 @@
+[
+    {
+        "name":             "White Particle",
+        "counter":          "s5_sphere_boss_counter"
+    },
+    {
+        "name":             "Blue Particle",
+        "counter":          "boss_health_main",
+        "iterator":         "boss_healthcount"
+    },
+    {
+        "name":             "Pink Particle",
+        "templated":        true,
+        "multitrigger":     true,
+        "counter":          "niveau5_track_counter"
+    },
+    {
+        "name":             "Orange Particle",
+        "templated":        true,
+        "counter":          "stage2_track_counter"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "rotating_npc_main_breakable"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npc_track_breakable"
+    }
+]

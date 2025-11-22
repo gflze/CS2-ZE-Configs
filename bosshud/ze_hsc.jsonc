@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Cube 1",
+        "counter":          "boss1_hp"
+    },
+    {
+        "name":             "Cube 2",
+        "counter":          "boss2_hp"
+    },
+    {
+        "name":             "Cube 3",
+        "counter":          "Boss3_hp"
+    },
+    {
+        "name":             "Cube 4",
+        "counter":          "Boss4_hp"
+    },
+    {
+        "name":             "Cube 5",
+        "counter":          "Boss5_hp"
+    },
+    {
+        "name":             "Cube 6",
+        "counter":          "Boss6_hp"
+    }
+]

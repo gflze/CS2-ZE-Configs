@@ -1,0 +1,8 @@
+[
+    {
+        "name":             "Robot",
+        "counter":          "BossHPBarPerPlayer",
+        "backup":           "BossHPBarInitial",
+        "iterator":         "BossHPBarPlayers"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Boss",
+        "counter":          "b1_hp_counter",
+        "backup":           "b1_hp_backup",
+        "iterator":         "b1_bar_gerisayim"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "b2_hp_counter",
+        "backup":           "b2_hp_backup",
+        "iterator":         "b2_bar_gerisayim"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "b3_hp_counter",
+        "backup":           "b3_hp_backup",
+        "iterator":         "b3_bar_gerisayim"
+    },
+    {
+        "name":             "Boss",
+        "counter":          "b4_hp_counter",
+        "backup":           "b4_hp_backup",
+        "iterator":         "b4_bar_gerisayim"
+    }
+]

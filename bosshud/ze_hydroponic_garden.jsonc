@@ -1,0 +1,33 @@
+[
+    {
+        "name":             "Pink Ball",
+        "counter":          "stx3_health",
+        "iterator":         "stx3_segment"
+    },
+    {
+        "name":             "Light Pillar",
+        "counter":          "ee_counter"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "xml_breakable"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "xzz_breakable"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "xcv_npc_breakable"
+    }
+]

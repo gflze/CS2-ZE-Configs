@@ -1,0 +1,57 @@
+[
+    {
+        "name":             "Havan",
+        "reverseiterator":  true,
+        "counter":          "havan_Health",
+        "backup":           "havan_HealthBackup",
+        "iterator":         "havan_HealthCount"
+    },
+    {
+        "name":             "Giant Havan",
+        "reverseiterator":  true,
+        "counter":          "xyz_havan_Health",
+        "backup":           "xyz_havan_HealthBackup",
+        "iterator":         "xyz_havan_HealthCount"
+    },
+    {
+        "name":             "Grim Reaper",
+        "reverseiterator":  true,
+        "counter":          "djinn_Health",
+        "backup":           "djinn_HealthBackup",
+        "iterator":         "djinn_HealthCount"
+    },
+    {
+        "name":             "Grim Reaper",
+        "counter":          "phase3_health_main",
+        "iterator":         "phase3_healthcount"
+    },
+    {
+        "name":             "Giant Havan",
+        "reverseiterator":  true,
+        "counter":          "xz_havan_Health",
+        "backup":           "xz_havan_HealthBackup",
+        "iterator":         "xz_havan_HealthCount"
+    },
+    {
+        "name":             "Grim Reaper",
+        "reverseiterator":  false,
+        "counter":          "phase4_Health",
+        "backup":           "phase4_HealthBackup",
+        "iterator":         "phase4_HealthCount"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "urkul_physbox_break"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "golem_physbox_break"
+    }
+]

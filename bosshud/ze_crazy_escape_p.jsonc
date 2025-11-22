@@ -1,0 +1,24 @@
+[
+    {
+        "name":             "Sinner",
+        "counter":          "sinnerboss_hp"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "naraka_counter",
+        "backup":           "naraka_hp_backup",
+        "iterator":         "naraka_hp_iterations"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "naraka_counter2",
+        "backup":           "naraka_hp_backup2",
+        "iterator":         "naraka_hp_iterations2"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "naraka_ultimate_counter",
+        "backup":           "naraka_ultimate_hp_backup",
+        "iterator":         "naraka_ultimate_hp_iterations"
+    }
+]

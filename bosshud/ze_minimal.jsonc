@@ -1,0 +1,53 @@
+[
+    {
+        "name":             "Cube",
+        "counter":          "SETH_S2_BOSS_COUN_HIT",
+        "backup":           "SETH_S2_BOSS_COU_STACK",
+        "iterator":         "SETH_S2_BOSS_COUN_BAR"
+    },
+    {
+        "name":             "Ball",
+        "counter":          "SETH_S3_BOSS_COUN_HIT",
+        "backup":           "SETH_S3_BOSS_COU_STACK",
+        "iterator":         "SETH_S3_BOSS_COUN_BAR"
+    },
+    {
+        "name":             "Mini Boss",
+        "counter":          "SETH_S4_M1BOSS_COUN_HIT",
+        "backup":           "SETH_S4_M1BOSS_COU_STACK",
+        "iterator":         "SETH_S4_M1BOSS_COUN_BAR"
+    },
+    {
+        "name":             "Mini Boss",
+        "counter":          "SETH_S4_M2BOSS_COUN_HIT",
+        "backup":           "SETH_S4_M2BOSS_COU_STACK",
+        "iterator":         "SETH_S4_M2BOSS_COUN_BAR"
+    },
+    {
+        "name":             "Cube",
+        "counter":          "SETH_S4_M3BOSS_COUN_HIT",
+        "backup":           "SETH_S4_M3BOSS_COU_STACK",
+        "iterator":         "SETH_S4_M3BOSS_COUN_BAR"
+    },
+    {
+        "name":             "Cube",
+        "counter":          "SETH_S4_M4BOSS_COUN_HIT",
+        "backup":           "SETH_S4_M4BOSS_COU_STACK",
+        "iterator":         "SETH_S4_M4BOSS_COUN_BAR"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "square_npc_physbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "square_npc_physbox"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name":             "Blue Bunny",
+        "counter":          "blue_bunny_hpcounter"
+    },
+    {
+        "name":             "Evil Bunny",
+        "counter":          "evil_hpcounter"
+    }
+]

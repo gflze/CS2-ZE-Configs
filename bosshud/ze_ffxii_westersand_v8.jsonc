@@ -1,0 +1,68 @@
+[
+    {
+        "name":             "Dragon",
+        "trigger":          { "ent": "Boss_Temp", "output": "OnEntitySpawned" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_Health_Init",
+        "iterator":         "Boss_Overlay_Counter"
+    },
+    {
+        "name":             "Dragon",
+        "trigger":          { "ent": "Ehe_Dragon_Temp", "output": "OnEntitySpawned" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_Health_Init",
+        "iterator":         "Boss_Overlay_Counter"
+    },
+    {
+        "name":             "Belias",
+        "trigger":          { "ent": "Belias_Temp", "output": "OnEntitySpawned" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_Health_Init",
+        "iterator":         "Boss_Overlay_Counter"
+    },
+    {
+        "name":             "Gabranth",
+        "trigger":          { "ent": "Judge_Temp", "output": "OnEntitySpawned" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_Health_Init",
+        "iterator":         "Boss_Overlay_Counter"
+    },
+    {
+        "name":             "Gabranth",
+        "trigger":          { "ent": "Guard_Temp_Boss", "output": "OnEntitySpawned" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_Health_Init",
+        "iterator":         "Boss_Overlay_Counter"
+    },
+    {
+        "name":             "Chaos",
+        "trigger":          { "ent": "Chaos_Hp_To_Boss", "output": "OnEntitySpawned" },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_Health_Init",
+        "iterator":         "Boss_Overlay_Counter"
+    },
+    {
+        "name":             "Belias",
+        "counter":          "Espers_Belias_Counter"
+    },
+    {
+        "name":             "Chaos",
+        "counter":          "Espers_Chaos_Counter"
+    },
+    {
+        "name":             "Mateus",
+        "counter":          "Espers_Mateus_Counter"
+    },
+    {
+        "name":             "Belias",
+        "breakable":        "Belias_Summon_Physbox"
+    },
+    {
+        "name":             "Chaos",
+        "breakable":        "Chaos_Summon_Physbox"
+    },
+    {
+        "name":             "Mateus",
+        "breakable":        "Mateus_Summon_Physbox"
+    }
+]

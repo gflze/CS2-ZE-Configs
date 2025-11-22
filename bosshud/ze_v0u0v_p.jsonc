@@ -1,0 +1,87 @@
+[
+    {
+        "name":             "Blooper",
+        "trigger":          { "ent": "s14boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Saitama",
+        "trigger":          { "ent": "s25boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Priest",
+        "trigger":          { "ent": "s36miniboss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Sanic",
+        "trigger":          { "ent": "s3boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
+        "name":             "Sanic the Bike",
+        "trigger":          { "ent": "s6boss_trigger", "output": "OnStartTouch" },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc1_body"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc2_body"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc3_body"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc4_body"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc5_body"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc6_body"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "npctemp_npc7_body"
+    }
+]

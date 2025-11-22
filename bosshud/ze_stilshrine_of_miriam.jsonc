@@ -1,0 +1,47 @@
+[
+    {
+        "name":             "Bergan",
+        "counter":          "Stage4_Boss_Bergan_HP_Main",
+        "backup":           "Stage4_Boss_Bergan_HP_Middle",
+        "iterator":         "Stage4_Boss_Bergan_HP_End"
+    },
+    {
+        "name":             "Mateus",
+        "counter":          "Mateus_Health_HP_Main",
+        "backup":           "Mateus_Health_Middle",
+        "iterator":         "Mateus_Health_End"
+    },
+    {
+        "name":             "Gabranth",
+        "counter":          "Stage-1_Ending_Gabranth_HP"
+    },
+    {
+        "name":             "Gabranth",
+        "counter":          "Stage-1_Gabranth_HP_Main",
+        "backup":           "Stage-1_Gabranth_HP_Middle",
+        "iterator":         "Stage-1_Gabranth_HP_End"
+    },
+    {
+        "name":             "Bergan",
+        "counter":          "Stage4_Ending_Bergan_HP"
+    },
+    {
+        "name":             "Dragon Aevis",
+        "counter":          "Dragon_Aevis_Health_HP_Main",
+        "backup":           "Dragon_Aevis_Health_Middle",
+        "iterator":         "Dragon_Aevis_Health_End"
+    },
+    {
+        "name":             "Myath",
+        "counter":          "Hydro_Health"
+    },
+    {
+        "name":             "Mateus",
+        "counter":          "Stage3_End_Guard_HP"
+    },
+    {
+        "name":             "Cactus",
+        "showbeaten":       false,
+        "breakable":        "Stage4_MiniBoss_Breakable"
+    }
+]
