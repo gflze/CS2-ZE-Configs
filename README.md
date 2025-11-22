@@ -122,11 +122,11 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
         "hitmarkeronly":    false,  // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
         "minorhud":         false,  // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
         "multitrigger":     false,  // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
-        "namefixup":        false,  // OPTIONAL - (bool) Whether boss is templated and has name fixup
+        "templated":        false,  // OPTIONAL - (bool) Whether boss is templated and has name fixup
         "showbeaten":       true,   // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
         "timeout":          0.0,    // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
         "offset":           0.0     // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
-    },
+    }
 ]
 ```
 
