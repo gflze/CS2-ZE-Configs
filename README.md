@@ -5,7 +5,7 @@
 | [![Sync Files To Main Server](https://github.com/gflze/CS2-ZE-Configs/actions/workflows/ci-master-main.yml/badge.svg)](https://github.com/gflze/CS2-ZE-Configs/actions) [![Sync Files To Test Server](https://github.com/gflze/CS2-ZE-Configs/actions/workflows/ci-master-test.yml/badge.svg)](https://github.com/gflze/CS2-ZE-Configs/actions) |
 
 
-A collection of the EntWatch, BossHUD, Stripper and map configs used on GFL Zombie Escape.
+A collection of the EntWatch, BossHud, MusicName, Stripper and map configs used on GFL Zombie Escape.
 
 Everything in this repository is auto-synced to our main/test servers on a new commit/push.
 
@@ -77,7 +77,7 @@ Grouped colors are just different aliases for the same color.
 - `red2`
 - `orange`, `gold`
 
-## BossHUD
+## BossHud
 
 Find entity classnames that are either `math_counter`, `func_breakable`, or `func_physbox` as a starting point for creating these. For each boss and NPC, you're going to want a new block in the root array. The format is available below. You can specify entities with either its targetname of its hammerid by starting the string with `#` (e.g. "#123456").
 
