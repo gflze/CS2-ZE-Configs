@@ -22,18 +22,22 @@
     },
     {
         "name":             "Fire Orb",
+        "killtrigger":      { "ent": "Boss_2_Phase_Switcher", "output": "OnLessThan" },
         "counter":          "Boss_2_Hp_Lava"
     },
     {
         "name":             "Ice Orb",
+        "killtrigger":      { "ent": "Boss_2_Phase_Switcher", "output": "OnLessThan" },
         "counter":          "Boss_2_Hp_Blizzard"
     },
     {
         "name":             "Thunder Orb",
+        "killtrigger":      { "ent": "Boss_2_Phase_Switcher", "output": "OnLessThan" },
         "counter":          "Boss_2_Hp_Arc"
     },
     {
         "name":             "Wind Orb",
+        "killtrigger":      { "ent": "Boss_2_Phase_Switcher", "output": "OnLessThan" },
         "counter":          "Boss_2_Hp_Hurricane"
     }
 ]
