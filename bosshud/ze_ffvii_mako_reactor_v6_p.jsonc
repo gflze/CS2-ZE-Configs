@@ -1,14 +1,14 @@
 [
     {
         "name":             "Scorpion",
-        "trigger":          { "ent": "Boss_Scorpion_Relay", "output": "OnUser1" },
+        "trigger":          { "ent": "Boss_Scorpion_Relay", "output": "OnUser1", "delay": 6.0 },
         "counter":          "HPCounter",
         "backup":           "HPCounterBackUp",
         "iterator":         "HPCounterIterator"
     },
     {
         "name":             "Bahamut",
-        "trigger":          { "ent": "Boss_Bahamut_Relay", "output": "OnUser1" },
+        "trigger":          { "ent": "Boss_Bahamut_Relay", "output": "OnUser1", "delay": 8.0 },
         "counter":          "HPCounter",
         "backup":           "HPCounterBackUp",
         "iterator":         "HPCounterIterator"
