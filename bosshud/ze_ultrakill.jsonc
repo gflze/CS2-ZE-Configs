@@ -33,6 +33,7 @@
     },
     {
         "name":             "Hideous Mass",
+        "templated":        true,
         "counter":          "h_mass_hp_counter",
         "backup":           "h_mass_hp_backup",
         "iterator":         "h_mass_counter_end"
