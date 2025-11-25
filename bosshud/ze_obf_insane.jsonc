@@ -1,0 +1,25 @@
+[
+    {
+        "name":             "Gargantua",
+        "reverseiterator":  true,
+        "counter":          "Boss_HpCounter",
+        "backup":           "BossHp_Counter_2",
+        "iterator":         "BossHpBar_Counter"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "garg_hp"
+    },
+    {
+        "name":             "Manta",
+        "breakable":        "manta2_phybox"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "barnacle_physbox"
+    }
+]
