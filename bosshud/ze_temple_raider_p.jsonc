@@ -1,6 +1,7 @@
 [
     {
         "name":             "Dragon",
+        "reverseiterator":  true,
         "counter":          "Boss_Health",
         "backup":           "Boss_Health_Init",
         "iterator":         "Boss_Health_Overlay_Counter"

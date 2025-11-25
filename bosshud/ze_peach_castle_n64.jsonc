@@ -6,7 +6,8 @@
         "iterator":         "boss1_hp_iterations"
     },
     {
-        "name":             "Moray",
+        "name":             "Maw-Ray",
+        "multitrigger":     true,
         "breakable":        "moray_breakable"
     },
     {

@@ -34,7 +34,7 @@
     },
     {
         "name":             "Grim Reaper",
-        "reverseiterator":  false,
+        "reverseiterator":  true,
         "counter":          "phase4_Health",
         "backup":           "phase4_HealthBackup",
         "iterator":         "phase4_HealthCount"
