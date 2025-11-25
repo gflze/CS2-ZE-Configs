@@ -1,0 +1,52 @@
+[
+    {
+        "name":             "Adrammelech",
+        "reverseiterator":  true,
+        "counter":          "Adrammelech_Health",
+        "backup":           "Adrammelech_HealthInit",
+        "iterator":         "Adrammelech_HealthCount"
+    },
+    {
+        "name":             "Ultima",
+        "reverseiterator":  true,
+        "counter":          "Ultima_Health",
+        "backup":           "Ultima_HealthInit",
+        "iterator":         "Ultima_HealthCount"
+    },
+    {
+        "name":             "Podir",
+        "reverseiterator":  true,
+        "counter":          "podir_Health",
+        "backup":           "podir_HealthInit",
+        "iterator":         "podir_HealthCount"
+    },
+    {
+        "name":             "Drace",
+        "reverseiterator":  true,
+        "counter":          "Drace_Health",
+        "backup":           "Drace_HealthInit",
+        "iterator":         "Drace_HealthCount"
+    },
+    {
+        "name":             "Shemhazai",
+        "reverseiterator":  true,
+        "counter":          "Shemhazai_Health",
+        "backup":           "Shemhazai_HealthInit",
+        "iterator":         "Shemhazai_HealthCount"
+    },
+    {
+        "name":             "Drace",
+        "reverseiterator":  true,
+        "counter":          "Drace2_Health",
+        "backup":           "Drace2_HealthInit",
+        "iterator":         "Drace2_HealthCount"
+    },
+    {
+        "name":             "Gabranth",
+        "counter":          "Gabranth_Health"
+    },
+    {
+        "name":             "Gabranth",
+        "counter":          "Gabranth2_Health"
+    }
+]
