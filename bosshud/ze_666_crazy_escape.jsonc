@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Pyramid Head",
+        "counter":          "nrk2_boss_laser_counter",
+        "backup":           "nrk2_boss_hp_backup",
+        "iterator":         "nrk2_boss_hp_iterations"
+    },
+    {
+        "name":             "Archangel",
+        "counter":          "nrk2_counter",
+        "backup":           "nrk2_hp_backup",
+        "iterator":         "nrk2_hp_iterations"
+    },
+    {
+        "name":             "Pyramid Head",
+        "counter":          "nrk1_counter",
+        "backup":           "nrk1_hp_backup",
+        "iterator":         "nrk1_hp_iterations"
+    },
+    {
+        "name":             "Pyramid Head",
+        "counter":          "nrk1_boss_laser_counter",
+        "backup":           "nrk1_boss_hp_backup",
+        "iterator":         "nrk1_boss_hp_iterations"
+    }
+]
