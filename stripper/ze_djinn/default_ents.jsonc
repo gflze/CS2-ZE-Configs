@@ -1,0 +1,46 @@
+{
+	// Remove practice mode from the map
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "logic_auto"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnMapSpawn",
+						"targetname": "[PR#]EX_MODE_COMPARE"
+					}
+				]
+			}
+		},
+		{
+			"match":
+			{
+				"targetname": "[PR#]phase4_Hitbox"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"outputname": "OnBreak",
+						"targetname": "[PR#]EX_MODE_COMPARE"
+					}
+				]
+			}
+		}
+	],
+	"filter": [
+		{
+			"targetname": "[PR#]EX_MODE_R"
+		},
+		{
+			"targetname": "[PR#]EX_BUTTON"
+		},
+		{
+			"classname": "point_worldtext"
+		}
+	]
+}
