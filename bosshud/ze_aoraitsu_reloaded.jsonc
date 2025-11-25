@@ -1,0 +1,14 @@
+[
+    {
+        "name":             "Reloaded",
+        "counter":          "s0_boss_hp_counter"
+    },
+    {
+        "name":             "Break",
+        "counter":          "s1_boss_hp_counter"
+    },
+    {
+        "name":             "Aoraitsu",
+        "counter":          "s2_boss_hp"
+    }
+]
