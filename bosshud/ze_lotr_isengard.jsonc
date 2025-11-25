@@ -1,0 +1,42 @@
+[
+    {
+        "name":             "Spider",
+        "counter":          "spiderboss_counter",
+        "backup":           "spiderboss_hp_backup",
+        "iterator":         "spiderboss_hp_iterations"
+    },
+    {
+        "name":             "Nazgul",
+        "counter":          "nazgyl_counter",
+        "backup":           "nazgyl_hp_backup",
+        "iterator":         "nazgyl_hp_iterations"
+    },
+    {
+        "name":             "Uruk-Hai",
+        "counter":          "boss1_counter",
+        "backup":           "boss1_hp_backup",
+        "iterator":         "boss1_hp_iterations"
+    },
+    {
+        "name":             "Beam 1",
+        "minorhud":         true,
+        "showbeaten":       false,
+        "counter":          "beam_1_counter"
+    },
+    {
+        "name":             "Beam 2",
+        "minorhud":         true,
+        "showbeaten":       false,
+        "counter":          "beam_2_counter"
+    },
+    {
+        "name":             "Grima",
+        "counter":          "grima_counter"
+    },
+    {
+        "name":             "Saruman",
+        "counter":          "boss3_counter",
+        "backup":           "boss3_hp_backup",
+        "iterator":         "boss3_hp_iterations"
+    }
+]
