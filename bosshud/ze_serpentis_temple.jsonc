@@ -1,12 +1,14 @@
 [
     {
         "name":             "Snake",
+        "reverseiterator":  true,
         "counter":          "Room4_Boss_Hp",
         "backup":           "Room4_Boss_HpBackup",
         "iterator":         "Room4_Boss_HpCounter"
     },
     {
         "name":             "Medusa",
+        "reverseiterator":  true,
         "counter":          "HPCounter",
         "backup":           "HPCounterBackUp",
         "iterator":         "HPCounterIterator"
@@ -25,6 +27,8 @@
     },
     {
         "name":             "Snake",
+        "reverseiterator":  true,
+        "multitrigger":     true,
         "counter":          "Room8_Boss_Hp",
         "backup":           "Room8_Boss_HpBackup",
         "iterator":         "Room8_Boss_HpCounter"
