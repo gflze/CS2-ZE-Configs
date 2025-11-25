@@ -1,12 +1,14 @@
 [
     {
         "name":             "Mateus",
+        "reverseiterator":  true,
         "counter":          "Boss_Health",
         "backup":           "Boss_Health_Init",
         "iterator":         "Boss_Overlay_Counter"
     },
     {
         "name":             "Chaos",
+        "reverseiterator":  true,
         "counter":          "Chaos_Health",
         "backup":           "Chaos_Health_Init",
         "iterator":         "Chaos_Overlay_Counter"
