@@ -1,7 +1,44 @@
 [
     {
-        "name":             "Boss",
-        "counter":          "BossEnds",
+        "name":             "Snorlax",
+        "trigger":          { "ent": "Lvl3_Trigger5", "output": "OnStartTouch", "delay": 9.0 },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    },
+    {
+        "name":             "Knight",
+        "trigger":          { "ent": "Knight_Boss_Path7", "output": "OnPass", "delay": 2.0 },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    },
+    {
+        "name":             "Pikachu",
+        "trigger":          { "ent": "Lvl7_Boss_Relay", "output": "OnTrigger", "delay": 1.0 },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    },
+    {
+        "name":             "Tank 1",
+        "breakable":        "Hitler_Boss_Tank1_Break"
+    },
+    {
+        "name":             "Tank 2",
+        "breakable":        "Hitler_Boss_Tank2_Break"
+    },
+    {
+        "name":             "Satan",
+        "trigger":          { "ent": "Satan_Boss_Relay", "output": "OnTrigger", "delay": 1.25 },
+        "counter":          "Boss_Health",
+        "backup":           "Boss_HealthInit",
+        "iterator":         "Boss_HealthCount"
+    },
+    {
+        "name":             "Satan",
+        "trigger":          { "ent": "Satan_Laser_Start", "output": "OnTrigger" },
+        "counter":          "Boss_Health",
         "backup":           "Boss_HealthInit",
         "iterator":         "Boss_HealthCount"
     },
