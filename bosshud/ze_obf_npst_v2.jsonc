@@ -1,0 +1,46 @@
+[
+    {
+        "name":             "Nihilanth (Phase 1)",
+        "counter":          "Nihi_Hp_Counter_A"
+    },
+    {
+        "name":             "Nihilanth (Phase 2)",
+        "counter":          "Nihi_Hp_Counter_B"
+    },
+    {
+        "name":             "Nihilanth (Phase 3)",
+        "counter":          "Nihi_Hp_Counter_C"
+    },
+    {
+        "name":             "Nihilanth (Phase 4)",
+        "counter":          "Nihi_Hp_Counter_D"
+    },
+    {
+        "name":             "Crystal 1",
+        "counter":          "Nihi_Crystal_A_Counter"
+    },
+    {
+        "name":             "Crystal 2",
+        "counter":          "Nihi_Crystal_B_Counter"
+    },
+    {
+        "name":             "Crystal 3",
+        "counter":          "Nihi_Crystal_C_Counter"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "Garg_Counter_HP"
+    },
+    {
+        "name":             "Sniper",
+        "counter":          "Sniper_Counter"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "counter":          "barnacle_counter"
+    }
+]
