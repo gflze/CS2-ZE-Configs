@@ -1,0 +1,66 @@
+[
+    {
+        "name":             "Pseudogiant",
+        "counter":          "stage_1_gigant1"
+    },
+    {
+        "name":             "Generator 1",
+        "counter":          "stage_1_block1"
+    },
+    {
+        "name":             "Generator 2",
+        "counter":          "stage_1_block2"
+    },
+    {
+        "name":             "Generator 3",
+        "counter":          "stage_1_block3"
+    },
+    {
+        "name":             "Generator 4",
+        "counter":          "stage_1_block4"
+    },
+    {
+        "name":             "Controller",
+        "counter":          "stage_1_block5"
+    },
+    {
+        "name":             "Helicopter",
+        "counter":          "stage_1_countermonolit1"
+    },
+    {
+        "name":             "Snork",
+        "breakable":        "logs11"
+    },
+    {
+        "name":             "Psevdogigant",
+        "counter":          "pirate_counter"
+    },
+    {
+        "name":             "Burrer",
+        "counter":          "stage_2_burrercounter"
+    },
+    {
+        "name":             "Burrer",
+        "counter":          "stage_2_burrercounter2"
+    },
+    {
+        "name":             "Snork",
+        "breakable":        "snorkbreak1"
+    },
+    {
+        "name":             "Snork",
+        "breakable":        "snorkbreak2"
+    },
+    {
+        "name":             "Snork",
+        "breakable":        "snorkbreak3"
+    },
+    {
+        "name":             "Controller",
+        "counter":          "stage_3_countercontroler1"
+    },
+    {
+        "name":             "Psevdogigant",
+        "counter":          "psevdocounter1"
+    }
+]
