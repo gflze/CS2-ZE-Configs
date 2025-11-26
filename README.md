@@ -126,6 +126,7 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
         "showbeaten":       true,   // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
         "timeout":          0.0,    // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
         "offset":           0.0,    // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
+        "offsetiterator":   0.0,    // OPTIONAL - (float) Specify amount of iterator segments to ADD to displayed health (negative to subtract)
         "maxhp":            0.0     // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
     }
 ]
