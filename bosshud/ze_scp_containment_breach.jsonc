@@ -1,0 +1,14 @@
+[
+    {
+        "name":             "SCP-1048",
+        "counter":          "1048_counter"
+    },
+    {
+        "name":             "SCP-106",
+        "counter":          "end_scp106_counter"
+    },
+    {
+        "name":             "SCP-106",
+        "counter":          "Boss_Health"
+    }
+]

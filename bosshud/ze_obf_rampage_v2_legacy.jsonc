@@ -1,0 +1,17 @@
+[
+    {
+        "name":             "Helicopter",
+        "reverseiterator":  true,
+        "counter":          "Boss_HpCounter",
+        "backup":           "BossHp_Counter_2",
+        "iterator":         "BossHpBar_Counter"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "counter":          "drone_counter"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Twintania",
+        "counter":          "boss1_hp",
+        "backup":           "boss1_hpmax",
+        "iterator":         "boss1_hpsegments"
+    },
+    {
+        "name":             "Nael",
+        "counter":          "boss2_hp",
+        "backup":           "boss2_hpmax",
+        "iterator":         "boss2_segments"
+    },
+    {
+        "name":             "ADS",
+        "counter":          "boss3_hp",
+        "backup":           "boss3_hpmax",
+        "iterator":         "boss3_hpsegments"
+    },
+    {
+        "name":             "Refurbisher",
+        "counter":          "boss4_hp",
+        "backup":           "boss4_hpmax",
+        "iterator":         "boss4_hpsegments"
+    }
+]

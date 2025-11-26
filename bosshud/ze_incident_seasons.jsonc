@@ -1,0 +1,28 @@
+[
+    {
+        "name":             "Crystal",
+        "counter":          "lvl4_crystal_hp"
+    },
+    {
+        "name":             "Sonya",
+        "reverseiterator":  true,
+        "counter":          "lvl1_boss_hp",
+        "iterator":         "lvl1_boss_phase_counter"
+    },
+    // Boss health is handled by map scripts, so this config is for hitmarkers
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "lvl3_boss_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "s4_boss_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "lvl1_boss_hitbox"
+    }
+]

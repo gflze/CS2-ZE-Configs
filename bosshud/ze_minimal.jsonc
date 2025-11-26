@@ -41,7 +41,7 @@
         "multitrigger":     true,
         "templated":        true,
         "showbeaten":       false,
-        "breakable":        "square_npc_physbox"
+        "breakable":        "losange_npc_physbox"
     },
     {
         "hitmarkeronly":    true,

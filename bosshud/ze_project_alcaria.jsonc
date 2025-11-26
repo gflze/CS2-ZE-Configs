@@ -1,0 +1,34 @@
+[
+    {
+        "name":             "Naraka",
+        "counter":          "nrk2_boss_counter",
+        "backup":           "nrk2_boss_hp_backup",
+        "iterator":         "nrk2_boss_hp_iterations"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "nrk3_counter",
+        "backup":           "nrk3_hp_backup",
+        "iterator":         "nrk3_hp_iterations"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "nrk5_boss_counter",
+        "backup":           "nrk5_boss_hp_backup",
+        "iterator":         "nrk5_boss_hp_iterations"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "nrk6_counter",
+        "backup":           "nrk6_hp_backup",
+        "iterator":         "nrk6_hp_iterations"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "nrk_npc_hitbox"
+    }
+]
