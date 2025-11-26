@@ -40,7 +40,8 @@
 			"targetname": "[PR#]EX_BUTTON"
 		},
 		{
-			"classname": "point_worldtext"
+			"classname": "point_worldtext",
+			"hammeruniqueid": "2230"
 		}
 	]
 }
