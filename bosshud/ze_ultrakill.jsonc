@@ -1,18 +1,24 @@
 [
     {
         "name":             "Minos Hand",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "minos_hand_hp_case", "output": "OnCase01" },
         "counter":          "minos_hand_hp_counter",
         "backup":           "minos_hand_hp_backup",
         "iterator":         "minos_hand_counter_end"
     },
     {
         "name":             "Flesh Prison",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "flesh_prison_hp_case", "output": "OnCase01" },
         "counter":          "flesh_prison_hp_counter",
         "backup":           "flesh_prison_hp_backup",
         "iterator":         "flesh_prison_counter_end"
     },
     {
         "name":             "V2",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "v2_hp_case", "output": "OnCase01" },
         "counter":          "v2_hp_counter",
         "backup":           "v2_hp_counter_backup",
         "iterator":         "v2_hp_counter_end"
@@ -21,12 +27,16 @@
         "name":             "Sword Machine",
         "templated":        true,
         "multitrigger":     true,
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "s_machine_hp_case", "output": "OnCase01" },
         "counter":          "s_machine_hp_counter",
         "backup":           "s_machine_hp_backup",
         "iterator":         "s_machine_counter_end"
     },
     {
         "name":             "Gabriel",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "gabriel_hp_case", "output": "OnCase01" },
         "counter":          "gabriel_hp_counter",
         "backup":           "gabriel_hp_backup",
         "iterator":         "gabriel_counter_end"
@@ -34,24 +44,32 @@
     {
         "name":             "Hideous Mass",
         "templated":        true,
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "h_mass_hp_case", "output": "OnCase01" },
         "counter":          "h_mass_hp_counter",
         "backup":           "h_mass_hp_backup",
         "iterator":         "h_mass_counter_end"
     },
     {
         "name":             "Minos Prime",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "mp_hp_case", "output": "OnCase01" },
         "counter":          "mp_hp_counter",
         "backup":           "mp_hp_backup",
         "iterator":         "mp_counter_end"
     },
     {
         "name":             "Sisyphus Prime",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "sp_hp_case", "output": "OnCase01" },
         "counter":          "sp_hp_counter",
         "backup":           "sp_hp_backup",
         "iterator":         "sp_counter_end"
     },
     {
         "name":             "Minos",
+        "offsetiterator":   -1.0,
+        "killtrigger":      { "ent": "minos_boss_hp_case", "output": "OnCase01" },
         "counter":          "minos_boss_hp_counter",
         "backup":           "minos_boss_hp_backup",
         "iterator":         "minos_boss_counter_end"
