@@ -1,53 +1,82 @@
 [
+    {
+        "name":             "Energy Beam 1",
+        "breakable":        "boss_3_energy_1"
+    },
+    {
+        "name":             "Energy Beam 2",
+        "breakable":        "boss_3_energy_2"
+    },
+    {
+        "name":             "Container",
+        "trigger":          { "ent": "boss_quad_path_static_2", "output": "OnPass" },
+        "breakable":        "boss_3_container"
+    },
     // Boss health is handled by map scripts, so this config is for hitmarkers
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            999999999.0,
         "breakable":        "boss_5_chainE_physbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            999999999.0,
         "breakable":        "boss_5_chainS_physbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            99999999.0,
         "breakable":        "boss_worm2_01_physbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            99999999.0,
         "breakable":        "boss_4_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            99999999.0,
         "breakable":        "boss_4_hitbox_grenade"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            999999999.0,
         "breakable":        "boss_5_chainN_physbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            999999999.0,
         "breakable":        "boss_5_chainW_physbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            99999999.0,
         "breakable":        "boss_3_hitbox_grenade"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            99999999.0,
         "breakable":        "boss_3_hitbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            99999999.0,
         "breakable":        "boss_worm3_01_physbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            99999999.0,
+        "breakable":        "boss_worm_01_physbox"
     }
 ]
