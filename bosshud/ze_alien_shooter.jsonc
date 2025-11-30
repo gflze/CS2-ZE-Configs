@@ -3,11 +3,13 @@
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            999999.0,
         "breakable":        "physbox"
     },
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            900000000.0,
         "breakable":        "Noctali_Boss_Break"
     }
 ]

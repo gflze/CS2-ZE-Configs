@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Green",
+        "shortname": "Green",
+        "hammerid": "2779",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2581"
+            },
+            {
+                "hammerid": "2786",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Red",
+        "shortname": "Red",
+        "hammerid": "2470",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1994"
+            },
+            {
+                "hammerid": "1993",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 2.5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Orange",
+        "shortname": "Orange",
+        "hammerid": "4141",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4323"
+            },
+            {
+                "hammerid": "3155",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Blue",
+        "shortname": "Blue",
+        "hammerid": "1695",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3725"
+            },
+            {
+                "hammerid": "4144",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Enidnu",
+        "shortname": "Enidnu",
+        "hammerid": "7688",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7691"
+            },
+            {
+                "hammerid": "7690",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            },
+            {
+                "type": "button",
+                "hammerid": "7813"
+            },
+            {
+                "name": "Ultima",
+                "type": "counterdown",
+                "hammerid": "8062",
+                "mode": 3,
+                "cooldown": 10,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Kiki",
+        "shortname": "Kiki",
+        "hammerid": "26555",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["26659"]
+    },
+    {
+        "name": "Zombie Orange",
+        "shortname": "ZM Orange",
+        "hammerid": "1684",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["2397"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4142"
+            },
+            {
+                "hammerid": "2841",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Purple",
+        "shortname": "ZM Purple",
+        "hammerid": "2794",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["2807"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2409"
+            },
+            {
+                "hammerid": "2406",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Green",
+        "shortname": "ZM Green",
+        "hammerid": "1511",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["2471"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1876"
+            },
+            {
+                "hammerid": "2862",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Red",
+        "shortname": "ZM Red",
+        "hammerid": "4154",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["4157"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4146"
+            },
+            {
+                "hammerid": "4153",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 7,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Blue",
+        "shortname": "ZM Blue",
+        "hammerid": "1854",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "blue",
+        "triggers": ["2378"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3566"
+            },
+            {
+                "hammerid": "2265",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

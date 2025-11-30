@@ -1,0 +1,8 @@
+[
+    {
+        "name":             "Duck",
+        "reverseiterator":  true,
+        "counter":          "Stage2_Boss_Hp_Counter",
+        "iterator":         "Stage2_Boss_Hp_Counter_Bar"
+    }
+]

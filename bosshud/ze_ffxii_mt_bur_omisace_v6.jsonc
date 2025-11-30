@@ -46,7 +46,7 @@
         "counter":          "Venat_mini_boss_HP"
     },
     {
-        "name":             "Shield",
+        "name":             "Crystal",
         "breakable":        "lvl1_crystal_ending_model"
     },
     {
@@ -56,5 +56,9 @@
     {
         "name":             "Drace",
         "breakable":        "Random_event_imperial_army_physbox"
+    },
+    {
+        "name":             "Shield",
+        "breakable":        "Shield_boss_laser_breakable"
     }
 ]
