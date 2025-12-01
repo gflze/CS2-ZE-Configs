@@ -1,6 +1,5 @@
 [
     {
-        "name":             "Boss",
         "reverseiterator":  true,
         "counter":          "brand_boss_hp_counter",
         "iterator":         "brand_boss_hp_bar"
@@ -18,7 +17,6 @@
         "counter":          "st1_boss_math3"
     },
     {
-        "name":             "Boss",
         "reverseiterator":  true,
         "counter":          "st3_boss_hp_counter",
         "iterator":         "st3_boss_hp_bar"

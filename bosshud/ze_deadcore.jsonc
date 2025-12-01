@@ -1,6 +1,5 @@
 [
     {
-        "name":             "Boss",
         "reverseiterator":  true,
         "counter":          "radiation_hpcounter",
         "iterator":         "radiation_hpmasscounter"
