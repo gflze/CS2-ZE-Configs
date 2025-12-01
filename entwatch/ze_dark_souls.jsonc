@@ -1,5 +1,10 @@
 [
     {
+        "name": "Logan Blocker",
+        "hammerid": "-1",
+        "triggers": ["202227"]
+    },
+    {
         "name": "Estus Flask",
         "shortname": "Estus",
         "hammerid": "140894",
