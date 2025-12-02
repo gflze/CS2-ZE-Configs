@@ -11,8 +11,8 @@
         "name":             "Socrates",
         "breakable":        "bosss_hp2"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Beaver",
         "multitrigger":     true,
         "templated":        true,
         "hitmarkeronly":    true,
@@ -20,7 +20,6 @@
         "breakable":        "npc_phys2gg"
     },
     {
-        "name":             "Elf",
         "multitrigger":     true,
         "templated":        true,
         "hitmarkeronly":    true,
@@ -28,7 +27,6 @@
         "breakable":        "npc_phys2gg1"
     },
     {
-        "name":             "Present",
         "multitrigger":     true,
         "templated":        true,
         "hitmarkeronly":    true,
@@ -36,7 +34,6 @@
         "breakable":        "npc_phys2gg2"
     },
     {
-        "name":             "Bender",
         "multitrigger":     true,
         "templated":        true,
         "hitmarkeronly":    true,
