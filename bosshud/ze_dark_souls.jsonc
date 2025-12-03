@@ -31,13 +31,14 @@
         "name":             "Golem",
         "counter":          "Thrower_Health"
     },
+    // GFL does not display NPC health
     {
-        "name":             "Slime",
+        "hitmarkeronly":    true,
         "multitrigger":     true,
         "templated":        true,
+        "showbeaten":       false,
         "breakable":        "slime_hitbox"
     },
-    // GFL does not display NPC health
     {
         "hitmarkeronly":    true,
         "multitrigger":     true,
