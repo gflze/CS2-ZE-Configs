@@ -84,7 +84,7 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 ```jsonc
 [
     {
-        "name":             "",     // Name of boss that appears in hud
+        "name":             "",     // OPTIONAL - Name of boss that appears in hud
         "breakable":        "",     // Targetname/Hammerid of breakable
         "counter":          "",     // Targetname/Hammerid of counter
         "iterator":         "",     // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
