@@ -1,0 +1,29 @@
+[
+    {
+        "name":             "Wallmaster",
+        "multitrigger":     true,
+        "templated":        true,
+        "breakable":        "Wallmaster_Health"
+    },
+    {
+        "name":             "Gibdo",
+        "multitrigger":     true,
+        "templated":        true,
+        "breakable":        "Gibdo_Health"
+    },
+    {
+        "name":             "Stalfos",
+        "multitrigger":     true,
+        "templated":        true,
+        "breakable":        "Stalfos_Health"
+    },
+    {
+        "name":             "Bongo Eyes",
+        "counter":          "b_hpcounter"
+    },
+    {
+        "name":             "Bongo Hands",
+        "multitrigger":     true,
+        "counter":          "b_handhpcounter"
+    }
+]
