@@ -1,15 +1,32 @@
 [
     {
-        "name":             "Santa",
-        "breakable":        "bosss_hp"
+        "name":             "RTV Cube",
+        "counter":          "counter_rtv_boss_vida",
+        "iterator":         "counter_rtv_hp_bar"
     },
     {
-        "name":             "Fat Santa",
-        "breakable":        "bosss_hp1"
+        "name":             "Cube",
+        "counter":          "counter_st4_boss_vida",
+        "iterator":         "counter_st4_boss_vida_bar"
     },
     {
-        "name":             "Socrates",
-        "breakable":        "bosss_hp2"
+        "name":             "Bahamut",
+        "breakable":        "BridgeBahamutHitbox"
+    },
+    {
+        "name":             "Sephiroth",
+        "breakable":        "BridgeSephirothHitbox"
+    },
+    {
+        "name":             "Sephiroth",
+        "breakable":        "EX2LaserHitbox"
+    },
+    // Boss health handled by scripts, so this is for hitmarkers
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            999999.0,
+        "breakable":        "BahaHitbox"
     },
     // GFL does not display NPC health
     {

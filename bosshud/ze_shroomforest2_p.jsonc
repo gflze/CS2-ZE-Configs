@@ -1,6 +1,5 @@
 [
     {
-        "name":             "Boss",
         "reverseiterator":  true,
         "counter":          "BossHealth",
         "backup":           "BossHealthInit",
@@ -14,7 +13,6 @@
         "iterator":         "SatanHealthCount"
     },
     {
-        "name":             "Boss",
         "reverseiterator":  true,
         "counter":          "boss_health",
         "backup":           "boss_health_backup",

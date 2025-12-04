@@ -1,0 +1,14 @@
+[
+    {
+        "name":             "Virus",
+        "counter":          "virus_hp",
+        "backup":           "virus_hp_backup",
+        "iterator":         "virus_hp_iterations"
+    },
+    // Wall health handled by scripts
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "breakable":        "boss_door_final"
+    }
+]

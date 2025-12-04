@@ -8,7 +8,7 @@
         "counter":          "Asylum_Demon_Health_Counter"
     },
     {
-        "name":             "Brood Mother",
+        "name":             "Quelaag",
         "counter":          "Broodmother_Health_Counter"
     },
     {
@@ -28,7 +28,7 @@
         "counter":          "Clown_Champion_Health"
     },
     {
-        "name":             "Thrower",
+        "name":             "Golem",
         "counter":          "Thrower_Health"
     },
     // GFL does not display NPC health

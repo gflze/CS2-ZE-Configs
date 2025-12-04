@@ -4,7 +4,6 @@
         "breakable":        "seph_hp"
     },
     {
-        "name":             "Boss",
         "breakable":        "bosss_hp"
     }
 ]

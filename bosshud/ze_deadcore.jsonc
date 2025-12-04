@@ -1,6 +1,5 @@
 [
     {
-        "name":             "Deadcore",
         "reverseiterator":  true,
         "counter":          "radiation_hpcounter",
         "iterator":         "radiation_hpmasscounter"

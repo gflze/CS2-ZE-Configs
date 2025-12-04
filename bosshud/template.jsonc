@@ -7,7 +7,7 @@
 
 [
 	{
-		"name":				"",		// Name of boss that appears in hud
+		"name":				"Boss",	// OPTIONAL - Name of boss that appears in hud
 		"breakable":		"",		// Targetname/Hammerid of breakable
 		"counter":			"",		// Targetname/Hammerid of counter
 		"iterator":			"",		// OPTIONAL - Targetname/Hammerid of hp iterator (segments)

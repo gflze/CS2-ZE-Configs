@@ -1,0 +1,28 @@
+[
+    {
+        "reverseiterator":  true,
+        "counter":          "brand_boss_hp_counter",
+        "iterator":         "brand_boss_hp_bar"
+    },
+    {
+        "name":             "Cube 2",
+        "counter":          "st1_boss_math2"
+    },
+    {
+        "name":             "Cube 1",
+        "counter":          "st1_boss_math1"
+    },
+    {
+        "name":             "Cube 3",
+        "counter":          "st1_boss_math3"
+    },
+    {
+        "reverseiterator":  true,
+        "counter":          "st3_boss_hp_counter",
+        "iterator":         "st3_boss_hp_bar"
+    },
+    {
+        "name":             "Miniboss",
+        "counter":          "st4_miniboss_math"
+    }
+]

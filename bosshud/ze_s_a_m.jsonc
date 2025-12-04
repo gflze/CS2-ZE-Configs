@@ -14,7 +14,6 @@
         "iterator":         "S2_Boss_Hp_Counter"
     },
     {
-        "name":             "Boss",
         "reverseiterator":  true,
         "counter":          "Castle_Hp",
         "backup":           "Castle_Hp_Get",
