@@ -23,10 +23,11 @@
         "showbeaten":       false,
         "breakable":        "Map_Boss_TheHeart_Chain_4"
     },
-    // Boss health is handled by map scripts, so this entry is for hitmarkers
+    // Boss health handled by scripts, so this is for hitmarkers
     {
         "hitmarkeronly":    true,
         "showbeaten":       false,
+        "maxhp":            1410065407.0,
         "breakable":        "Map_Boss_TheHeart_Physbox"
     }
 ]
