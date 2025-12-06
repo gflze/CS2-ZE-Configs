@@ -20,5 +20,11 @@
         "counter":          "naraka_ultimate_counter",
         "backup":           "naraka_ultimate_hp_backup",
         "iterator":         "naraka_ultimate_hp_iterations"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "boss1_hp",
+        "backup":           "boss1_hp_backup",
+        "iterator":         "boss1_hp_iterations"
     }
 ]
