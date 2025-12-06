@@ -29,6 +29,7 @@
     },
     {
         "name":             "Golem",
+        "killtrigger":      { "ent": "Golem_Start_Relay", "output": "OnTrigger" },
         "counter":          "Thrower_Health"
     },
     // GFL does not display NPC health
