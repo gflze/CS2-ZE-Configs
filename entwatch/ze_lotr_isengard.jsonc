@@ -2,7 +2,7 @@
     {
         "name": "Tree Ent",
         "shortname": "Ent",
-        "hammerid": "20501",
+        "hammerid": "21604",
         "message": true,
         "ui": true,
         "transfer": false,
@@ -10,26 +10,13 @@
         "triggers": ["3483"],
         "handlers": [
             {
-                "type": "button",
-                "hammerid": "20525"
-            },
-            {
                 "name": "Rock",
-                "hammerid": "20518",
-                "event": "OnTrigger",
+                "type": "button",
+                "hammerid": "21614",
+                "event": "OnPressed",
                 "mode": 3,
                 "cooldown": 20,
                 "maxuses": 4,
-                "message": true,
-                "ui": true
-            },
-            {
-                "name": "Kick",
-                "hammerid": "20523",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 30,
-                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
@@ -38,34 +25,12 @@
     {
         "name": "Gandalf",
         "shortname": "Gandalf",
-        "hammerid": "20790",
+        "hammerid": "21872",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "white",
-        "triggers": ["3600"],
-        "handlers": [
-            {
-                "name": "Light",
-                "hammerid": "20814",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 60,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            },
-            {
-                "name": "Push",
-                "hammerid": "20813",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 90,
-                "maxuses": 0,
-                "message": true,
-                "ui": true
-            }
-        ]
+        "triggers": ["3600"]
     },
     {
         "name": "Heal Staff",
@@ -124,22 +89,11 @@
     {
         "name": "Zombie Spider",
         "shortname": "ZM Spider",
-        "hammerid": "20309",
+        "hammerid": "21371",
         "message": true,
         "ui": true,
         "transfer": false,
         "color": "grey",
-        "triggers": ["20295"],
-        "handlers": [
-            {
-                "hammerid": "20310",
-                "event": "OnTrigger",
-                "mode": 2,
-                "cooldown": 20,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
+        "triggers": ["20295"]
     }
 ]
