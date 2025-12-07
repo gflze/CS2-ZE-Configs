@@ -1,0 +1,10 @@
+[
+    {
+        "name":             "Snorlax",
+        "breakable":        "stage1_snorlax health"
+    },
+    {
+        "name":             "Pidgeotto",
+        "breakable":        "gym1_boss_sethealth"
+    }
+]
