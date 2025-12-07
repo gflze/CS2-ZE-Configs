@@ -1,23 +1,5 @@
 [
     {
-        "name":             "Spider",
-        "counter":          "spiderboss_counter",
-        "backup":           "spiderboss_hp_backup",
-        "iterator":         "spiderboss_hp_iterations"
-    },
-    {
-        "name":             "Nazgul",
-        "counter":          "nazgyl_counter",
-        "backup":           "nazgyl_hp_backup",
-        "iterator":         "nazgyl_hp_iterations"
-    },
-    {
-        "name":             "Uruk-Hai",
-        "counter":          "boss1_counter",
-        "backup":           "boss1_hp_backup",
-        "iterator":         "boss1_hp_iterations"
-    },
-    {
         "name":             "Beam 1",
         "minorhud":         true,
         "showbeaten":       false,
@@ -29,14 +11,35 @@
         "showbeaten":       false,
         "counter":          "beam_2_counter"
     },
+    // Boss health handled by scripts, so config is for hitmarkers
     {
-        "name":             "Grima",
-        "counter":          "grima_counter"
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            99999.0,
+        "breakable":        "box_nazgryl"
     },
     {
-        "name":             "Saruman",
-        "counter":          "boss3_counter",
-        "backup":           "boss3_hp_backup",
-        "iterator":         "boss3_hp_iterations"
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            99999.0,
+        "breakable":        "box_grima_helth"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            999999.0,
+        "breakable":        "boss3_break"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            900000000.0,
+        "breakable":        "boss1_break"
+    },
+    {
+        "hitmarkeronly":    true,
+        "showbeaten":       false,
+        "maxhp":            999999.0,
+        "breakable":        "boss_break_head"
     }
 ]
