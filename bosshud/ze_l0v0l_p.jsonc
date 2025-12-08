@@ -1,9 +1,33 @@
 [
     {
         "name":             "Priest",
-        "counter":          "bosslvl1_counter1",
-        "backup":           "bosslvl1_counter2",
-        "iterator":         "bosslvl1_counter3"
+        "counter":          "lvl1_boss_health_base",
+        "backup":           "lvl1_boss_total_health_per_bar",
+        "iterator":         "boss_health_backup"
+    },
+    {
+        "name":             "Gunship",
+        "counter":          "lvl2_boss_health_base",
+        "backup":           "lvl2_boss_total_health_per_bar",
+        "iterator":         "lvl2_boss_health_backup"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "lvl2_endboss_health_base",
+        "backup":           "lvl2_endboss_total_health_per_bar",
+        "iterator":         "lvl2_endboss_health_backup"
+    },
+    {
+        "name":             "Harpy",
+        "counter":          "lvl3_harpyboss_health_base",
+        "backup":           "lvl3_harpyboss_total_health_per_bar",
+        "iterator":         "lvl3_harpyboss_health_backup"
+    },
+    {
+        "name":             "Gargantua",
+        "counter":          "boss_lvl2_health_base",
+        "backup":           "boss_lvl2_total_health_per_bar",
+        "iterator":         "boss_lvl2_health_backup"
     },
     {
         "name":             "Gargantua",
@@ -12,70 +36,46 @@
         "iterator":         "bosslvl2_counter3"
     },
     {
-        "name":             "Gunship",
-        "counter":          "bosslvl3_counter1",
-        "backup":           "bosslvl3_counter2",
-        "iterator":         "bosslvl3_counter3"
-    },
-    {
-        "name":             "Gargantua",
-        "counter":          "bosslvl3_end_counter1",
-        "backup":           "bosslvl3_end_counter2",
-        "iterator":         "bosslvl3_end_counter3"
-    },
-    {
-        "name":             "Launcher",
-        "counter":          "bosslvl4_launcher_counter1",
-        "backup":           "bosslvl4_launcher_counter2",
-        "iterator":         "bosslvl4_launcher_counter3"
-    },
-    {
         "name":             "Tank",
-        "counter":          "bosslvl4_tank_counter1",
-        "backup":           "bosslvl4_tank_counter2",
-        "iterator":         "bosslvl4_tank_counter3"
+        "counter":          "tank_boss_health_base",
+        "backup":           "tank_boss_total_health_per_bar",
+        "iterator":         "tank_boss_health_backup"
     },
     {
         "name":             "Minigun",
-        "counter":          "bosslvl4_minigun_counter1",
-        "backup":           "bosslvl4_minigun_counter2",
-        "iterator":         "bosslvl4_minigun_counter3"
+        "counter":          "minigun_boss_health_base",
+        "backup":           "minigun_boss_total_health_per_bar",
+        "iterator":         "minigun_boss_health_backup"
     },
     {
         "name":             "Beam",
-        "counter":          "bosslvl4_beam_counter1",
-        "backup":           "bosslvl4_beam_counter2",
-        "iterator":         "bosslvl4_beam_counter3"
+        "counter":          "beam_boss_health_base",
+        "backup":           "beam_boss_total_health_per_bar",
+        "iterator":         "beam_boss_health_backup"
     },
     {
-        "name":             "Harpy",
-        "counter":          "bosslvl3_harpy_counter1",
-        "backup":           "bosslvl3_harpy_counter2",
-        "iterator":         "bosslvl3_harpy_counter3"
+        "name":             "Launcher",
+        "counter":          "launcher_boss_health_base",
+        "backup":           "launcher_boss_total_health_per_bar",
+        "iterator":         "launcher_boss_health_backup"
     },
     {
-        "name":             "Gunship",
-        "counter":          "bosslvl4_gunship_counter1",
-        "backup":           "bosslvl4_gunship_counter2",
-        "iterator":         "bosslvl4_gunship_counter3"
+        "name":             "Queen",
+        "counter":          "bosslvl4_health_base",
+        "backup":           "bosslvl4_total_health_per_bar",
+        "iterator":         "bosslvl4_health_backup"
     },
     {
-        "name":             "Gargantua",
-        "counter":          "bosslvl4_garg_counter1",
-        "backup":           "bosslvl4_garg_counter2",
-        "iterator":         "bosslvl4_garg_counter3"
-    },
-    {
-        "name":             "Meme",
+        "name":             "Nuke King",
         "counter":          "bosslvl4end_counter1",
         "backup":           "bosslvl4end_counter2",
         "iterator":         "bosslvl4end_counter3"
     },
     {
-        "name":             "Queen",
-        "counter":          "bosslvl4_counter1",
-        "backup":           "bosslvl4_counter2",
-        "iterator":         "bosslvl4_counter3"
+        "name":             "Nuke King",
+        "counter":          "bosslvl4end_health_base",
+        "backup":           "bosslvl4end_total_health_per_bar",
+        "iterator":         "bosslvl4end_health_backup"
     },
     {
         "name":             "Green Pillar",
