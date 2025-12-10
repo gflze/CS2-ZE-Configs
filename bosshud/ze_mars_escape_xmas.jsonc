@@ -1,11 +1,13 @@
 [
     {
         "name":             "RTV Cube",
+        "multitrigger":     true,
         "counter":          "counter_rtv_boss_vida",
         "iterator":         "counter_rtv_hp_bar"
     },
     {
         "name":             "Cube",
+        "multitrigger":     true,
         "counter":          "counter_st4_boss_vida",
         "iterator":         "counter_st4_boss_vida_bar"
     },
