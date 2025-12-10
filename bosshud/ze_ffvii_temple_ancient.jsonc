@@ -29,18 +29,22 @@
     },
     {
         "name":             "Shiva",
+        "multitrigger":     true,
         "counter":          "Shiva_math"
     },
     {
         "name":             "Ifrit",
+        "multitrigger":     true,
         "counter":          "ifrit_math"
     },
     {
         "name":             "Bomb",
+        "multitrigger":     true,
         "counter":          "bomb_1_counter"
     },
     {
         "name":             "Bomb",
+        "multitrigger":     true,
         "counter":          "bomb_3_counter"
     }
 ]
