@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Wind Blaster",
+        "shortname": "Wind",
+        "hammerid": "4854",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4852"
+            },
+            {
+                "hammerid": "10263",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Icy Vortex",
+        "shortname": "Ice",
+        "hammerid": "4821",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4816"
+            },
+            {
+                "hammerid": "10257",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electric Beam Cannon",
+        "shortname": "Beam",
+        "hammerid": "4664",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4667"
+            },
+            {
+                "hammerid": "10262",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flame Beam Cannon",
+        "shortname": "Fire",
+        "hammerid": "4290",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4288"
+            },
+            {
+                "hammerid": "10261",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 12,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Venom Beam Cannon",
+        "shortname": "Venom",
+        "hammerid": "4295",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4293"
+            },
+            {
+                "hammerid": "10260",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 12,
+                "maxuses": 0,
+                "message": false,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Blue Spark",
+        "shortname": "Electro",
+        "hammerid": "4299",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4297"
+            },
+            {
+                "hammerid": "10258",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "4304",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4302"
+            },
+            {
+                "hammerid": "10259",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "4311",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4308"
+            },
+            {
+                "hammerid": "10281",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
