@@ -1,44 +1,50 @@
 [
     {
         "name":             "Sephiroth",
-        "counter":          "counter_edge_2",
-        "backup":           "counter_edge_1",
-        "iterator":         "Edge_Health"
+        "counter":          "Sephiroth_HP"
+    },
+    {
+        "name":             "Sephiroth",
+        "counter":          "SephirothGetHP",
+        "iterator":         "Sephiroth_DieHP"
+    },
+    {
+        "name":             "Tri-Face",
+        "counter":          "Tri_FaceGetHP",
+        "iterator":         "Tri_Face_DieHP"
+    },
+    {
+        "name":             "Golem",
+        "counter":          "golem_hp"
+    },
+    {
+        "name":             "Dragon",
+        "counter":          "DragonGetHP",
+        "iterator":         "Dragon_DieHP"
+    },
+    {
+        "name":             "Meteor",
+        "multitrigger":     true,
+        "counter":          "meteor_counter"
+    },
+    {
+        "name":             "Shiva",
+        "multitrigger":     true,
+        "counter":          "Shiva_math"
+    },
+    {
+        "name":             "Ifrit",
+        "multitrigger":     true,
+        "counter":          "ifrit_math"
     },
     {
         "name":             "Bomb",
+        "multitrigger":     true,
         "counter":          "bomb_1_counter"
     },
     {
         "name":             "Bomb",
+        "multitrigger":     true,
         "counter":          "bomb_3_counter"
-    },
-    {
-        "name":             "TriFace",
-        "counter":          "counter_triface_1",
-        "backup":           "counter_triface_2",
-        "iterator":         "counter_triface_3"
-    },
-    {
-        "name":             "Meteor",
-        "counter":          "meteor_counter"
-    },
-    {
-        "name":             "Dragon",
-        "counter":          "counter_dragon_1",
-        "backup":           "counter_dragon_2",
-        "iterator":         "counter_dragon_3"
-    },
-    {
-        "name":             "Golem",
-        "counter":          "counter_golem_3"
-    },
-    {
-        "name":             "Golem",
-        "counter":          "counter_golem_3"
-    },
-    {
-        "name":             "Sephiroth",
-        "counter":          "counter_seph"
     }
 ]

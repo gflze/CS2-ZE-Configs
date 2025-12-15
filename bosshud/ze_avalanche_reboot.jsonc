@@ -1,0 +1,24 @@
+[
+    {
+        "name":             "Gargantua",
+        "counter":          "bosslvl1_4_counter1",
+        "backup":           "bosslvl1_4_counter2",
+        "iterator":         "bosslvl1_4_counter3"
+    },
+    {
+        "name":             "Crab Synth",
+        "counter":          "bosslvl2_5_counter1",
+        "backup":           "bosslvl2_5_counter2",
+        "iterator":         "bosslvl2_5_counter3"
+    },
+    {
+        "name":             "Electric Machine",
+        "counter":          "bosslvl3_counter1",
+        "backup":           "bosslvl3_counter2",
+        "iterator":         "bosslvl3_counter3"
+    },
+    {
+        "name":             "Helicopter Minigun",
+        "counter":          "bosslvl5_end_counter"
+    }
+]
