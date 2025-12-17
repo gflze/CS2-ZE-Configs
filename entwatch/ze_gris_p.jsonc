@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Outline",
+        "shortname": "Outline",
+        "hammerid": "928",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white"
+    },
+    {
+        "name": "Zombie Item 1",
+        "shortname": "ZM Item 1",
+        "hammerid": "580",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["571"]
+    },
+    {
+        "name": "Zombie Item 2",
+        "shortname": "ZM Item 2",
+        "hammerid": "529",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["573"]
+    },
+    {
+        "name": "Zombie Item 3",
+        "shortname": "ZM Item 3",
+        "hammerid": "505",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["588"]
+    }
+]
