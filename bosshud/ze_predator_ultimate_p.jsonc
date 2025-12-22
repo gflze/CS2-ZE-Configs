@@ -1,34 +1,44 @@
 [
     {
         "name":             "Predator",
+        "timeout":          3.0,
         "counter":          "cboss_predatorhealth_counter"
     },
     {
         "name":             "Predator",
+        "timeout":          3.0,
         "counter":          "bosshealth_endboss"
     },
     {
         "name":             "Predator",
+        "timeout":          3.0,
         "counter":          "mob_grudge_math"
     },
     {
         "name":             "Predator",
+        "killtrigger":      { "ent": "aztecboss_killer", "output": "OnTrigger" },
+        "timeout":          3.0,
         "counter":          "aztecboss_math_health"
     },
     {
         "name":             "Predator",
+        "killtrigger":      { "ent": "aztecboss_killer", "output": "OnTrigger" },
+        "timeout":          3.0,
         "counter":          "aztecboss_math_health_2"
     },
     {
         "name":             "Predator (Enraged)",
+        "timeout":          3.0,
         "counter":          "fboss_math_1"
     },
     {
         "name":             "Predator",
+        "timeout":          3.0,
         "counter":          "fboss_math_2"
     },
     {
         "name":             "Alien",
+        "timeout":          3.0,
         "counter":          "fboss_ee_math"
     }
 ]
