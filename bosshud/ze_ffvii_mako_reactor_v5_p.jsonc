@@ -1,0 +1,22 @@
+[
+    {
+        "name":             "Bahamut",
+        "counter":          "BahamutHealth_Counter"
+    },
+    {
+        "name":             "Sephiroth",
+        "breakable":        "BridgeSephirothHitbox"
+    },
+    {
+        "name":             "Bahamut",
+        "breakable":        "BridgeBahamutHitbox"
+    },
+    {
+        "name":             "Sephiroth",
+        "breakable":        "EX2LaserHitbox"
+    },
+    {
+        "name":             "Guard Scorpion",
+        "breakable":        "MonsterHitbox"
+    }
+]
