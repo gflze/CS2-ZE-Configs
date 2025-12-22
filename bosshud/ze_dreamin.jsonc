@@ -5,7 +5,7 @@
     },
     {
         "name":             "Crystal",
-        "counter":          "HPCounter2",
+        "counter":          "hpcounter2",
         "iterator":         "HPCounterIterator2"
     },
     {
