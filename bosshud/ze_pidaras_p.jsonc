@@ -1,0 +1,26 @@
+[
+    {
+        "name":             "Bahatard",
+        "counter":          "npc_bahamut_counter"
+    },
+    {
+        "name":             "Pyramigay",
+        "counter":          "trigger_pyramid_counter"
+    },
+    {
+        "name":             "Space Core - Phase 1",
+        "counter":          "space_counter1"
+    },
+    {
+        "name":             "Space Core - Phase 2",
+        "counter":          "space_counter2"
+    },
+    {
+        "name":             "Meshlem",
+        "counter":          "Boss_Health"
+    },
+    {
+        "name":             "Roshi",
+        "counter":          "roshi_counter"
+    }
+]
