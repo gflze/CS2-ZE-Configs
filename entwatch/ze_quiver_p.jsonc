@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Ice",
+        "shortname": "Ice",
+        "hammerid": "6588",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11782"
+            },
+            {
+                "hammerid": "13622",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 35,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "13633",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "13634"
+            },
+            {
+                "hammerid": "13638",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
