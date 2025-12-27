@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Freezer",
+        "shortname": "Freezer",
+        "hammerid": "4757",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4758"
+            },
+            {
+                "hammerid": "4769",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Holy Grenade",
+        "shortname": "Holy",
+        "hammerid": "orange",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "4698",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4693"
+            },
+            {
+                "hammerid": "4692",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "4680",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "7619"
+            },
+            {
+                "hammerid": "4681",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pidaras Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "3823",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3835"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "3829",
+                "mode": 5,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Pidaras Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "3816",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3817"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "3822",
+                "mode": 3,
+                "cooldown": 2,
+                "ui": true,
+                "message": false
+            }
+        ]
+    },
+    {
+        "name": "Minigun",
+        "shortname": "Minigun",
+        "hammerid": "3803",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3798"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "3788",
+                "mode": 5,
+                "ui": true
+            }
+        ]
+    }
+]
