@@ -1,0 +1,33 @@
+{
+	//remove slurs
+	"modify": [
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say *** OK FUCKING FAGGOT STAY COVER HERE 20 SECONDS ***"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** OK FUCKER STAY COVER HERE 20 SECONDS ***"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say *** OMFG ! IT'S FAGGET TIME ! LET'S ROCK ! ***"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say *** OMFG ! IT'S TIME ! LET'S ROCK ! ***"
+				}
+			}
+		}
+	]
+}

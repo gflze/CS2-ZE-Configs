@@ -1,0 +1,19 @@
+{
+	//remove slur
+	"modify":
+	{
+		"match":
+		{
+			"classname": "logic_case",
+			"targetname": "[PR#]logic_meshlem_music"
+		},
+		"delete":
+		{
+			"io": [
+				{
+					"outputname": "OnCase01"
+				}
+			]
+		}
+	}
+}
