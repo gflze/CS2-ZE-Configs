@@ -62,7 +62,7 @@
             },
             {
                 "hammerid": "4681",
-                "event": "OnPass",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
