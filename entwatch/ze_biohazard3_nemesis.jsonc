@@ -1,0 +1,117 @@
+[
+    {
+        "name": "First-Aid Spray",
+        "shortname": "First-Aid",
+        "hammerid": "598",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "936"
+            },
+            {
+                "hammerid": "1096",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Combat Shotgun",
+        "shortname": "Shotgun",
+        "hammerid": "666",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "671"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "667",
+                "mode": 3,
+                "cooldown": 2,
+                "ui": true,
+                "message": false
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "404",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "399"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "402",
+                "mode": 4,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Rocket Launcher",
+        "shortname": "Rocket",
+        "hammerid": "237",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1228"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "1226",
+                "mode": 3,
+                "cooldown": 6,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Survival Knife",
+        "shortname": "Knife",
+        "hammerid": "662",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "658"
+            },
+            {
+                "hammerid": "660",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
