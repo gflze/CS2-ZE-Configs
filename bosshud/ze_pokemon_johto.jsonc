@@ -5,6 +5,6 @@
     },
     {
         "name":             "Pidgeotto",
-        "breakable":        "gym1_boss_sethealth"
+        "breakable":        "gym1_boss_health"
     }
 ]
