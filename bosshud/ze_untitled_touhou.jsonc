@@ -1,12 +1,16 @@
 [
     {
         "name":             "Youmu Konpaku",
+        "multitrigger":     true,
+        "reverseiterator":  true,
         "counter":          "Staircase_Youmu_Health",
         "backup":           "Staircase_Youmu_HealthInit",
         "iterator":         "Staircase_Youmu_HealthCount"
     },
     {
         "name":             "Yuyuko Saigyouji",
+        "multitrigger":     true,
+        "reverseiterator":  true,
         "counter":          "Boss_Yuyuko_Health",
         "backup":           "Boss_Yuyuko_HealthInit",
         "iterator":         "Boss_Yuyuko_HealthCount"
