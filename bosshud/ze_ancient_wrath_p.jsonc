@@ -12,71 +12,59 @@
         "trigger":          { "ent": "boss_quad_path_static_2", "output": "OnPass" },
         "breakable":        "boss_3_container"
     },
-    // Boss health is handled by map scripts, so this config is for hitmarkers
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999999.0,
-        "breakable":        "boss_5_chainE_physbox"
+        "name":             "Quadralex",
+        "counter":          "quad_phase1_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999999.0,
-        "breakable":        "boss_5_chainS_physbox"
+        "name":             "Quadralex",
+        "counter":          "quad_phase2_counter"
     },
     {
-        "hitmarkeronly":    true,
+        "name":             "Knockback 1",
         "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_worm2_01_physbox"
+        "counter":          "boss_2_knockback_1_counter"
     },
     {
-        "hitmarkeronly":    true,
+        "name":             "Knockback 2",
         "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_4_hitbox"
+        "counter":          "boss_2_knockback_2_counter"
     },
     {
-        "hitmarkeronly":    true,
+        "name":             "Knockback 3",
         "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_4_hitbox_grenade"
+        "counter":          "boss_2_knockback_3_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999999.0,
-        "breakable":        "boss_5_chainN_physbox"
+        "name":             "Worm",
+        "counter":          "boss_worm_01_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            999999999.0,
-        "breakable":        "boss_5_chainW_physbox"
+        "name":             "Worm",
+        "counter":          "boss_worm2_01_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_3_hitbox_grenade"
+        "name":             "Worm",
+        "counter":          "boss_worm3_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_3_hitbox"
+        "name":             "North Chain",
+        "counter":          "chain_n_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_worm3_01_physbox"
+        "name":             "East Chain",
+        "counter":          "chain_e_counter"
     },
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            99999999.0,
-        "breakable":        "boss_worm_01_physbox"
+        "name":             "South Chain",
+        "counter":          "chain_s_counter"
+    },
+    {
+        "name":             "West Chain",
+        "counter":          "chain_w_counter"
+    },
+    {
+        "name":             "Quadralex",
+        "counter":          "boss_quad_encounter_01_counter"
     }
 ]
