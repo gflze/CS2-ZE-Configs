@@ -2,11 +2,5 @@
     {
         "name":             "Blue Ball",
         "counter":          "boss_hp"
-    },
-    {
-        "name":             "Wall",
-        "multitrigger":     true,
-        "showbeaten":       false,
-        "counter":          "boss_wall_hp"
     }
 ]

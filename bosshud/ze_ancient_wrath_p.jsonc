@@ -21,21 +21,6 @@
         "counter":          "quad_phase2_counter"
     },
     {
-        "name":             "Knockback 1",
-        "showbeaten":       false,
-        "counter":          "boss_2_knockback_1_counter"
-    },
-    {
-        "name":             "Knockback 2",
-        "showbeaten":       false,
-        "counter":          "boss_2_knockback_2_counter"
-    },
-    {
-        "name":             "Knockback 3",
-        "showbeaten":       false,
-        "counter":          "boss_2_knockback_3_counter"
-    },
-    {
         "name":             "Worm",
         "counter":          "boss_worm_01_counter"
     },
