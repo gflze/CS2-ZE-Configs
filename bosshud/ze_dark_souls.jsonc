@@ -27,11 +27,6 @@
         "name":             "Marvelous Chester",
         "counter":          "Clown_Champion_Health"
     },
-    {
-        "name":             "Golem",
-        "killtrigger":      { "ent": "Golem_Start_Relay", "output": "OnTrigger" },
-        "counter":          "Thrower_Health"
-    },
     // GFL does not display NPC health
     {
         "hitmarkeronly":    true,

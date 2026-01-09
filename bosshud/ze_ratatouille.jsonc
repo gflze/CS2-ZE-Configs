@@ -6,20 +6,5 @@
     {
         "name":             "Cook",
         "counter":          "math_boss_s3"
-    },
-    {
-        "name":             "Pipe",
-        "showbeaten":       false,
-        "counter":          "math_pipe1"
-    },
-    {
-        "name":             "Pipe",
-        "showbeaten":       false,
-        "counter":          "math_pipe2"
-    },
-    {
-        "name":             "Pipe",
-        "showbeaten":       false,
-        "counter":          "math_pipe3"
     }
 ]

@@ -24,10 +24,5 @@
         "counter":          "Hogg_Hp_Counter_2",
         "backup":           "Hogg_Hp_Counter_3",
         "iterator":         "Counter_Boss_HP_1"
-    },
-    {
-        "name":             "Spider Wall",
-        "showbeaten":       false,
-        "breakable":        "S4_G_Spider_Wall"
     }
 ]

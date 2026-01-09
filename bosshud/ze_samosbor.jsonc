@@ -1,28 +1,4 @@
 [
-    {
-        "name":             "Chain",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "breakable":        "Map_Boss_TheHeart_Chain_1"
-    },
-    {
-        "name":             "Chain",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "breakable":        "Map_Boss_TheHeart_Chain_2"
-    },
-    {
-        "name":             "Chain",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "breakable":        "Map_Boss_TheHeart_Chain_3"
-    },
-    {
-        "name":             "Chain",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "breakable":        "Map_Boss_TheHeart_Chain_4"
-    },
     // Boss health handled by scripts, so this is for hitmarkers
     {
         "hitmarkeronly":    true,

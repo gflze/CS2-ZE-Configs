@@ -76,25 +76,5 @@
         "counter":          "bosslvl4end_health_base",
         "backup":           "bosslvl4end_total_health_per_bar",
         "iterator":         "bosslvl4end_health_backup"
-    },
-    {
-        "name":             "Green Pillar",
-        "showbeaten":       false,
-        "counter":          "lvl4_pillar_g_counter"
-    },
-    {
-        "name":             "Blue Pillar",
-        "showbeaten":       false,
-        "counter":          "lvl4_pillar_b_counter"
-    },
-    {
-        "name":             "Red Pillar",
-        "showbeaten":       false,
-        "counter":          "lvl4_pillar_r_counter"
-    },
-    {
-        "name":             "Yellow Pillar",
-        "showbeaten":       false,
-        "counter":          "lvl4_pillar_y_counter"
     }
 ]
