@@ -1,16 +1,4 @@
 [
-    {
-        "name":             "Beam 1",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "counter":          "beam_1_counter"
-    },
-    {
-        "name":             "Beam 2",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "counter":          "beam_2_counter"
-    },
     // Boss health handled by scripts, so config is for hitmarkers
     {
         "hitmarkeronly":    true,

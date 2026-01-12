@@ -14,18 +14,6 @@
         "iterator":         "HPCounterIterator"
     },
     {
-        "name":             "Light",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "counter":          "Room5_Phys_HpCounter1"
-    },
-    {
-        "name":             "Light",
-        "minorhud":         true,
-        "showbeaten":       false,
-        "counter":          "Room5_Phys_HpCounter2"
-    },
-    {
         "name":             "Snake",
         "reverseiterator":  true,
         "multitrigger":     true,

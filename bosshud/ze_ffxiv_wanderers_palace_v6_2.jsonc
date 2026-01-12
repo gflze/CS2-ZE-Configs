@@ -1,5 +1,4 @@
 [
-    // Config used in conjunction with stripper that replaces map scripts
     {
         "name":             "Goobbue",
         "counter":          "Boss_Health_Goobbue"
@@ -31,14 +30,6 @@
     {
         "name":             "Dream Chaser",
         "counter":          "Dreamland_Dreamed_Chaser_Health"
-    },
-    {
-        "name":             "Goal",
-        "minorhud":         true,
-        "multitrigger":     true,
-        "templated":        true,
-        "showbeaten":       false,
-        "breakable":        "Gaol_Breakable"
     },
     {
         "name":             "Ultima Weapon",

@@ -1,24 +1,4 @@
 [
-    {
-        "name":             "Crystal 1",
-        "showbeaten":       false,
-        "counter":          "counter_crys1"
-    },
-    {
-        "name":             "Crystal 2",
-        "showbeaten":       false,
-        "counter":          "counter_crys2"
-    },
-    {
-        "name":             "Crystal 3",
-        "showbeaten":       false,
-        "counter":          "counter_crys3"
-    },
-    {
-        "name":             "Crystal 4",
-        "showbeaten":       false,
-        "counter":          "counter_crys4"
-    },
     // Boss health is handled by map scripts, so this config is for hitmarkers
     {
         "hitmarkeronly":    true,

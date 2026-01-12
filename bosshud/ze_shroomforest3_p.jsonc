@@ -59,35 +59,5 @@
         "counter":          "Skeleton_Boss_Health3",
         "backup":           "Skeleton_Boss_HealthInit3",
         "iterator":         "Skeleton_Boss_HealthCount3"
-    },
-    {
-        "name":             "Spider",
-        "showbeaten":       false,
-        "breakable":        "Spider_Break1"
-    },
-    {
-        "name":             "Spider",
-        "showbeaten":       false,
-        "breakable":        "Spider_Break2"
-    },
-    {
-        "name":             "Spider",
-        "showbeaten":       false,
-        "breakable":        "Spider_Break3"
-    },
-    {
-        "name":             "Spider",
-        "showbeaten":       false,
-        "breakable":        "Spider_Break4"
-    },
-    {
-        "name":             "Spider",
-        "showbeaten":       false,
-        "breakable":        "Spider_Break5"
-    },
-    {
-        "name":             "Spider",
-        "showbeaten":       false,
-        "breakable":        "Spider_Break6"
     }
 ]
