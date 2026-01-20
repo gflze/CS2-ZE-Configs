@@ -345,9 +345,7 @@
         "hammerid": "140882",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "purple",
-        "triggers": ["141486"],
         "handlers": [
             {
                 "type": "button",
@@ -369,9 +367,7 @@
         "hammerid": "140880",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "yellow",
-        "triggers": ["141476"],
         "handlers": [
             {
                 "type": "button",
@@ -393,9 +389,7 @@
         "hammerid": "140878",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "darkred",
-        "triggers": ["141464"],
         "handlers": [
             {
                 "type": "button",
@@ -417,9 +411,7 @@
         "hammerid": "140881",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "red",
-        "triggers": ["141482"],
         "handlers": [
             {
                 "type": "button",
@@ -441,9 +433,7 @@
         "hammerid": "140879",
         "message": true,
         "ui": true,
-        "transfer": false,
         "color": "purple",
-        "triggers": ["141466"],
         "handlers": [
             {
                 "type": "button",
