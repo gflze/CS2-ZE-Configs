@@ -1,0 +1,8 @@
+[
+    {
+        "name":             "Risk Astley",
+        "counter":          "boss_hp",
+        "backup":           "boss_hp_backup",
+        "iterator":         "boss_hp_iterations"
+    }
+]

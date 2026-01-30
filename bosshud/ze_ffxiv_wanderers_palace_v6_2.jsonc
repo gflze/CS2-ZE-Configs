@@ -28,6 +28,10 @@
         "counter":          "Boss_Health_Chaos"
     },
     {
+        "name":             "Suzaku",
+        "counter":          "Boss_Health"
+    },
+    {
         "name":             "Dream Chaser",
         "counter":          "Dreamland_Dreamed_Chaser_Health"
     },
