@@ -1,7 +1,7 @@
 [
     {
         "name":             "Sinner",
-        "counter":          "sinnerboss_hp"
+        "breakable":        "BossCage"
     },
     {
         "name":             "Naraka",
