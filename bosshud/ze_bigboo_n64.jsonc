@@ -9,5 +9,9 @@
         "counter":          "boss1_hp",
         "backup":           "boss1_hp_backup",
         "iterator":         "boss1_hp_iterations"
+    },
+    {
+        "name":             "Eyeball",
+        "breakable":        "eyeball"
     }
 ]
