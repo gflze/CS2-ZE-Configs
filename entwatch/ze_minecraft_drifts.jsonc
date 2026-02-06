@@ -11,7 +11,7 @@
             {
                 "type": "button",
                 "hammerid": "1402",
-                "event": "OnPressed",
+                "event": "OnPlayerUse",
                 "mode": 3,
                 "cooldown": 12,
                 "maxuses": 1,
@@ -32,7 +32,7 @@
             {
                 "type": "button",
                 "hammerid": "1407",
-                "event": "OnPressed",
+                "event": "OnPlayerUse",
                 "mode": 3,
                 "cooldown": 15,
                 "maxuses": 1,
