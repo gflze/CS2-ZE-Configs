@@ -26,7 +26,7 @@
     {
         "name":             "Evil Robot",
         "counter":          "boss_hp5",
-        "backup":           "boss_hp5_backup",
+        "backup":           "boss_hp_backup5",
         "iterator":         "boss_hp_iterations5"
     },
     {
