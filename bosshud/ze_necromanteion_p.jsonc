@@ -1,0 +1,18 @@
+[
+    {
+        "name":             "Hades (1/4)",
+        "counter":          "hp_counter100"
+    },
+    {
+        "name":             "Hades (2/4)",
+        "counter":          "hp_counter75"
+    },
+    {
+        "name":             "Hades (3/4)",
+        "counter":          "hp_counter50"
+    },
+    {
+        "name":             "Hades (4/4)",
+        "counter":          "hp_counter25"
+    }
+]
