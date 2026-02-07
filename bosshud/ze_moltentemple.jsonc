@@ -1,0 +1,18 @@
+[
+    // Boss health handled by scripts
+    {
+        "hitmarkeronly":    true,
+        "maxhp":            99999999.0,
+        "breakable":        "temple_mboss_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "maxhp":            99999999.0,
+        "breakable":        "caves_mboss_hitbox"
+    },
+    {
+        "name":             "Enslaved Ember",
+        "multitrigger":     true,
+        "breakable":        "caves_add_hbox"
+    }
+]
