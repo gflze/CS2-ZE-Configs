@@ -10,13 +10,16 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "31778",
-                "event": "OnPressed",
+                "hammerid": "31778"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "31773",
                 "mode": 3,
                 "cooldown": 3,
-                "maxuses": 3,
-                "message": true,
-                "ui": true
+                "offset": [0, -996],
+                "ui": true,
+                "message": true
             }
         ]
     },
