@@ -5,6 +5,7 @@
     },
     {
         "name":             "Nihilanth (Phase 2)",
+        "multitrigger":     true,
         "counter":          "Nihi_Hp_Counter_B"
     },
     {
@@ -17,14 +18,17 @@
     },
     {
         "name":             "Crystal 1",
+        "timeout":          3.0,
         "counter":          "Nihi_Crystal_A_Counter"
     },
     {
         "name":             "Crystal 2",
+        "timeout":          3.0,
         "counter":          "Nihi_Crystal_B_Counter"
     },
     {
         "name":             "Crystal 3",
+        "timeout":          3.0,
         "counter":          "Nihi_Crystal_C_Counter"
     },
     {

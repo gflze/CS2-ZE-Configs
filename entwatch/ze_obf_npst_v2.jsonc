@@ -17,6 +17,7 @@
                 "hammerid": "31773",
                 "mode": 3,
                 "cooldown": 3,
+                "offset": [-996, -996],
                 "ui": true,
                 "message": true
             }
