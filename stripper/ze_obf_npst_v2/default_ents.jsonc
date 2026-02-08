@@ -1,0 +1,19 @@
+{
+	// Remove practice mode from the map
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "logic_auto"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"overrideparam": "sv_disable_radar 1"
+					}
+				]
+			}
+		}
+	]
+}
