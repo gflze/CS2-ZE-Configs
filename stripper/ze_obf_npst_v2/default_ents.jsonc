@@ -1,0 +1,19 @@
+{
+	// Keep radar enabled
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "logic_auto"
+			},
+			"delete":
+			{
+				"io": [
+					{
+						"overrideparam": "sv_disable_radar 1"
+					}
+				]
+			}
+		}
+	]
+}
