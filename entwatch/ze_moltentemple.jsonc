@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bow",
+        "shortname": "Bow",
+        "hammerid": "3659",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3656"
+            }
+        ]
+    },
+    {
+        "name": "Virtue Blocker",
+        "hammerid": "-1",
+        "triggers": ["3680"]
+    },
+    {
+        "name": "Illumination Blocker",
+        "hammerid": "-1",
+        "triggers": ["3685"]
+    },
+    {
+        "name": "Zephyr Blocker",
+        "hammerid": "-1",
+        "triggers": ["3709"]
+    }
+]
