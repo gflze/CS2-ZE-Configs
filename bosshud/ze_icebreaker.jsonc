@@ -1,10 +1,14 @@
 [
     {
         "name":             "Turret",
+        "showtrigger":      { "ent": "1_Turret_hitbox", "output": "OnHealthChanged" },
+        "timeout":          3.0,
         "counter":          "1_turret_hp"
     },
     {
         "name":             "Turret",
+        "showtrigger":      { "ent": "ball_turret", "output": "OnHealthChanged" },
+        "timeout":          3.0,
         "multitrigger":     true,
         "templated":        true,
         "showbeaten":       false,
