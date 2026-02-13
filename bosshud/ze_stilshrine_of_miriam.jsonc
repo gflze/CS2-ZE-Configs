@@ -2,13 +2,11 @@
     {
         "name":             "Bergan",
         "counter":          "Stage4_Boss_Bergan_HP_Main",
-        "backup":           "Stage4_Boss_Bergan_HP_Middle",
         "iterator":         "Stage4_Boss_Bergan_HP_End"
     },
     {
         "name":             "Mateus",
         "counter":          "Mateus_Health_HP_Main",
-        "backup":           "Mateus_Health_Middle",
         "iterator":         "Mateus_Health_End"
     },
     {
@@ -18,7 +16,6 @@
     {
         "name":             "Gabranth",
         "counter":          "Stage-1_Gabranth_HP_Main",
-        "backup":           "Stage-1_Gabranth_HP_Middle",
         "iterator":         "Stage-1_Gabranth_HP_End"
     },
     {
@@ -28,7 +25,6 @@
     {
         "name":             "Dragon Aevis",
         "counter":          "Dragon_Aevis_Health_HP_Main",
-        "backup":           "Dragon_Aevis_Health_Middle",
         "iterator":         "Dragon_Aevis_Health_End"
     },
     {
