@@ -1,0 +1,32 @@
+[
+    {
+        "name":             "Tyrant",
+        "reverseiterator":  true,
+        "counter":          "Tyrant_HP",
+        "backup":           "Tyrant_HP_Init",
+        "iterator":         "Tyrant_HP_Bar"
+    },
+    {
+        "name":             "Ravana",
+        "reverseiterator":  true,
+        "counter":          "Ravana_HP",
+        "backup":           "Ravana_HP_Init",
+        "iterator":         "Ravana_HP_Bar"
+    },
+    {
+        "name":             "Shield",
+        "showbeaten":       false,
+        "counter":          "Ravana_Extreme_Shield_HP"
+    },
+    {
+        "name":             "Yojimbo",
+        "reverseiterator":  true,
+        "counter":          "Yojimbo_HP",
+        "backup":           "Yojimbo_HP_Init",
+        "iterator":         "Yojimbo_HP_Bar"
+    },
+    {
+        "name":             "Yojimbo",
+        "counter":          "Shadow_HP"
+    }
+]

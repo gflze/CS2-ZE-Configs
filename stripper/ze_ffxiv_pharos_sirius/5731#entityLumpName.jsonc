@@ -1,0 +1,17 @@
+{
+	// Translate item text
+	"modify": {
+		"match": {
+			"io": [
+				{
+					"overrideparam": "say > 一名玩家获得了电元素"
+				}
+			]
+		},
+		"replace": {
+			"io": {
+				"overrideparam": "say > A player has obtained Thunder Element"
+			}
+		}
+	}
+}

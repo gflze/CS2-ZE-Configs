@@ -1,0 +1,17 @@
+{
+	// Translate item text
+	"modify": {
+		"match": {
+			"io": [
+				{
+					"overrideparam": "say > 一名玩家学会了星桥魔法"
+				}
+			]
+		},
+		"replace": {
+			"io": {
+				"overrideparam": "say > A player has learned Star Bridge Magick"
+			}
+		}
+	}
+}

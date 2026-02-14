@@ -1,0 +1,33 @@
+{
+	// Translate item text
+	"modify": [
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 一名玩家获得了奶元素"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > A player has obtained Heal Element"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 奶可以对抗吞噬魔法"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Heal Element can be used to counter Devour Magick"
+				}
+			}
+		}
+	]
+}
