@@ -1,0 +1,43 @@
+{
+	// Translate item text
+	"modify": {
+		"match": {
+			"io": [
+				{
+					"overrideparam": "say > 一名玩家学会了传送魔法"
+				}
+			]
+		},
+		"replace": {
+			"io": {
+				"overrideparam": "say > A player has learned Teleport Magick"
+			}
+		}
+	},
+	// Convert lua script inputs to cs2f keyvalue inputs
+	"modify": {
+		"match": {
+			"classname": "weapon_knife",
+			"targetname": "[PR#]Magic_Teleport_WP"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnPlayerPickup",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "max_health 100000",
+					"delay": 0,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}

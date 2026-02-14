@@ -1,0 +1,36 @@
+{
+	// Convert lua script inputs to cs2f keyvalue inputs
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Release_Lightning_Hurt&0000"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnHurtPlayer",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 0.2",
+					"delay": 0,
+					"timestofire": -1
+				},
+				{
+					"outputname": "OnHurtPlayer",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 1",
+					"delay": 0.48,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}
