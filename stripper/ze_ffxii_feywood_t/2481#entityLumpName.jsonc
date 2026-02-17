@@ -1,0 +1,36 @@
+{
+	// Convert lua script input to cs2f keyvalue
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Item_Electro_Trigger_lvl2"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnHurtPlayer",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 0.8",
+					"delay": 0,
+					"timestofire": -1
+				},
+				{
+					"outputname": "OnHurtPlayer",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 1",
+					"delay": 0.48,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}

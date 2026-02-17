@@ -1,0 +1,36 @@
+{
+	// Convert lua script input to cs2f keyvalue
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Item_Z_Warp_Trigger_lvl1"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 0.3",
+					"delay": 0,
+					"timestofire": -1
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 1",
+					"delay": 1,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}
