@@ -28,13 +28,6 @@
         "iterator":         "bosshp3"
     },
     {
-        "name":             "Golem",
-        "trigger":          { "ent": "s36miniboss_trigger", "output": "OnStartTouch" },
-        "counter":          "bosshp1",
-        "backup":           "bosshp2",
-        "iterator":         "bosshp3"
-    },
-    {
         "name":             "Ifrit",
         "trigger":          { "ent": "s3boss_trigger1", "output": "OnStartTouch" },
         "counter":          "bosshp1",
@@ -71,6 +64,7 @@
     },
     {
         "name":             "Crystal",
+        "multitrigger":     true,
         "templated":        true,
         "counter":          "s36miniboss_crystal_counter1",
         "backup":           "s36miniboss_crystal_counter2",
