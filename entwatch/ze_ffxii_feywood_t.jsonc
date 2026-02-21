@@ -1,0 +1,304 @@
+[
+    {
+        "name": "Dark Magick",
+        "shortname": "Dark",
+        "hammerid": "2576",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2577"
+            },
+            {
+                "hammerid": "2573",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Magick",
+        "shortname": "Heal",
+        "hammerid": "2518",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2522"
+            },
+            {
+                "hammerid": "2521",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Fire Magick",
+        "shortname": "Fire",
+        "hammerid": "2526",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2528"
+            },
+            {
+                "hammerid": "2553",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Blizzard Magick",
+        "shortname": "Blizzard",
+        "hammerid": "2567",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2569"
+            },
+            {
+                "hammerid": "2564",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Electro Magick",
+        "shortname": "Electro",
+        "hammerid": "2558",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2561"
+            },
+            {
+                "hammerid": "2557",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wind Magick",
+        "shortname": "Wind",
+        "hammerid": "2584",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2585"
+            },
+            {
+                "hammerid": "2581",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Berserk Magick",
+        "shortname": "Berserk",
+        "hammerid": "4342",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4337"
+            },
+            {
+                "type": "button",
+                "hammerid": "11858"
+            },
+            {
+                "name": "Speed",
+                "hammerid": "4346",
+                "event": "OnCase02",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Ammo",
+                "hammerid": "4346",
+                "event": "OnCase01",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Chocobo",
+        "shortname": "Chocobo",
+        "hammerid": "4359",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    },
+    {
+        "name": "Zombie Dark Magick",
+        "shortname": "ZM Dark",
+        "hammerid": "2652",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["2650"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2647"
+            },
+            {
+                "hammerid": "2644",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire Magick",
+        "shortname": "ZM Fire",
+        "hammerid": "2630",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["2628"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2631"
+            },
+            {
+                "hammerid": "2624",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Warp Magick",
+        "shortname": "ZM Warp",
+        "hammerid": "2663",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["2660"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2658"
+            },
+            {
+                "hammerid": "2654",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal Magick",
+        "shortname": "ZM Heal",
+        "hammerid": "2614",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "triggers": ["2609"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2611"
+            },
+            {
+                "hammerid": "2606",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Chocobo",
+        "shortname": "ZM Chocobo",
+        "hammerid": "4358",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "yellow",
+        "triggers": ["4356"]
+    }
+]

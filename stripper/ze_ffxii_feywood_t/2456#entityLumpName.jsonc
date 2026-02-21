@@ -1,0 +1,36 @@
+{
+	// Convert lua script input to cs2f keyvalue
+	"modify": {
+		"match": {
+			"classname": "trigger_push",
+			"targetname": "[PR#]Item_Darkaga_Trigger"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 0.65",
+					"delay": 0,
+					"timestofire": -1
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 1.05",
+					"delay": 8,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}
