@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Fire",
+        "shortname": "Fire",
+        "hammerid": "6423",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6421"
+            },
+            {
+                "hammerid": "6424",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Wall",
+        "shortname": "Wall",
+        "hammerid": "6364",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6367"
+            },
+            {
+                "hammerid": "6366",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Slow",
+        "shortname": "Slow",
+        "hammerid": "6390",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6392"
+            },
+            {
+                "hammerid": "6391",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Freeze",
+        "shortname": "Freeze",
+        "hammerid": "6410",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6408"
+            },
+            {
+                "hammerid": "6411",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
