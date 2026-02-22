@@ -8,5 +8,8 @@
     },
     {
         "counter":          "s3_boss_health_counter"
+    },
+    {
+        "breakable":        "s3_laser_boss_break"
     }
 ]
