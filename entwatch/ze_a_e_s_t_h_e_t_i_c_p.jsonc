@@ -1,0 +1,34 @@
+[
+    {
+        "name": "KEY BLOCKER",
+        "hammerid": "-1",
+        "triggers": ["1575"]
+    },
+    {
+        "name": "Burger",
+        "shortname": "Burger",
+        "hammerid": "1433",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange"
+    },
+    {
+        "name": "Penis",
+        "shortname": "Penis",
+        "hammerid": "1385",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "pink"
+    },
+    {
+        "name": "Banana",
+        "shortname": "Banana",
+        "hammerid": "1198",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow"
+    }
+]

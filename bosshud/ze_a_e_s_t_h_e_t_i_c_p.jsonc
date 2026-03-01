@@ -1,0 +1,22 @@
+[
+    {
+        "name":             "E Y E S",
+        "counter":          "EyesHP"
+    },
+    {
+        "name":             "W I Z A R D",
+        "counter":          "Boss_Mini_HP1"
+    },
+    {
+        "name":             "W I Z A R D",
+        "counter":          "Boss_Mini_HP2"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "counter":          "NPC_Standard_Health"
+    }
+]
