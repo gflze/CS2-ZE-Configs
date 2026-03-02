@@ -1,0 +1,221 @@
+[
+    {
+        "name": "Electric",
+        "shortname": "Electric",
+        "hammerid": "285",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "281"
+            },
+            {
+                "hammerid": "283",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Blizzard",
+        "shortname": "Blizzard",
+        "hammerid": "294",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "289"
+            },
+            {
+                "hammerid": "288",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flame",
+        "shortname": "Flame",
+        "hammerid": "303",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "301"
+            },
+            {
+                "hammerid": "298",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Teleporter",
+        "shortname": "Teleporter",
+        "hammerid": "331",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "326"
+            },
+            {
+                "hammerid": "336",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo Box",
+        "shortname": "Ammo",
+        "hammerid": "4702",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4704"
+            },
+            {
+                "hammerid": "4715",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "4774",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4770"
+            },
+            {
+                "hammerid": "4768",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Poison",
+        "shortname": "ZM Poison",
+        "hammerid": "311",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["313"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "309"
+            },
+            {
+                "hammerid": "306",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Curse",
+        "shortname": "ZM Curse",
+        "hammerid": "323",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["321"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "319"
+            },
+            {
+                "hammerid": "315",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Firewall",
+        "shortname": "ZM Firewall",
+        "hammerid": "343",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["341"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "353"
+            },
+            {
+                "hammerid": "337",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

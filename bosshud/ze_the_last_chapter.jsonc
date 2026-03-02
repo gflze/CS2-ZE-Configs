@@ -1,0 +1,62 @@
+[
+    {
+        "name":             "Tomb Demon",
+        "counter":          "nrk1_counter",
+        "backup":           "nrk1_hp_backup",
+        "iterator":         "nrk1_hp_iterations"
+    },
+    {
+        "name":             "Sinner Demon",
+        "counter":          "nrk2_counter",
+        "backup":           "nrk2_hp_backup",
+        "iterator":         "nrk2_hp_iterations"
+    },
+    {
+        "name":             "Naraka",
+        "counter":          "nrk3_counter",
+        "backup":           "nrk3_hp_backup",
+        "iterator":         "nrk3_hp_iterations"
+    },
+    {
+        "name":             "Pyramid Head",
+        "counter":          "nrk4_counter",
+        "backup":           "nrk4_hp_backup",
+        "iterator":         "nrk4_hp_iterations"
+    },
+    {
+        "name":             "Pyramid Head",
+        "counter":          "nrk5_counter",
+        "backup":           "nrk5_hp_backup",
+        "iterator":         "nrk5_hp_iterations"
+    },
+    {
+        "name":             "Satan Pyramid Head",
+        "breakable":        "nrk5_minisatan_cross"
+    },
+    {
+        "name":             "Final Death",
+        "breakable":        "nrk5_finaldeath_break"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "temp_nrk_npc_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "temp_nrk4_miniboss_hitbox"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "temp_nrk5_fakeboss_hitbox"
+    }
+]
