@@ -1,0 +1,28 @@
+{
+	// Convert lua script inputs to cs2f keyvalue inputs
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Release_Heal_TR&0000"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "max_health 256",
+					"delay": 0,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,861 @@
+// Stripper config by koen (STEAM_1:1:114921174)
+// https://github.com/notkoen
+{
+	// Add stripper credits
+	"modify": {
+		"match": {
+			"classname": "point_servercommand",
+			"targetname": "[PR#]Server"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnUser1",
+					"targetname": "!self",
+					"inputname": "Command",
+					"overrideparam": "say ** Translation and keyvalue stripper by koen **",
+					"delay": 5
+				}
+			]
+		}
+	},
+	// Fix incorrect door directions
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/Defense_DR_0[1-4]_Left/"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/Defense_DR_0[1-4]_Right/"
+			},
+			"replace": {
+				"spawnflags": "18"
+			}
+		}
+	],
+	// Translate map text
+	"modify": [
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道栅栏门将于30秒后打开"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The gate will open in 30s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道门将于25秒后打开"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The door will open in 25s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 最终幻想14：天狼星灯塔"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Final Fantasy XIV: Pharos Sirius"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 地图和模型：史克威尔"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Map and Models: Square Enix"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 其他：天笠"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Other: Tianli"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 火元素已被升级 !"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Fire Element has been upgraded!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 冰元素已被升级 !"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Ice Element has been upgraded!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 黑元素已被升级 !"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Gravity Element has been upgraded!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 奶元素已被升级 !"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Heal Element has been upgraded!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 电元素已被升级 !"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Thunder Element has been upgraded!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 讨伐目标：保镖"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Duty: Yojimbo"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 讨伐目标：暴君"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Duty: Tyrant"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 讨伐目标：罗波那"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Duty: Ravana"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道屏障将于20秒后解除"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The barrier will dissipate in 20s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 最后的栅栏门将于30秒后打开"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The final gate will open in 30s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道屏障将于40秒后解除"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The barrier will dissipate in 40s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道屏障将于25秒后解除"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The barrier will dissipate in 25s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道屏障将于35秒后解除"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The barrier will dissipate in 35s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这道屏障将于30秒后解除"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The barrier will dissipate in 30s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 与罗波那的战斗将在40秒后开始"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The fight with Ravana starts in 40s"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 罗波那处于进攻姿态时免疫手雷伤害！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Ravana is immune to grenade damage during battle"
+				}
+			}
+		},
+		// Note: These translations are not direct! They are direct quotes from the actual FF14 raid
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 你能看穿这个体势？！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Impenetratable is my defense!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 这就是后发制人！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Spare me no quarter!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 起始于“序”！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > The calm before the slaughter..."
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 攻势如火！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Furious as a blaze!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 经流至“破”！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Subjugation is thy fate!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 展翅飞舞！兵魂之蝶！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Take wing, ye souls of war!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 做好觉悟！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Prepare thyself!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 武学真髓！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Rejoice in the glory of combat!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 守势如土！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Unyielding as the earth!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 咆哮吧，我的斗气！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > How my blood doth quicken!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 界临至“急”！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Swift shall be thy downfall!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 武神之甲！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Unbreakable is my carapace!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 讨伐目标：罗波那 - 極"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Target: Ravana (Extreme)"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 手雷可以造成更高伤害"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Grenades deal extra damage!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 你无法跳过最高的刀光！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > You are unable to dodge the highest blades of light!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 检测到入侵者！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Intruders detected!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 【保镖】讨伐成功？"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > 【 Yojimbo 】Duty complete?"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 【暴君】讨伐成功！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > 【 Tyrant 】Duty complete!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 【罗波那】讨伐成功！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > 【 Ravana 】Duty complete!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 【罗波那 - 極】讨伐成功！"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > 【 Ravana - Extreme 】Duty complete!"
+				}
+			}
+		},
+		{
+			"match": {
+				"io": [
+					{
+						"overrideparam": "say > 黑元素已升级成极限突破 !"
+					}
+				]
+			},
+			"replace": {
+				"io": {
+					"overrideparam": "say > Gravity Element has been upgraded to Limit Break!"
+				}
+			}
+		}
+	],
+	// Convert lua script inputs to cs2f keyvalue inputs
+	"modify": [
+		{
+			"match": {
+				"classname": "logic_relay",
+				"targetname": "/Item_Upgrade_(Fire|Ice|Gravity|Lightning)/"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnTrigger",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 0.15",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 1",
+						"delay": 3,
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]Yojimbo_Attack_Slash_Hurt"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnHurtPlayer",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 0.2",
+						"delay": 0,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnHurtPlayer",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 1",
+						"delay": 0.5,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]Release_Upgrade_Heal_TR"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "max_health 256",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "logic_relay",
+				"targetname": "[PR#]Item_Upgrade_Heal"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnTrigger",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "max_health 256",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 0.15",
+						"delay": 0,
+						"timestofire": 1
+					},
+					{
+						"outputname": "OnTrigger",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 1",
+						"delay": 3,
+						"timestofire": 1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]Ravana_Attack_Slash_Hurt"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnHurtPlayer",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 0.2",
+						"delay": 0,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnHurtPlayer",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 1",
+						"delay": 0.5,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]Ravana_TR_Freeze"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 0.15",
+						"delay": 0,
+						"timestofire": -1
+					},
+					{
+						"outputname": "OnStartTouch",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 1",
+						"delay": 13,
+						"timestofire": -1
+					}
+				]
+			}
+		},
+		{
+			"match": {
+				"classname": "game_zone_player",
+				"targetname": "[PR#]ResetSpeed"
+			},
+			"delete": {
+				"io": [
+					{
+						"inputname": "RunScriptCode"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnPlayerOutZone",
+						"targetname": "!activator",
+						"inputname": "keyvalue",
+						"overrideparam": "speed 1",
+						"delay": 0,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,213 @@
+[
+    {
+        "name": "Fire Element",
+        "shortname": "Fire",
+        "hammerid": "657",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "658"
+            },
+            {
+                "hammerid": "658",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ice Element",
+        "shortname": "Ice",
+        "hammerid": "5593",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5594"
+            },
+            {
+                "hammerid": "5594",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Gravity Element",
+        "shortname": "Gravity",
+        "hammerid": "5707",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "purple",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5711"
+            },
+            {
+                "hammerid": "5711",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Heal Element",
+        "shortname": "Heal",
+        "hammerid": "5725",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5729"
+            },
+            {
+                "hammerid": "5729",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Thunder Element",
+        "shortname": "Thunder",
+        "hammerid": "5739",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5743"
+            },
+            {
+                "hammerid": "5743",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Silence Magic",
+        "shortname": "ZM Silence",
+        "hammerid": "673",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "fullred",
+        "triggers": ["678"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "674"
+            },
+            {
+                "hammerid": "674",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 45,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Star Bridge Materia",
+        "shortname": "ZM Bridge",
+        "hammerid": "5844",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["5848"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "28491"
+            }
+        ]
+    },
+    {
+        "name": "Zombie Devour Magick",
+        "shortname": "ZM Devour",
+        "hammerid": "5876",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["5880"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5877"
+            },
+            {
+                "hammerid": "5877",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Teleport Magick",
+        "shortname": "ZM Teleport",
+        "hammerid": "5894",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["5898"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5895"
+            },
+            {
+                "hammerid": "5895",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
