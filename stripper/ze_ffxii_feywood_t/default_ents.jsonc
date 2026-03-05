@@ -1,0 +1,85 @@
+// Stripper config by koen (STEAM_1:1:114921174)
+// https://github.com/notkoen
+{
+	// Add stripper credits
+	"modify": {
+		"match": {
+			"classname": "logic_auto"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnMapSpawn",
+					"targetname": "[PR#]cmd",
+					"inputname": "Command",
+					"overrideparam": "say ** Keyvalue stripper by koen **",
+					"delay": 7
+				}
+			]
+		}
+	},
+	// Fix incorrect door direction
+	"modify": [
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Chuchulainn_Gate"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "/lvl4_End_Door/"
+			},
+			"replace": {
+				"spawnflags": "1168"
+			}
+		},
+		{
+			"match": {
+				"classname": "func_door_rotating",
+				"targetname": "[PR#]Chuchulainn_Gate"
+			},
+			"replace": {
+				"spawnflags": "16"
+			}
+		}
+	],
+	// Convert lua script input to cs2f keyvalue
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Chaos_Ice"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 0.15",
+					"delay": 0,
+					"timestofire": -1
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 1",
+					"delay": 4.95,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}

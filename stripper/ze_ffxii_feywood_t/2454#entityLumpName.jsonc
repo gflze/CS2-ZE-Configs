@@ -1,0 +1,36 @@
+{
+	// Convert lua script input to cs2f keyvalue
+	"modify": {
+		"match": {
+			"classname": "trigger_hurt",
+			"targetname": "[PR#]Item_Blizzard_Trigger_lvl3"
+		},
+		"delete": {
+			"io": [
+				{
+					"inputname": "RunScriptCode"
+				}
+			]
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 0",
+					"delay": 0,
+					"timestofire": -1
+				},
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "!activator",
+					"inputname": "keyvalue",
+					"overrideparam": "speed 1.1",
+					"delay": 6,
+					"timestofire": -1
+				}
+			]
+		}
+	}
+}
