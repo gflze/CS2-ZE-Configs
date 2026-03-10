@@ -28,6 +28,13 @@
         "iterator":         "bosshp3"
     },
     {
+        "name":             "Enraged Sanic",
+        "trigger":          { "ent": "bossdeath2", "output": "OnCase03", "delay": 5.0 },
+        "counter":          "bosshp1",
+        "backup":           "bosshp2",
+        "iterator":         "bosshp3"
+    },
+    {
         "name":             "Sanic the Bike",
         "trigger":          { "ent": "s6boss_trigger", "output": "OnStartTouch" },
         "counter":          "bosshp1",

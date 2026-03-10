@@ -17,6 +17,7 @@
     },
     {
         "name":             "Suzaku",
+        "multitrigger":     true,
         "counter":          "Boss_Health_Suzaku"
     },
     {
@@ -26,10 +27,6 @@
     {
         "name":             "Chaos",
         "counter":          "Boss_Health_Chaos"
-    },
-    {
-        "name":             "Suzaku",
-        "counter":          "Boss_Health"
     },
     {
         "name":             "Dream Chaser",
