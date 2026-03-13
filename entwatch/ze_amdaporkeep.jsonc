@@ -1,0 +1,455 @@
+[
+    {
+        "name": "Astrologian",
+        "shortname": "Astrologian",
+        "hammerid": "1327",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1320"
+            },
+            {
+                "type": "button",
+                "hammerid": "1323"
+            },
+            {
+                "hammerid": "1322",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 75,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Card",
+                "hammerid": "1325",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Dark Knight",
+        "shortname": "Dark Knight",
+        "hammerid": "1343",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "darkblue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1338"
+            },
+            {
+                "type": "button",
+                "hammerid": "1341"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "1335",
+                "mode": 5,
+                "ui": true
+            },
+            {
+                "name": "Unleash",
+                "hammerid": "1340",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Black Mage",
+        "shortname": "Black Mage",
+        "hammerid": "1310",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "fullred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1305"
+            },
+            {
+                "type": "button",
+                "hammerid": "1308"
+            },
+            {
+                "name": "Ley Lines",
+                "hammerid": "1304",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ninja",
+        "shortname": "Ninja",
+        "hammerid": "1283",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "fullred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1281"
+            },
+            {
+                "type": "button",
+                "hammerid": "1278"
+            },
+            {
+                "hammerid": "1280",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Switch",
+                "hammerid": "1277",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Red Mage",
+        "shortname": "Red Mage",
+        "hammerid": "5458",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "fullred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4388"
+            },
+            {
+                "hammerid": "4421",
+                "event": "OnEntitySpawned",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Samurai",
+        "shortname": "Samurai",
+        "hammerid": "4435",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "fullred",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4441"
+            },
+            {
+                "type": "button",
+                "hammerid": "4439"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "4552",
+                "mode": 5,
+                "ui": true
+            },
+            {
+                "type": "counterup",
+                "hammerid": "4553",
+                "mode": 5,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Scholar",
+        "shortname": "Scholar",
+        "hammerid": "4459",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4465"
+            },
+            {
+                "type": "button",
+                "hammerid": "4463"
+            },
+            {
+                "hammerid": "4468",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Shield",
+                "hammerid": "4467",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 105,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Warrior of Light",
+        "shortname": "Warrior",
+        "hammerid": "1718",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1686"
+            },
+            {
+                "type": "button",
+                "hammerid": "1699"
+            },
+            {
+                "name": "Switch",
+                "hammerid": "1688",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "hammerid": "1689",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 20,
+                "maxuses": 2,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Storm",
+        "shortname": "ZM Storm",
+        "hammerid": "1701",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1827"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1675"
+            },
+            {
+                "hammerid": "1810",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 70,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Warp",
+        "shortname": "ZM Warp",
+        "hammerid": "1739",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1721"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1737"
+            },
+            {
+                "hammerid": "1720",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 65,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "1376",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1748"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1724"
+            },
+            {
+                "hammerid": "1731",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Ahriman",
+        "shortname": "ZM Ahriman",
+        "hammerid": "1837",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["1838"],
+        "handlers": [
+            {
+                "name": "Attack",
+                "hammerid": "1834",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Fly",
+                "hammerid": "1835",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 25,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Diabolos Hollow",
+        "shortname": "ZM Diabolos",
+        "hammerid": "5407",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["5411"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5405"
+            },
+            {
+                "hammerid": "5409",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 80,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Cloud of Darkness",
+        "shortname": "ZM Darkness",
+        "hammerid": "5617",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["5620"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5615"
+            },
+            {
+                "hammerid": "5618",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 30,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Flying Sprites",
+        "shortname": "ZM Sprite",
+        "hammerid": "5657",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["5660"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5655"
+            },
+            {
+                "hammerid": "5658",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "name":             "Baby Kim",
+        "breakable":        "babyboss_hp"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "i_nksoldier_hp"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "i_nkbabysoldier_hp"
+    },
+    {
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false,
+        "breakable":        "i_babysuicide_poopybutt"
+    }
+]

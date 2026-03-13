@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Ikea Castle Assembly Box",
+        "shortname": "Box",
+        "hammerid": "8953",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    // Added patreon pistols to fix hide breaking parented sprites
+    {
+        "name": "Patreon 1",
+        "shortname": "Patreon 1",
+        "hammerid": "2287",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 2",
+        "shortname": "Patreon 2",
+        "hammerid": "1693",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 3",
+        "shortname": "Patreon 3",
+        "hammerid": "2967",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 4",
+        "shortname": "Patreon 4",
+        "hammerid": "2967",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 5",
+        "shortname": "Patreon 5",
+        "hammerid": "2763",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 6",
+        "shortname": "Patreon 6",
+        "hammerid": "2708",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 7",
+        "shortname": "Patreon 7",
+        "hammerid": "2482",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    },
+    {
+        "name": "Patreon 8",
+        "shortname": "Patreon 8",
+        "hammerid": "28",
+        "message": false,
+        "ui": false,
+        "transfer": false,
+        "color": "grey"
+    }
+]
