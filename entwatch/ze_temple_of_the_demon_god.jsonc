@@ -1,0 +1,265 @@
+[
+    {
+        "name": "Lex Divina",
+        "shortname": "Lex Divina",
+        "hammerid": "111",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "103"
+            },
+            {
+                "hammerid": "109",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 150,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Impositio Manus",
+        "shortname": "Impositio Manus",
+        "hammerid": "130",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "127"
+            },
+            {
+                "hammerid": "124",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Magnus Exorcismus",
+        "shortname": "Magnus Exorcismus",
+        "hammerid": "353",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "344"
+            },
+            {
+                "hammerid": "346",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 300,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Holy Light",
+        "shortname": "Holy Light",
+        "hammerid": "60",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "56"
+            },
+            {
+                "hammerid": "59",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Sanctuary",
+        "shortname": "Sanctuary",
+        "hammerid": "781",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "785"
+            },
+            {
+                "hammerid": "787",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Holy Book",
+        "shortname": "Holy Book",
+        "hammerid": "6651",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Naraka Book",
+        "shortname": "Naraka Book",
+        "hammerid": "6645",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey"
+    },
+    {
+        "name": "Zombie Death Breath",
+        "shortname": "ZM Death",
+        "hammerid": "121",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["119"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "115"
+            },
+            {
+                "hammerid": "118",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fire Pillars",
+        "shortname": "ZM Pillar",
+        "hammerid": "272",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["269"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "266"
+            },
+            {
+                "hammerid": "273",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Slave Spawner",
+        "shortname": "ZM Slave",
+        "hammerid": "281",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "triggers": ["293"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "288"
+            },
+            {
+                "hammerid": "290",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 120,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Firewall",
+        "shortname": "ZM Firewall",
+        "hammerid": "305",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["302"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "297"
+            },
+            {
+                "hammerid": "299",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 90,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Hell Judgement",
+        "shortname": "ZM Judgement",
+        "hammerid": "93",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "fullred",
+        "triggers": ["91"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "94"
+            },
+            {
+                "hammerid": "99",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 210,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]
