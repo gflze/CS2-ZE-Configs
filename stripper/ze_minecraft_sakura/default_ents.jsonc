@@ -1262,7 +1262,7 @@
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "Little Demon: “A zombie? That's kinda interesting.”"
+					"overrideparam": "say Little Demon: “A zombie? That's kinda interesting.”"
 				}
 			}
 		},
@@ -1276,7 +1276,7 @@
 			},
 			"replace": {
 				"io": {
-					"overrideparam": "Little Demon: “Hmph, I'll grant you a bit of power.”"
+					"overrideparam": "say Little Demon: “Hmph, I'll grant you a bit of power.”"
 				}
 			}
 		},
