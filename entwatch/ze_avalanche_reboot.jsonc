@@ -13,8 +13,8 @@
                 "hammerid": "4852"
             },
             {
-                "hammerid": "10263",
-                "event": "OnPass",
+                "hammerid": "4852",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -37,8 +37,8 @@
                 "hammerid": "4816"
             },
             {
-                "hammerid": "10257",
-                "event": "OnPass",
+                "hammerid": "4816",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -61,8 +61,8 @@
                 "hammerid": "4667"
             },
             {
-                "hammerid": "10262",
-                "event": "OnPass",
+                "hammerid": "4667",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 10,
                 "maxuses": 0,
@@ -85,8 +85,8 @@
                 "hammerid": "4288"
             },
             {
-                "hammerid": "10261",
-                "event": "OnPass",
+                "hammerid": "4288",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 12,
                 "maxuses": 0,
@@ -109,8 +109,8 @@
                 "hammerid": "4293"
             },
             {
-                "hammerid": "10260",
-                "event": "OnPass",
+                "hammerid": "4293",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 12,
                 "maxuses": 0,
@@ -133,8 +133,8 @@
                 "hammerid": "4297"
             },
             {
-                "hammerid": "10258",
-                "event": "OnPass",
+                "hammerid": "4297",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -157,8 +157,8 @@
                 "hammerid": "4302"
             },
             {
-                "hammerid": "10259",
-                "event": "OnPass",
+                "hammerid": "4302",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -170,7 +170,7 @@
     {
         "name": "Ammo",
         "shortname": "Ammo",
-        "hammerid": "4311",
+        "hammerid": "14967",
         "message": true,
         "ui": true,
         "transfer": true,
@@ -178,11 +178,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4308"
+                "hammerid": "14970"
             },
             {
-                "hammerid": "10281",
-                "event": "OnPass",
+                "hammerid": "14970",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
