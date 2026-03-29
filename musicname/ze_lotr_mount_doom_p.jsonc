@@ -1,13 +1,13 @@
 {
-    "music.baraddur":          "",
-    "music.barbacoa":          "Georgie Dann - La Barbacoa",
-    "music.cirith":            "Howard Shore - The Black Rider (LOTR The Fellowship of the Ring OST)",
-    "music.derrumbamiento":    "",
-    "music.endofallthings":    "Howard Shore - The End of All Things (LOTR The Return of the King OST)",
-    "music.forfrodo":          "Howard Shore - For Frodo (LOTR The Return of the King OST)",
-    "music.forfrodo2":         "Howard Shore - For Frodo (LOTR The Return of the King OST)",
-    "music.minasmorgul":       "Howard Shore - A Coronal of Silver and Gold (LOTR The Return of the King OST)",
-    "music.offspring":         "The Offspring - All I want",
-    "music.thriller":          "Michael Jackson - Thriller",
-    "music.villagepeople":     "Village People - YMCA"
+    "music.baraddur": "",
+    "music.barbacoa": "Georgie Dann - La Barbacoa",
+    "music.cirith": "LOTR The Fellowship of the Ring OST - The Black Rider",
+    "music.derrumbamiento": "",
+    "music.endofallthings": "LOTR The Return of the King OST - The End of All Things",
+    "music.forfrodo": "LOTR The Return of the King OST - For Frodo",
+    "music.forfrodo2": "LOTR The Return of the King OST - For Frodo",
+    "music.minasmorgul": "LOTR The Return of the King OST - A Coronal of Silver and Gold",
+    "music.offspring": "The Offspring - All I want",
+    "music.thriller": "Michael Jackson - Thriller",
+    "music.villagepeople": "Village People - YMCA"
 }
