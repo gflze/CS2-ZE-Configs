@@ -21,9 +21,15 @@
     "music.stage_1_start": "Metal Gear Solid: The Twin Snakes OST - Ambush",
     "music.stage_2_end": "Halo 3 OST - Warthog Run",
     "music.stage_2_start": "Crysis Warhead OST - Train Battle Theme",
+<<<<<<< Updated upstream
     "music.stage_3_boss": "Damjan Mravunac - Boss Fight Strings (Serious Sam 3 OST)",
     "music.stage_3_mid": "Really Slow Motion - Reborn From Ashes",
     "music.stage_3_start": "Cris Velasco - Escape the Tower (ZombiU OST)",
+=======
+    "music.stage_3_boss": "Serious Sam 3 OST - Boss Fight Strings",
+    "music.stage_3_mid": "Really Slow Motion - Reborn From Ashes",
+    "music.stage_3_start": "ZombiU OST - Escape the Tower",
+>>>>>>> Stashed changes
     "music.stage_4_end": "Crysis Warhead OST - Airfield 1",
     "music.stage_4_mid": "Call of Duty 2: Modern Warfare 2 OST - Boat Ride",
     "music.stage_4_start": "SawanoHiroyuki[nZk] - 進撃st-hrn-egt20130629巨人",
@@ -31,6 +37,11 @@
     "music.stage_5_end_good_1": "Crysis Warhead OST - Airfield Hero Theme",
     "music.stage_5_end_good_2": "Crysis Warhead OST - Airfield Hero Theme",
     "music.stage_5_start": "Daft Punk - TRON Legacy (End Titles)",
+<<<<<<< Updated upstream
     "music.stage_5_top_1": "Jack Wall - Suicide Mission (Mass Effect 2 OST)",
     "music.stage_5_top_2": "Jack Wall - Suicide Mission (Mass Effect 2 OST)"
+=======
+    "music.stage_5_top_1": "Mass Effect 2 OST - Suicide Mission",
+    "music.stage_5_top_2": "Mass Effect 2 OST - Suicide Mission"
+>>>>>>> Stashed changes
 }
