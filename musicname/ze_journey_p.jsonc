@@ -1,8 +1,8 @@
 {
-    "music.ds_enterarea":     "",
-    "music.flexilesentry":    "Motoi Sakuraba - Flexile Sentry (Dark Souls II OST)",
-    "music.pinwheel":         "Motoi Sakuraba - Pinwheel (Dark Souls OST)",
-    "music.prayer":           "Michiru Yamane - Prayer (Castlevania: Symphony of the Night OST)",
-    "music.ruinsentinel":     "Yuka Kitamura - Ruin Sentinel (Dark Souls II OST)",
-    "music.zallenandlud":     "Yuka Kitamura - Zallen And Lud (Dark Souls II OST)"
+    "music.ds_enterarea": "",
+    "music.flexilesentry": "Dark Souls II OST - Flexile Sentry",
+    "music.pinwheel": "Dark Souls OST - Pinwheel",
+    "music.prayer": "Castlevania: Symphony of the Night OST - Prayer",
+    "music.ruinsentinel": "Dark Souls II OST - Ruin Sentinel",
+    "music.zallenandlud": "Dark Souls II OST - Zallen And Lud"
 }
