@@ -72,8 +72,8 @@
         ]
     },
     {
-        "name": "Slow1",
-        "shortname": "Slow1",
+        "name": "Slow 1",
+        "shortname": "Slow 1",
         "hammerid": "713",
         "message": true,
         "ui": true,
@@ -96,8 +96,8 @@
         ]
     },
     {
-        "name": "Slow2",
-        "shortname": "Slow2",
+        "name": "Slow 2",
+        "shortname": "Slow 2",
         "hammerid": "551",
         "message": true,
         "ui": true,
@@ -120,8 +120,8 @@
         ]
     },
     {
-        "name": "Speed1",
-        "shortname": "Speed1",
+        "name": "Speed 1",
+        "shortname": "Speed 1",
         "hammerid": "1017",
         "message": true,
         "ui": true,
@@ -144,8 +144,8 @@
         ]
     },
     {
-        "name": "Speed2",
-        "shortname": "Speed2",
+        "name": "Speed 2",
+        "shortname": "Speed 2",
         "hammerid": "1023",
         "message": true,
         "ui": true,
@@ -168,8 +168,8 @@
         ]
     },
     {
-        "name": "Speed3",
-        "shortname": "Speed3",
+        "name": "Speed 3",
+        "shortname": "Speed 3",
         "hammerid": "1028",
         "message": true,
         "ui": true,
@@ -192,8 +192,8 @@
         ]
     },
     {
-        "name": "Heli1",
-        "shortname": "Heli1",
+        "name": "Heli 1",
+        "shortname": "Heli 1",
         "hammerid": "991",
         "message": true,
         "ui": true,
@@ -216,8 +216,8 @@
         ]
     },
     {
-        "name": "Heli2",
-        "shortname": "Heli2",
+        "name": "Heli 2",
+        "shortname": "Heli 2",
         "hammerid": "1004",
         "message": true,
         "ui": true,
@@ -240,8 +240,8 @@
         ]
     },
     {
-        "name": "Heli3",
-        "shortname": "Heli3",
+        "name": "Heli 3",
+        "shortname": "Heli 3",
         "hammerid": "1009",
         "message": true,
         "ui": true,
