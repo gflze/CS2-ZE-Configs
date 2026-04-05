@@ -1,0 +1,12 @@
+{
+	// Fix stage 6 boss health scaling not excluding zombies
+	"modify": {
+		"match": {
+			"classname": "trigger_multiple",
+			"targetname": "[PR#]boss_add_hp"
+		},
+		"insert": {
+			"filtername": "[PR#]filter_humans"
+		}
+	}
+}
