@@ -48,30 +48,6 @@
         "iterator":         "nrk3_thorn_recovery_iterations"
     },
     {
-        "name":             "Saint",
-        "breakable":        "nrk1_statue_break_1"
-    },
-    {
-        "name":             "Sinner",
-        "breakable":        "nrk1_statue_break_2"
-    },
-    {
-        "name":             "Crystal",
-        "breakable":        "nrk3_crystal_breakable"
-    },
-    {
-        "name":             "Grave",
-        "breakable":        "nrk3_grave_hitbox_1"
-    },
-    {
-        "name":             "Grave",
-        "breakable":        "nrk3_grave_hitbox_2"
-    },
-    {
-        "name":             "Grave",
-        "breakable":        "nrk3_grave_hitbox_3"
-    },
-    {
         "name":             "Hell Guardian",
         "breakable":        "temp_nrk2_hellseeker_break"
     },
