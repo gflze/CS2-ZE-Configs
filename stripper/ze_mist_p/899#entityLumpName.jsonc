@@ -1,0 +1,12 @@
+{
+	// Temporary fix for visible error models during dragon boss fight
+	// This change can be removed when the map gets updated... if it ever will be lol
+	"modify": {
+		"match": {
+			"classname": "momentary_rot_button"
+		},
+		"replace": {
+			"rendermode": "2"
+		}
+	}
+}
