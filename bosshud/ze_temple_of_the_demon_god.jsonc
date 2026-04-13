@@ -1,73 +1,73 @@
 [
     {
-        "name":             "Doom Bringer",
-        "counter":          "nrk2_hp_counter",
-        "backup":           "nrk2_hp_backup",
-        "iterator":         "nrk2_hp_iterations"
+        "name": "Doom Bringer",
+        "counter": "nrk2_hp_counter",
+        "backup": "nrk2_hp_backup",
+        "iterator": "nrk2_hp_iterations"
     },
     {
-        "name":             "Thorn of Death",
-        "counter":          "nrk2_thorn_counter",
-        "backup":           "nrk2_thorn_hp_backup",
-        "iterator":         "nrk2_thorn_hp_iterations"
+        "name": "Thorn of Death",
+        "counter": "nrk2_thorn_counter",
+        "backup": "nrk2_thorn_hp_backup",
+        "iterator": "nrk2_thorn_hp_iterations"
     },
     {
-        "name":             "Hell Dragon",
-        "counter":          "nrk3_counter1",
-        "backup":           "nrk3_hp_backup1",
-        "iterator":         "nrk3_hp_iterations1"
+        "name": "Hell Dragon",
+        "counter": "nrk3_counter1",
+        "backup": "nrk3_hp_backup1",
+        "iterator": "nrk3_hp_iterations1"
     },
     {
-        "name":             "Evil Maker",
-        "counter":          "nrk3_hp_counter",
-        "backup":           "nrk3_hp_backup",
-        "iterator":         "nrk3_hp_iterations"
+        "name": "Evil Maker",
+        "counter": "nrk3_hp_counter",
+        "backup": "nrk3_hp_backup",
+        "iterator": "nrk3_hp_iterations"
     },
     {
-        "name":             "Evil Believer",
-        "counter":          "nrk3_skyhell_counter",
-        "backup":           "nrk3_skyhell_backup",
-        "iterator":         "nrk3_skyhell_iterations"
+        "name": "Evil Believer",
+        "counter": "nrk3_skyhell_counter",
+        "backup": "nrk3_skyhell_backup",
+        "iterator": "nrk3_skyhell_iterations"
     },
     {
-        "name":             "Thorn of File Pillars",
-        "counter":          "nrk3_thorn_meteor_counter",
-        "backup":           "nrk3_thorn_meteor_backup",
-        "iterator":         "nrk3_thorn_meteor_iterations"
+        "name": "Thorn of File Pillars",
+        "counter": "nrk3_thorn_meteor_counter",
+        "backup": "nrk3_thorn_meteor_backup",
+        "iterator": "nrk3_thorn_meteor_iterations"
     },
     {
-        "name":             "Thorn of Protection",
-        "counter":          "nrk3_thorn_protection_counter",
-        "backup":           "nrk3_thorn_protection_backup",
-        "iterator":         "nrk3_thorn_protection_iterations"
+        "name": "Thorn of Protection",
+        "counter": "nrk3_thorn_protection_counter",
+        "backup": "nrk3_thorn_protection_backup",
+        "iterator": "nrk3_thorn_protection_iterations"
     },
     {
-        "name":             "Thorn of Recovery",
-        "counter":          "nrk3_thorn_recovery_counter",
-        "backup":           "nrk3_thorn_recovery_backup",
-        "iterator":         "nrk3_thorn_recovery_iterations"
+        "name": "Thorn of Recovery",
+        "counter": "nrk3_thorn_recovery_counter",
+        "backup": "nrk3_thorn_recovery_backup",
+        "iterator": "nrk3_thorn_recovery_iterations"
     },
     {
-        "name":             "Hell Guardian",
-        "breakable":        "temp_nrk2_hellseeker_break"
+        "name": "Hell Guardian",
+        "breakable": "temp_nrk2_hellseeker_break"
     },
     {
-        "name":             "Hell Guardian",
-        "breakable":        "temp_nrk3_hellguardian_break"
+        "name": "Hell Guardian",
+        "breakable": "temp_nrk3_hellguardian_break"
     },
     // GFL does not display NPC health
     {
-        "hitmarkeronly":    true,
-        "multitrigger":     true,
-        "templated":        true,
-        "showbeaten":       false,
-        "breakable":        "nrk_npc1_hitbox"
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "templated": true,
+        "showbeaten": false,
+        "breakable": "nrk_npc1_hitbox"
     },
     {
-        "hitmarkeronly":    true,
-        "multitrigger":     true,
-        "templated":        true,
-        "showbeaten":       false,
-        "breakable":        "nrk_npc2_hitbox"
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "templated": true,
+        "showbeaten": false,
+        "breakable": "nrk_npc2_hitbox"
     }
 ]
