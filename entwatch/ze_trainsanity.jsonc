@@ -1,0 +1,213 @@
+[
+    {
+        "name": "Heal",
+        "shortname": "Heal",
+        "hammerid": "5215",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "blue",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "5216"
+            },
+            {
+                "hammerid": "5218",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Teleport Pad",
+        "shortname": "Teleport",
+        "hammerid": "4375",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4376"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "4391",
+                "mode": 3,
+                "cooldown": 45,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Barricade",
+        "shortname": "Barricade",
+        "hammerid": "4348",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4344"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "4358",
+                "mode": 3,
+                "cooldown": 3,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Ammo",
+        "shortname": "Ammo",
+        "hammerid": "3935",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "olive",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3959"
+            },
+            {
+                "hammerid": "5211",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 50,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Exploding Barrel",
+        "shortname": "Barrel",
+        "hammerid": "3898",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3905"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "3911",
+                "mode": 3,
+                "cooldown": 25,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Flamethrower",
+        "shortname": "Flamethrower",
+        "hammerid": "3871",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "orange",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3872"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "3878",
+                "mode": 5,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mine",
+        "shortname": "Mine",
+        "hammerid": "3810",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "3836"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "3841",
+                "mode": 3,
+                "cooldown": 2.5,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "4448",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["4459"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4458"
+            },
+            {
+                "hammerid": "4457",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Rocket",
+        "shortname": "ZM Rocket",
+        "hammerid": "4393",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "darkred",
+        "triggers": ["4414"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "4394"
+            },
+            {
+                "hammerid": "4396",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

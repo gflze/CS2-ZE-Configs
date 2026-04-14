@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Sphere",
+        "counter": "boss_health_counter"
+    },
+    {
+        "name": "Light Tower 1",
+        "showbeaten": false,
+        "breakable": "b1"
+    },
+    {
+        "name": "Light Tower 2",
+        "showbeaten": false,
+        "breakable": "b2"
+    },
+    {
+        "name": "Light Tower 3",
+        "showbeaten": false,
+        "breakable": "b3"
+    },
+    {
+        "name": "Light Tower 4",
+        "showbeaten": false,
+        "breakable": "b4"
+    }
+]
