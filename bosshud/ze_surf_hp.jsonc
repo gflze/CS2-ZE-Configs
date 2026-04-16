@@ -1,0 +1,9 @@
+[
+    // Boss health handled by scripts, so this is for hitmarkers
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 999999999.0,
+        "breakable": "angry_boss"
+    }
+]
