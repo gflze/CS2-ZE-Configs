@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Bomb",
+        "trigger": { "ent": "lvl2_Boss_Hitbox", "output": "OnHealthChanged" },
+        "counter": "lvl2_Gi_Nattak_Counter"
+    },
+    {
+        "name": "Ifrit",
+        "trigger": { "ent": "lvl3_end_boss", "output": "OnHealthChanged" },
+        "counter": "lvl2_Gi_Nattak_Counter"
+    },
+    {
+        "name": "Genesis",
+        "counter": "Genesis_Counter"
+    },
+    {
+        "name": "Ifrit",
+        "counter": "Shinra_Ifrit_Counter"
+    },
+    {
+        "name": "Jenova",
+        "counter": "Shinra_Jenova_Counter"
+    },
+    {
+        "name": "Shiva",
+        "counter": "Shinra_Shiva_Counter"
+    },
+    {
+        "name": "Gi Nattak",
+        "counter": "gi_nattak_health"
+    },
+    {
+        "name": "Genesis",
+        "counter": "genesis_health"
+    }
+]

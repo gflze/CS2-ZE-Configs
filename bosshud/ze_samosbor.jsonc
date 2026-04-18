@@ -1,9 +1,16 @@
 [
+    {
+        "name": "Worm",
+        "reverseiterator": true,
+        "counter": "Map_BossWorm_HP",
+        "backup": "Map_BossWorm_HP_Init",
+        "iterator": "Map_BossWorm_HP_Bar"
+    },
     // Boss health handled by scripts, so this is for hitmarkers
     {
-        "hitmarkeronly":    true,
-        "showbeaten":       false,
-        "maxhp":            1410065407.0,
-        "breakable":        "Map_Boss_TheHeart_Physbox"
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 1410065407.0,
+        "breakable": "Map_Boss_TheHeart_Physbox"
     }
 ]

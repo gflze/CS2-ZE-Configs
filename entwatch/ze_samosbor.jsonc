@@ -48,6 +48,101 @@
         ]
     },
     {
+        "name": "Flare",
+        "shortname": "Flare",
+        "hammerid": "12398",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "yellow",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "12401"
+            },
+            {
+                "hammerid": "12399",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Glowstick",
+        "shortname": "Glowstick",
+        "hammerid": "12407",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "12408"
+            },
+            {
+                "hammerid": "12406",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Mine",
+        "shortname": "Mine",
+        "hammerid": "14528",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "14530"
+            },
+            {
+                "hammerid": "14529",
+                "event": "OnPass",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Extinguisher",
+        "shortname": "Extinguisher",
+        "hammerid": "14859",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "14621"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "14859",
+                "mode": 3,
+                "cooldown": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Whip",
         "shortname": "Whip",
         "hammerid": "7988",
