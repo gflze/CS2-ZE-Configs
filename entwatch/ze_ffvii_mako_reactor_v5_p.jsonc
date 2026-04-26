@@ -111,7 +111,7 @@
         "message": true,
         "ui": true,
         "transfer": true,
-        "color": "lightblue",
+        "color": "blue",
         "handlers": [
             {
                 "type": "button",

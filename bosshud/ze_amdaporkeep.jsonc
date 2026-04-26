@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Ahriman",
+        "counter": "Ahriman_Hp"
+    },
+    {
+        "name": "Diabolos",
+        "counter": "Laser_Diabolos_Hollow_Hp"
+    },
+    {
+        "name": "Omega",
+        "counter": "First_Omega_HP"
+    },
+    {
+        "name": "Crystal",
+        "counter": "Crystal_HP"
+    },
+    {
+        "name": "Diabolos",
+        "counter": "Diabolos_Hollow_HP"
+    },
+    {
+        "name": "Diabolos",
+        "counter": "Diabolos_HP"
+    },
+    {
+        "name": "Cloud of Darkness",
+        "counter": "Cloud_of_Darkness_HP"
+    },
+    {
+        "name": "Reconfigured Omega",
+        "counter": "Laser_Omega_HP"
+    },
+    {
+        "name": "Omega-M/F",
+        "counter": "Omega_Phase1_HP",
+        "iterator": "Omega_Phase1_Bar_HP"
+    },
+    {
+        "name": "Wall",
+        "counter": "Elidibus_Wall_HP"
+    }
+]
