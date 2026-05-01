@@ -17,6 +17,7 @@
                 "hammerid": "1323"
             },
             {
+                "name": "Heal",
                 "hammerid": "1322",
                 "event": "OnPass",
                 "mode": 2,
@@ -26,7 +27,7 @@
                 "ui": true
             },
             {
-                "name": "Card",
+                "name": "Play Card",
                 "hammerid": "1325",
                 "event": "OnPass",
                 "mode": 2,
@@ -65,7 +66,17 @@
                 "hammerid": "1340",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 15,
+                "cooldown": 20,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Provoke",
+                "hammerid": "5265",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 12,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -156,7 +167,7 @@
                 "hammerid": "4421",
                 "event": "OnEntitySpawned",
                 "mode": 2,
-                "cooldown": 30,
+                "cooldown": 40,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -212,6 +223,7 @@
                 "hammerid": "4463"
             },
             {
+                "name": "Heal",
                 "hammerid": "4468",
                 "event": "OnPass",
                 "mode": 2,
@@ -338,7 +350,7 @@
                 "hammerid": "1731",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 50,
+                "cooldown": 60,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -360,7 +372,7 @@
                 "hammerid": "1834",
                 "event": "OnTrigger",
                 "mode": 2,
-                "cooldown": 10,
+                "cooldown": 15,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -420,7 +432,7 @@
                 "hammerid": "5618",
                 "event": "OnPass",
                 "mode": 2,
-                "cooldown": 30,
+                "cooldown": 40,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -446,6 +458,27 @@
                 "event": "OnPass",
                 "mode": 2,
                 "cooldown": 55,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Easter Egg",
+        "shortname": "Egg",
+        "hammerid": "6832",
+        "message": true,
+        "ui": false,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "6833",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 45,
                 "maxuses": 0,
                 "message": true,
                 "ui": true

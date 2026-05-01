@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Meat",
+        "counter": "Stage1_Meat_Hp"
+    },
+    {
+        "name": "Boot",
+        "counter": "Stage2_Boot_hp"
+    },
+    {
+        "name": "Ball",
+        "counter": "Stage2_Ball_Hp"
+    },
+    {
+        "name": "Spider",
+        "counter": "Stage3_Spider_hp"
+    },
+    {
+        "name": "Meat",
+        "counter": "Stage4_Meat_hp"
+    }
+]

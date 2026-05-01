@@ -10,8 +10,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5145",
-                "event": "OnPressed",
+                "hammerid": "5145"
+            },
+            {
+                "hammerid": "5149",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 15,
                 "maxuses": 0,
@@ -31,8 +34,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5164",
-                "event": "OnPressed",
+                "hammerid": "5164"
+            },
+            {
+                "hammerid": "5167",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 15,
                 "maxuses": 0,
@@ -52,8 +58,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5174",
-                "event": "OnPressed",
+                "hammerid": "5174"
+            },
+            {
+                "hammerid": "5180",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -73,8 +82,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5186",
-                "event": "OnPressed",
+                "hammerid": "5186"
+            },
+            {
+                "hammerid": "5190",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -94,8 +106,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5156",
-                "event": "OnPressed",
+                "hammerid": "5156"
+            },
+            {
+                "hammerid": "5160",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -115,10 +130,13 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "3151",
-                "event": "OnPressed",
+                "hammerid": "3151"
+            },
+            {
+                "hammerid": "3150",
+                "event": "OnTrigger",
                 "mode": 3,
-                "cooldown": 0,
+                "cooldown": 15,
                 "maxuses": 1,
                 "message": true,
                 "ui": true
@@ -136,8 +154,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "11371",
-                "event": "OnPressed",
+                "hammerid": "11371"
+            },
+            {
+                "hammerid": "5142",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -157,8 +178,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5064",
-                "event": "OnPressed",
+                "hammerid": "5064"
+            },
+            {
+                "hammerid": "5068",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -178,8 +202,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5125",
-                "event": "OnPressed",
+                "hammerid": "5125"
+            },
+            {
+                "hammerid": "5130",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -200,8 +227,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5028",
-                "event": "OnPressed",
+                "hammerid": "5028"
+            },
+            {
+                "hammerid": "5037",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -222,8 +252,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5015",
-                "event": "OnPressed",
+                "hammerid": "5015"
+            },
+            {
+                "hammerid": "5020",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -244,8 +277,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4981",
-                "event": "OnPressed",
+                "hammerid": "4981"
+            },
+            {
+                "hammerid": "4985",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 60,
                 "maxuses": 0,
@@ -266,8 +302,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "5006",
-                "event": "OnPressed",
+                "hammerid": "5006"
+            },
+            {
+                "hammerid": "5002",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
@@ -288,8 +327,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4945",
-                "event": "OnPressed",
+                "hammerid": "4945"
+            },
+            {
+                "hammerid": "4952",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 55,
                 "maxuses": 0,
@@ -310,8 +352,11 @@
         "handlers": [
             {
                 "type": "button",
-                "hammerid": "4994",
-                "event": "OnPressed",
+                "hammerid": "4994"
+            },
+            {
+                "hammerid": "4999",
+                "event": "OnTrigger",
                 "mode": 2,
                 "cooldown": 65,
                 "maxuses": 0,
