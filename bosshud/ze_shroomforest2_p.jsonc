@@ -15,7 +15,7 @@
     {
         "counter": "boss_health",
         "backup": "boss_health_backup",
-        "iterator": "Boss_HealthBarCounter"
+        "iterator": "boss_health_bar"
     },
     {
         "name": "TV",
