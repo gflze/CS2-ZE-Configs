@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Salvation",
+        "shortname": "Salvation",
+        "hammerid": "143",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "144",
+                "event": "OnPressed",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Brute",
+        "shortname": "ZM Brute",
+        "hammerid": "162",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "purple",
+        "triggers": ["168"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "163",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 100,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Fling",
+        "shortname": "ZM Fling",
+        "hammerid": "1242",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["1248"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1243",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Wing",
+        "shortname": "ZM Wing",
+        "hammerid": "1273",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "green",
+        "triggers": ["1281"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1275",
+                "event": "OnPressed",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    }
+]

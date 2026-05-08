@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Minotaur God",
+        "breakable": "i_minotaurgod_hp"
+    },
+    // GFL does not display NPC health
+    {
+        "hitmarkeronly": true,
+        "multitrigger": true,
+        "templated": true,
+        "showbeaten": false,
+        "counter": "i_templeguardian_hp"
+    }
+]
