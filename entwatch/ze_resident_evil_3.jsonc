@@ -113,5 +113,94 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Kar98k",
+        "shortname": "Kar98k",
+        "hammerid": "40266",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "40269"
+            },
+            {
+                "type": "counterup",
+                "hammerid": "40267",
+                "mode": 3,
+                "cooldown": 3,
+                "ui": true,
+                "message": true
+            }
+        ]
+    },
+    {
+        "name": "Chainsaw",
+        "shortname": "Chainsaw",
+        "hammerid": "40793",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "40808"
+            },
+            {
+                "hammerid": "56823",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Licker",
+        "shortname": "ZM Licker",
+        "hammerid": "80589",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "triggers": ["80596"],
+        "handlers": [
+            {
+                "name": "Lick",
+                "hammerid": "80584",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Jump",
+                "hammerid": "80585",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 6,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            },
+            {
+                "name": "Swipe",
+                "hammerid": "80586",
+                "event": "OnTrigger",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
