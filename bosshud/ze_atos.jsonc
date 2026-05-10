@@ -1,0 +1,40 @@
+[
+    // Boss health is handled by map scripts, so this config is for hitmarkers
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 100000000.0,
+        "breakable": "_scene4_sea_witch_box"
+    },
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 10000000.0,
+        "breakable": "_scene3_boss_he_box"
+    },
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 10000000.0,
+        "breakable": "_scene3_boss_box"
+    },
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 10000000.0,
+        "breakable": "scene3_boss_he_box"
+    },
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "maxhp": 10000000.0,
+        "breakable": "scene3_boss_box"
+    },
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "templated": true,
+        "maxhp": 10000000.0,
+        "breakable": "scene4_sea_witch_box"
+    }
+]
