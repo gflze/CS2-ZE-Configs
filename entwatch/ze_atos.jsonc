@@ -598,5 +598,30 @@
                 "ui": true
             }
         ]
+    },
+    {
+        "name": "Zombie Meteor",
+        "shortname": "ZM Meteor",
+        "hammerid": "10572",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "orange",
+        "triggers": ["10570"],
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "10558"
+            },
+            {
+                "hammerid": "10574",
+                "event": "OnPass",
+                "mode": 2,
+                "cooldown": 10,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
     }
 ]
