@@ -1,7 +1,9 @@
 [
     {
         "name": "Ahriman",
-        "counter": "Ahriman_Hp"
+        "counter": "Ahriman_Hp",
+        "backup": "Ahriman_Hp_Init",
+        "iterator": "Ahriman_HP_Blocks"
     },
     {
         "name": "Diabolos",
@@ -17,15 +19,21 @@
     },
     {
         "name": "Diabolos",
-        "counter": "Diabolos_Hollow_HP"
+        "counter": "Diabolos_Hollow_HP",
+        "backup": "Diabolos_Hollow_HP_Init",
+        "iterator": "Diabolos_Hollow_HP_Blocks"
     },
     {
         "name": "Diabolos",
-        "counter": "Diabolos_HP"
+        "counter": "Diabolos_HP",
+        "backup": "Diabolos_HP_Init",
+        "iterator": "Diabolos_HP_Blocks"
     },
     {
         "name": "Cloud of Darkness",
-        "counter": "Cloud_of_Darkness_HP"
+        "counter": "Cloud_of_Darkness_HP",
+        "backup": "Cloud_of_Darkness_HP_Init",
+        "iterator": "Cloud_of_Darkness_HP_Blocks"
     },
     {
         "name": "Reconfigured Omega",
@@ -33,8 +41,9 @@
     },
     {
         "name": "Omega-M/F",
-        "counter": "Omega_Phase1_HP",
-        "iterator": "Omega_Phase1_Bar_HP"
+        "counter": "Omega_HP",
+        "backup": "Omega_HP_Init",
+        "iterator": "Omega_HP_Blocks"
     },
     {
         "name": "Wall",
