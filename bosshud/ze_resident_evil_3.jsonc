@@ -2,5 +2,23 @@
     {
         "name": "Nemesis",
         "counter": "Special_Health"
+    },
+    {
+        "name": "Nemesis",
+        "counter": "house_nemesis_counter",
+        "backup": "house_nemesis_hp_backup",
+        "iterator": "house_nemesis_hp_iterations"
+    },
+    {
+        "name": "Crocodile",
+        "counter": "random_crocodile_counter",
+        "backup": "random_crocodiles_hp_backup",
+        "iterator": "random_crocodile_hp_iterations"
+    },
+    {
+        "name": "Nemesis",
+        "counter": "parking_nemesis_counter",
+        "backup": "parking_nemesis_hp_backup",
+        "iterator": "parking_nemesis_hp_iterations"
     }
 ]
