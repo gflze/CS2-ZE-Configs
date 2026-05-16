@@ -7,7 +7,9 @@
         "name": "Nemesis",
         "counter": "house_nemesis_counter",
         "backup": "house_nemesis_hp_backup",
-        "iterator": "house_nemesis_hp_iterations"
+        "iterator": "house_nemesis_hp_iterations",
+        "minorhud": true,
+        "timeout": 5.0
     },
     {
         "name": "Crocodile",
@@ -19,6 +21,8 @@
         "name": "Nemesis",
         "counter": "parking_nemesis_counter",
         "backup": "parking_nemesis_hp_backup",
-        "iterator": "parking_nemesis_hp_iterations"
+        "iterator": "parking_nemesis_hp_iterations",
+        "minorhud": true,
+        "timeout": 5.0
     }
 ]
