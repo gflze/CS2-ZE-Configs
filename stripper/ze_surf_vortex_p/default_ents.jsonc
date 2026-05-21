@@ -1,0 +1,21 @@
+{
+	// Fix zombies being teleported to a previous room that gets reused
+	"modify": {
+		"match": {
+			"classname": "trigger_once",
+			"hammeruniqueid": "1045"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnStartTouch",
+					"targetname": "[PR#]afk_1",
+					"inputname": "KeyValue",
+					"overrideparam": "target zfinal",
+					"delay": 45.0,
+					"timestofire": 1
+				}
+			]
+		}
+	}
+}
