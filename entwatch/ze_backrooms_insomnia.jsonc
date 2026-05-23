@@ -383,6 +383,30 @@
         ]
     },
     {
+        "name": "Liquid Pain",
+        "shortname": "Pain",
+        "hammerid": "25856",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "25857"
+            },
+            {
+                "hammerid": "25862",
+                "event": "OnTrigger",
+                "mode": 3,
+                "cooldown": 0,
+                "maxuses": 1,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "RAID",
         "shortname": "RAID",
         "hammerid": "19419",
