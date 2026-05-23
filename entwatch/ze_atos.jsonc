@@ -464,6 +464,7 @@
                 "ui": true
             },
             {
+                "name": "Ultimate",
                 "hammerid": "10652",
                 "event": "OnTrigger",
                 "mode": 2,
@@ -525,8 +526,8 @@
         ]
     },
     {
-        "name": "Zombie Black Hole",
-        "shortname": "ZM Black Hole",
+        "name": "Zombie Blackhole",
+        "shortname": "ZM Blackhole",
         "hammerid": "11029",
         "message": true,
         "ui": true,
