@@ -407,6 +407,28 @@
         ]
     },
     {
+        "name": "Scanner MK1",
+        "shortname": "Scanner",
+        "hammerid": "25870",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "25871"
+            },
+            {
+                "type": "counterdown",
+                "hammerid": "25895",
+                "mode": 5,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "RAID",
         "shortname": "RAID",
         "hammerid": "19419",
@@ -468,7 +490,7 @@
                 "hammerid": "19172",
                 "event": "OnEqualTo",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -507,10 +529,10 @@
         "triggers": ["19128"],
         "handlers": [
             {
-                "hammerid": "19136",
-                "event": "OnTrigger",
+                "hammerid": "19135",
+                "event": "OnEqualTo",
                 "mode": 2,
-                "cooldown": 60,
+                "cooldown": 50,
                 "maxuses": 0,
                 "message": true,
                 "ui": true
@@ -549,7 +571,7 @@
         "triggers": ["19107"],
         "handlers": [
             {
-                "hammerid": "19110",
+                "hammerid": "26066",
                 "event": "OnEqualTo",
                 "mode": 2,
                 "cooldown": 40,
