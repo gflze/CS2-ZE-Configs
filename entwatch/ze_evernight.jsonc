@@ -185,7 +185,7 @@
         "message": true,
         "ui": true,
         "transfer": false,
-        "color": "6342",
+        "color": "orange",
         "triggers": ["6353"],
         "handlers": [
             {
