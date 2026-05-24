@@ -1,5 +1,29 @@
 [
     {
+        "name": "Push",
+        "shortname": "Push",
+        "hammerid": "11782",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "green",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "11783"
+            },
+            {
+                "hammerid": "11772",
+                "event": "OnEqualTo",
+                "mode": 2,
+                "cooldown": 40,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
         "name": "Trail",
         "shortname": "Trail",
         "hammerid": "12016",
@@ -7,15 +31,6 @@
         "ui": true,
         "transfer": true,
         "color": "white"
-    },
-    {
-        "name": "Push",
-        "shortname": "Push",
-        "hammerid": "11782",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green"
     },
     {
         "name": "Fuel Can",
