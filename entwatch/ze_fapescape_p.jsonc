@@ -1,7 +1,7 @@
 [
     {
-        "name": "Ultimate Weapon",
-        "shortname": "Ultima",
+        "name": "Uber Cannon",
+        "shortname": "Uber",
         "hammerid": "108",
         "message": true,
         "ui": true,

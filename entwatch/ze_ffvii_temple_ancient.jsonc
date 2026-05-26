@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ice",
+        "name": "Ice Materia",
         "shortname": "Ice",
         "hammerid": "1649",
         "message": true,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name": "Earth",
+        "name": "Earth Materia",
         "shortname": "Earth",
         "hammerid": "1638",
         "message": true,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "name": "Fire",
+        "name": "Fire Materia",
         "shortname": "Fire",
         "hammerid": "1633",
         "message": true,
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "name": "Wind",
+        "name": "Wind Materia",
         "shortname": "Wind",
         "hammerid": "1628",
         "message": true,
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "name": "Heal",
+        "name": "Heal Materia",
         "shortname": "Heal",
         "hammerid": "1623",
         "message": true,
@@ -120,7 +120,7 @@
         ]
     },
     {
-        "name": "Poison",
+        "name": "Poison Materia",
         "shortname": "Poison",
         "hammerid": "1617",
         "message": true,

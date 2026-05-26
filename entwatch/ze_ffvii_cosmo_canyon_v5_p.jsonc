@@ -113,10 +113,6 @@
         "color": "blue",
         "handlers": [
             {
-                "type": "button",
-                "hammerid": ""
-            },
-            {
                 "type": "counterup",
                 "hammerid": "422",
                 "mode": 4,
@@ -275,10 +271,6 @@
         "transfer": true,
         "color": "purple",
         "handlers": [
-            {
-                "type": "button",
-                "hammerid": ""
-            },
             {
                 "hammerid": "15400",
                 "event": "OnTrigger",
