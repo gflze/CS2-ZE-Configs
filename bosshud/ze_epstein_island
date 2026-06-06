@@ -19,7 +19,7 @@
 
 	{
 		"name":				"Sin Devil Trigger Epstein",
-		"breakable":		"abyss_epstein_heli_hitbox",
+		"breakable":		"sdt_epstein_hitbox",
 		"templated":		true,
 	},
 ]
