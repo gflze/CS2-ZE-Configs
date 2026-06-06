@@ -1,0 +1,25 @@
+[
+	{
+		"name":				"Epstein",
+		"breakable":		"wp_epstein_hitbox",
+		"templated":		true,
+	},
+
+	{
+		"name":				"Abyssal Epstein",
+		"breakable":		"abyss_epstein_hitbox",
+		"templated":		true,
+	},
+
+	{
+		"name":				"Abyssal Epstein",
+		"breakable":		"abyss_epstein_heli_hitbox",
+		"templated":		true,
+	},
+
+	{
+		"name":				"Sin Devil Trigger Epstein",
+		"breakable":		"abyss_epstein_heli_hitbox",
+		"templated":		true,
+	},
+]
