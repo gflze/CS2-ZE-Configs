@@ -1,0 +1,8 @@
+[
+    {
+        "hitmarkeronly": true,
+        "showbeaten": false,
+        "multitrigger": true,
+        "counter": "entitychase_counter"
+    }
+]
