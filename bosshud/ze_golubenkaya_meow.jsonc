@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Meow",
+    "counter": "boss_counter",
+    "backup": "boss_hp_backup",
+    "iterator": "boss_hp_iterations"
+  },
+  {
+    "name": "Cat",
+    "counter": "catnpc_hp",
+    "killtrigger": { "ent": "catnpc_track2", "output": "OnPass" }
+  },
+  {
+    "name": "Ninja Cat",
+    "counter": "kurumi_counter",
+    "backup": "kurumi_hp_backup",
+    "iterator": "kurumi_hp_iterations"
+  },
+  // GFL does not display NPC health
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "petcat_hbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "npc_girlcat_hbox"
+  }
+]
