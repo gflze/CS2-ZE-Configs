@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Toast",
+    "shortname": "Toast",
+    "hammerid": "399",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "397"
+      },
+      {
+        "hammerid": "397",
+        "event": "OnUser1",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ham",
+    "shortname": "Ham",
+    "hammerid": "341",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "339"
+      },
+      {
+        "hammerid": "339",
+        "event": "OnUser1",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Cheese",
+    "shortname": "Cheese",
+    "hammerid": "332",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "333"
+      },
+      {
+        "hammerid": "333",
+        "event": "OnUser1",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Spicebox",
+    "shortname": "Spicebox",
+    "hammerid": "322",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "328"
+      },
+      {
+        "hammerid": "328",
+        "event": "OnUser1",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Sponge",
+    "shortname": "Sponge",
+    "hammerid": "319",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "315"
+      },
+      {
+        "hammerid": "315",
+        "event": "OnUser1",
+        "mode": 0,
+        "cooldown": 0,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
