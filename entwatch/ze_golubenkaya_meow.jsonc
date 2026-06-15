@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Heal",
+    "shortname": "Heal",
+    "hammerid": "664",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "659"
+      },
+      {
+        "hammerid": "663",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Wind",
+    "shortname": "Wind",
+    "hammerid": "654",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "652"
+      },
+      {
+        "hammerid": "656",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Bazooka",
+    "shortname": "Bazooka",
+    "hammerid": "176",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "179"
+      },
+      {
+        "hammerid": "178",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Turret",
+    "shortname": "Turret",
+    "hammerid": "2213",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "2208"
+      },
+      {
+        "hammerid": "2212",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Cat Boy",
+    "shortname": "Cat Boy",
+    "hammerid": "379",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "white",
+    "triggers": ["377"],
+    "handlers": [
+      {
+        "hammerid": "376",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 10,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Laser",
+    "shortname": "ZM Laser",
+    "hammerid": "98",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["99"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "101"
+      },
+      {
+        "hammerid": "105",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Tiger",
+    "shortname": "ZM Tiger",
+    "hammerid": "364",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "yellow",
+    "triggers": ["362"],
+    "handlers": [
+      {
+        "name": "Attack",
+        "hammerid": "366",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 5,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      },
+      {
+        "name": "Shake",
+        "hammerid": "361",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 15,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]

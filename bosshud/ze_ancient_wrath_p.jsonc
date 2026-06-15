@@ -1,55 +1,73 @@
 [
-    {
-        "name":             "Energy Beam 1",
-        "breakable":        "boss_3_energy_1"
-    },
-    {
-        "name":             "Energy Beam 2",
-        "breakable":        "boss_3_energy_2"
-    },
-    {
-        "name":             "Container",
-        "trigger":          { "ent": "boss_quad_path_static_2", "output": "OnPass" },
-        "breakable":        "boss_3_container"
-    },
-    {
-        "name":             "Quadralex",
-        "counter":          "quad_phase1_counter"
-    },
-    {
-        "name":             "Quadralex",
-        "counter":          "quad_phase2_counter"
-    },
-    {
-        "name":             "Worm",
-        "counter":          "boss_worm_01_counter"
-    },
-    {
-        "name":             "Worm",
-        "counter":          "boss_worm2_01_counter"
-    },
-    {
-        "name":             "Worm",
-        "counter":          "boss_worm3_counter"
-    },
-    {
-        "name":             "North Chain",
-        "counter":          "chain_n_counter"
-    },
-    {
-        "name":             "East Chain",
-        "counter":          "chain_e_counter"
-    },
-    {
-        "name":             "South Chain",
-        "counter":          "chain_s_counter"
-    },
-    {
-        "name":             "West Chain",
-        "counter":          "chain_w_counter"
-    },
-    {
-        "name":             "Quadralex",
-        "counter":          "boss_quad_encounter_01_counter"
-    }
+  {
+    "name": "Energy Beam 1",
+    "breakable": "boss_3_energy_1"
+  },
+  {
+    "name": "Energy Beam 2",
+    "breakable": "boss_3_energy_2"
+  },
+  {
+    "name": "Container",
+    "trigger": { "ent": "boss_quad_path_static_2", "output": "OnPass" },
+    "breakable": "boss_3_container"
+  },
+  {
+    "name": "Quadralex",
+    "counter": "quad_phase1_counter"
+  },
+  {
+    "name": "Quadralex",
+    "counter": "quad_phase2_counter"
+  },
+  {
+    "name": "Worm",
+    "counter": "boss_worm_01_counter"
+  },
+  {
+    "name": "Worm",
+    "counter": "boss_worm2_01_counter"
+  },
+  {
+    "name": "Worm",
+    "counter": "boss_worm3_counter"
+  },
+  {
+    "name": "North Chain",
+    "counter": "chain_n_counter"
+  },
+  {
+    "name": "East Chain",
+    "counter": "chain_e_counter"
+  },
+  {
+    "name": "South Chain",
+    "counter": "chain_s_counter"
+  },
+  {
+    "name": "West Chain",
+    "counter": "chain_w_counter"
+  },
+  {
+    "name": "Quadralex",
+    "counter": "boss_quad_encounter_01_counter"
+  },
+  {
+    "name": "Knockback 1",
+    "showbeaten": false,
+    "timeout": 3.0,
+    "counter": "boss_2_knockback_1_counter"
+  },
+  {
+    "name": "Knockback 2",
+    "showbeaten": false,
+    "timeout": 3.0,
+    "counter": "boss_2_knockback_2_counter"
+  },
+  {
+    "name": "Knockback 3",
+    "showbeaten": false,
+    "timeout": 3.0,
+    "counter": "boss_2_knockback_3_counter"
+  }
 ]
