@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Insect Swarm Plasmid",
+    "shortname": "Insect Swarm",
+    "hammerid": "19209",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "18220"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "19046",
+        "mode": 3,
+        "cooldown": 10,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Electro Bolt Plasmid",
+    "shortname": "Electro Bolt",
+    "hammerid": "19212",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "18285"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "19065",
+        "mode": 3,
+        "cooldown": 11,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Incinerate Plasmid",
+    "shortname": "Incinerate",
+    "hammerid": "19211",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "18283"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "19064",
+        "mode": 3,
+        "cooldown": 5,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Sonic Boom Plasmid",
+    "shortname": "Sonic Boom",
+    "hammerid": "19210",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "18281"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "19063",
+        "mode": 3,
+        "cooldown": 10,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Gravity Well Plasmid",
+    "shortname": "Gravity Well",
+    "hammerid": "19208",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "18277"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "19051",
+        "mode": 3,
+        "cooldown": 18,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Winter Blast Plasmid",
+    "shortname": "Winter Blast",
+    "hammerid": "19207",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "18275"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "19049",
+        "mode": 3,
+        "cooldown": 13,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Gene Tonic: Flash Flare",
+    "shortname": "Flash Flare",
+    "hammerid": "19216",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "white",
+    "triggers": ["17440"]
+  },
+  {
+    "name": "Gene Tonic: Static Shell",
+    "shortname": "Static Shell",
+    "hammerid": "19215",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "green",
+    "triggers": ["17438"]
+  },
+  {
+    "name": "Little Sister",
+    "shortname": "Sister",
+    "hammerid": "19214",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["17436"]
+  },
+  {
+    "name": "The Big Daddy",
+    "shortname": "Daddy",
+    "hammerid": "19213",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "darkred",
+    "triggers": ["17434"]
+  }
+]
