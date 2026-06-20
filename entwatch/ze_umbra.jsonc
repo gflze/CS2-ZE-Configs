@@ -1,0 +1,444 @@
+[
+  {
+    "name": "Howling Tempest",
+    "shortname": "Tempest",
+    "hammerid": "12872",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "12875"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "12862",
+        "mode": 3,
+        "cooldown": 60,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Ice Stormcallers Wrath",
+    "shortname": "Wrath",
+    "hammerid": "11243",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11241"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "12955",
+        "mode": 3,
+        "cooldown": 50,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Magic Spell",
+    "shortname": "Fire",
+    "hammerid": "11210",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11211"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "12957",
+        "mode": 3,
+        "cooldown": 50,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Ice Magic Spell",
+    "shortname": "Ice",
+    "hammerid": "11204",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11205"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "12956",
+        "mode": 3,
+        "cooldown": 50,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Explosive Barrel",
+    "shortname": "Barrel",
+    "hammerid": "11412",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11409"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "12860",
+        "mode": 3,
+        "cooldown": 30,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Ice Bow",
+    "shortname": "Ice Bow",
+    "hammerid": "11271",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11273"
+      },
+      {
+        "hammerid": "11269",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Explosive Bow",
+    "shortname": "Explosive Bow",
+    "hammerid": "11376",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11357"
+      },
+      {
+        "hammerid": "11383",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 9,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Nade Box",
+    "shortname": "Grenades",
+    "hammerid": "11484",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11487"
+      },
+      {
+        "hammerid": "11483",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Spear",
+    "shortname": "Spear",
+    "hammerid": "12870",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "12863"
+      },
+      {
+        "hammerid": "12867",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 4.5,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Bow",
+    "shortname": "Bow",
+    "hammerid": "11387",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11389"
+      }
+    ]
+  },
+  {
+    "name": "Holy Heal",
+    "shortname": "Holy",
+    "hammerid": "11259",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11260"
+      },
+      {
+        "hammerid": "11262",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Healing Potion",
+    "shortname": "Heal",
+    "hammerid": "11425",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11423"
+      },
+      {
+        "hammerid": "11455",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ammo Potion",
+    "shortname": "Ammo",
+    "hammerid": "11439",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11441"
+      },
+      {
+        "hammerid": "11440",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Speed Potion",
+    "shortname": "Speed",
+    "hammerid": "11433",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11431"
+      },
+      {
+        "hammerid": "11430",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Burning Curse Skull",
+    "shortname": "ZM Curse",
+    "hammerid": "11372",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["11352"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11369"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "11355",
+        "mode": 3,
+        "cooldown": 10,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Frozen Skull",
+    "shortname": "ZM Skull",
+    "hammerid": "11306",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["11308"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11348"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "11351",
+        "mode": 3,
+        "cooldown": 35,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Toxic Orb",
+    "shortname": "ZM Orb",
+    "hammerid": "11286",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "green",
+    "triggers": ["11288"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11283"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "11329",
+        "mode": 3,
+        "cooldown": 60,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Plague Mist",
+    "shortname": "ZM Mist",
+    "hammerid": "11324",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["11322"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11320"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "11304",
+        "mode": 3,
+        "cooldown": 35,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Frostbite Storm",
+    "shortname": "ZM Frostbite",
+    "hammerid": "11229",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["11227"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "11225"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "11327",
+        "mode": 3,
+        "cooldown": 70,
+        "ui": true,
+        "message": true
+      }
+    ]
+  }
+]

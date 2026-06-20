@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Andre",
+    "counter": "andre_health_count"
+  },
+  {
+    "name": "Champion Gundyr",
+    "breakable": "gundyr_Hitbox"
+  },
+  {
+    "name": "Vermisanguis",
+    "breakable": "vermisanguis_Hitbox"
+  },
+  {
+    "name": "Mycelar",
+    "breakable": "drowned_warden_Hitbox"
+  },
+  {
+    "name": "Vaelthar",
+    "breakable": "x_dragon_Hitbox"
+  },
+  {
+    "name": "Skelvryn",
+    "breakable": "bone_dragon_Hitbox"
+  },
+  {
+    "name": "Dragonic Core",
+    "breakable": "bone_dragon_energy_hitbox"
+  },
+  {
+    "name": "Eidolon",
+    "reverseiterator": true,
+    "counter": "skeleton_guardian_Health",
+    "backup": "skeleton_guardian_HealthBackup",
+    "iterator": "skeleton_guardian_HealthCount"
+  },
+  {
+    "name": "Eidolon",
+    "counter": "phase2_sk_health",
+    "iterator": "phase2_sk_segment"
+  },
+  // GFL does not display NPC health
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "black_knife_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "basalisk_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "serpentman_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "knight_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "mimic_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "massofsouls_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "beast_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "monster_physbox"
+  }
+]
