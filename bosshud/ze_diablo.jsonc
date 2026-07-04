@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Leoric Cage",
+    "counter": "leoric_cage_1_math"
+  },
+  {
+    "name": "Leoric (Phase 1)",
+    "counter": "bossleoric_math_counter1",
+    "backup": "Boss_HealthBackup2",
+    "iterator": "Boss_HealthCount2"
+  },
+  {
+    "name": "Leoric (Phase 2)",
+    "counter": "bossleoric_math_counter2",
+    "backup": "Boss_HealthBackup3",
+    "iterator": "Boss_HealthCount3"
+  },
+  {
+    "name": "Azmodan",
+    "counter": "bossazmobig_math_counter",
+    "backup": "Boss_HealthBackup_azmobig",
+    "iterator": "Boss_HealthCount_azmobig"
+  },
+  {
+    "name": "Azmodan",
+    "counter": "azmo_math",
+    "backup": "Boss_HealthBackup_azmo",
+    "iterator": "Boss_HealthCount_azmo"
+  },
+  {
+    "name": "Diablo",
+    "counter": "bossdiablo_math_counter",
+    "backup": "Boss_HealthBackup_diablo",
+    "iterator": "Boss_HealthCount_diablo"
+  },
+  {
+    "name": "Mephisto",
+    "counter": "meph_tower_boss_math",
+    "backup": "Boss_HealthBackup4",
+    "iterator": "Boss_HealthCount4"
+  },
+  {
+    "name": "Butcher",
+    "counter": "butcher_math",
+    "backup": "Boss_HealthBackup_butcher",
+    "iterator": "Boss_HealthCount_butcher"
+  },
+  {
+    "name": "Soulstone",
+    "counter": "soulstone_counter"
+  },
+  {
+    "name": "Belial",
+    "counter": "belial_boss_math",
+    "backup": "Boss_HealthBackup",
+    "iterator": "Boss_HealthCount"
+  },
+  {
+    "name": "Zoltun Kulle",
+    "counter": "zol_boss_math",
+    "backup": "zol_HealthBackup",
+    "iterator": "zol_HealthCount"
+  },
+  {
+    "name": "Diablo Evolved (1/3)",
+    "counter": "s4_ending_counter1"
+  },
+  {
+    "name": "Diablo Evolved (2/3)",
+    "counter": "s4_ending_counter2"
+  },
+  {
+    "name": "Diablo Evolved (3/3)",
+    "counter": "s4_ending_counter3"
+  },
+  // GFL doesnt display NPC health
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "NPC_npc_hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "SkeletonKnight_npc_hitbox"
+  }
+]
