@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Inferno Spell",
+    "shortname": "Fire",
+    "hammerid": "16897",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "16898"
+      },
+      {
+        "hammerid": "16890",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "16892",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "16902",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Wind Spell",
+    "shortname": "Wind",
+    "hammerid": "16909",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "16919"
+      },
+      {
+        "hammerid": "16918",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "16910",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "16911",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ice Spell",
+    "shortname": "Ice",
+    "hammerid": "16871",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "darkblue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "16884"
+      },
+      {
+        "hammerid": "16877",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "16876",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "16875",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ammo",
+    "shortname": "Ammo",
+    "hammerid": "10189",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3934",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Tyrael",
+    "shortname": "Tyrael",
+    "hammerid": "43777",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["11065"],
+    "handlers": [
+      {
+        "hammerid": "7903",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 1.75,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      },
+      {
+        "name": "Sanctification",
+        "hammerid": "11808",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 15,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Imperius",
+    "shortname": "Imperius",
+    "hammerid": "43781",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["9202"],
+    "handlers": [
+      {
+        "name": "Attack",
+        "hammerid": "9521",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 1.75,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      },
+      {
+        "name": "Defense",
+        "hammerid": "9058",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 10,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Cain",
+    "shortname": "Cain",
+    "hammerid": "8734",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["9518"],
+    "handlers": [
+      {
+        "name": "Heal",
+        "hammerid": "9022",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Barricade",
+    "shortname": "Barricade",
+    "hammerid": "11148",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4689",
+        "event": "OnPressed",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "shortname": "Torch",
+    "hammerid": "8326",
+    "message": true,
+    "ui": false,
+    "transfer": true,
+    "color": "orange"
+  },
+  {
+    "name": "Zombie Demon",
+    "shortname": "ZM Demon",
+    "hammerid": "43778",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["12177"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "12174"
+      },
+      {
+        "hammerid": "12162",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Heal",
+    "shortname": "ZM Heal",
+    "hammerid": "43779",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["12183"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "12187"
+      },
+      {
+        "hammerid": "12197",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Minion",
+    "shortname": "ZM Minion",
+    "hammerid": "17314",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["17308"],
+    "handlers": [
+      {
+        "hammerid": "17318",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
