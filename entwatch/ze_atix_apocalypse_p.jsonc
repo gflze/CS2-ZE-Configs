@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Flamethrower",
+    "shortname": "Flamethrower",
+    "hammerid": "7294",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "7295"
+      },
+      {
+        "hammerid": "7298",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
