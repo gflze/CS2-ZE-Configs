@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Lady Lilith",
+    "counter": "Pharos_Fourthfloor_Ladylilith_Hp",
+    "backup": "Pharos_Fourthfloor_Ladylilith_Hp_Init",
+    "iterator": "Pharos_Fourthfloor_Ladylilith_Hp_Blocks"
+  },
+  {
+    "name": "Lady Lilith",
+    "counter": "Lilith_Hp",
+    "backup": "Lilith_Hp_Init",
+    "iterator": "Lilith_Hp_Blocks"
+  },
+  {
+    "name": "Tyrant",
+    "counter": "Tyrant_Hp",
+    "backup": "Tyrant_Hp_Init",
+    "iterator": "Tyrant_Hp_Blocks"
+  },
+  {
+    "name": "Garland",
+    "counter": "Garland_Hp",
+    "backup": "Garland_Hp_Init",
+    "iterator": "Garland_Hp_Blocks"
+  },
+  {
+    "name": "Golem",
+    "minorhud": true,
+    "multitrigger": true,
+    "counter": "golem_hp"
+  },
+  {
+    "name": "Bahamut",
+    "counter": "Bahamut_Hp"
+  },
+  {
+    "name": "Lady Lilith",
+    "counter": "Ladylilith_Hp",
+    "backup": "Ladylilith_Hp_Init",
+    "iterator": "Ladylilith_Hp_Blocks"
+  },
+  {
+    "name": "Shadowlord",
+    "counter": "Shadowlord_Hp",
+    "backup": "Shadowlord_Hp_Init",
+    "iterator": "Shadowlord_Hp_Blocks"
+  },
+  {
+    "name": "Parasite",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "counter": "zombie_parasitic_hp"
+  },
+  {
+    "name": "Yojimbo",
+    "breakable": "stage_ultimate_yojimbo_body"
+  },
+  {
+    "name": "Yojimbo",
+    "breakable": "yojimbo_body"
+  }
+]
