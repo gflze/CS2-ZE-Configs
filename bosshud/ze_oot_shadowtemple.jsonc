@@ -25,5 +25,11 @@
     "name": "Bongo Hands",
     "multitrigger": true,
     "counter": "b_handhpcounter"
+  },
+  {
+    "name": "Redead",
+    "multitrigger": true,
+    "templated": true,
+    "breakable": "Redead_Health"
   }
 ]
