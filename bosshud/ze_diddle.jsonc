@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Angry Demon Turtle",
+    "breakable": "X69XTurtleBossHP1"
+  },
+  {
+    "name": "Angrier Demon Turtle",
+    "breakable": "X69XTurtleBosshp2"
+  },
+  {
+    "name": "The Digletts",
+    "breakable": "Ord_lvl_02_boss_break"
+  },
+  {
+    "name": "Diglett Dick",
+    "breakable": "Ord_lvl_01_boss_break"
+  },
+  {
+    "name": "Even Larger Diglett",
+    "breakable": "X69XOrd_main_large_diglett_break"
+  },
+  {
+    "name": "Large Diglett",
+    "breakable": "X69XOrd_main_mid_diglett_break"
+  },
+  {
+    "name": "Little Diglett",
+    "breakable": "X69XOrd_main_little_diglett_break"
+  },
+  {
+    "name": "The Diddle Dick",
+    "breakable": "dd_hp"
+  },
+  {
+    "name": "The Fetus",
+    "breakable": "i_npc_hp_1"
+  },
+  {
+    "name": "Magical Seal",
+    "minorhud": true,
+    "showbeaten": false,
+    "breakable": "seal"
+  },
+  {
+    "name": "Blob Arms",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "blobarm_hp"
+  },
+  {
+    "name": "Diddle Baby",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "i_diddlebaby_phys"
+  },
+  {
+    "name": "Vagina Face",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "i_vaginaface_hp"
+  },
+  {
+    "name": "Shrek",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "X69Xluff_npc_phys2gg"
+  }
+]
