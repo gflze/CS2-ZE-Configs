@@ -27,8 +27,9 @@
     "counter": "b_handhpcounter"
   },
   {
-    "name": "Redead",
+    "hitmarkeronly": true,
     "multitrigger": true,
+    "showbeaten": false,
     "templated": true,
     "breakable": "Redead_Health"
   }
