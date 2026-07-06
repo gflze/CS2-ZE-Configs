@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Gravity Element",
+    "shortname": "Gravity",
+    "hammerid": "3213",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "darkred",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3161"
+      },
+      {
+        "hammerid": "3206",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Rock Element",
+    "shortname": "Rock",
+    "hammerid": "3203",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3165"
+      },
+      {
+        "hammerid": "3199",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Water Element",
+    "shortname": "Water",
+    "hammerid": "3193",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3167"
+      },
+      {
+        "hammerid": "3191",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Heal Element",
+    "shortname": "Heal",
+    "hammerid": "3185",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3163"
+      },
+      {
+        "hammerid": "3183",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Element",
+    "shortname": "Fire",
+    "hammerid": "3176",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3159"
+      },
+      {
+        "hammerid": "3174",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Shadowlord Sword",
+    "shortname": "ZM Sword",
+    "hammerid": "3432",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["1244"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1678"
+      },
+      {
+        "hammerid": "3429",
+        "event": "OnUser1",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Electric Magic",
+    "shortname": "ZM Electric",
+    "hammerid": "3409",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["3397"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1637"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "3413",
+        "mode": 4,
+        "cooldown": 60,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Parasitic Magic",
+    "shortname": "ZM Parasite",
+    "hammerid": "1031",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["1037"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1032"
+      },
+      {
+        "hammerid": "3384",
+        "event": "OnUser1",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Gravity Magic",
+    "shortname": "ZM Gravity",
+    "hammerid": "3376",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["3371"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1641"
+      },
+      {
+        "hammerid": "3378",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Warp Magic",
+    "shortname": "ZM Warp",
+    "hammerid": "3349",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "pink",
+    "triggers": ["3344"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3346"
+      },
+      {
+        "hammerid": "3352",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
