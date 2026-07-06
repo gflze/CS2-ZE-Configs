@@ -153,6 +153,30 @@
     ]
   },
   {
+    "name": "Squash",
+    "shortname": "Squash",
+    "hammerid": "12694",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "12690"
+      },
+      {
+        "hammerid": "12688",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 40,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
     "name": "Walnut",
     "shortname": "Walnut",
     "hammerid": "1180",
