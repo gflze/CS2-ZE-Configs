@@ -42,30 +42,24 @@
     "breakable": "seal"
   },
   {
-    "name": "Blob Arms",
-    "minorhud": true,
+    "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "timeout": 1.0,
     "breakable": "blobarm_hp"
   },
   {
-    "name": "Diddle Baby",
-    "minorhud": true,
+    "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "timeout": 1.0,
     "breakable": "i_diddlebaby_phys"
   },
   {
-    "name": "Vagina Face",
-    "minorhud": true,
+    "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "timeout": 1.0,
     "breakable": "i_vaginaface_hp"
   },
   {
