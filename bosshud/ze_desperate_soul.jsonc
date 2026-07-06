@@ -24,5 +24,14 @@
     "counter": "Hogg_Hp_Counter_2",
     "backup": "Hogg_Hp_Counter_3",
     "iterator": "Counter_Boss_HP_1"
+  },
+  {
+    "name": "Ronka",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "breakable": "NPC_Ronka_Phys_2"
   }
 ]
