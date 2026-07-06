@@ -9,6 +9,6 @@
     "multitrigger": true,
     "templated": true,
     "showbeaten": false,
-    "counter": "i_templeguardian_hp"
+    "breakable": "i_templeguardian_hp"
   }
 ]
