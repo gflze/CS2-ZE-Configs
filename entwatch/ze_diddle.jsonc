@@ -1,0 +1,343 @@
+[
+  {
+    "name": "Heal",
+    "shortname": "Heal",
+    "hammerid": "4926",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4930",
+        "event": "OnPressed",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Legendary Heal",
+    "shortname": "L.Heal",
+    "hammerid": "4939",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4941",
+        "event": "OnPressed",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Birthday Cake",
+    "shortname": "Cake",
+    "hammerid": "63",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "64",
+        "event": "OnPressed",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Small Shield",
+    "shortname": "S.Shield",
+    "hammerid": "4808",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4821",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Medium Shield",
+    "shortname": "M.Shield",
+    "hammerid": "4752",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4770",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Legendary Shield",
+    "shortname": "L.Shield",
+    "hammerid": "4775",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4803",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 90,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Dick",
+    "shortname": "Dick",
+    "hammerid": "1143",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1141",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Big Dick",
+    "shortname": "Big Dick",
+    "hammerid": "1133",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1131",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Disco Push",
+    "shortname": "Push",
+    "hammerid": "4947",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "purple",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4965",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 130,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Diddle Cannon",
+    "shortname": "Cannon",
+    "hammerid": "7471",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "7478",
+        "event": "OnPressed",
+        "mode": 1,
+        "cooldown": 0,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "shortname": "Torch",
+    "hammerid": "5165",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "5160",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Curse",
+    "shortname": "ZM Curse",
+    "hammerid": "5034",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["8012"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "5036",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Jumper",
+    "shortname": "ZM Jumper",
+    "hammerid": "1216",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "lime",
+    "triggers": ["8014"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1218",
+        "event": "OnPressed",
+        "mode": 4,
+        "cooldown": 25,
+        "maxuses": 3,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Baby Maker",
+    "shortname": "ZM Baby Maker",
+    "hammerid": "1284",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "pink",
+    "triggers": ["8016"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1286",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 100,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Jihad",
+    "shortname": "ZM Jihad",
+    "hammerid": "28",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["8009"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "26",
+        "event": "OnPressed",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Boost",
+    "shortname": "ZM Boost",
+    "hammerid": "1250",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["8010"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1248",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 90,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
