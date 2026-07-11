@@ -111,9 +111,9 @@
       {
         "hammerid": "315",
         "event": "OnUser1",
-        "mode": 0,
+        "mode": 3,
         "cooldown": 0,
-        "maxuses": 0,
+        "maxuses": 1,
         "message": true,
         "ui": true
       }
