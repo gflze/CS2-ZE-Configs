@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sea Monster",
+    "trigger": {"ent": "event_case_s1", "output": "OnCase04", "delay": 47.0},
+    "killtrigger": {"ent": "event_case_s1", "output": "OnCase05"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Ogre",
+    "trigger": {"ent": "event_case_s2", "output": "OnCase11", "delay": 6.0},
+    "killtrigger": {"ent": "event_case_s2", "output": "OnCase12"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Slogra",
+    "trigger": {"ent": "event_case_s3", "output": "OnCase11", "delay": 12.0},
+    "killtrigger": {"ent": "event_case_s3", "output": "OnCase13"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Gaibon",
+    "trigger": {"ent": "event_case_s3", "output": "OnCase13", "delay": 10.0},
+    "killtrigger": {"ent": "event_case_s3", "output": "OnCase14"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Swamp Monster",
+    "trigger": {"ent": "event_case_s4", "output": "OnCase09", "delay": 15.0},
+    "killtrigger": {"ent": "event_case_s4", "output": "OnCase10"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Spider Queen",
+    "trigger": {"ent": "event_case_s5", "output": "OnCase08", "delay": 21.0},
+    "killtrigger": {"ent": "event_case_s5", "output": "OnCase09"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Snow Titan",
+    "trigger": {"ent": "event_case_s6", "output": "OnCase06", "delay": 15.0},
+    "killtrigger": {"ent": "event_case_s6", "output": "OnCase08"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  {
+    "name": "Snow Titan",
+    "trigger": {"ent": "event_case_s6", "output": "OnCase08"},
+    "killtrigger": {"ent": "event_case_s6", "output": "OnCase09"},
+    "counter": "boss_counter",
+    "backup": "boss_hpbar_counter_2",
+    "iterator": "boss_hpbar_overlaycounter"
+  },
+  // GFL does not display NPC health
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "templated": true,
+    "showbeaten": false,
+    "breakable": "npc_phys"
+  }
+]
