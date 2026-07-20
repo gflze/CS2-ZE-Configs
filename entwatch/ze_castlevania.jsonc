@@ -1,0 +1,822 @@
+[
+  {
+    "name": "Belmont",
+    "shortname": "Belmont",
+    "hammerid": "792",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": [""], // Players are stripped when pressing belmont button
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6133",
+        "event": "OnPressed",
+        "mode": 1,
+        "cooldown": 0,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "type": "button",
+        "hammerid": "6135",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 100,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Alucard",
+    "shortname": "Alucard",
+    "hammerid": "764",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "pink",
+    "triggers": [""], // Players are stripped when pressing alucard button
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6137"
+      },
+      {
+        "type": "button",
+        "hammerid": "6139",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 75,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Holy Knight",
+    "shortname": "Knight",
+    "hammerid": "1272",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "white",
+    "triggers": ["5842"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6127"
+      },
+      {
+        "type": "button",
+        "hammerid": "6126",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 21,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "The VIP",
+    "shortname": "VIP",
+    "hammerid": "253",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "yellow",
+    "triggers": ["5302"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "244"
+      },
+      {
+        "type": "button",
+        "hammerid": "251",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 32,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Heal Mage",
+    "shortname": "Heal Mage",
+    "hammerid": "958",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["5773"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6129"
+      },
+      {
+        "type": "button",
+        "hammerid": "6131",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Medkit",
+    "shortname": "Medkit",
+    "hammerid": "6181",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6186",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 35,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ice Crystal",
+    "shortname": "Ice",
+    "hammerid": "6227",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6232",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Fire Crystal",
+    "shortname": "Fire",
+    "hammerid": "6206",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6216",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 17,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Thunder Crystal",
+    "shortname": "Thunder",
+    "hammerid": "6198",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "purple",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6202",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 4,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Bible",
+    "shortname": "Bible",
+    "hammerid": "6171",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6177",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Alluring Light",
+    "shortname": "Light",
+    "hammerid": "6220",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6223",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ammo",
+    "shortname": "Ammo",
+    "hammerid": "859",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6155",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Trap Placer",
+    "shortname": "Trap",
+    "hammerid": "6190",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6195",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 40,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Explosive Barrel",
+    "shortname": "Barrel",
+    "hammerid": "6163",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6167",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 28,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Storm Beacon",
+    "shortname": "Beacon",
+    "hammerid": "497",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6151",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 10,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Holy Cross",
+    "shortname": "Holy Cross",
+    "hammerid": "471",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6142",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 15,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Cross",
+    "shortname": "Cross",
+    "hammerid": "438",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6145",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 5,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Holy Water",
+    "shortname": "Water",
+    "hammerid": "228",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6143"
+      }
+    ]
+  },
+  {
+    "name": "Holy Five",
+    "shortname": "Holy Five",
+    "hammerid": "1244",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "agrey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6410",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 120,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Sprint Ability",
+    "shortname": "Sprint",
+    "hammerid": "1247",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6412",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 35,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Barricade",
+    "shortname": "Barricade",
+    "hammerid": "993",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6153",
+        "event": "OnPressed",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Big Sword",
+    "shortname": "Big Sword",
+    "hammerid": "1220",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6157",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Pitchfork",
+    "shortname": "Pitchfork",
+    "hammerid": "6263",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6268"
+      }
+    ]
+  },
+  {
+    "name": "Spear",
+    "shortname": "Spear",
+    "hammerid": "6253",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6258"
+      }
+    ]
+  },
+  {
+    "name": "Sword",
+    "shortname": "Sword",
+    "hammerid": "6243",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6249",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 10,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Bow",
+    "shortname": "Bow",
+    "hammerid": "6235",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6239"
+      }
+    ]
+  },
+  {
+    "name": "Dagger",
+    "shortname": "Dagger",
+    "hammerid": "454",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6149"
+      }
+    ]
+  },
+  {
+    "name": "Torch Bag",
+    "shortname": "Torch Bag",
+    "hammerid": "742",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6160"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "740",
+        "mode": 3,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "shortname": "Torch",
+    "hammerid": "731",
+    "message": true,
+    "ui": false,
+    "transfer": true,
+    "color": "orange"
+  },
+  {
+    "name": "Zombie Dark Wraith",
+    "shortname": "ZM Wraith",
+    "hammerid": "1322",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["5581"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6405",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 5,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Hunchback",
+    "shortname": "ZM Hunchback",
+    "hammerid": "6392",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6399"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6394",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 43,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Dark Priest",
+    "shortname": "ZM Priest",
+    "hammerid": "6382",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6388"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6385",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 4,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Paralyzer",
+    "shortname": "ZM Paralyzer",
+    "hammerid": "6360",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6373"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6367",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 38,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Drag Crystal",
+    "shortname": "ZM Crystal",
+    "hammerid": "6351",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6371"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6354",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 10,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Throwing Torch",
+    "shortname": "ZM Torch",
+    "hammerid": "6311",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["6323"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6315",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 38,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Throwable Rock",
+    "shortname": "ZM Rock",
+    "hammerid": "6300",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6307"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6303"
+      }
+    ]
+  },
+  {
+    "name": "Zombie TNT Crate",
+    "shortname": "ZM TNT",
+    "hammerid": "6289",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["6296"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6293",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Ladder",
+    "shortname": "ZM Ladder",
+    "hammerid": "6272",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6280"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "6278",
+        "event": "OnPressed",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie NPC",
+    "shortname": "ZM NPC",
+    "hammerid": "1042",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["5686"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1045",
+        "event": "OnPressed",
+        "mode": 0,
+        "cooldown": 0,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "1047",
+        "mode": 3,
+        "ui": true,
+        "message": true
+      }
+    ]
+  }
+]
