@@ -1,0 +1,24 @@
+{
+  "modify": [
+    // Possible fix(?) for client crashes when zombies get teleported outside
+    // It's speculated that unloading the spawngroup crashes is so let's test that theory
+    {
+      "match": {
+        "classname": "trigger_multiple",
+        "hammeruniqueid": "30485"
+      },
+      "delete": {
+        "io": [
+          {
+            "outputname": "OnStartTouch",
+            "targetname": "[PR#]spawngroup_1",
+            "inputname": "StartSpawnGroupUnload",
+            "overrideparam": "",
+            "delay": 10,
+            "timestofire": 1
+          }
+        ]
+      }
+    }
+  ]
+}
