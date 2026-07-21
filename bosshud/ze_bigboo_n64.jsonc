@@ -13,5 +13,9 @@
   {
     "name": "Eyeball",
     "breakable": "eyeball"
+  },
+  {
+    "name": "Cheep Cheep",
+    "breakable": "cheepcheep_breakable"
   }
 ]
