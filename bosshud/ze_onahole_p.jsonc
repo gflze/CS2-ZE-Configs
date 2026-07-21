@@ -28,7 +28,21 @@
     "breakable": "hank_bahamut_hp"
   },
   {
-    "name":       "Sephiroth Berry",
-    "counter":      "barry_final_health"
+    "name": "Sephiroth Berry",
+    "counter": "barry_final_health"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "barry_health1"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "barry_health2"
   }
 ]
