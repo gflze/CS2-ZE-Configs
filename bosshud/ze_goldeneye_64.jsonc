@@ -1,0 +1,48 @@
+[
+    {
+        "name":            "Guard",
+        "breakable":       "s_guard_break",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false
+    },
+    {
+        "name":            "Soldier",
+        "breakable":       "r_soldier_break",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false
+    },
+    {
+        "name":            "Commandant",
+        "breakable":       "r_commandant_break",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false
+    },
+    {
+        "name":            "Turret",
+        "breakable":       "runway_turret_break",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "templated":        true,
+        "showbeaten":       false
+    },
+    {
+        "name":            "Turret",
+        "breakable":       "runway_turret_break_1",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "showbeaten":       false
+    },
+    {
+        "name":            "Missile Launcher",
+        "breakable":       "#7479",
+        "hitmarkeronly":    true,
+        "multitrigger":     true,
+        "showbeaten":       false
+    }
+]
