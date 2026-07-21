@@ -55,8 +55,8 @@
         ]
     },
     {
-        "name": "Wind",
-        "shortname": "Wind",
+        "name": "Push",
+        "shortname": "Push",
         "hammerid": "656",
         "message": true,
         "ui": true,
@@ -148,7 +148,7 @@
     },
     {
         "name": "Wind Toilet",
-        "shortname": "Wind Toilet",
+        "shortname": "Wind",
         "hammerid": "975",
         "message": true,
         "ui": true,
@@ -310,7 +310,7 @@
     {
         "name": "Zombie Heal",
         "shortname": "ZM Heal",
-        "hammerid": "569",
+        "hammerid": "25408",
         "message": true,
         "ui": true,
         "transfer": false,
@@ -318,8 +318,12 @@
         "triggers": ["570"],
         "handlers": [
             {
-                "hammerid": "6716",
-                "event": "OnCase16",
+                "type": "button",
+                "hammerid": "29786"
+            },
+            {
+                "hammerid": "25407",
+                "event": "OnPass",
                 "mode": 2,
                 "cooldown": 20,
                 "maxuses": 0,
@@ -338,6 +342,10 @@
         "color": "purple",
         "triggers": ["546"],
         "handlers": [
+            {
+                "type": "button",
+                "hammerid": "29789"
+            },
             {
                 "hammerid": "873",
                 "event": "OnTrue",
