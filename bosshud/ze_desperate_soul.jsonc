@@ -33,11 +33,5 @@
     "templated": true,
     "timeout": 1.0,
     "breakable": "NPC_Ronka_Phys_2"
-  },
-  {
-    "name": "Spider Wall",
-    "multitrigger": true,
-    "showbeaten": false,
-    "breakable": "S4_G_Spider_Wall"
   }
 ]
