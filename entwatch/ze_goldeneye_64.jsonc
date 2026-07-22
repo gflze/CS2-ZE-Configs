@@ -125,7 +125,7 @@
         "hammerid": "7176",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "white",
         "handlers": [
             {
@@ -149,7 +149,7 @@
         "hammerid": "7180",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "grey",
         "handlers": [
             {
@@ -173,7 +173,7 @@
         "hammerid": "7246",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "red",
         "handlers": [
             {
@@ -197,7 +197,7 @@
         "hammerid": "8594",
         "message": true,
         "ui": true,
-        "transfer": true,
+        "transfer": false,
         "color": "white",
         "handlers": [
             {
