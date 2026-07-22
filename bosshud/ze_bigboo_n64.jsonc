@@ -1,17 +1,21 @@
 [
-    {
-        "counter":          "naraka_counter",
-        "backup":           "naraka_hp_backup",
-        "iterator":         "naraka_hp_iterations"
-    },
-    {
-        "name":             "Piano",
-        "counter":          "boss1_hp",
-        "backup":           "boss1_hp_backup",
-        "iterator":         "boss1_hp_iterations"
-    },
-    {
-        "name":             "Eyeball",
-        "breakable":        "eyeball"
-    }
+  {
+    "counter": "naraka_counter",
+    "backup": "naraka_hp_backup",
+    "iterator": "naraka_hp_iterations"
+  },
+  {
+    "name": "Piano",
+    "counter": "boss1_hp",
+    "backup": "boss1_hp_backup",
+    "iterator": "boss1_hp_iterations"
+  },
+  {
+    "name": "Eyeball",
+    "breakable": "eyeball"
+  },
+  {
+    "name": "Cheep Cheep",
+    "breakable": "cheepcheep_breakable"
+  }
 ]
