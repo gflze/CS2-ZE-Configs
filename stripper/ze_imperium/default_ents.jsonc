@@ -1,0 +1,18 @@
+{
+  // Possible fix(?) for client crashes when zombies get teleported outside
+  // It's speculated that unloading the spawngroup crashes is so let's test that theory
+  "modify": {
+    "match": {
+      "classname": "trigger_multiple",
+      "hammeruniqueid": "30485"
+    },
+    "delete": {
+      "io": [
+        {
+          "targetname": "[PR#]spawngroup_1",
+          "inputname": "StartSpawnGroupUnload"
+        }
+      ]
+    }
+  }
+}
