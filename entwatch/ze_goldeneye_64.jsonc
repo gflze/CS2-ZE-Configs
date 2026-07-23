@@ -13,8 +13,8 @@
                 "hammerid": "272"
             },
             {
-                "hammerid": "269",
-                "event": "OnPass",
+                "hammerid": "272",
+                "event": "OnUser1",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -37,8 +37,8 @@
                 "hammerid": "1914"
             },
             {
-                "hammerid": "1918",
-                "event": "OnPass",
+                "hammerid": "1914",
+                "event": "OnUser1",
                 "mode": 3,
                 "cooldown": 0,
                 "maxuses": 1,
@@ -61,8 +61,8 @@
                 "hammerid": "2102"
             },
             {
-                "hammerid": "2100",
-                "event": "OnPass",
+                "hammerid": "2102",
+                "event": "OnUser1",
                 "mode": 2,
                 "cooldown": 15,
                 "maxuses": 0,
@@ -85,11 +85,131 @@
                 "hammerid": "2162"
             },
             {
-                "hammerid": "2165",
-                "event": "OnPass",
+                "hammerid": "2162",
+                "event": "OnUser1",
                 "mode": 3,
                 "cooldown": 5,
-                "maxuses": 3,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Moonraker",
+        "shortname": "Moonraker",
+        "hammerid": "8568",
+        "message": true,
+        "ui": true,
+        "transfer": true,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8565"
+            },
+            {
+                "hammerid": "8565",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Heal",
+        "shortname": "ZM Heal",
+        "hammerid": "7176",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2574"
+            },
+            {
+                "hammerid": "2574",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 60,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Throwing Knife",
+        "shortname": "ZM Knife",
+        "hammerid": "7180",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "grey",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "2145"
+            },
+            {
+                "hammerid": "2145",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 15,
+                "maxuses": 0,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie RPG",
+        "shortname": "ZM RPG",
+        "hammerid": "7246",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "red",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "1367"
+            },
+            {
+                "hammerid": "1367",
+                "event": "OnUser1",
+                "mode": 3,
+                "cooldown": 5,
+                "maxuses": 10,
+                "message": true,
+                "ui": true
+            }
+        ]
+    },
+    {
+        "name": "Zombie Moonraker",
+        "shortname": "ZM Moonraker",
+        "hammerid": "8594",
+        "message": true,
+        "ui": true,
+        "transfer": false,
+        "color": "white",
+        "handlers": [
+            {
+                "type": "button",
+                "hammerid": "8586"
+            },
+            {
+                "hammerid": "8586",
+                "event": "OnUser1",
+                "mode": 2,
+                "cooldown": 5,
+                "maxuses": 0,
                 "message": true,
                 "ui": true
             }
