@@ -1,22 +1,33 @@
 [
-    {
-        "counter":          "b1_hp_counter",
-        "backup":           "b1_hp_backup",
-        "iterator":         "b1_bar_gerisayim"
-    },
-    {
-        "counter":          "b2_hp_counter",
-        "backup":           "b2_hp_backup",
-        "iterator":         "b2_bar_gerisayim"
-    },
-    {
-        "counter":          "b3_hp_counter",
-        "backup":           "b3_hp_backup",
-        "iterator":         "b3_bar_gerisayim"
-    },
-    {
-        "counter":          "b4_hp_counter",
-        "backup":           "b4_hp_backup",
-        "iterator":         "b4_bar_gerisayim"
-    }
+  {
+    "name": "Ghast",
+    "counter": "b1_hp_counter",
+    "backup": "b1_hp_backup",
+    "iterator": "b1_bar_gerisayim"
+  },
+  {
+    "name": "Warden",
+    "counter": "b2_hp_counter",
+    "backup": "b2_hp_backup",
+    "iterator": "b2_bar_gerisayim"
+  },
+  {
+    "name": "Ender Dragon",
+    "counter": "b3_hp_counter",
+    "backup": "b3_hp_backup",
+    "iterator": "b3_bar_gerisayim"
+  },
+  {
+    "name": "Ghast",
+    "counter": "b4_hp_counter",
+    "backup": "b4_hp_backup",
+    "iterator": "b4_bar_gerisayim"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "npc1_boss_break"
+  }
 ]
