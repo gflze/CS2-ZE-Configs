@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Fire",
+    "shortname": "Fire",
+    "hammerid": "691",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "694"
+      },
+      {
+        "hammerid": "587",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Water",
+    "shortname": "Water",
+    "hammerid": "681",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "darkblue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "683"
+      },
+      {
+        "hammerid": "588",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Electro",
+    "shortname": "Electro",
+    "hammerid": "677",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "673"
+      },
+      {
+        "hammerid": "590",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Wall",
+    "shortname": "Wall",
+    "hammerid": "666",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "662"
+      },
+      {
+        "hammerid": "592",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ice",
+    "shortname": "Ice",
+    "hammerid": "550",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "553"
+      },
+      {
+        "hammerid": "552",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Heal",
+    "shortname": "Heal",
+    "hammerid": "527",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "530"
+      },
+      {
+        "hammerid": "529",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Magic Knight",
+    "shortname": "Knight",
+    "hammerid": "38",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["36"],
+    "handlers": [
+      {
+        "hammerid": "35",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 5,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Key",
+    "shortname": "Key",
+    "hammerid": "598",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow"
+  },
+  {
+    "name": "Zombie Bomb",
+    "shortname": "ZM Bomb",
+    "hammerid": "903",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["911"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "898"
+      },
+      {
+        "hammerid": "901",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Demon Dog",
+    "shortname": "ZM Dog",
+    "hammerid": "784",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["782"]
+  },
+  {
+    "name": "Zombie Gravity",
+    "shortname": "ZM Gravity",
+    "hammerid": "504",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["510"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "506"
+      },
+      {
+        "hammerid": "508",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Ogre",
+    "counter": "ogre_counter",
+    "backup": "ogre_hp_backup",
+    "iterator": "ogre_hp_iterations"
+  },
+  {
+    "name": "Demon",
+    "counter": "demon_counter",
+    "backup": "demon_hp_backup",
+    "iterator": "demon_hp_iterations"
+  },
+  {
+    "name": "Lava Monster",
+    "counter": "lava_counter",
+    "backup": "lava_hp_backup",
+    "iterator": "lava_hp_iterations"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "npc_spider_small_phys_break"
+  }
+]
