@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Heal",
+    "shortname": "Heal",
+    "hammerid": "499",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red"
+  },
+  {
+    "name": "Zombie Short Spear",
+    "shortname": "ZM S.Spear",
+    "hammerid": "329",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Zombie Medium Spear",
+    "shortname": "ZM M.Spear",
+    "hammerid": "330",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Zombie Long Spear",
+    "shortname": "ZM L.Spear",
+    "hammerid": "331",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Zombie Very Long Spear",
+    "shortname": "ZM VL.Spear",
+    "hammerid": "332",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  }
+]
