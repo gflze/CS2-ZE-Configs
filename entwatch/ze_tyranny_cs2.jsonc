@@ -296,7 +296,7 @@
     "hammerid": "5306",
     "message": true,
     "ui": true,
-    "transfer": true,
+    "transfer": false,
     "color": "green",
     "triggers": ["5307"],
     "handlers": [
