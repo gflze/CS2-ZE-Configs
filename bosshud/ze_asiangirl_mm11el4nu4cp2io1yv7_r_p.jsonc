@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Object 1",
+    "breakable": "Boss_FL_RC1_hitbox"
+  },
+  {
+    "name": "Object 2",
+    "breakable": "Boss_FL_RC2_hitbox"
+  },
+  {
+    "name": "Object 3",
+    "breakable": "Boss_FL_RC3_hitbox"
+  },
+  {
+    "name": "Object 4",
+    "breakable": "Boss_FL_RC4_hitbox"
+  }
+]
