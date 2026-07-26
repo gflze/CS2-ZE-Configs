@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Rock",
+    "shortname": "Rock",
+    "hammerid": "316",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "318"
+      },
+      {
+        "hammerid": "320",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Electro",
+    "shortname": "Electro",
+    "hammerid": "368",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "364"
+      },
+      {
+        "hammerid": "366",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Wind",
+    "shortname": "Wind",
+    "hammerid": "389",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "393"
+      },
+      {
+        "hammerid": "396",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Reflect",
+    "shortname": "ZM Reflect",
+    "hammerid": "338",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["339"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "336"
+      },
+      {
+        "hammerid": "335",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Dazzle",
+    "shortname": "ZM Dazzle",
+    "hammerid": "350",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["348"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "344"
+      },
+      {
+        "hammerid": "351",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]

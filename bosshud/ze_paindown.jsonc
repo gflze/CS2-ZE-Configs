@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Xan Kriegor",
+    "counter": "@boss_hp_counter_first_stage"
+  },
+  {
+    "name": "Core",
+    "counter": "@boss_hp_counter_core"
+  }
+]
