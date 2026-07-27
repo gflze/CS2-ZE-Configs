@@ -1,4 +1,19 @@
 {
+	// Custom stuff
+	"endround": true,
+	"cs2f_use_old_push": true,
+	"cs2f_infinite_reserve_ammo": true,
+	"cs2f_free_armor": true,
+
+	"ze_last_man_standing_p":
+	{
+		"zr_infect_spawn_mz_ratio": true
+	},
+	"ze_sex_mod_hentai_beachescape_camper_p":
+	{
+		"zr_infect_spawn_mz_ratio": true
+	},
+
 	// Default whitelist, from workshop_cvar_whitelist.txt
 	"ammo_grenade_limit_default": true,
 	"ammo_grenade_limit_flashbang": true,
@@ -534,11 +549,5 @@
 	"+right": true,
 	"-right": true,
 	"+sprint": true,
-	"-sprint": true,
-
-	// Custom stuff
-	"endround": true,
-	"cs2f_use_old_push": true,
-	"cs2f_infinite_reserve_ammo": true,
-	"cs2f_free_armor": true
+	"-sprint": true
 }
