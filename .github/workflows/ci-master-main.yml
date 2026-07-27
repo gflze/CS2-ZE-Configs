@@ -43,3 +43,6 @@ jobs:
 
       - name: Sync BossHUD Files
         run: git ftp push --verbose --auto-init --syncroot "bosshud" --remote-root "game/csgo/addons/cs2fixes/configs/bosshud/"
+
+      - name: Sync ConVar Whitelist Files
+        run: git ftp push --verbose --auto-init --syncroot "cvar_whitelist" --remote-root "game/csgo/addons/cs2fixes/configs/"
