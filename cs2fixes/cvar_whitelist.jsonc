@@ -13,6 +13,26 @@
 	{
 		"zr_infect_spawn_mz_ratio": true
 	},
+	"ze_ffxii_westersand_v8":
+	{
+		// Tries to force this on? This isn't equivalent to CS:S bhop
+		"sv_enablebunnyhopping": false
+	},
+	"ze_lotr_minas_tirith_p":
+	{
+		// Round starts drag on too long
+		"mp_freezetime": false
+	},
+	"ze_obf_npst_v2":
+	{
+		// Tries to force radar off for no reason, original map never did this
+		"sv_disable_radar": false
+	},
+	"ze_uchiha_legacy":
+	{
+		// Tries to force this on? This isn't equivalent to CS:S bhop
+		"sv_enablebunnyhopping": false
+	},
 
 	// Default whitelist, from workshop_cvar_whitelist.txt
 	"ammo_grenade_limit_default": true,
