@@ -38,11 +38,8 @@ jobs:
       - name: Sync MusicName Files
         run: git ftp push --verbose --auto-init --syncroot "musicname" --remote-root "game/csgo/addons/cs2fixes/configs/musicname/"
 
-      - name: Sync AdminRoom File
-        run: git ftp push --verbose --auto-init --syncroot "adminroom" --remote-root "game/csgo/addons/cs2fixes/configs/"
+      - name: Sync CS2Fixes Config Files
+        run: git ftp push --verbose --auto-init --syncroot "cs2fixes" --remote-root "game/csgo/addons/cs2fixes/configs/"
 
       - name: Sync BossHUD Files
         run: git ftp push --verbose --auto-init --syncroot "bosshud" --remote-root "game/csgo/addons/cs2fixes/configs/bosshud/"
-
-      - name: Sync ConVar Whitelist Files
-        run: git ftp push --verbose --auto-init --syncroot "cvar_whitelist" --remote-root "game/csgo/addons/cs2fixes/configs/"
