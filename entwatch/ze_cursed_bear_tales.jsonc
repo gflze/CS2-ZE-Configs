@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Christmas Artifact",
+    "shortname": "Christmas",
+    "hammerid": "40",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "hammerid": "43",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Halloween Artifact",
+    "shortname": "Halloween",
+    "hammerid": "50",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "hammerid": "53",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Heal",
+    "shortname": "Heal",
+    "hammerid": "5898",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "hammerid": "5901",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 120,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Mines",
+    "shortname": "Mines",
+    "hammerid": "4980",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "hammerid": "4985",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
