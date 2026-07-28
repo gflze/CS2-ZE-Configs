@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Wall",
+    "shortname": "Wall",
+    "hammerid": "2286",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "2284"
+      },
+      {
+        "hammerid": "2289",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 100,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
