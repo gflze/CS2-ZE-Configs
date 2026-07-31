@@ -191,7 +191,7 @@
   {
     "name": "Diddle Cannon",
     "shortname": "Cannon",
-    "hammerid": "8163",
+    "hammerid": "8609",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -199,13 +199,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "8159",
-        "event": "OnPressed",
-        "mode": 1,
-        "cooldown": 0,
-        "maxuses": 0,
-        "message": true,
-        "ui": true
+        "hammerid": "8611"
       }
     ]
   },
