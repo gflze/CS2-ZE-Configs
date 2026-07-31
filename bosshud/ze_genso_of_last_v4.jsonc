@@ -1,0 +1,36 @@
+[
+  {
+    "name": "The Soul",
+    "counter": "st3_boss_counter"
+  },
+  {
+    "name": "Golem Ahglan",
+    "counter": "st3_boss2_counter"
+  },
+  // Boss health handled by scripts
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "st1_boss_physbreak"
+  },
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "st2_boss_breakable"
+  },
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "st4_boss2_physbreak"
+  },
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "st4_boss3_physbreak"
+  },
+  {
+    "hitmarkeronly": true,
+    "showbeaten": false,
+    "breakable": "st4_boss4_breakable"
+  }
+]

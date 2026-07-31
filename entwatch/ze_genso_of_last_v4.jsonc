@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Frost Nova",
+    "shortname": "Frost",
+    "hammerid": "855",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1054"
+      },
+      {
+        "hammerid": "1054",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Singularity",
+    "shortname": "Singularity",
+    "hammerid": "14019",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "purple",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "840"
+      },
+      {
+        "hammerid": "840",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Flame Shadow",
+    "shortname": "Flame",
+    "hammerid": "1343",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1580"
+      },
+      {
+        "hammerid": "1580",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Earth",
+    "shortname": "Earth",
+    "hammerid": "185",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "2006"
+      },
+      {
+        "hammerid": "2006",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Thunder",
+    "shortname": "Thunder",
+    "hammerid": "1637",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "452"
+      },
+      {
+        "hammerid": "452",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Heal Light",
+    "shortname": "Heal",
+    "hammerid": "1292",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1177"
+      },
+      {
+        "hammerid": "1177",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Wind",
+    "shortname": "Wind",
+    "hammerid": "1338",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "27"
+      },
+      {
+        "hammerid": "27",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Release",
+    "shortname": "Release",
+    "hammerid": "1593",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "487"
+      },
+      {
+        "hammerid": "487",
+        "event": "OnUser4",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Purifying Javelin",
+    "shortname": "Javelin",
+    "hammerid": "1542",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1585"
+      },
+      {
+        "hammerid": "1585",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 35,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Time Piercing Sword",
+    "shortname": "Sword",
+    "hammerid": "1467",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1648"
+      },
+      {
+        "hammerid": "1648",
+        "event": "OnUser4",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Fortress Magic",
+    "shortname": "ZM Fortress",
+    "hammerid": "807",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkblue",
+    "triggers": ["1754"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1008"
+      },
+      {
+        "name": "Immortal",
+        "hammerid": "1008",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 90,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "name": "Shield",
+        "hammerid": "1721",
+        "event": "OnEqualTo",
+        "mode": 2,
+        "cooldown": 75,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Dark Magic",
+    "shortname": "ZM Dark",
+    "hammerid": "1695",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["1019"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "790"
+      },
+      {
+        "hammerid": "790",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Devastation",
+    "shortname": "ZM Devastation",
+    "hammerid": "1383",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["644"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "986"
+      },
+      {
+        "hammerid": "986",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "486",
+        "event": "OnEqualTo",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Poison Nova",
+    "shortname": "ZM Poison",
+    "hammerid": "997",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "green",
+    "triggers": ["881"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "433"
+      },
+      {
+        "hammerid": "433",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Acceleration",
+    "shortname": "ZM Acceleration",
+    "hammerid": "1157",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["1188"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1038"
+      },
+      {
+        "name": "Speed",
+        "hammerid": "1038",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "name": "Heal",
+        "hammerid": "1384",
+        "event": "OnEqualTo",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Frozen Crystal",
+    "shortname": "ZM Ice",
+    "hammerid": "455",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["1052"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "407"
+      },
+      {
+        "hammerid": "407",
+        "event": "OnUser4",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      },
+      {
+        "hammerid": "2075",
+        "event": "OnEqualTo",
+        "mode": 2,
+        "cooldown": 20,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
