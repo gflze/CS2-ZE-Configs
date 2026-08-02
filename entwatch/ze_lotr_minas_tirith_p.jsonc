@@ -153,6 +153,7 @@
         "transfer": false,
         "color": "red2",
         "triggers": ["7864"],
+        "templated": false,
         "handlers": [
             {
                 "hammerid": "1115",
