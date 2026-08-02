@@ -1,28 +1,42 @@
 [
-    {
-        "name": "Nemesis",
-        "counter": "Special_Health"
-    },
-    {
-        "name": "Nemesis",
-        "counter": "house_nemesis_counter",
-        "backup": "house_nemesis_hp_backup",
-        "iterator": "house_nemesis_hp_iterations",
-        "minorhud": true,
-        "timeout": 5.0
-    },
-    {
-        "name": "Crocodile",
-        "counter": "random_crocodile_counter",
-        "backup": "random_crocodiles_hp_backup",
-        "iterator": "random_crocodile_hp_iterations"
-    },
-    {
-        "name": "Nemesis",
-        "counter": "parking_nemesis_counter",
-        "backup": "parking_nemesis_hp_backup",
-        "iterator": "parking_nemesis_hp_iterations",
-        "minorhud": true,
-        "timeout": 5.0
-    }
+  {
+    "name": "Nemesis",
+    "counter": "Special_Health"
+  },
+  {
+    "name": "Nemesis",
+    "minorhud": true,
+    "timeout": 5.0,
+    "counter": "house_nemesis_counter",
+    "backup": "house_nemesis_hp_backup",
+    "iterator": "house_nemesis_hp_iterations"
+  },
+  {
+    "name": "Crocodile",
+    "counter": "random_crocodile_counter",
+    "backup": "random_crocodiles_hp_backup",
+    "iterator": "random_crocodile_hp_iterations"
+  },
+  {
+    "name": "Nemesis",
+    "minorhud": true,
+    "timeout": 5.0,
+    "counter": "parking_nemesis_counter",
+    "backup": "parking_nemesis_hp_backup",
+    "iterator": "parking_nemesis_hp_iterations"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "npc_00_hitbox_a"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "npc_00_hitbox_b"
+  }
 ]
