@@ -1,0 +1,28 @@
+{
+	// fix warmup never ending
+	"add": {
+		"classname": "info_map_parameters",
+		"uselocaloffset": "false",
+		"origin": "11931 12245 -536.565002",
+		"angles": "0 0 0",
+		"scales": "1 1 1"
+	},
+	"modify": {
+		"match": {
+			"classname": "logic_relay",
+			"targetname": "[PR#]Warmup_trigger"
+		},
+		"insert": {
+			"io": [
+				{
+					"outputname": "OnTrigger",
+					"targetname": "info_map_parameters",
+					"inputname": "FireWinCondition",
+					"overrideparam": "10",
+					"delay": 60.0,
+					"timestofire": 1
+				}
+			]
+		}
+	}
+}
