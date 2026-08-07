@@ -33,6 +33,10 @@
 		// Tries to force this on? This isn't equivalent to CS:S bhop
 		"sv_enablebunnyhopping": false
 	},
+	"ze_sa2_pumpkin_hill":
+	{
+		"zr_infect_spawn_mz_ratio": true
+	},
 
 	// Default whitelist, from workshop_cvar_whitelist.txt
 	"ammo_grenade_limit_default": true,
