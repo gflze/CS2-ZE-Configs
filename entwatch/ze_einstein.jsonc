@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Flamethrower",
+    "shortname": "Flamethrower",
+    "hammerid": "46",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "49"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "56",
+        "event": "OnPass",
+        "mode": 5,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Chainsaw",
+    "shortname": "Chainsaw",
+    "hammerid": "162",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Cade",
+    "shortname": "Cade",
+    "hammerid": "263",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1825"
+      },
+      {
+        "hammerid": "1808",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Big Cade",
+    "shortname": "Big Cade",
+    "hammerid": "13",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "1827"
+      },
+      {
+        "hammerid": "1809",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
