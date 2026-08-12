@@ -14,5 +14,12 @@
   {
     "name": "Bear",
     "breakable": "lvl3_boss_health02"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "npc_health_biscuit"
   }
 ]
