@@ -2,6 +2,7 @@
     {
         "name":             "Rat Ogre",
         "multitrigger":     true,
+        "hitmarkeronly":    true,
         "showbeaten":       false,
         "counter":          "race_rat_current-hp"
     }
