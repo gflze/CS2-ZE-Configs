@@ -2,7 +2,7 @@
     {
         "name":             "Rat Ogre",
         "multitrigger":     true,
-        "hitmarkeronly":    true,
+        "killtrigger":      { "ent": "race_track_19", "output": "OnPass" },
         "showbeaten":       false,
         "counter":          "race_rat_current-hp"
     }
