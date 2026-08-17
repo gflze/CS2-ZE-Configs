@@ -70,7 +70,7 @@
   {
     "name": "Rocket Launcher",
     "shortname": "Rocket",
-    "hammerid": "237",
+    "hammerid": "158801",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -78,11 +78,11 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "1228"
+        "hammerid": "158795"
       },
       {
         "type": "counterup",
-        "hammerid": "1226",
+        "hammerid": "158798",
         "mode": 3,
         "cooldown": 6,
         "ui": true,
@@ -164,11 +164,21 @@
   {
     "name": "Zombie Licker",
     "shortname": "ZM Licker",
-    "hammerid": "80589",
+    "hammerid": "161071",
     "message": true,
     "ui": true,
     "transfer": false,
     "color": "red",
-    "triggers": ["80596"]
+    "triggers": ["161069"]
+  },
+  {
+    "name": "Zombie Ivy",
+    "shortname": "ZM Ivy",
+    "hammerid": "161078",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["161076"]
   }
 ]
