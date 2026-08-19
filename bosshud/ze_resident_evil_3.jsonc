@@ -13,9 +13,8 @@
   },
   {
     "name": "Crocodile",
-    "counter": "random_crocodile_counter",
-    "backup": "random_crocodiles_hp_backup",
-    "iterator": "random_crocodile_hp_iterations"
+    "counter": "random_crocodile_hp_iterations",
+    "trigger": {"ent":"crocodileavtice","output":"OnStartTouch","delay":5}
   },
   {
     "name": "Nemesis",
@@ -30,13 +29,21 @@
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "breakable": "npc_00_hitbox_a"
+    "breakable": "npc_00_hitbox_a",
+    "maxhp": 10000000
   },
   {
     "hitmarkeronly": true,
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "breakable": "npc_00_hitbox_b"
+    "breakable": "npc_00_hitbox_b",
+    "maxhp": 10000000
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "breakable": "licker_target_pbox"
   }
 ]
