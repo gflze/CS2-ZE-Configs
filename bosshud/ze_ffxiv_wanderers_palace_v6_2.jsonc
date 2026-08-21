@@ -1,39 +1,40 @@
 [
-    {
-        "name":             "Goobbue",
-        "counter":          "Boss_Health_Goobbue"
-    },
-    {
-        "name":             "Garuda",
-        "counter":          "Boss_Health_Garuda"
-    },
-    {
-        "name":             "Ifrit",
-        "counter":          "Boss_Health_Ifrit"
-    },
-    {
-        "name":             "Titan",
-        "counter":          "Boss_Health_Titan"
-    },
-    {
-        "name":             "Suzaku",
-        "multitrigger":     true,
-        "counter":          "Boss_Health_Suzaku"
-    },
-    {
-        "name":             "Ultima Weapon",
-        "counter":          "Boss_Health_Ultima_Weapon"
-    },
-    {
-        "name":             "Chaos",
-        "counter":          "Boss_Health_Chaos"
-    },
-    {
-        "name":             "Dream Chaser",
-        "counter":          "Dreamland_Dreamed_Chaser_Health"
-    },
-    {
-        "name":             "Ultima Weapon",
-        "breakable":        "Final_Ultima_Weapon_Hitbox"
-    }
+  {
+    "name": "Goobbue",
+    "counter": "Boss_Health_Goobbue"
+  },
+  {
+    "name": "Garuda",
+    "counter": "Boss_Health_Garuda"
+  },
+  {
+    "name": "Ifrit",
+    "counter": "Boss_Health_Ifrit"
+  },
+  {
+    "name": "Titan",
+    "counter": "Boss_Health_Titan"
+  },
+  {
+    "name": "Suzaku",
+    "multitrigger": true,
+    "counter": "Boss_Health_Suzaku"
+  },
+  {
+    "name": "Ultima Weapon",
+    "counter": "Boss_Health_Ultima_Weapon"
+  },
+  {
+    "name": "Chaos",
+    "counter": "Boss_Health_Chaos"
+  },
+  {
+    "name": "Dream Chaser",
+    "timeout": 3.0,
+    "counter": "Dreamland_Dreamed_Chaser_Health"
+  },
+  {
+    "name": "Ultima Weapon",
+    "breakable": "Final_Ultima_Weapon_Hitbox"
+  }
 ]
