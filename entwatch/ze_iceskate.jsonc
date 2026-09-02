@@ -2,7 +2,7 @@
   {
     "name": "Pizza",
     "shortname": "Pizza",
-    "hammerid": "18247",
+    "hammerid": "18267",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -23,7 +23,7 @@
   {
     "name": "Sleepy",
     "shortname": "Sleepy",
-    "hammerid": "18088",
+    "hammerid": "18108",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -31,7 +31,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18092",
+        "hammerid": "18112",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 60,
@@ -44,7 +44,7 @@
   {
     "name": "Jelly Fish Jam",
     "shortname": "Jam",
-    "hammerid": "18072",
+    "hammerid": "18092",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -52,7 +52,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18073",
+        "hammerid": "18093",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 60,
@@ -65,7 +65,7 @@
   {
     "name": "Fart",
     "shortname": "Fart",
-    "hammerid": "18114",
+    "hammerid": "18134",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -73,14 +73,14 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18116"
+        "hammerid": "18136"
       }
     ]
   },
   {
     "name": "Destroyer",
     "shortname": "Destroyer",
-    "hammerid": "18144",
+    "hammerid": "18164",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -89,7 +89,7 @@
   {
     "name": "Shield",
     "shortname": "Shield",
-    "hammerid": "18219",
+    "hammerid": "18239",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -98,7 +98,7 @@
   {
     "name": "Boomstick",
     "shortname": "Boomstick",
-    "hammerid": "18064",
+    "hammerid": "18084",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -107,7 +107,7 @@
   {
     "name": "Zombie Shield",
     "shortname": "ZM Shield",
-    "hammerid": "18235",
+    "hammerid": "18255",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -115,7 +115,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18236",
+        "hammerid": "18256",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 35,
@@ -128,7 +128,7 @@
   {
     "name": "Zombie Uno Reverse Card",
     "shortname": "ZM Reverse",
-    "hammerid": "18210",
+    "hammerid": "18230",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -136,7 +136,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18206",
+        "hammerid": "18226",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 120,
@@ -149,7 +149,7 @@
   {
     "name": "Zombie Banana Bomb",
     "shortname": "ZM Bomb",
-    "hammerid": "18182",
+    "hammerid": "18202",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -157,7 +157,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18189",
+        "hammerid": "18209",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 60,
@@ -170,7 +170,7 @@
   {
     "name": "Zombie Hoop",
     "shortname": "ZM Hoop",
-    "hammerid": "18152",
+    "hammerid": "18172",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -178,7 +178,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18155",
+        "hammerid": "18175",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 60,
@@ -191,7 +191,7 @@
   {
     "name": "Zombie Baguette",
     "shortname": "ZM Baguette",
-    "hammerid": "18125",
+    "hammerid": "18145",
     "message": true,
     "ui": true,
     "transfer": true,
@@ -199,7 +199,7 @@
     "handlers": [
       {
         "type": "button",
-        "hammerid": "18123",
+        "hammerid": "18143",
         "event": "OnPressed",
         "mode": 2,
         "cooldown": 10,
