@@ -1,9 +1,16 @@
 [
-    {
-        "name":             "Mr. Roth",
-        "breakable":        "seph_hp"
-    },
-    {
-        "breakable":        "bosss_hp"
-    }
+  {
+    "name": "Mr. Roth",
+    "breakable": "seph_hp"
+  },
+  {
+    "breakable": "bosss_hp"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "npc_phys2gg"
+  }
 ]
