@@ -1,0 +1,9 @@
+[
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "nazi_hitbox"
+  }
+]
