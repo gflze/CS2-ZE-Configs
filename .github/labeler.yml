@@ -21,7 +21,7 @@ MusicName:
 AdminRoom:
 - any:
   - changed-files:
-    - any-glob-to-any-file: 'adminroom/*'
+    - any-glob-to-any-file: 'cs2fixes/adminroom.jsonc'
 
 BossHud:
 - any:
