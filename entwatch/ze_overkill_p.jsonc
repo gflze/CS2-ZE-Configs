@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Health Box",
+    "shortname": "Heal",
+    "hammerid": "734",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "hammerid": "100876",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Molotov",
+    "shortname": "Molotov",
+    "hammerid": "664",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "type": "counterup",
+        "hammerid": "92640",
+        "mode": 3,
+        "cooldown": 30,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Dogma Resistance",
+    "shortname": "Dogma",
+    "hammerid": "1231",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "hammerid": "100878",
+        "event": "OnTrigger",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Freeze Beam",
+    "shortname": "Zombie Freeze",
+    "hammerid": "742",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["9984"],
+    "handlers": [
+      {
+        "hammerid": "100877",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
