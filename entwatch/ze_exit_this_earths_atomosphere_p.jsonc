@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Asteroid Destroyer Pulse",
+    "shortname": "ADP",
+    "hammerid": "893",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "counterup",
+        "hammerid": "56720",
+        "mode": 3,
+        "cooldown": 4,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Meter Apocalypse Destroyer",
+    "shortname": "MAD",
+    "hammerid": "345",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "hammerid": "56742",
+        "event": "OnTrigger",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
