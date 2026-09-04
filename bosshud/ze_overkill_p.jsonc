@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Dogma Resistance",
+    "counter": "dogma_s_boss_hp"
+  },
+  {
+    "name": "Overkill",
+    "counter": "overkill_s_boss_hp"
+  }
+]
