@@ -1,0 +1,27 @@
+{
+	// remove annoying useless "bhop blockers"
+	"filter": [
+		{
+			"classname": "trigger_multiple",
+			"hammeruniqueid": "10063"
+		},
+		{
+			"classname": "trigger_multiple",
+			"hammeruniqueid": "11425"
+		}
+	],
+	// fix fall dmg sounds playing on trip 5 (fall dmg was still disabled)
+	"modify": {
+		"match": {
+			"classname": "logic_relay",
+			"targetname": "[PR#]stage6_relay"
+		},
+		"delete": {
+			"io": [
+				{
+					"overrideparam": "sv_falldamage_scale 1"
+				}
+			]
+		}
+	}
+}
