@@ -26,8 +26,9 @@
     "counter": "em_counter2"
   },
   {
-    "name": "Ivy",
-    "breakable": "ivy.pbox"
+    "breakable": "ivy.pbox",
+    "hitmarkeronly": true,
+    "showbeaten": false
   },
   {
     "hitmarkeronly": true,
