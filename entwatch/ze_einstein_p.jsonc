@@ -9,10 +9,6 @@
     "color": "orange",
     "handlers": [
       {
-        "type": "button",
-        "hammerid": "49"
-      },
-      {
         "type": "counterup",
         "hammerid": "56",
         "event": "OnPass",
@@ -41,12 +37,8 @@
     "color": "grey",
     "handlers": [
       {
-        "type": "button",
-        "hammerid": "1825"
-      },
-      {
-        "hammerid": "1808",
-        "event": "OnPass",
+        "hammerid": "263",
+        "event": "OnUser1",
         "mode": 3,
         "cooldown": 0,
         "maxuses": 1,
@@ -65,12 +57,8 @@
     "color": "grey",
     "handlers": [
       {
-        "type": "button",
-        "hammerid": "1827"
-      },
-      {
-        "hammerid": "1809",
-        "event": "OnPass",
+        "hammerid": "13",
+        "event": "OnUser1",
         "mode": 3,
         "cooldown": 0,
         "maxuses": 1,
