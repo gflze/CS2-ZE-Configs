@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Moses Staff",
+    "shortname": "Moses",
+    "hammerid": "2719",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "hammerid": "4068",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
