@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Cross",
+    "breakable": "bossbox"
+  },
+  {
+    "name": "Cross",
+    "breakable": "rtvbox"
+  }
+]
