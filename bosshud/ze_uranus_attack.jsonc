@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Bear",
+    "reversecounter": true,
+    "counter": "p5_boss2_health"
+  },
+  {
+    "name": "Reactor",
+    "reversecounter": true,
+    "counter": "p5_reactor_health"
+  }
+]
