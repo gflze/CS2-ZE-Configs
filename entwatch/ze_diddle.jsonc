@@ -333,5 +333,10 @@
         "ui": true
       }
     ]
+  },
+  {
+    "name": "Shop Entry Blocker",
+    "hammerid": "-1",
+    "triggers": ["5614"]
   }
 ]
