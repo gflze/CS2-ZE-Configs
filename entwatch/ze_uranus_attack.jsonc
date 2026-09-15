@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Crank",
+    "shortname": "Crank",
+    "hammerid": "13551",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red"
+  }
+]
