@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Heal Potion",
+    "shortname": "Heal",
+    "hammerid": "4838",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4836"
+      },
+      {
+        "hammerid": "4834",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Rex Barrier",
+    "shortname": "Barrier",
+    "hammerid": "4901",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4897"
+      },
+      {
+        "hammerid": "5441",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Shield",
+    "shortname": "Shield",
+    "hammerid": "4826",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4823"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "5443",
+        "mode": 3,
+        "cooldown": 35,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Sacred Stone",
+    "shortname": "Stone",
+    "hammerid": "4882",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4880"
+      },
+      {
+        "hammerid": "3881",
+        "event": "OnTrigger",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Roy",
+    "shortname": "Roy",
+    "hammerid": "4841",
+    "message": true,
+    "ui": true,
+    "transfer": false, // knife item with no strip trigger (?)
+    "color": "white",
+    "handlers": [
+      {
+        "hammerid": "4844",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Key",
+    "shortname": "Key",
+    "hammerid": "4909",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Zombie Revenge",
+    "shortname": "ZM Revenge",
+    "hammerid": "4894",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["4889"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4892"
+      },
+      {
+        "hammerid": "4892",
+        "event": "OnUser1",
+        "mode": 2,
+        "cooldown": 45,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Nightmare",
+    "shortname": "ZM Nightmare",
+    "hammerid": "4270",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["4251"],
+    "handlers": [
+      {
+        "hammerid": "4276",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 75,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Skeleton",
+    "shortname": "ZM Skeleton",
+    "hammerid": "4256",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["4257"],
+    "handlers": [
+      {
+        "hammerid": "3866",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Fire Demon",
+    "shortname": "ZM Demon",
+    "hammerid": "4265",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["4263"],
+    "handlers": [
+      {
+        "hammerid": "4268",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
