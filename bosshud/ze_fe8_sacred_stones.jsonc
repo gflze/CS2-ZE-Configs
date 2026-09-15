@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Formortiis",
+    "counter": "formortiis_hp"
+  },
+  {
+    "name": "Queen",
+    "counter": "level3_boss_hp_1"
+  },
+  {
+    "name": "Mini Boss",
+    "multitrigger": true,
+    "templated": true,
+    "breakable": "level3_mini_boss_hp"
+  },
+  {
+    "name": "Blue Tesla Crystal",
+    "breakable": "level3_boss_crystal_atk_1"
+  },
+  {
+    "name": "Green Crystal",
+    "breakable": "level3_boss_crystal_atk_2"
+  },
+  {
+    "name": "Spear Crystal",
+    "breakable": "level3_boss_crystal_atk_3"
+  },
+  {
+    "name": "Pull Crystal",
+    "multitrigger": true,
+    "templated": true,
+    "breakable": "level3_boss_crystal_atk_4"
+  },
+  {
+    "name": "Blind Crystal",
+    "multitrigger": true,
+    "templated": true,
+    "breakable": "level3_boss_crystal_atk_5"
+  }
+]
