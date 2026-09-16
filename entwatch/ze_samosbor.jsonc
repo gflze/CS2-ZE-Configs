@@ -1,287 +1,285 @@
 [
-    {
-        "name": "Beans",
-        "shortname": "Beans",
-        "hammerid": "5196",
+  {
+    "name": "Beans",
+    "shortname": "Beans",
+    "hammerid": "5196",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "5198"
+      },
+      {
+        "hammerid": "5195",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5198"
-            },
-            {
-                "hammerid": "5195",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Beer",
-        "shortname": "Beer",
-        "hammerid": "5187",
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Beer",
+    "shortname": "Beer",
+    "hammerid": "5187",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "5189"
+      },
+      {
+        "hammerid": "5191",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "5189"
-            },
-            {
-                "hammerid": "5191",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Flare",
-        "shortname": "Flare",
-        "hammerid": "12398",
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Flare",
+    "shortname": "Flare",
+    "hammerid": "12398",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "12401"
+      },
+      {
+        "hammerid": "12399",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "yellow",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "12401"
-            },
-            {
-                "hammerid": "12399",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Glowstick",
-        "shortname": "Glowstick",
-        "hammerid": "12407",
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "PPSh",
+    "shortname": "PPSh",
+    "hammerid": "20005",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "20005"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "20014",
+        "mode": 5,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Mine",
+    "shortname": "Mine",
+    "hammerid": "14528",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "14530"
+      },
+      {
+        "hammerid": "14529",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "12408"
-            },
-            {
-                "hammerid": "12406",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Mine",
-        "shortname": "Mine",
-        "hammerid": "14528",
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Extinguisher",
+    "shortname": "Extinguisher",
+    "hammerid": "14618",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "14621"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "14859",
+        "mode": 3,
+        "cooldown": 1,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "14530"
-            },
-            {
-                "hammerid": "14529",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Extinguisher",
-        "shortname": "Extinguisher",
-        "hammerid": "14618",
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Whip",
+    "shortname": "Whip",
+    "hammerid": "7988",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "7991"
+      },
+      {
+        "hammerid": "7989",
+        "event": "OnPass",
+        "mode": 1,
+        "cooldown": 0,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Canister",
+    "shortname": "Canister",
+    "hammerid": "3604",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Meat",
+    "shortname": "Meat",
+    "hammerid": "9511",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "red"
+  },
+  {
+    "name": "Spanner",
+    "shortname": "Spanner",
+    "hammerid": "4049",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Green Trail",
+    "shortname": "Trail",
+    "hammerid": "9602",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green"
+  },
+  {
+    "name": "Orange Trail",
+    "shortname": "Trail",
+    "hammerid": "8065",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange"
+  },
+  {
+    "name": "Zombie Flamethrower",
+    "shortname": "ZM Flamethrower",
+    "hammerid": "3931",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["6919"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3934"
+      },
+      {
+        "type": "counterdown",
+        "hammerid": "6894",
+        "mode": 5,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Suicide Bomber",
+    "shortname": "ZM Bomb",
+    "hammerid": "3951",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["6920"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "3953"
+      },
+      {
+        "hammerid": "3949",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
         "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "14621"
-            },
-            {
-                "type": "counterdown",
-                "hammerid": "14859",
-                "mode": 3,
-                "cooldown": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Whip",
-        "shortname": "Whip",
-        "hammerid": "7988",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey",
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "7991"
-            },
-            {
-                "hammerid": "7989",
-                "event": "OnPass",
-                "mode": 1,
-                "cooldown": 0,
-                "maxuses": 0,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Canister",
-        "shortname": "Canister",
-        "hammerid": "3604",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey"
-    },
-    {
-        "name": "Meat",
-        "shortname": "Meat",
-        "hammerid": "9511",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "red"
-    },
-    {
-        "name": "Spanner",
-        "shortname": "Spanner",
-        "hammerid": "4049",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "grey"
-    },
-    {
-        "name": "Green Trail",
-        "shortname": "Trail",
-        "hammerid": "9602",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "green"
-    },
-    {
-        "name": "Orange Trail",
-        "shortname": "Trail",
-        "hammerid": "8065",
-        "message": true,
-        "ui": true,
-        "transfer": true,
-        "color": "orange"
-    },
-    {
-        "name": "Zombie Flamethrower",
-        "shortname": "ZM Flamethrower",
-        "hammerid": "3931",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "orange",
-        "triggers": ["6919"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3934"
-            },
-            {
-                "type": "counterdown",
-                "hammerid": "6894",
-                "mode": 5,
-                "message": false,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Suicide Bomber",
-        "shortname": "ZM Bomb",
-        "hammerid": "3951",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "red",
-        "triggers": ["6920"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "3953"
-            },
-            {
-                "hammerid": "3949",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 1,
-                "message": true,
-                "ui": true
-            }
-        ]
-    },
-    {
-        "name": "Zombie Nail Gun",
-        "shortname": "ZM Nail",
-        "hammerid": "4084",
-        "message": true,
-        "ui": true,
-        "transfer": false,
-        "color": "grey",
-        "triggers": ["6924"],
-        "handlers": [
-            {
-                "type": "button",
-                "hammerid": "4086"
-            },
-            {
-                "hammerid": "4083",
-                "event": "OnPass",
-                "mode": 3,
-                "cooldown": 0,
-                "maxuses": 20,
-                "message": false,
-                "ui": true
-            }
-        ]
-    }
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Nail Gun",
+    "shortname": "ZM Nail",
+    "hammerid": "4084",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["6924"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "4086"
+      },
+      {
+        "hammerid": "4083",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 20,
+        "message": false,
+        "ui": true
+      }
+    ]
+  }
 ]
