@@ -35,7 +35,7 @@
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "breakable": "npc_00_hitbox_a",
+    "breakable": "Derek_Michael_Chauvin_b_",
     "maxhp": 10000000
   },
   {
@@ -43,13 +43,46 @@
     "multitrigger": true,
     "showbeaten": false,
     "templated": true,
-    "breakable": "npc_00_hitbox_b",
+    "breakable": "Derek_Michael_Chauvin",
+    "maxhp": 10000000
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "Amber_Laura_Heard_b_",
+    "maxhp": 10000000
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "Amber_Laura_Heard",
+    "maxhp": 10000000
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "George_Perry_Floyd_b_",
+    "maxhp": 10000000
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "George_Perry_Floyd",
     "maxhp": 10000000
   },
   {
     "hitmarkeronly": true,
     "showbeaten": false,
-    "breakable": "licker_target_pbox"
+    "breakable": "licker_target_pbox",
+    "multitrigger": true
   },
   {
     "hitmarkeronly": true,
