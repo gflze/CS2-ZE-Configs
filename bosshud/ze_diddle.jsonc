@@ -1,11 +1,21 @@
 [
   {
     "name": "Angry Demon Turtle",
-    "breakable": "X69XTurtleBossHP1"
+    "breakable": "X69XTurtleBossHP1",
+    "trigger": {
+      "ent": "Map_HpAdder_X69XTurtleBosshp1",
+      "output": "OnUser1",
+      "delay": 0.2
+    }
   },
   {
     "name": "Angrier Demon Turtle",
-    "breakable": "X69XTurtleBosshp2"
+    "breakable": "X69XTurtleBosshp2",
+    "trigger": {
+      "ent": "Map_HpAdder_X69XTurtleBosshp2",
+      "output": "OnUser1",
+      "delay": 0.2
+    }
   },
   {
     "name": "The Digletts",
