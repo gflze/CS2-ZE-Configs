@@ -178,7 +178,7 @@
     "message": true,
     "ui": true,
     "transfer": false,
-    "color": "red",
+    "color": "olive",
     "triggers": ["161076"]
   }
 ]
