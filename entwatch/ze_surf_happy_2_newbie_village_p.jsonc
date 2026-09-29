@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Surf Trail",
+    "shortname": "Trail",
+    "hammerid": "27",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey"
+  },
+  {
+    "name": "Zombie Surf Trail",
+    "shortname": "ZM Trail",
+    "hammerid": "17373",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["17505"]
+  }
+]
