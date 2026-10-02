@@ -74,7 +74,7 @@
   {
     "name": "PPSh",
     "shortname": "PPSh",
-    "hammerid": "20005",
+    "hammerid": "20004",
     "message": true,
     "ui": true,
     "transfer": true,
