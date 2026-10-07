@@ -443,7 +443,7 @@
     "shortname": "Barricade",
     "hammerid": "993",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
@@ -464,7 +464,7 @@
     "shortname": "Big Sword",
     "hammerid": "1220",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
@@ -485,7 +485,7 @@
     "shortname": "Pitchfork",
     "hammerid": "6263",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
@@ -500,7 +500,7 @@
     "shortname": "Spear",
     "hammerid": "6253",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
@@ -515,7 +515,7 @@
     "shortname": "Sword",
     "hammerid": "6243",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
@@ -536,7 +536,7 @@
     "shortname": "Bow",
     "hammerid": "6235",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
@@ -551,7 +551,7 @@
     "shortname": "Dagger",
     "hammerid": "454",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
