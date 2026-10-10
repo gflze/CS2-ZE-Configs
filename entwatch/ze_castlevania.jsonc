@@ -443,7 +443,7 @@
     "shortname": "Barricade",
     "hammerid": "993",
     "message": true,
-    "ui": true,
+    "ui": false,
     "transfer": true,
     "color": "grey",
     "handlers": [
