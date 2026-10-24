@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Money",
+    "shortname": "Money",
+    "hammerid": "1653",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "hammerid": "6220",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 90,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Wall",
+    "shortname": "Wall",
+    "hammerid": "90",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "hammerid": "6218",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Fidget Spinner",
+    "shortname": "ZM Spinner",
+    "hammerid": "100",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "blue",
+    "triggers": ["101"],
+    "handlers": [
+      {
+        "hammerid": "105",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 50,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Jihad",
+    "shortname": "ZM Jihad",
+    "hammerid": "1668",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["1669"],
+    "handlers": [
+      {
+        "hammerid": "6224",
+        "event": "OnTrigger",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
