@@ -59,5 +59,10 @@
   {
     "name": "Shield",
     "breakable": "Shield_boss_laser_breakable"
+  },
+  {
+    "name": "Moon",
+    "counter": "Bergan_boss1_attack_moon_HP",
+    "multitrigger": true
   }
 ]
