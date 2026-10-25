@@ -33,7 +33,7 @@ jobs:
         run: git ftp push --verbose --auto-init --syncroot "stripper" --remote-root "game/csgo/addons/StripperCS2/maps/"
 
       - name: Sync Map Config Files
-        run: git ftp push --verbose --auto-init --syncroot "mapcfg" --remote-root "game/csgo/cfg/cs2fixes/maps/"
+        run: git ftp push --verbose --auto-init --syncroot "mapcfg" --remote-root "game/csgo/addons/cs2fixes/cfg/maps/"
 
       - name: Sync MusicName Files
         run: git ftp push --verbose --auto-init --syncroot "musicname" --remote-root "game/csgo/addons/cs2fixes/configs/musicname/"
