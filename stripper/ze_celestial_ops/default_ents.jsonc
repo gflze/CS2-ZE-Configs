@@ -1,146 +1,38 @@
 {
-    // Translate map to English using DeepL + ChatGPT
+    // Force English only
+    "filter": [
+        { "targetname": "[PR#][SCENARIO]EN_TRANSLATE" },
+        { "targetname": "[PR#][SCENARIO]JP_TRANSLATE" },
+        { "hammeruniqueid": "10818" },
+        { "hammeruniqueid": "10819" },
+        { "hammeruniqueid": "10823" },
+        { "hammeruniqueid": "10824" },
+        { "hammeruniqueid": "10826" },
+        { "hammeruniqueid": "10827" },
+        { "hammeruniqueid": "10829" },
+        { "hammeruniqueid": "10830" },
+        { "hammeruniqueid": "10832" },
+        { "hammeruniqueid": "10833" }
+    ],
+    "modify": {
+        "match": {
+            "classname": "logic_auto"
+        },
+        "insert": {
+            "io": [
+                {
+                    "outputname": "OnMapSpawn",
+                    "targetname": "[PR#]hmn_dialogue_script",
+                    "inputname": "RunScriptInput",
+                    "overrideparam": "EnableEnglish",
+                    "delay": 0.2,
+                    "timestofire": -1
+                }
+            ]
+        }
+    },
+    // Translate diary pages to English using DeepL + ChatGPT
     "modify": [
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 意識の深層へ 30 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Proceed into the depths of consciousness in 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 意識の深層へ 40 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Proceed into the depths of consciousness in 40 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 意識の深層へ 20 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Proceed into the depths of consciousness in 20 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 意識の深層へ 10 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Proceed into the depths of consciousness in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 更なる深層へ 30 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Go deeper in 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 更なる深層へ 10 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Go deeper in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** 無意識の境地へ 30 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Enter the state of unconsciousness in 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say ***  無意識の境地へ 10 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** Enter the state of unconsciousness in 10 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** □□□□□□ 30 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** □□□□□□ 30 seconds ***"
-                }
-            }
-        },
-        {
-            "match": {
-                "io": [
-                    {
-                        "overrideparam": "say *** □□□□□□ 10 秒 ***"
-                    }
-                ]
-            },
-            "replace": {
-                "io": {
-                    "overrideparam": "say *** □□□□□□ 10 seconds ***"
-                }
-            }
-        },
         {
             "match": {
                 "message": "Maybe Last Message Nov. 6th, 1958 :\nこれは私という「アルビオン」の存在を意識的に記憶させるための処置である。\n実験が不結果に陥った場合、空容体の迅速抹消及び\n本部による重要インシデント処理「オペレーション・フラグメント」の強制実行。"
