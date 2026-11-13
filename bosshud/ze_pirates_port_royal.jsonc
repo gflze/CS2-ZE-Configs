@@ -3,7 +3,8 @@
     "name": "Cannon",
     "counter": "cannon_counter",
     "backup": "boss_hp_backup",
-    "iterator": "boss_hp_iterations"
+    "iterator": "boss_hp_iterations",
+    "trigger": {"ent": "track_boss_5", "output": "OnPass"}
   },
   {
     "name": "Undead Pirate",
