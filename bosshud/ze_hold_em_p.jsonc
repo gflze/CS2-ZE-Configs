@@ -1,6 +1,6 @@
 [
-    {
-        "name":             "Ghost Demon",
-        "breakable":        "boss"
-    }
+  {
+    "name": "Ghost Demon",
+    "counter": "boss_hp"
+  }
 ]
