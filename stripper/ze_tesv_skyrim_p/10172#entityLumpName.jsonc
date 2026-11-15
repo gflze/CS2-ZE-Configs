@@ -1,0 +1,13 @@
+{
+	"modify": 
+	{
+		"match":
+		{
+			"classname": "func_breakable"
+		},
+		"replace":
+		{
+			"spawnflags": "1"
+		}
+	}
+}
