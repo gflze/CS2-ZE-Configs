@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Hydro",
+    "counter": "Stage_3_End_Boss_Counter"
+  },
+  {
+    "name": "Hydro",
+    "counter": "Stage_2_End_Dragon_Counter"
+  },
+  {
+    "name": "Famfrit",
+    "counter": "Stage_24_End_Famfrit_Counter"
+  },
+  {
+    "name": "Gabranth",
+    "counter": "Stage_4_End_Guard_Counter"
+  },
+  {
+    "name": "Crystal",
+    "counter": "Crystal_Counter",
+    "minorhud": false,
+    "showbeaten": false,
+    "timeout": 3.0
+  },
+  {
+    "name": "Zalera",
+    "counter": "Fat_Nigger_Counter"
+  },
+  {
+    "name": "Dr. Cid",
+    "counter": "Famfrit_Summon_Counter"
+  },
+  {
+    "name": "Zalera",
+    "counter": "Special_Health",
+    "backup": "Special_HealthInit",
+    "iterator": "Special_HealthCount",
+    "trigger": {"ent": "Zalera_Relay", "output": "OnTrigger"},
+    "reverseiterator": true
+  },
+  {
+    "name": "Famfrit",
+    "counter": "Special_Health",
+    "backup": "Special_HealthInit",
+    "iterator": "Special_HealthCount",
+    "trigger": {"ent": "Famfrit_Start_Relay", "output": "OnTrigger", "delay": 20.5},
+    "reverseiterator": true
+  },
+   {
+    "name": "Hashmel",
+    "counter": "Special_Health",
+    "backup": "Special_HealthInit",
+    "iterator": "Special_HealthCount",
+    "trigger": {"ent": "Hashmel_Relay", "output": "OnTrigger"},
+    "reverseiterator": true
+  }
+]
