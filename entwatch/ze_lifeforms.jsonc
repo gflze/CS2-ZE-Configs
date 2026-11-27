@@ -1,0 +1,204 @@
+[
+  {
+    "name": "Heal",
+    "shortname": "Heal",
+    "hammerid": "736",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "pink",
+    "handlers": [
+      {
+        "hammerid": "740",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Gravity Ball",
+    "shortname": "Gravity",
+    "hammerid": "636",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "purple",
+    "handlers": [
+      {
+        "hammerid": "635",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Shield",
+    "shortname": "Shield",
+    "hammerid": "600",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "hammerid": "598",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Cloud",
+    "shortname": "Cloud",
+    "hammerid": "1010",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "hammerid": "1008",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 60,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Mines",
+    "shortname": "Mines",
+    "hammerid": "622",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "counterup",
+        "hammerid": "807",
+        "mode": 3,
+        "cooldown": 20,
+        "ui": true,
+        "message": true
+      }
+    ]
+  },
+  {
+    "name": "Flamethrower",
+    "shortname": "Flame",
+    "hammerid": "665",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "orange",
+    "handlers": [
+      {
+        "hammerid": "659",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 30,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Beam Cannon",
+    "shortname": "Beam",
+    "hammerid": "1021",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "hammerid": "1022",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 6,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Shield",
+    "shortname": "ZM Shield",
+    "hammerid": "707",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "green",
+    "triggers": ["705"],
+    "handlers": [
+      {
+        "hammerid": "730",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Poison Bomb",
+    "shortname": "ZM Poison",
+    "hammerid": "691",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "green",
+    "triggers": ["692"],
+    "handlers": [
+      {
+        "hammerid": "694",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 40,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Bomb",
+    "shortname": "ZM Bomb",
+    "hammerid": "672",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["673"],
+    "handlers": [
+      {
+        "hammerid": "675",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 40,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]
