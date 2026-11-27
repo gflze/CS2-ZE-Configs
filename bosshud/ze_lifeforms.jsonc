@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Cipher",
+    "counter": "x_boss_s2_health",
+    "iterator": "x_boss_s2_segment"
+  },
+  {
+    "name": "Cipher",
+    "counter": "st3_cipher_health_counter"
+  },
+  {
+    "name": "Lifeform",
+    "counter": "lifeform_health",
+    "iterator": "lifeform_segment"
+  },
+  {
+    "name": "Cipher",
+    "counter": "s3_cipher_laser_boss_health"
+  },
+  {
+    "name": "Cipher",
+    "breakable": "cipher_hitbox"
+  },
+  {
+    "name": "Crystal 1",
+    "breakable": "s4_crystal_break1",
+    "showbeaten": false
+  },
+  {
+    "name": "Crystal 2",
+    "breakable": "s4_crystal_break2",
+    "showbeaten": false
+  },
+  {
+    "name": "Crystal 3",
+    "breakable": "s4_crystal_break3",
+    "showbeaten": false
+  },
+  {
+    "name": "Crystal 4",
+    "breakable": "s4_crystal_break4",
+    "showbeaten": false
+  },
+  {
+    "name": "Crystal 5",
+    "breakable": "s4_crystal_break5",
+    "showbeaten": false
+  },
+  {
+    "name": "Lifeform",
+    "counter": "h_d_x_counter"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "bis_headcrab_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "headcrab_Hitbox"
+  },
+  {
+    "hitmarkeronly": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "breakable": "mok_spore_breakable"
+  }
+]
